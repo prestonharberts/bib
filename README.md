@@ -18,7 +18,7 @@ Next, give execution privileges to bib:
 chmod u+x ~/Bin/bib
 ```
 
-Until I get the NET translation working so I can show example output, here are some example usecases. By default, the previous and next 2 verses are also printed to show context. The specific verse you request is printed in red to stand out from the context verses.
+Here are some example usecases. By default, the previous and next 2 verses are also printed to show context. The specific verse you request is printed in red to stand out from the context verses.
 
 ```bash
 # this prints the entire Genesis 1 chapter
@@ -34,16 +34,26 @@ bib gen1 1 2
 bib -c john3 16
 ```
 
-Support to automatically copy the output to the clipboard isn't fully supported, but it would be done like this if you can remove the color codes that get introduced with my code. Just make sure to install `xclip`.
+### Example (NKJV)
+
+Until I get the NET translation working, here is an example of the program running with the [New King James Version](https://www.biblegateway.com/versions/New-King-James-Version-NKJV-Bible/):
+
+<p align=center><img src="https://github.com/user-attachments/assets/878d0824-dbb9-492f-9b13-525107623619" width="512"></p>
+
+Scripture taken from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved.
+
+### Copying text
+
+Included in this repo is a program `bibcopy` that copies entire chapters at a time, reformats them, and lets me paste them into [Monkeytype](https://monkeytype.com/). It's formatted to be very minimal and looks like this in the NKJV:
+
+<p align=center><img src="https://github.com/user-attachments/assets/d8b225cb-54fc-4652-94e6-20fda4cb3e00" width="512"></p>
+
+Support to automatically copy what you see with Bib isn't fully supported, but it would be done like this if you can remove the color codes that get introduced with my code. Just make sure to install `xclip`.
 
 ```bash
 bib john3 16|xclip -sel clipboard
 ```
 
-## Example (NKJV)
+I recommend just running bib multiple times in a row similar to this, and then just copying the output from the terminal:
 
-Here is an example of the program running with the [New King James Version](https://www.biblegateway.com/versions/New-King-James-Version-NKJV-Bible/):
-
-<p align=center><img src="https://github.com/user-attachments/assets/878d0824-dbb9-492f-9b13-525107623619" width="512"></p>
-
-Scripture taken from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved.
+<p align=center><img src="https://github.com/user-attachments/assets/0c2a8efe-93db-4146-947b-ea3d8b9f24a7" width="512"></p>
