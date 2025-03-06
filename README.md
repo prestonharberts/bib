@@ -6,10 +6,16 @@ Soon I will include the NET translation as its copyright allows for redistributi
 
 ## Usage
 
-I recommend putting this script in your PATH so that it can be called from anywhere. I made a Bin folder in my user directory, and added this line to my `.bashrc`:
+I recommend putting this script in your PATH so that it can be called from anywhere. I made a Bin folder in my user directory, moved bib to it, and added this line to my `.bashrc`:
 
 ```bash
 export PATH=/home/$USER/Bin/:$PATH
+```
+
+Next, give execution privileges to bib:
+
+```
+chmod u+x ~/Bin/bib
 ```
 
 Until I get the NET translation working so I can show example output, here are some example usecases. By default, the previous and next 2 verses are also printed to show context. The specific verse you request is printed in red to stand out from the context verses.
