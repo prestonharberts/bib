@@ -39,3 +39,11 @@ Support to automatically copy the output to the clipboard isn't fully supported,
 ```bash
 bib john3 16|xclip -sel clipboard
 ```
+
+## Example (NKJV)
+
+Here is an example of the program running with the [New King James Version](https://www.biblegateway.com/versions/New-King-James-Version-NKJV-Bible/):
+
+<insert image here>
+
+Scripture taken from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved.
