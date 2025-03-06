@@ -14,13 +14,13 @@ export PATH=/home/$USER/Bin/:$PATH
 
 Next, give execution privileges to bib:
 
-```
+```bash
 chmod u+x ~/Bin/bib
 ```
 
 Until I get the NET translation working so I can show example output, here are some example usecases. By default, the previous and next 2 verses are also printed to show context. The specific verse you request is printed in red to stand out from the context verses.
 
-```
+```bash
 # this prints the entire Genesis 1 chapter
 bib gen1
 
@@ -36,6 +36,6 @@ bib -c john3 16
 
 Support to automatically copy the output to the clipboard isn't fully supported, but it would be done like this if you can remove the color codes that get introduced with my code. Just make sure to install `xclip`.
 
-```
+```bash
 bib john3 16|xclip -sel clipboard
 ```
