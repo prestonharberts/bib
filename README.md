@@ -4,6 +4,17 @@ bib is a CLI program that quickly prints Bible verses to the Terminal, using mar
 
 Soon I will include the NET translation as its copyright allows for redistribution.
 
+## Features
+
+- Verse-by-verse format
+- Specified verse is shown in red
+- Editorial headings are kept intact
+- New paragraphs are shown with an arrow
+- Ability to view multiple verses or a verse section
+- Certain translation show words in italic, and I put them in brackets here
+- Hyphenated text to give the appearance of justified text alignment
+- Works on a variety of terminal sizes
+
 ## Usage
 
 I recommend putting this script in your PATH so that it can be called from anywhere. I made a Bin folder in my user directory, moved bib to it, and added this line to my `.bashrc`:
