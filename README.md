@@ -44,6 +44,6 @@ bib john3 16|xclip -sel clipboard
 
 Here is an example of the program running with the [New King James Version](https://www.biblegateway.com/versions/New-King-James-Version-NKJV-Bible/):
 
-<insert image here>
+<p align=center><img src="https://github.com/user-attachments/assets/878d0824-dbb9-492f-9b13-525107623619" width="512"></p>
 
 Scripture taken from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved.
