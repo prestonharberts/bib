@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# Check if the filename argument is provided
+if [ -z "$1" ]; then
+    echo "Usage: $0 <filename>"
+    exit 1
+fi
+
+# Process the file
+cat ~/Bin/bible/${1}.md | sed -E 's/^#{2,5} .*$//g' | \
+sed -E 's/\[.*\]//g' | \
+sed -E 's/[ ]*(↓|¶|[ ]{2,})//g' | \
+tr -s ' ' | \
+sed 's/^[ ]*//g' | \
+sed 's/[>]*//g' | \
+sed 's/\*//g' | \
+sed -E '/^$/N;/\n$/D' | \
+sed 's/^[ ]*//g' | \
+sed 's/[ ]*$//g' | \
+sed 's/“/\"/g' | \
+sed 's/”/\"/g' | \
+sed "s/‘/\'/g" | \
+sed "s/’/\'/g" | \
+sed 's/–/ - /g' | \
+sed 's/—/ - /g' | \
+sed 's/^# //' | \
+sed -E ':a;$!{N;s/###### ([0-9]*)\n/\1 /;ba;}' | \
+sed -z 's/\n\+/\n/g' | \
+sed '1{/^$/d}' | \
+xclip -selection clipboard
+
