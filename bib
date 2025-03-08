@@ -21,7 +21,7 @@ done
 shift $((OPTIND - 1))
 
 main() {
-  text=$(cat ~/Bin/bible/"${1}".md)
+  text=$(cat ~/Bin/Bible/"${1}".md)
   get_terminal_width
   print_title "$@"
   format_markdown
@@ -246,47 +246,3 @@ print_chapter() {
 }
 
 main "$@"
-
-# miscellaneous testing
-
-# short=(gn ex lv nm dt jos jdg ru 1sm 2sm 1kg 2kg 1ch 2ch ez ne es jb ps pr ec sg is jr lm ezk dn hs jl am ob jnh mc nah hab zph hg zch mal mt mk lk jn ac rm 1co 2co gl eph php col 1th 2th 1tm 2tm ti phm heb jms 1pt 2pt 1jn 2jn 3jn jd rv)
-# medium=(gen ex lev num deut josh judg ruth 1sam 2sam 1kings 2kings 1chron 2chron ezra neh est job ps prov eccles song isa jer lam ezek dan hos joel amos obad jonah mic nah hab zeph hag zech mal matt mark luke john acts rom 1cor 2cor gal eph phil col 1thess 2thess 1tim 2tim titus philem heb james 1pet 2pet 1john 2john 3john jude rev)
-
-# for ((i = 0; i < 66; i++)); do
-#   if [ $1 == 0 ]; then
-#     ((previous_book_num = book - 1))
-#   fi
-# done
-
-# under change ~ back to pilcrow signs
-# text=$(echo "$text" | sed -E 's/¶/←/g')
-# text=$(echo "$text" | sed -E 's/ ⇙/⇙/g')
-# text=$(echo "$text" | sed -E 's/^     ¶//g')
-# text=$(echo "$text" | sed -E ':a;$!{N;s/ *¶/\n/;ba;}')
-
-# replace smart smart with dumb quotes
-# right
-# text=$(echo "$text" | sed -E "s/”/\"/g")
-# text=$(echo "$text" | sed -E "s/’/\'/g")
-# left
-# text=$(echo "$text" | sed -E "s/“/\"/g")
-# text=$(echo "$text" | sed -E "s/‘/\'/g")
-
-# inside print_chapter()
-# bold=$(tput bold)
-# italics=$(tput sitm)
-# normal=$(tput sgr0)
-# format editorial headings
-# text=$(echo "$text" | sed -E "s/^      ## (.*)/      [${bold}\1${normal}]/g")
-
-# inside format markdown
-# 2bold=$(tput bold)
-# 2italics=$(tput sitm)
-# 2normal=$(tput sgr0)
-# 2text=$(echo "$text" | sed -E "s/\*\*([A-Za-z])/${bold}\1/g")
-# 2text=$(echo "$text" | sed -E "s/([A-Za-z])\*\*/\1${normal}/g")
-# 2text=$(echo "$text" | sed -E "s/\*([A-Za-z])/${italics}\1/g")
-# 2text=$(echo "$text" | sed -E "s/([A-Za-z])\*/\1${normal}/g")
-
-# ideas
-# remove newlines to make copying verses easier (by triple click)

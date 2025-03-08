@@ -1,0 +1,43 @@
+# 1 Thessalonians 2
+## Paul’s Ministry in Thessalonica
+###### ¶ 1
+For you yourselves know, brothers and sisters, about our coming to you—it has not proven to be purposeless.
+###### 2
+But although we suffered earlier and were mistreated in Philippi, as you know, we had the courage in our God to declare to you the gospel of God in spite of much opposition.
+###### 3
+For the appeal we make does not come from error or impurity or with deceit,
+###### 4
+but just as we have been approved by God to be entrusted with the gospel, so we declare it, not to please people but God, who examines our hearts.
+###### 5
+For we never appeared with flattering speech, as you know, nor with a pretext for greed—God is our witness—
+###### 6
+nor to seek glory from people, either from you or from others,
+###### 7
+although we could have imposed our weight as apostles of Christ; instead we became little children among you. Like a nursing mother caring for her own children,
+###### 8
+with such affection for you we were happy to share with you not only the gospel of God but also our own lives, because you had become dear to us.
+###### ¶ 9
+For you recall, brothers and sisters, our toil and drudgery: By working night and day so as not to impose a burden on any of you, we preached to you the gospel of God.
+###### 10
+You are witnesses, and so is God, as to how holy and righteous and blameless our conduct was toward you who believe.
+###### 11
+As you know, we treated each one of you as a father treats his own children,
+###### 12
+exhorting and encouraging you and insisting that you live in a way worthy of God who calls you to his own kingdom and his glory.
+###### ¶ 13
+And so we too constantly thank God that when you received God’s message that you heard from us, you accepted it not as a human message, but as it truly is, God’s message, which is at work among you who believe.
+###### 14
+For you became imitators, brothers and sisters, of God’s churches in Christ Jesus that are in Judea, because you too suffered the same things from your own countrymen as they in fact did from the Jews,
+###### 15
+who killed both the Lord Jesus and the prophets and persecuted us severely. They are displeasing to God and are opposed to all people,
+###### 16
+because they hinder us from speaking to the Gentiles so that they may be saved. Thus they constantly fill up their measure of sins, but wrath has come upon them completely.
+## Forced Absence from Thessalonica
+###### ¶ 17
+But when we were separated from you, brothers and sisters, for a short time (in presence, not in affection) we became all the more fervent in our great desire to see you in person.
+###### 18
+For we wanted to come to you (I, Paul, in fact tried again and again) but Satan thwarted us.
+###### 19
+For who is our hope or joy or crown to boast of before our Lord Jesus at his coming? Is it not of course you?
+###### 20
+For you are our glory and joy!
