@@ -5,13 +5,13 @@
 > I longed for my lover.
 > I longed for him but he never appeared.
 ###### 2
->  “ I will arise and look all around throughout the town,
->  “ And throughout the streets and squares;
->  “ I will search for my beloved.”
+> “I will arise and look all around throughout the town,
+> “And throughout the streets and squares;
+> “I will search for my beloved.”
 > I searched for him but I did not find him.
 ###### 3
 > The night watchmen found me—the ones who guard the city walls.
->  “ Have you seen my beloved?”
+> “Have you seen my beloved?”
 ###### 4
 > Scarcely had I passed them by
 > When I found my beloved!
@@ -22,7 +22,7 @@
 ###### ¶ 5
 > I admonish you, O maidens of Jerusalem,
 > By the gazelles and by the young does of the open fields:
->  “ Do not awaken or arouse love until it pleases!”
+> “Do not awaken or arouse love until it pleases!”
 ## The Royal Wedding Procession
 ###### ¶ 6
 > Who is this coming up from the wilderness

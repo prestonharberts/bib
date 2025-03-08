@@ -35,13 +35,13 @@
 > When your flesh and your body are wasted away.
 ###### 12
 > And you will say, “How I hated discipline!
->  “ My heart spurned reproof!
+> “My heart spurned reproof!
 ###### 13
->  “ For I did not obey my teachers
->  “ And I did not heed my instructors.
+> “For I did not obey my teachers
+> “And I did not heed my instructors.
 ###### 14
->  “ I almost came to complete ruin
->  “ In the midst of the whole congregation!”
+> “I almost came to complete ruin
+> “In the midst of the whole congregation!”
 ###### ¶ 15
 > Drink water from your own cistern
 > And running water from your own well.

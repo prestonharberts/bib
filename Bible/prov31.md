@@ -86,8 +86,8 @@ The words of King Lemuel, an oracle that his mother taught him:
 > Her children have risen and called her blessed;
 > Her husband also has praised her:
 ###### 29
->  “ Many daughters have done valiantly,
->  “ But you have surpassed them all!”
+> “Many daughters have done valiantly,
+> “But you have surpassed them all!”
 ###### 30
 > Charm is deceitful and beauty is fleeting.
 > A woman who fears the LORD—she makes herself praiseworthy.

@@ -91,9 +91,9 @@ While the Pharisees were assembled, Jesus asked them a question:
 ###### 43
 He said to them, “How then does David by the Spirit call him ‘Lord,’ saying,
 ###### 44
->  ‘ The Lord said to my lord,
->  “ Sit at my right hand,
->  “ Until I put your enemies under your feet”’?
+> ‘The Lord said to my lord,
+> “Sit at my right hand,
+> “Until I put your enemies under your feet”’?
 ###### 45
 “If David then calls him ‘Lord,’ how can he be his son?”
 ###### 46

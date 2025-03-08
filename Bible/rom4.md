@@ -13,9 +13,9 @@ But to the one who does not work, but believes in the one who declares the ungod
 ###### 6
 So even David himself speaks regarding the blessedness of the man to whom God credits righteousness apart from works:
 ###### 7
->  “ Blessed are those whose lawless deeds are forgiven, and whose sins are covered;
+> “Blessed are those whose lawless deeds are forgiven, and whose sins are covered;
 ###### 8
->  “ Blessed is the one against whom the Lord will never count sin.”
+> “Blessed is the one against whom the Lord will never count sin.”
 ###### ¶ 9
 Is this blessedness then for the circumcision or also for the uncircumcision? For we say, “faith was credited to Abraham as righteousness.”
 ###### 10

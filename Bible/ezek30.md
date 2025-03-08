@@ -4,80 +4,80 @@
 The Lord’s message came to me:
 ###### 2
 “Son of man, prophesy and say, ‘This is what the Sovereign LORD says:
->  “ ‘Wail, “Alas, the day is here!”
+> “‘Wail, “Alas, the day is here!”
 ###### 3
->  ‘ For the day is near,
->  ‘ The day of the LORD is near;
->  ‘ It will be a day of storm clouds,
->  ‘ It will be a time of judgment for the nations.
+> ‘For the day is near,
+> ‘The day of the LORD is near;
+> ‘It will be a day of storm clouds,
+> ‘It will be a time of judgment for the nations.
 ###### 4
->  ‘ A sword will come against Egypt
->  ‘ And panic will overtake Ethiopia
->  ‘ When the slain fall in Egypt
->  ‘ And they carry away her wealth
->  ‘ And dismantle her foundations.
+> ‘A sword will come against Egypt
+> ‘And panic will overtake Ethiopia
+> ‘When the slain fall in Egypt
+> ‘And they carry away her wealth
+> ‘And dismantle her foundations.
 ###### 5
 ‘Ethiopia, Put, Lud, all the foreigners, Libya, and the people of the covenant land will die by the sword along with them.
 ###### ¶ 6
->  “  ‘ This is what the LORD says:
->  ‘ Egypt’s supporters will fall;
->  ‘ Her confident pride will crumble.
->  ‘ From Migdol to Syene they will die by the sword within her,
->  ‘ Declares the Sovereign LORD.
+> “‘This is what the LORD says:
+> ‘Egypt’s supporters will fall;
+> ‘Her confident pride will crumble.
+> ‘From Migdol to Syene they will die by the sword within her,
+> ‘Declares the Sovereign LORD.
 ###### 7
->  ‘ They will be desolate among desolate lands,
->  ‘ And their cities will be among ruined cities.
+> ‘They will be desolate among desolate lands,
+> ‘And their cities will be among ruined cities.
 ###### 8
->  ‘ They will know that I am the LORD
->  ‘ When I ignite a fire in Egypt
->  ‘ And all her allies are defeated.
+> ‘They will know that I am the LORD
+> ‘When I ignite a fire in Egypt
+> ‘And all her allies are defeated.
 ###### 9
 “‘On that day messengers will go out from me in ships to frighten overconfident Ethiopia; panic will overtake them on the day of Egypt’s doom; for beware—it is coming!
 ###### ¶ 10
->  “  ‘ This is what the Sovereign LORD says:
->  ‘ I will put an end to the hordes of Egypt,
->  ‘ By the hand of King Nebuchadrezzar of Babylon.
+> “‘This is what the Sovereign LORD says:
+> ‘I will put an end to the hordes of Egypt,
+> ‘By the hand of King Nebuchadrezzar of Babylon.
 ###### 11
->  ‘ He and his people with him,
->  ‘ The most terrifying of the nations,
->  ‘ Will be brought there to destroy the land.
->  ‘ They will draw their swords against Egypt,
->  ‘ And fill the land with corpses.
+> ‘He and his people with him,
+> ‘The most terrifying of the nations,
+> ‘Will be brought there to destroy the land.
+> ‘They will draw their swords against Egypt,
+> ‘And fill the land with corpses.
 ###### 12
->  ‘ I will dry up the waterways
->  ‘ And hand the land over to evil men.
->  ‘ I will make the land and everything in it desolate by the hand of foreigners.
->  ‘ I, the LORD, have spoken!
+> ‘I will dry up the waterways
+> ‘And hand the land over to evil men.
+> ‘I will make the land and everything in it desolate by the hand of foreigners.
+> ‘I, the LORD, have spoken!
 ###### ¶ 13
->  “  ‘ This is what the Sovereign LORD says:
->  ‘ I will destroy the idols,
->  ‘ And put an end to the gods of Memphis.
->  ‘ There will no longer be a prince from the land of Egypt;
->  ‘ So I will make the land of Egypt fearful.
+> “‘This is what the Sovereign LORD says:
+> ‘I will destroy the idols,
+> ‘And put an end to the gods of Memphis.
+> ‘There will no longer be a prince from the land of Egypt;
+> ‘So I will make the land of Egypt fearful.
 ###### 14
->  ‘ I will desolate Pathros,
->  ‘ I will ignite a fire in Zoan,
->  ‘ And I will execute judgments on Thebes.
+> ‘I will desolate Pathros,
+> ‘I will ignite a fire in Zoan,
+> ‘And I will execute judgments on Thebes.
 ###### 15
->  ‘ I will pour out my anger upon Pelusium,
->  ‘ The stronghold of Egypt;
->  ‘ I will cut off the hordes of Thebes.
+> ‘I will pour out my anger upon Pelusium,
+> ‘The stronghold of Egypt;
+> ‘I will cut off the hordes of Thebes.
 ###### 16
->  ‘ I will ignite a fire in Egypt;
->  ‘ Syene will writhe in agony,
->  ‘ Thebes will be broken down,
->  ‘ And Memphis will face enemies every day.
+> ‘I will ignite a fire in Egypt;
+> ‘Syene will writhe in agony,
+> ‘Thebes will be broken down,
+> ‘And Memphis will face enemies every day.
 ###### 17
->  ‘ The young men of On and of Pi Beseth will die by the sword;
->  ‘ And the cities will go into captivity.
+> ‘The young men of On and of Pi Beseth will die by the sword;
+> ‘And the cities will go into captivity.
 ###### 18
->  ‘ In Tahpanhes the day will be dark
->  ‘ When I break the yoke of Egypt there.
->  ‘ Her confident pride will cease within her;
->  ‘ A cloud will cover her, and her daughters will go into captivity.
+> ‘In Tahpanhes the day will be dark
+> ‘When I break the yoke of Egypt there.
+> ‘Her confident pride will cease within her;
+> ‘A cloud will cover her, and her daughters will go into captivity.
 ###### 19
->  ‘ I will execute judgments on Egypt.
->  ‘ Then they will know that I am the LORD.’”
+> ‘I will execute judgments on Egypt.
+> ‘Then they will know that I am the LORD.’”
 ###### ¶ 20
 In the eleventh year, in the first month, on the seventh day of the month, the Lord’s message came to me:
 ###### 21

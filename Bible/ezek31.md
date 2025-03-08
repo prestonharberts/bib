@@ -4,36 +4,36 @@
 In the eleventh year, in the third month, on the first day of the month, the Lord’s message came to me:
 ###### 2
 “Son of man, say to Pharaoh king of Egypt and his hordes:
->  “ ‘Who are you like in your greatness?
+> “‘Who are you like in your greatness?
 ###### 3
->  ‘ Consider Assyria, a cedar in Lebanon,
->  ‘ With beautiful branches, like a forest giving shade,
->  ‘ And extremely tall;
->  ‘ Its top reached into the clouds.
+> ‘Consider Assyria, a cedar in Lebanon,
+> ‘With beautiful branches, like a forest giving shade,
+> ‘And extremely tall;
+> ‘Its top reached into the clouds.
 ###### 4
->  ‘ The water made it grow;
->  ‘ Underground springs made it grow tall.
->  ‘ Rivers flowed all around the place it was planted,
->  ‘ While smaller channels watered all the trees of the field.
+> ‘The water made it grow;
+> ‘Underground springs made it grow tall.
+> ‘Rivers flowed all around the place it was planted,
+> ‘While smaller channels watered all the trees of the field.
 ###### 5
->  ‘ Therefore it grew taller than all the trees of the field;
->  ‘ Its boughs grew large and its branches grew long,
->  ‘ Because of the plentiful water in its shoots.
+> ‘Therefore it grew taller than all the trees of the field;
+> ‘Its boughs grew large and its branches grew long,
+> ‘Because of the plentiful water in its shoots.
 ###### 6
->  ‘ All the birds of the sky nested in its boughs;
->  ‘ Under its branches all the beasts of the field gave birth;
->  ‘ In its shade all the great nations lived.
+> ‘All the birds of the sky nested in its boughs;
+> ‘Under its branches all the beasts of the field gave birth;
+> ‘In its shade all the great nations lived.
 ###### 7
->  ‘ It was beautiful in its loftiness, in the length of its branches;
->  ‘ For its roots went down deep to plentiful waters.
+> ‘It was beautiful in its loftiness, in the length of its branches;
+> ‘For its roots went down deep to plentiful waters.
 ###### 8
->  ‘ The cedars in the garden of God could not eclipse it,
->  ‘ Nor could the fir trees match its boughs;
->  ‘ The plane trees were as nothing compared to its branches;
->  ‘ No tree in the garden of God could rival its beauty.
+> ‘The cedars in the garden of God could not eclipse it,
+> ‘Nor could the fir trees match its boughs;
+> ‘The plane trees were as nothing compared to its branches;
+> ‘No tree in the garden of God could rival its beauty.
 ###### 9
->  ‘ I made it beautiful with its many branches;
->  ‘ All the trees of Eden, in the garden of God, envied it.
+> ‘I made it beautiful with its many branches;
+> ‘All the trees of Eden, in the garden of God, envied it.
 ###### ¶ 10
 “‘Therefore this is what the Sovereign LORD says: Because it was tall in stature, and its top reached into the clouds, and it was proud of its height,
 ###### 11

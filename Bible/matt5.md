@@ -5,25 +5,25 @@ When he saw the crowds, he went up the mountain. After he sat down his disciples
 ###### 2
 Then he began to teach them by saying:
 ###### ¶ 3
->  “ Blessed are the poor in spirit, for the kingdom of heaven belongs to them.
+> “Blessed are the poor in spirit, for the kingdom of heaven belongs to them.
 ###### ¶ 4
->  “ Blessed are those who mourn, for they will be comforted.
+> “Blessed are those who mourn, for they will be comforted.
 ###### ¶ 5
->  “ Blessed are the meek, for they will inherit the earth.
+> “Blessed are the meek, for they will inherit the earth.
 ###### ¶ 6
->  “ Blessed are those who hunger and thirst for righteousness, for they will be satisfied.
+> “Blessed are those who hunger and thirst for righteousness, for they will be satisfied.
 ###### ¶ 7
->  “ Blessed are the merciful, for they will be shown mercy.
+> “Blessed are the merciful, for they will be shown mercy.
 ###### ¶ 8
->  “ Blessed are the pure in heart, for they will see God.
+> “Blessed are the pure in heart, for they will see God.
 ###### ¶ 9
->  “ Blessed are the peacemakers, for they will be called the children of God.
+> “Blessed are the peacemakers, for they will be called the children of God.
 ###### ¶ 10
->  “ Blessed are those who are persecuted for righteousness, for the kingdom of heaven belongs to them.
+> “Blessed are those who are persecuted for righteousness, for the kingdom of heaven belongs to them.
 ###### ¶ 11
->  “ Blessed are you when people insult you and persecute you and say all kinds of evil things about you falsely on account of me.
+> “Blessed are you when people insult you and persecute you and say all kinds of evil things about you falsely on account of me.
 ###### 12
->  “ Rejoice and be glad, because your reward is great in heaven, for they persecuted the prophets before you in the same way.”
+> “Rejoice and be glad, because your reward is great in heaven, for they persecuted the prophets before you in the same way.”
 ## Salt and Light
 ###### ¶ 13
 “You are the salt of the earth. But if salt loses its flavor, how can it be made salty again? It is no longer good for anything except to be thrown out and trampled on by people!

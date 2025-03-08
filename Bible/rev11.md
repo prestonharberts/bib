@@ -31,26 +31,26 @@ The second woe has come and gone; the third is coming quickly.
 ## The Seventh Trumpet
 ###### ¶ 15
 Then the seventh angel blew his trumpet, and there were loud voices in heaven saying:
->  “ The kingdom of the world
->  “ Has become the kingdom of our Lord
->  “ And of his Christ,
->  “ And he will reign for ever and ever.”
+> “The kingdom of the world
+> “Has become the kingdom of our Lord
+> “And of his Christ,
+> “And he will reign for ever and ever.”
 ###### 16
 Then the twenty-four elders who are seated on their thrones before God threw themselves down with their faces to the ground and worshiped God
 ###### 17
 with these words:
->  “ We give you thanks, Lord God, the All-Powerful,
->  “ The one who is and who was,
->  “ Because you have taken your great power
->  “ And begun to reign.
+> “We give you thanks, Lord God, the All-Powerful,
+> “The one who is and who was,
+> “Because you have taken your great power
+> “And begun to reign.
 ###### 18
->  “ The nations were enraged,
->  “ But your wrath has come,
->  “ And the time has come for the dead to be judged,
->  “ And the time has come to give to your servants,
->  “ The prophets, their reward,
->  “ As well as to the saints
->  “ And to those who revere your name, both small and great,
->  “ And the time has come to destroy those who destroy the earth.”
+> “The nations were enraged,
+> “But your wrath has come,
+> “And the time has come for the dead to be judged,
+> “And the time has come to give to your servants,
+> “The prophets, their reward,
+> “As well as to the saints
+> “And to those who revere your name, both small and great,
+> “And the time has come to destroy those who destroy the earth.”
 ###### ¶ 19
 Then the temple of God in heaven was opened and the ark of his covenant was visible within his temple. And there were flashes of lightning, roaring, crashes of thunder, an earthquake, and a great hailstorm.

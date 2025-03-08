@@ -20,53 +20,53 @@ Isaiah replied, “This is your sign from the LORD confirming that the LORD will
 ###### ¶ 9
 This is the prayer of King Hezekiah of Judah when he was sick and then recovered from his illness:
 ###### 10
->  “ I thought,
->  ‘ In the middle of my life I must walk through the gates of Sheol,
->  ‘ I am deprived of the rest of my years.’
+> “I thought,
+> ‘In the middle of my life I must walk through the gates of Sheol,
+> ‘I am deprived of the rest of my years.’
 ###### 11
->  “ I thought,
->  ‘ I will no longer see the LORD in the land of the living,
->  ‘ I will no longer look on humankind with the inhabitants of the world.
+> “I thought,
+> ‘I will no longer see the LORD in the land of the living,
+> ‘I will no longer look on humankind with the inhabitants of the world.
 ###### 12
->  ‘ My dwelling place is removed and taken away from me
->  ‘ As a shepherd’s tent.
->  ‘ I rolled up my life like a weaver rolls cloth;
->  ‘ From the loom he cuts me off.
->  ‘ You turn day into night and end my life.
+> ‘My dwelling place is removed and taken away from me
+> ‘As a shepherd’s tent.
+> ‘I rolled up my life like a weaver rolls cloth;
+> ‘From the loom he cuts me off.
+> ‘You turn day into night and end my life.
 ###### 13
->  ‘ I cry out until morning;
->  ‘ Like a lion he shatters all my bones;
->  ‘ You turn day into night and end my life.
+> ‘I cry out until morning;
+> ‘Like a lion he shatters all my bones;
+> ‘You turn day into night and end my life.
 ###### 14
->  ‘ Like a swallow or a thrush I chirp,
->  ‘ I coo like a dove;
->  ‘ My eyes grow tired from looking up to the sky.
->  ‘ O Lord, I am oppressed;
->  ‘ Help me!
+> ‘Like a swallow or a thrush I chirp,
+> ‘I coo like a dove;
+> ‘My eyes grow tired from looking up to the sky.
+> ‘O Lord, I am oppressed;
+> ‘Help me!
 ###### ¶ 15
->  ‘ What can I say?
->  ‘ He has decreed and acted.
->  ‘ I will walk slowly all my years because I am overcome with grief.
+> ‘What can I say?
+> ‘He has decreed and acted.
+> ‘I will walk slowly all my years because I am overcome with grief.
 ###### 16
->  ‘ O Lord, your decrees can give men life;
->  ‘ May years of life be restored to me.
->  ‘ Restore my health and preserve my life.’
+> ‘O Lord, your decrees can give men life;
+> ‘May years of life be restored to me.
+> ‘Restore my health and preserve my life.’
 ###### ¶ 17
->  “ Look, the grief I experienced was for my benefit.
->  “ You delivered me from the Pit of oblivion.
->  “ For you removed all my sins from your sight.
+> “Look, the grief I experienced was for my benefit.
+> “You delivered me from the Pit of oblivion.
+> “For you removed all my sins from your sight.
 ###### 18
->  “ Indeed Sheol does not give you thanks;
->  “ Death does not praise you.
->  “ Those who descend into the Pit do not anticipate your faithfulness.
+> “Indeed Sheol does not give you thanks;
+> “Death does not praise you.
+> “Those who descend into the Pit do not anticipate your faithfulness.
 ###### 19
->  “ The living person, the living person, he gives you thanks,
->  “ As I do today.
->  “ A father tells his sons about your faithfulness.
+> “The living person, the living person, he gives you thanks,
+> “As I do today.
+> “A father tells his sons about your faithfulness.
 ###### 20
->  “ The LORD is about to deliver me,
->  “ And we will celebrate with music
->  “ For the rest of our lives in the LORD’s temple.”
+> “The LORD is about to deliver me,
+> “And we will celebrate with music
+> “For the rest of our lives in the LORD’s temple.”
 ###### ¶ 21
 > Isaiah ordered, “Let them take a fig cake and apply it to the ulcerated sore and he will get well.”
 ###### 22

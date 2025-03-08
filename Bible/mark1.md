@@ -4,12 +4,12 @@
 The beginning of the gospel of Jesus Christ, the Son of God.
 ###### ¶ 2
 As it is written in the prophet Isaiah,
->  “ Look, I am sending my messenger ahead of you,
->  “ Who will prepare your way,
+> “Look, I am sending my messenger ahead of you,
+> “Who will prepare your way,
 ###### 3
->  “ The voice of one shouting in the wilderness,
->  ‘ Prepare the way for the Lord,
->  ‘ Make his paths straight.’”
+> “The voice of one shouting in the wilderness,
+> ‘Prepare the way for the Lord,
+> ‘Make his paths straight.’”
 ###### 4
 In the wilderness John the baptizer began preaching a baptism of repentance for the forgiveness of sins.
 ###### 5

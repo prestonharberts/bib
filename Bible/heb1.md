@@ -17,22 +17,22 @@ But when he again brings his firstborn into the world, he says, “Let all the a
 And he says of the angels, “He makes his angels winds and his ministers a flame of fire,”
 ###### 8
 but of the Son he says,
->  “ Your throne, O God, is forever and ever,
->  “ And a righteous scepter is the scepter of your kingdom.
+> “Your throne, O God, is forever and ever,
+> “And a righteous scepter is the scepter of your kingdom.
 ###### 9
->  “ You have loved righteousness and hated lawlessness.
->  “ So God, your God, has anointed you over your companions with the oil of rejoicing.”
+> “You have loved righteousness and hated lawlessness.
+> “So God, your God, has anointed you over your companions with the oil of rejoicing.”
 ###### 10
 And,
->  “ You founded the earth in the beginning, Lord,
->  “ And the heavens are the works of your hands.
+> “You founded the earth in the beginning, Lord,
+> “And the heavens are the works of your hands.
 ###### 11
->  “ They will perish, but you continue.
->  “ And they will all grow old like a garment,
+> “They will perish, but you continue.
+> “And they will all grow old like a garment,
 ###### 12
->  “ And like a robe you will fold them up
->  “ And like a garment they will be changed,
->  “ But you are the same and your years will never run out.”
+> “And like a robe you will fold them up
+> “And like a garment they will be changed,
+> “But you are the same and your years will never run out.”
 ###### 13
 But to which of the angels has he ever said, “Sit at my right hand until I make your enemies a footstool for your feet”?
 ###### 14

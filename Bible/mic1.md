@@ -21,19 +21,19 @@ This is the Lord’s message that came to Micah of Moresheth during the time of 
 > And the sins of the nation of Israel.
 > And just what is Jacob’s rebellion?
 > Isn’t it Samaria’s doings?
->  “ And what is Judah’s sin?
->  “ Isn’t it Jerusalem’s doings?
+> “And what is Judah’s sin?
+> “Isn’t it Jerusalem’s doings?
 ###### 6
->  “ I will turn Samaria into a heap of ruins in an open field,
->  “ Into a place for planting vineyards.
->  “ I will dump the rubble of her walls down into the valley
->  “ And lay bare her foundations.
+> “I will turn Samaria into a heap of ruins in an open field,
+> “Into a place for planting vineyards.
+> “I will dump the rubble of her walls down into the valley
+> “And lay bare her foundations.
 ###### 7
->  “ All her carved idols will be smashed to pieces;
->  “ All her metal cult statues will be destroyed by fire.
->  “ I will make a waste heap of all her images.
->  “ Since she gathered the metal as a prostitute collects her wages,
->  “ The idols will become a prostitute’s wages again.”
+> “All her carved idols will be smashed to pieces;
+> “All her metal cult statues will be destroyed by fire.
+> “I will make a waste heap of all her images.
+> “Since she gathered the metal as a prostitute collects her wages,
+> “The idols will become a prostitute’s wages again.”
 ###### ¶ 8
 > For this reason I will mourn and wail;
 > I will walk around barefoot and without my outer garments.
@@ -46,13 +46,13 @@ This is the Lord’s message that came to Micah of Moresheth during the time of 
 > And even to Jerusalem!
 ###### 10
 > Don’t spread the news in Gath.
->  “ Don’t shed even a single tear.
->  “ In Beth Leaphrah roll about in mourning in the dust!
+> “Don’t shed even a single tear.
+> “In Beth Leaphrah roll about in mourning in the dust!
 ###### 11
->  “ Residents of Shaphir, pass by in nakedness and humiliation!
->  “ The residents of Zaanan have not escaped.
->  “ Beth Ezel mourns,
->  “ He takes from you what he desires.”
+> “Residents of Shaphir, pass by in nakedness and humiliation!
+> “The residents of Zaanan have not escaped.
+> “Beth Ezel mourns,
+> “He takes from you what he desires.”
 ###### 12
 > Indeed, the residents of Maroth hope for something good to happen,
 > Though the LORD has sent disaster against the city of Jerusalem.

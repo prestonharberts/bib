@@ -20,8 +20,8 @@ While they were going away, Jesus began to speak to the crowd about John: “Wha
 “What did you go out to see? A prophet? Yes, I tell you, and more than a prophet!
 ###### 10
 “This is the one about whom it is written:
->  ‘ Look, I am sending my messenger ahead of you,
->  ‘ Who will prepare your way before you.’
+> ‘Look, I am sending my messenger ahead of you,
+> ‘Who will prepare your way before you.’
 ###### 11
 “I tell you the truth, among those born of women, no one has arisen greater than John the Baptist. Yet the one who is least in the kingdom of heaven is greater than he is!
 ###### 12
@@ -35,8 +35,8 @@ While they were going away, Jesus began to speak to the crowd about John: “Wha
 ###### ¶ 16
 “To what should I compare this generation? They are like children sitting in the marketplaces who call out to one another,
 ###### 17
->  ‘ We played the flute for you, yet you did not dance;
->  ‘ We wailed in mourning, yet you did not weep.’
+> ‘We played the flute for you, yet you did not dance;
+> ‘We wailed in mourning, yet you did not weep.’
 ###### 18
 “For John came neither eating nor drinking, and they say, ‘He has a demon!’
 ###### 19

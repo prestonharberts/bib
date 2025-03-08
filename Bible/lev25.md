@@ -114,4 +114,4 @@ The LORD spoke to Moses at Mount Sinai:
 ‘If, however, he is not redeemed in these ways, he must go free in the Jubilee year, he and his children with him,
 ###### 55
 ‘because the Israelites are my own servants; they are my servants whom I brought out from the land of Egypt. I am the LORD your God.
-<span class=arrow-right>  ‘##### <span class=arrow-left>  [[lev24|Prev]]<span class=navigation-separator>  [[lev25notes|Notes]]<span class=navigation-separator>  [[lev26|Next]]
+<span class=arrow-right> ‘##### <span class=arrow-left> [[lev24|Prev]]<span class=navigation-separator> [[lev25notes|Notes]]<span class=navigation-separator> [[lev26|Next]]

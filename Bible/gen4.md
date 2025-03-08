@@ -47,13 +47,13 @@ The name of his brother was Jubal; he was the first of all who play the harp and
 Now Zillah also gave birth to Tubal-Cain, who heated metal and shaped all kinds of tools made of bronze and iron. The sister of Tubal-Cain was Naamah.
 ###### ¶ 23
 Lamech said to his wives,
->  “ Adah and Zillah, listen to me!
->  “ You wives of Lamech, hear my words!
->  “ I have killed a man for wounding me,
->  “ A young man for hurting me.
+> “Adah and Zillah, listen to me!
+> “You wives of Lamech, hear my words!
+> “I have killed a man for wounding me,
+> “A young man for hurting me.
 ###### 24
->  “ If Cain is to be avenged seven times as much,
->  “ Then Lamech seventy-seven times!”
+> “If Cain is to be avenged seven times as much,
+> “Then Lamech seventy-seven times!”
 ###### ¶ 25
 And Adam was intimate with his wife again, and she gave birth to a son. She named him Seth, saying, “God has given me another child in place of Abel because Cain killed him.”
 ###### 26

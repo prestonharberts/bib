@@ -37,4 +37,4 @@ Then the LORD called to Moses and spoke to him from the Meeting Tent:
 ‘Then the priest must remove its entrails by cutting off its tail feathers, and throw them to the east side of the altar into the place of fatty ashes,
 ###### 17
 ‘and tear it open by its wings without dividing it into two parts. Finally, the priest must offer it up in smoke on the altar on the wood which is in the fire—it is a burnt offering, a gift of a soothing aroma to the LORD.
-<span class=arrow-right>  ‘##### <span class=arrow-left>  [[ex40|Prev]]<span class=navigation-separator>  [[lev1notes|Notes]]<span class=navigation-separator>  [[lev2|Next]]
+<span class=arrow-right> ‘##### <span class=arrow-left> [[ex40|Prev]]<span class=navigation-separator> [[lev1notes|Notes]]<span class=navigation-separator> [[lev2|Next]]

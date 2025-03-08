@@ -6,44 +6,44 @@ The Lord’s message came to me:
 “Son of man, offer a riddle, and tell a parable to the house of Israel.
 ###### 3
 “Say to them: ‘This is what the Sovereign LORD says:
->  “ ‘A great eagle with broad wings, long feathers,
->  ‘ With full plumage that was multi-hued,
->  ‘ Came to Lebanon and took the top of the cedar.
+> “‘A great eagle with broad wings, long feathers,
+> ‘With full plumage that was multi-hued,
+> ‘Came to Lebanon and took the top of the cedar.
 ###### 4
->  ‘ He plucked off its topmost shoot;
->  ‘ He brought it to a land of merchants
->  ‘ And planted it in a city of traders.
+> ‘He plucked off its topmost shoot;
+> ‘He brought it to a land of merchants
+> ‘And planted it in a city of traders.
 ###### 5
->  ‘ He took one of the seedlings of the land,
->  ‘ Placed it in a cultivated plot;
->  ‘ A shoot by abundant water,
->  ‘ Like a willow he planted it.
+> ‘He took one of the seedlings of the land,
+> ‘Placed it in a cultivated plot;
+> ‘A shoot by abundant water,
+> ‘Like a willow he planted it.
 ###### 6
->  ‘ It sprouted and became a vine,
->  ‘ Spreading low to the ground;
->  ‘ Its branches turning toward him, its roots were under itself.
->  ‘ So it became a vine; it produced shoots and sent out branches.
+> ‘It sprouted and became a vine,
+> ‘Spreading low to the ground;
+> ‘Its branches turning toward him, its roots were under itself.
+> ‘So it became a vine; it produced shoots and sent out branches.
 ###### ¶ 7
->  “  ‘ There was another great eagle
->  ‘ With broad wings and thick plumage.
->  ‘ Now this vine twisted its roots toward him
->  ‘ And sent its branches toward him
->  ‘ To be watered from the soil where it was planted.
+> “‘There was another great eagle
+> ‘With broad wings and thick plumage.
+> ‘Now this vine twisted its roots toward him
+> ‘And sent its branches toward him
+> ‘To be watered from the soil where it was planted.
 ###### 8
->  ‘ In a good field, by abundant waters, it was planted
->  ‘ To grow branches, bear fruit, and become a beautiful vine.’
+> ‘In a good field, by abundant waters, it was planted
+> ‘To grow branches, bear fruit, and become a beautiful vine.’
 ###### 9
 “Say to them: ‘This is what the Sovereign LORD says:
->  “ ‘Will it prosper?
->  ‘ Will he not rip out its roots
->  ‘ And cause its fruit to rot and wither?
->  ‘ All its foliage will wither.
->  ‘ No strong arm or large army
->  ‘ Will be needed to pull it out by its roots.
+> “‘Will it prosper?
+> ‘Will he not rip out its roots
+> ‘And cause its fruit to rot and wither?
+> ‘All its foliage will wither.
+> ‘No strong arm or large army
+> ‘Will be needed to pull it out by its roots.
 ###### 10
->  ‘ Consider! It is planted, but will it prosper?
->  ‘ Will it not wither completely when the east wind blows on it?
->  ‘ Will it not wither in the soil where it sprouted?’”
+> ‘Consider! It is planted, but will it prosper?
+> ‘Will it not wither completely when the east wind blows on it?
+> ‘Will it not wither in the soil where it sprouted?’”
 ###### ¶ 11
 Then the Lord’s message came to me:
 ###### 12
@@ -68,16 +68,16 @@ Then the Lord’s message came to me:
 ‘All the choice men among his troops will die by the sword, and the survivors will be scattered to every wind. Then you will know that I, the LORD, have spoken!
 ###### ¶ 22
 “‘This is what the Sovereign LORD says:
->  “ ‘I will take a sprig from the lofty top of the cedar and plant it.
->  ‘ I will pluck from the top one of its tender twigs;
->  ‘ I myself will plant it on a high and lofty mountain.
+> “‘I will take a sprig from the lofty top of the cedar and plant it.
+> ‘I will pluck from the top one of its tender twigs;
+> ‘I myself will plant it on a high and lofty mountain.
 ###### 23
->  ‘ I will plant it on a high mountain of Israel,
->  ‘ And it will raise branches and produce fruit and become a beautiful cedar.
->  ‘ Every bird will live under it;
->  ‘ Every winged creature will live in the shade of its branches.
+> ‘I will plant it on a high mountain of Israel,
+> ‘And it will raise branches and produce fruit and become a beautiful cedar.
+> ‘Every bird will live under it;
+> ‘Every winged creature will live in the shade of its branches.
 ###### 24
->  ‘ All the trees of the field will know that I am the LORD.
->  ‘ I make the high tree low; I raise up the low tree.
->  ‘ I make the green tree wither, and I make the dry tree sprout.
->  ‘ I, the LORD, have spoken, and I will do it!’”
+> ‘All the trees of the field will know that I am the LORD.
+> ‘I make the high tree low; I raise up the low tree.
+> ‘I make the green tree wither, and I make the dry tree sprout.
+> ‘I, the LORD, have spoken, and I will do it!’”

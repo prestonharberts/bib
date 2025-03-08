@@ -6,34 +6,34 @@ The Lord’s message came to me:
 “You, son of man, sing a lament for Tyre.
 ###### 3
 “Say to Tyre, who sits at the entrance of the sea, merchant to the peoples on many coasts, ‘This is what the Sovereign LORD says:
->  “ ‘O Tyre, you have said, “I am perfectly beautiful.”
+> “‘O Tyre, you have said, “I am perfectly beautiful.”
 ###### 4
->  ‘ Your borders are in the heart of the seas;
->  ‘ Your builders have perfected your beauty.
+> ‘Your borders are in the heart of the seas;
+> ‘Your builders have perfected your beauty.
 ###### 5
->  ‘ They crafted all your planks out of fir trees from Senir;
->  ‘ They took a cedar from Lebanon to make your mast.
+> ‘They crafted all your planks out of fir trees from Senir;
+> ‘They took a cedar from Lebanon to make your mast.
 ###### 6
->  ‘ They made your oars from oaks of Bashan;
->  ‘ They made your deck with cypress wood from the coasts of Cyprus.
+> ‘They made your oars from oaks of Bashan;
+> ‘They made your deck with cypress wood from the coasts of Cyprus.
 ###### 7
->  ‘ Fine linen from Egypt, woven with patterns, was used for your sail
->  ‘ To serve as your banner;
->  ‘ Blue and purple from the coastlands of Elishah were used for your deck’s awning.
+> ‘Fine linen from Egypt, woven with patterns, was used for your sail
+> ‘To serve as your banner;
+> ‘Blue and purple from the coastlands of Elishah were used for your deck’s awning.
 ###### 8
->  ‘ The leaders of Sidon and Arvad were your rowers;
->  ‘ Your skilled men, O Tyre, were your captains.
+> ‘The leaders of Sidon and Arvad were your rowers;
+> ‘Your skilled men, O Tyre, were your captains.
 ###### 9
->  ‘ The elders of Gebal and her skilled men were within you, mending cracks;
->  ‘ All the ships of the sea and their mariners were within you to trade for your merchandise.
+> ‘The elders of Gebal and her skilled men were within you, mending cracks;
+> ‘All the ships of the sea and their mariners were within you to trade for your merchandise.
 ###### ¶ 10
->  ‘ Men of Persia, Lud, and Put were in your army, men of war.
->  ‘ They hung shield and helmet on you; they gave you your splendor.
+> ‘Men of Persia, Lud, and Put were in your army, men of war.
+> ‘They hung shield and helmet on you; they gave you your splendor.
 ###### 11
->  ‘ The Arvadites joined your army on your walls all around,
->  ‘ And the Gammadites were in your towers.
->  ‘ They hung their quivers on your walls all around;
->  ‘ They perfected your beauty.
+> ‘The Arvadites joined your army on your walls all around,
+> ‘And the Gammadites were in your towers.
+> ‘They hung their quivers on your walls all around;
+> ‘They perfected your beauty.
 ###### ¶ 12
 “‘Tarshish was your trade partner because of your abundant wealth; they exchanged silver, iron, tin, and lead for your products.
 ###### 13
@@ -62,30 +62,30 @@ The Lord’s message came to me:
 ‘They traded with you choice garments, purple clothes and embroidered work, and multicolored carpets bound and reinforced with cords; these were among your merchandise.
 ###### 25
 ‘The ships of Tarshish were the transports for your merchandise.
->  “ ‘So you were filled and weighed down in the heart of the seas.
+> “‘So you were filled and weighed down in the heart of the seas.
 ###### ¶ 26
->  ‘ Your rowers have brought you into surging waters.
->  ‘ The east wind has wrecked you in the heart of the seas.
+> ‘Your rowers have brought you into surging waters.
+> ‘The east wind has wrecked you in the heart of the seas.
 ###### 27
->  ‘ Your wealth, products, and merchandise, your sailors and captains,
->  ‘ Your ship’s carpenters, your merchants,
->  ‘ And all your fighting men within you,
->  ‘ Along with all your crew who are in you,
->  ‘ Will fall into the heart of the seas on the day of your downfall.
+> ‘Your wealth, products, and merchandise, your sailors and captains,
+> ‘Your ship’s carpenters, your merchants,
+> ‘And all your fighting men within you,
+> ‘Along with all your crew who are in you,
+> ‘Will fall into the heart of the seas on the day of your downfall.
 ###### 28
->  ‘ At the sound of your captains’ cries the waves will surge;
+> ‘At the sound of your captains’ cries the waves will surge;
 ###### 29
->  ‘ They will descend from their ships—all who handle the oar,
->  ‘ The sailors and all the sea captains—they will stand on the land.
+> ‘They will descend from their ships—all who handle the oar,
+> ‘The sailors and all the sea captains—they will stand on the land.
 ###### 30
->  ‘ They will lament loudly over you and cry bitterly.
->  ‘ They will throw dust on their heads and roll in the ashes;
+> ‘They will lament loudly over you and cry bitterly.
+> ‘They will throw dust on their heads and roll in the ashes;
 ###### 31
->  ‘ They will tear out their hair because of you and put on sackcloth,
->  ‘ And they will weep bitterly over you with intense mourning.
+> ‘They will tear out their hair because of you and put on sackcloth,
+> ‘And they will weep bitterly over you with intense mourning.
 ###### 32
->  ‘ As they wail they will lament over you, chanting:
->  “ Who was like Tyre, like a tower in the midst of the sea?”
+> ‘As they wail they will lament over you, chanting:
+> “Who was like Tyre, like a tower in the midst of the sea?”
 ###### 33
 > When your products went out from the seas,
 > You satisfied many peoples;

@@ -28,8 +28,8 @@ But the angel said to them, “Do not be afraid! Listen carefully, for I proclai
 ###### 13
 Suddenly a vast, heavenly army appeared with the angel, praising God and saying,
 ###### 14
->  “ Glory to God in the highest,
->  “ And on earth peace among people with whom he is pleased!”
+> “Glory to God in the highest,
+> “And on earth peace among people with whom he is pleased!”
 ###### ¶ 15
 When the angels left them and went back to heaven, the shepherds said to one another, “Let us go over to Bethlehem and see this thing that has taken place, that the Lord has made known to us.”
 ###### 16
@@ -61,15 +61,15 @@ So Simeon, directed by the Spirit, came into the temple courts, and when the par
 ###### 28
 Simeon took him in his arms and blessed God, saying,
 ###### 29
->  “ Now, according to your word, Sovereign Lord, permit your servant to depart in peace.
+> “Now, according to your word, Sovereign Lord, permit your servant to depart in peace.
 ###### 30
->  “ For my eyes have seen your salvation
+> “For my eyes have seen your salvation
 ###### 31
->  “ That you have prepared in the presence of all peoples:
+> “That you have prepared in the presence of all peoples:
 ###### 32
->  “ A light,
->  “ For revelation to the Gentiles,
->  “ And for glory to your people Israel.”
+> “A light,
+> “For revelation to the Gentiles,
+> “And for glory to your people Israel.”
 ###### ¶ 33
 So the child’s father and mother were amazed at what was said about him.
 ###### 34

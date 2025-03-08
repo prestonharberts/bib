@@ -39,17 +39,17 @@ But for now I, the LORD, say: “I will send many enemies who will catch these p
 “Before I restore them I will punish them in full for their sins and the wrongs they have done. For they have polluted my land with the lifeless statues of their disgusting idols. They have filled the land I have claimed as my own with their detestable idols.”
 ###### ¶ 19
 Then I said,
->  “ LORD, you give me strength and protect me.
->  “ You are the one I can run to for safety when I am in trouble.
->  “ Nations from all over the earth
->  “ Will come to you and say,
->  ‘ Our ancestors had nothing but false gods—
->  ‘ Worthless idols that could not help them at all.’
+> “LORD, you give me strength and protect me.
+> “You are the one I can run to for safety when I am in trouble.
+> “Nations from all over the earth
+> “Will come to you and say,
+> ‘Our ancestors had nothing but false gods—
+> ‘Worthless idols that could not help them at all.’
 ###### 20
->  “ Can people make their own gods?
->  “ No, what they make are not gods at all.”
+> “Can people make their own gods?
+> “No, what they make are not gods at all.”
 ###### ¶ 21
 The LORD said,
->  “ So I will now let this wicked people know—
->  “ I will let them know my mighty power in judgment.
->  “ Then they will know that my name is the LORD.
+> “So I will now let this wicked people know—
+> “I will let them know my mighty power in judgment.
+> “Then they will know that my name is the LORD.

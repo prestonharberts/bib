@@ -49,10 +49,10 @@ Isaac prayed to the LORD on behalf of his wife because she was childless. The LO
 But the children struggled inside her, and she said, “Why is this happening to me?” So she asked the LORD,
 ###### 23
 and the LORD said to her,
->  “ Two nations are in your womb,
->  “ And two peoples will be separated from within you.
->  “ One people will be stronger than the other,
->  “ And the older will serve the younger.”
+> “Two nations are in your womb,
+> “And two peoples will be separated from within you.
+> “One people will be stronger than the other,
+> “And the older will serve the younger.”
 ###### 24
 When the time came for Rebekah to give birth, there were twins in her womb.
 ###### 25

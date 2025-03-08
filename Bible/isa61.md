@@ -24,28 +24,28 @@
 > They will reestablish the ruined cities,
 > The places that have been desolate since ancient times.
 ###### 5
->  “ Foreigners will take care of your sheep;
->  “ Foreigners will work in your fields and vineyards.
+> “Foreigners will take care of your sheep;
+> “Foreigners will work in your fields and vineyards.
 ###### 6
->  “ You will be called, ‘the LORD’s priests,
->  ‘ Servants of our God.’
->  “ You will enjoy the wealth of nations
->  “ And boast about the riches you receive from them.
+> “You will be called, ‘the LORD’s priests,
+> ‘Servants of our God.’
+> “You will enjoy the wealth of nations
+> “And boast about the riches you receive from them.
 ###### 7
->  “ Instead of shame, you will get a double portion;
->  “ Instead of humiliation, they will rejoice over the land they receive.
->  “ Yes, they will possess a double portion in their land
->  “ And experience lasting joy.
+> “Instead of shame, you will get a double portion;
+> “Instead of humiliation, they will rejoice over the land they receive.
+> “Yes, they will possess a double portion in their land
+> “And experience lasting joy.
 ###### 8
->  “ For I, the LORD, love justice
->  “ And hate robbery and sin.
->  “ I will repay them because of my faithfulness;
->  “ I will make a permanent covenant with them.
+> “For I, the LORD, love justice
+> “And hate robbery and sin.
+> “I will repay them because of my faithfulness;
+> “I will make a permanent covenant with them.
 ###### 9
->  “ Their descendants will be known among the nations,
->  “ Their offspring among the peoples.
->  “ All who see them will recognize that
->  “ The LORD has blessed them.”
+> “Their descendants will be known among the nations,
+> “Their offspring among the peoples.
+> “All who see them will recognize that
+> “The LORD has blessed them.”
 ###### ¶ 10
 > I will greatly rejoice in the LORD;
 > I will be overjoyed because of my God.

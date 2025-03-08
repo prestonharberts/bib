@@ -37,13 +37,13 @@ Now Jesus came to Nazareth, where he had been brought up, and went into the syna
 ###### 17
 and the scroll of the prophet Isaiah was given to him. He unrolled the scroll and found the place where it was written,
 ###### 18
->  “ The Spirit of the Lord is upon me,
->  “ Because he has anointed me to proclaim good news to the poor.
->  “ He has sent me to proclaim release to the captives
->  “ And the regaining of sight to the blind,
->  “ To set free those who are oppressed,
+> “The Spirit of the Lord is upon me,
+> “Because he has anointed me to proclaim good news to the poor.
+> “He has sent me to proclaim release to the captives
+> “And the regaining of sight to the blind,
+> “To set free those who are oppressed,
 ###### 19
->  “ To proclaim the year of the Lord’s favor.”
+> “To proclaim the year of the Lord’s favor.”
 ###### 20
 Then he rolled up the scroll, gave it back to the attendant, and sat down. The eyes of everyone in the synagogue were fixed on him.
 ###### 21

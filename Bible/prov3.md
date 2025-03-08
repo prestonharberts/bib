@@ -86,7 +86,7 @@
 > When you have the ability to help.
 ###### 28
 > Do not say to your neighbor, “Go! Return tomorrow
->  “ And I will give it,” when you have it with you at the time.
+> “And I will give it,” when you have it with you at the time.
 ###### 29
 > Do not plot evil against your neighbor
 > When he dwells by you unsuspectingly.

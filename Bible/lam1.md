@@ -64,14 +64,14 @@
 > Her demise was astonishing,
 > And there was no one to comfort her.
 > She cried, “Look, O LORD, on my affliction
->  “ Because my enemy boasts!”
+> “Because my enemy boasts!”
 ###### 10
 > An enemy grabbed
 > All her valuables.
 > Indeed she watched in horror as Gentiles
 > Invaded her holy temple—
 > Those whom you had commanded:
->  “ They must not enter your assembly place.”
+> “They must not enter your assembly place.”
 ###### 11
 > All her people groaned
 > As they searched for a morsel of bread.
@@ -79,8 +79,8 @@
 > For just enough food
 > To stay alive.
 ## Jerusalem Speaks
->  “ Look, O LORD! Consider
->  “ That I have become worthless!”
+> “Look, O LORD! Consider
+> “That I have become worthless!”
 ###### 12
 > Is it nothing to you, all you who pass by on the road?
 > Look and see!

@@ -80,4 +80,4 @@ As Paul was about to be brought into the barracks, he said to the commanding off
 ‘Paul answered, “I am a Jew from Tarsus in Cilicia, a citizen of an important city. Please allow me to speak to the people.”
 ###### 40
 ‘When the commanding officer had given him permission, Paul stood on the steps and gestured to the people with his hand. When they had become silent, he addressed them in Aramaic,
-<span class=arrow-right>  ‘##### <span class=arrow-left>  [[acts20|Prev]]<span class=navigation-separator>  [[acts21notes|Notes]]<span class=navigation-separator>  [[acts22|Next]]
+<span class=arrow-right> ‘##### <span class=arrow-left> [[acts20|Prev]]<span class=navigation-separator> [[acts21notes|Notes]]<span class=navigation-separator> [[acts22|Next]]

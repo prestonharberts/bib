@@ -38,10 +38,10 @@
 > Indeed, the LORD has announced it!
 ###### 9
 > At that time they will say,
->  “ Look, here is our God!
->  “ We waited for him, and he delivered us.
->  “ Here is the LORD! We waited for him.
->  “ Let’s rejoice and celebrate his deliverance!”
+> “Look, here is our God!
+> “We waited for him, and he delivered us.
+> “Here is the LORD! We waited for him.
+> “Let’s rejoice and celebrate his deliverance!”
 ###### 10
 > For the LORD’s power will make this mountain secure.
 > Moab will be trampled down where it stands,

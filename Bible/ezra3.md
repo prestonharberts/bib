@@ -23,8 +23,8 @@ So Jeshua appointed both his sons and his relatives, Kadmiel and his sons (the s
 When the builders established the LORD’s temple, the priests, ceremonially attired and with their clarions, and the Levites (the sons of Asaph) with their cymbals, stood to praise the LORD according to the instructions left by King David of Israel.
 ###### 11
 With antiphonal response they sang, praising and glorifying the LORD:
->  “ For he is good;
->  “ His loyal love toward Israel is forever.”
+> “For he is good;
+> “His loyal love toward Israel is forever.”
 All the people gave a loud shout as they praised the LORD when the temple of the LORD was established.
 ###### 12
 Many of the priests, the Levites, and the leaders—older people who had seen with their own eyes the former temple while it was still established—were weeping loudly, and many others raised their voice in a joyous shout.

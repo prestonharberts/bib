@@ -41,71 +41,71 @@ Hezekiah prayed before the LORD: “LORD God of Israel, who is enthroned above t
 Isaiah son of Amoz sent this message to Hezekiah: “This is what the LORD God of Israel has said: ‘I have heard your prayer concerning King Sennacherib of Assyria.
 ###### 21
 ‘This is what the LORD says about him:
->  “ ‘“The virgin daughter Zion
->  ‘ Despises you, she makes fun of you;
->  ‘ Daughter Jerusalem
->  ‘ Shakes her head after you.
+> “‘“The virgin daughter Zion
+> ‘Despises you, she makes fun of you;
+> ‘Daughter Jerusalem
+> ‘Shakes her head after you.
 ###### 22
->  ‘ Whom have you taunted and hurled insults at?
->  ‘ At whom have you shouted,
->  ‘ And looked so arrogantly?
->  ‘ At the Holy One of Israel!
+> ‘Whom have you taunted and hurled insults at?
+> ‘At whom have you shouted,
+> ‘And looked so arrogantly?
+> ‘At the Holy One of Israel!
 ###### 23
->  ‘ Through your messengers you taunted the Sovereign Master,
->  ‘ With my many chariots
->  ‘ I climbed up the high mountains,
->  ‘ The slopes of Lebanon.
->  ‘ I cut down its tall cedars
->  ‘ And its best evergreens.
->  ‘ I invaded its most remote regions,
->  ‘ Its thickest woods.
+> ‘Through your messengers you taunted the Sovereign Master,
+> ‘With my many chariots
+> ‘I climbed up the high mountains,
+> ‘The slopes of Lebanon.
+> ‘I cut down its tall cedars
+> ‘And its best evergreens.
+> ‘I invaded its most remote regions,
+> ‘Its thickest woods.
 ###### 24
->  ‘ I dug wells and drank
->  ‘ Water in foreign lands.
->  ‘ With the soles of my feet I dried up
->  ‘ All the rivers of Egypt.’
+> ‘I dug wells and drank
+> ‘Water in foreign lands.
+> ‘With the soles of my feet I dried up
+> ‘All the rivers of Egypt.’
 ###### ¶ 25
->  “ Certainly you must have heard!
->  “ Long ago I worked it out.
->  “ In ancient times I planned it;
->  “ And now I am bringing it to pass.
->  “ The plan is this:
->  “ Fortified cities will crash
->  “ Into heaps of ruins.
+> “Certainly you must have heard!
+> “Long ago I worked it out.
+> “In ancient times I planned it;
+> “And now I am bringing it to pass.
+> “The plan is this:
+> “Fortified cities will crash
+> “Into heaps of ruins.
 ###### 26
->  “ Their residents are powerless,
->  “ They are terrified and ashamed.
->  “ They are as short-lived as plants in the field,
->  “ Or green vegetation.
->  “ They are as short-lived as grass on the rooftops
->  “ When it is scorched by the east wind.
+> “Their residents are powerless,
+> “They are terrified and ashamed.
+> “They are as short-lived as plants in the field,
+> “Or green vegetation.
+> “They are as short-lived as grass on the rooftops
+> “When it is scorched by the east wind.
 ###### 27
->  “ I know where you live
->  “ And everything you do.
+> “I know where you live
+> “And everything you do.
 ###### 28
->  “ Because you rage against me,
->  “ And the uproar you create has reached my ears,
->  “ I will put my hook in your nose,
->  “ And my bridle between your lips,
->  “ And I will lead you back the way
->  “ You came.”
+> “Because you rage against me,
+> “And the uproar you create has reached my ears,
+> “I will put my hook in your nose,
+> “And my bridle between your lips,
+> “And I will lead you back the way
+> “You came.”
 ###### ¶ 29
 “‘This will be your confirmation that I have spoken the truth: This year you will eat what grows wild, and next year what grows on its own from that. But in the third year you will plant seed and harvest crops; you will plant vines and consume their produce.
 ###### 30
 ‘Those who remain in Judah will take root in the ground and bear fruit.
 ###### 31
->  “  ‘ For a remnant will leave Jerusalem;
->  ‘ Survivors will come out of Mount Zion.
->  ‘ The zeal of the LORD of Heaven’s Armies will accomplish this.
+> “‘For a remnant will leave Jerusalem;
+> ‘Survivors will come out of Mount Zion.
+> ‘The zeal of the LORD of Heaven’s Armies will accomplish this.
 ###### ¶ 32
->  ‘ So this is what the LORD has said about the king of Assyria:
->  “ He will not enter this city,
->  “ Nor will he shoot an arrow here.
->  “ He will not attack it with his shield-carrying warriors,
->  “ Nor will he build siege works against it.
+> ‘So this is what the LORD has said about the king of Assyria:
+> “He will not enter this city,
+> “Nor will he shoot an arrow here.
+> “He will not attack it with his shield-carrying warriors,
+> “Nor will he build siege works against it.
 ###### 33
->  “ He will go back the way he came.
->  “ He will not enter this city,” says the LORD.
+> “He will go back the way he came.
+> “He will not enter this city,” says the LORD.
 ###### 34
 “‘I will shield this city and rescue it for the sake of my reputation and because of my promise to David my servant.’”
 ###### ¶ 35

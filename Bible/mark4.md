@@ -24,9 +24,9 @@ When he was alone, those around him with the twelve asked him about the parables
 ###### 11
 He said to them, “The secret of the kingdom of God has been given to you. But to those outside, everything is in parables,
 ###### 12
->  “ So that although they look they may look but not see,
->  “ And although they hear they may hear but not understand,
->  “ So they may not repent and be forgiven.”
+> “So that although they look they may look but not see,
+> “And although they hear they may hear but not understand,
+> “So they may not repent and be forgiven.”
 ###### ¶ 13
 He said to them, “Don’t you understand this parable? Then how will you understand any parable?
 ###### 14

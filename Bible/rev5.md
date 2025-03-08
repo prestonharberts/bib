@@ -18,24 +18,24 @@ Then he came and took the scroll from the right hand of the one who was seated o
 and when he had taken the scroll, the four living creatures and the twenty-four elders threw themselves to the ground before the Lamb. Each of them had a harp and golden bowls full of incense (which are the prayers of the saints).
 ###### 9
 They were singing a new song:
->  “ You are worthy to take the scroll
->  “ And to open its seals
->  “ Because you were killed,
->  “ And at the cost of your own blood you have purchased for God
->  “ Persons from every tribe, language, people, and nation.
+> “You are worthy to take the scroll
+> “And to open its seals
+> “Because you were killed,
+> “And at the cost of your own blood you have purchased for God
+> “Persons from every tribe, language, people, and nation.
 ###### 10
->  “ You have appointed them as a kingdom and priests to serve our God, and they will reign on the earth.”
+> “You have appointed them as a kingdom and priests to serve our God, and they will reign on the earth.”
 ###### ¶ 11
 Then I looked and heard the voice of many angels in a circle around the throne, as well as the living creatures and the elders. Their number was ten thousand times ten thousand—thousands times thousands—
 ###### 12
 all of whom were singing in a loud voice:
->  “ Worthy is the lamb who was killed
->  “ To receive power and wealth
->  “ And wisdom and might
->  “ And honor and glory and praise!”
+> “Worthy is the lamb who was killed
+> “To receive power and wealth
+> “And wisdom and might
+> “And honor and glory and praise!”
 ###### 13
 Then I heard every creature—in heaven, on earth, under the earth, in the sea, and all that is in them—singing:
->  “ To the one seated on the throne and to the Lamb
->  “ Be praise, honor, glory, and ruling power forever and ever!”
+> “To the one seated on the throne and to the Lamb
+> “Be praise, honor, glory, and ruling power forever and ever!”
 ###### 14
 And the four living creatures were saying “Amen,” and the elders threw themselves to the ground and worshiped.

@@ -50,12 +50,12 @@
 ###### 11
 > Having suffered, he will reflect on his work,
 > He will be satisfied when he understands what he has done.
->  “ My servant will acquit many,
->  “ For he carried their sins.
+> “My servant will acquit many,
+> “For he carried their sins.
 ###### 12
->  “ So I will assign him a portion with the multitudes,
->  “ He will divide the spoils of victory with the powerful,
->  “ Because he willingly submitted to death
->  “ And was numbered with the rebels,
->  “ When he lifted up the sin of many
->  “ And intervened on behalf of the rebels.”
+> “So I will assign him a portion with the multitudes,
+> “He will divide the spoils of victory with the powerful,
+> “Because he willingly submitted to death
+> “And was numbered with the rebels,
+> “When he lifted up the sin of many
+> “And intervened on behalf of the rebels.”

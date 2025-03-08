@@ -4,70 +4,70 @@
 In the twelfth year, in the twelfth month, on the first of the month, the Lord’s message came to me:
 ###### 2
 “Son of man, sing a lament for Pharaoh king of Egypt, and say to him:
->  “ ‘You were like a lion among the nations,
->  ‘ But you are a monster in the seas;
->  ‘ You thrash about in your streams,
->  ‘ Stir up the water with your feet,
->  ‘ And muddy your streams.
+> “‘You were like a lion among the nations,
+> ‘But you are a monster in the seas;
+> ‘You thrash about in your streams,
+> ‘Stir up the water with your feet,
+> ‘And muddy your streams.
 ###### ¶ 3
 “‘This is what the Sovereign LORD says:
->  “ ‘I will throw my net over you in the assembly of many peoples;
->  ‘ And they will haul you up in my dragnet.
+> “‘I will throw my net over you in the assembly of many peoples;
+> ‘And they will haul you up in my dragnet.
 ###### 4
->  ‘ I will leave you on the ground,
->  ‘ I will fling you on the open field,
->  ‘ I will allow all the birds of the sky to settle on you,
->  ‘ And I will permit all the wild animals to gorge themselves on you.
+> ‘I will leave you on the ground,
+> ‘I will fling you on the open field,
+> ‘I will allow all the birds of the sky to settle on you,
+> ‘And I will permit all the wild animals to gorge themselves on you.
 ###### 5
->  ‘ I will put your flesh on the mountains,
->  ‘ And fill the valleys with your maggot-infested carcass.
+> ‘I will put your flesh on the mountains,
+> ‘And fill the valleys with your maggot-infested carcass.
 ###### 6
->  ‘ I will drench the land with the flow
->  ‘ Of your blood up to the mountains,
->  ‘ And the ravines will be full of your blood.
+> ‘I will drench the land with the flow
+> ‘Of your blood up to the mountains,
+> ‘And the ravines will be full of your blood.
 ###### 7
->  ‘ When I extinguish you, I will cover the sky;
->  ‘ I will darken its stars.
->  ‘ I will cover the sun with a cloud,
->  ‘ And the moon will not shine.
+> ‘When I extinguish you, I will cover the sky;
+> ‘I will darken its stars.
+> ‘I will cover the sun with a cloud,
+> ‘And the moon will not shine.
 ###### 8
->  ‘ I will darken all the lights in the sky over you,
->  ‘ And I will darken your land,
->  ‘ Declares the Sovereign LORD.
+> ‘I will darken all the lights in the sky over you,
+> ‘And I will darken your land,
+> ‘Declares the Sovereign LORD.
 ###### 9
->  ‘ I will disturb many peoples,
->  ‘ When I bring about your destruction among the nations,
->  ‘ Among countries you do not know.
+> ‘I will disturb many peoples,
+> ‘When I bring about your destruction among the nations,
+> ‘Among countries you do not know.
 ###### 10
->  ‘ I will shock many peoples with you,
->  ‘ And their kings will shiver with horror because of you.
->  ‘ When I brandish my sword before them,
->  ‘ Every moment each one will tremble for his life, on the day of your fall.
+> ‘I will shock many peoples with you,
+> ‘And their kings will shiver with horror because of you.
+> ‘When I brandish my sword before them,
+> ‘Every moment each one will tremble for his life, on the day of your fall.
 ###### ¶ 11
 “‘For this is what the Sovereign LORD says:
->  “ ‘The sword of the king of Babylon will attack you.
+> “‘The sword of the king of Babylon will attack you.
 ###### 12
->  ‘ By the swords of the mighty warriors I will cause your hordes to fall—
->  ‘ All of them are the most terrifying among the nations.
->  ‘ They will devastate the pride of Egypt,
->  ‘ And all its hordes will be destroyed.
+> ‘By the swords of the mighty warriors I will cause your hordes to fall—
+> ‘All of them are the most terrifying among the nations.
+> ‘They will devastate the pride of Egypt,
+> ‘And all its hordes will be destroyed.
 ###### 13
->  ‘ I will destroy all its cattle beside the plentiful waters;
->  ‘ And no human foot will disturb the waters again,
->  ‘ Nor will the hooves of cattle disturb them.
+> ‘I will destroy all its cattle beside the plentiful waters;
+> ‘And no human foot will disturb the waters again,
+> ‘Nor will the hooves of cattle disturb them.
 ###### 14
->  ‘ Then I will make their waters calm,
->  ‘ And will make their streams flow like olive oil, declares the Sovereign LORD.
+> ‘Then I will make their waters calm,
+> ‘And will make their streams flow like olive oil, declares the Sovereign LORD.
 ###### 15
->  ‘ When I turn the land of Egypt into desolation
->  ‘ And the land is destitute of everything that fills it,
->  ‘ When I strike all those who live in it,
->  ‘ Then they will know that I am the LORD.’
+> ‘When I turn the land of Egypt into desolation
+> ‘And the land is destitute of everything that fills it,
+> ‘When I strike all those who live in it,
+> ‘Then they will know that I am the LORD.’
 ###### 16
->  “ This is a lament; they will chant it.
->  “ The daughters of the nations will chant it.
->  “ They will chant it over Egypt and over all her hordes,
->  “ Declares the Sovereign LORD.”
+> “This is a lament; they will chant it.
+> “The daughters of the nations will chant it.
+> “They will chant it over Egypt and over all her hordes,
+> “Declares the Sovereign LORD.”
 ###### ¶ 17
 In the twelfth year, on the fifteenth day of the month, the Lord’s message came to me:
 ###### 18

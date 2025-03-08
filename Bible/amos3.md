@@ -3,8 +3,8 @@
 ###### ¶ 1
 Listen, you Israelites, to this message that the LORD is proclaiming against you! This message is for the entire clan I brought up from the land of Egypt:
 ###### 2
->  “ I have chosen you alone from all the clans of the earth.
->  “ Therefore I will punish you for all your sins.”
+> “I have chosen you alone from all the clans of the earth.
+> “Therefore I will punish you for all your sins.”
 ###### 3
 > Do two walk together without having met?
 ###### 4
@@ -26,31 +26,31 @@ Listen, you Israelites, to this message that the LORD is proclaiming against you
 > Make this announcement in the fortresses of Ashdod
 > And in the fortresses in the land of Egypt.
 > Say this:
->  “ Gather on the hills around Samaria!
->  “ Observe the many acts of violence taking place within the city,
->  “ The oppressive deeds occurring in it.”
+> “Gather on the hills around Samaria!
+> “Observe the many acts of violence taking place within the city,
+> “The oppressive deeds occurring in it.”
 ###### 10
->  “ They do not know how to do what is right,” the LORD says.
->  “ They store up the spoils of destructive violence in their fortresses.
+> “They do not know how to do what is right,” the LORD says.
+> “They store up the spoils of destructive violence in their fortresses.
 ###### ¶ 11
->  “ Therefore,” says the Sovereign LORD, “an enemy will encircle the land.
->  “ He will take away your power;
+> “Therefore,” says the Sovereign LORD, “an enemy will encircle the land.
+> “He will take away your power;
 > Your fortresses will be looted.”
 ###### 12
 This is what the LORD says:
->  “ Just as a shepherd salvages from the lion’s mouth a couple of leg bones or a piece of an ear,
->  “ So the Israelites who live in Samaria will be salvaged.
->  “ They will be left with just a corner of a bed,
->  “ And a part of a couch.
+> “Just as a shepherd salvages from the lion’s mouth a couple of leg bones or a piece of an ear,
+> “So the Israelites who live in Samaria will be salvaged.
+> “They will be left with just a corner of a bed,
+> “And a part of a couch.
 ###### 13
->  “ Listen and warn the family of Jacob!”
+> “Listen and warn the family of Jacob!”
 > The Sovereign LORD, the God who commands armies, is speaking!
 ###### 14
->  “ Certainly when I punish Israel for their covenant transgressions,
->  “ I will destroy Bethel’s altars.
->  “ The horns of the altar will be cut off and fall to the ground.
+> “Certainly when I punish Israel for their covenant transgressions,
+> “I will destroy Bethel’s altars.
+> “The horns of the altar will be cut off and fall to the ground.
 ###### 15
->  “ I will destroy both the winter and summer houses.
->  “ The houses filled with ivory will be ruined,
->  “ The great houses will be swept away.”
+> “I will destroy both the winter and summer houses.
+> “The houses filled with ivory will be ruined,
+> “The great houses will be swept away.”
 > The LORD is speaking!

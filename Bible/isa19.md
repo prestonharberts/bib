@@ -7,18 +7,18 @@
 > The idols of Egypt tremble before him;
 > The Egyptians lose their courage.
 ###### 2
->  “ I will provoke civil strife in Egypt:
->  “ Brothers will fight with one another,
->  “ As will neighbors,
->  “ Cities, and kingdoms.
+> “I will provoke civil strife in Egypt:
+> “Brothers will fight with one another,
+> “As will neighbors,
+> “Cities, and kingdoms.
 ###### 3
->  “ The Egyptians will panic,
->  “ And I will confuse their strategy.
->  “ They will seek guidance from the idols and from the spirits of the dead,
->  “ From the pits used to conjure up underworld spirits, and from the magicians.
+> “The Egyptians will panic,
+> “And I will confuse their strategy.
+> “They will seek guidance from the idols and from the spirits of the dead,
+> “From the pits used to conjure up underworld spirits, and from the magicians.
 ###### 4
->  “ I will hand Egypt over to a harsh master;
->  “ A powerful king will rule over them,”
+> “I will hand Egypt over to a harsh master;
+> “A powerful king will rule over them,”
 > Says the Sovereign LORD of Heaven’s Armies.
 ###### ¶ 5
 > The water of the sea will be dried up,
@@ -45,8 +45,8 @@
 > The officials of Zoan are nothing but fools;
 > Pharaoh’s wise advisers give stupid advice.
 > How dare you say to Pharaoh,
->  “ I am one of the sages,
->  “ One well-versed in the writings of the ancient kings?”
+> “I am one of the sages,
+> “One well-versed in the writings of the ancient kings?”
 ###### 12
 > But where, oh where, are your wise men?
 > Let them tell you, let them find out

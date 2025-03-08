@@ -7,7 +7,7 @@
 > And have rebelled against my law.
 ###### 2
 > Israel cries out to me,
->  “ My God, we acknowledge you!”
+> “My God, we acknowledge you!”
 ###### 3
 > But Israel has rejected what is morally good;
 > So an enemy will pursue him.

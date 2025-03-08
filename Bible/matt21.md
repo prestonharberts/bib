@@ -9,10 +9,10 @@ telling them, “Go to the village ahead of you. Right away you will find a donk
 ###### 4
 This took place to fulfill what was spoken by the prophet:
 ###### 5
->  “ Tell the people of Zion,
->  ‘ Look, your king is coming to you,
->  ‘ Unassuming and seated on a donkey,
->  ‘ And on a colt, the foal of a donkey.’”
+> “Tell the people of Zion,
+> ‘Look, your king is coming to you,
+> ‘Unassuming and seated on a donkey,
+> ‘And on a colt, the foal of a donkey.’”
 ###### 6
 So the disciples went and did as Jesus had instructed them.
 ###### 7
@@ -92,8 +92,8 @@ So they answered Jesus, “We don’t know.” Then he said to them, “Neither 
 They said to him, “He will utterly destroy those evil men! Then he will lease the vineyard to other tenants who will give him his portion at the harvest.”
 ###### ¶ 42
 Jesus said to them, “Have you never read in the scriptures:
->  ‘ The stone the builders rejected has become the cornerstone.
->  ‘ This is from the Lord, and it is marvelous in our eyes’?
+> ‘The stone the builders rejected has become the cornerstone.
+> ‘This is from the Lord, and it is marvelous in our eyes’?
 ###### 43
 “For this reason I tell you that the kingdom of God will be taken from you and given to a people who will produce its fruit.
 ###### 44

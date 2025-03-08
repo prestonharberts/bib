@@ -51,21 +51,21 @@
 > May all your enemies be destroyed!
 ## The Lord Will Purify His People
 ###### ¶ 10
->  “ In that day,” says the LORD,
->  “ I will destroy your horses from your midst
->  “ And smash your chariots.
+> “In that day,” says the LORD,
+> “I will destroy your horses from your midst
+> “And smash your chariots.
 ###### 11
->  “ I will destroy the cities of your land
->  “ And tear down all your fortresses.
+> “I will destroy the cities of your land
+> “And tear down all your fortresses.
 ###### 12
->  “ I will remove the sorcery that you practice,
->  “ And you will no longer have omen readers living among you.
+> “I will remove the sorcery that you practice,
+> “And you will no longer have omen readers living among you.
 ###### 13
->  “ I will remove your idols and sacred pillars from your midst;
->  “ You will no longer worship what your own hands made.
+> “I will remove your idols and sacred pillars from your midst;
+> “You will no longer worship what your own hands made.
 ###### 14
->  “ I will uproot your images of Asherah from your midst
->  “ And destroy your idols.
+> “I will uproot your images of Asherah from your midst
+> “And destroy your idols.
 ###### 15
->  “ With furious anger I will carry out vengeance
->  “ On the nations that do not obey me.”
+> “With furious anger I will carry out vengeance
+> “On the nations that do not obey me.”

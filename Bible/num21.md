@@ -30,21 +30,21 @@ From there they moved on and camped in the valley of Zered.
 From there they moved on and camped on the other side of the Arnon, in the wilderness that extends from the regions of the Amorites, for Arnon is the border of Moab, between Moab and the Amorites.
 ###### 14
 This is why it is said in the Book of the Wars of the LORD,
->  “ Waheb in Suphah and the wadis,
->  “ The Arnon
+> “Waheb in Suphah and the wadis,
+> “The Arnon
 ###### 15
->  “ And the slope of the valleys
->  “ That extends to the dwelling of Ar,
->  “ And falls off at the border of Moab.”
+> “And the slope of the valleys
+> “That extends to the dwelling of Ar,
+> “And falls off at the border of Moab.”
 ###### ¶ 16
 And from there they traveled to Beer; that is the well where the LORD spoke to Moses, “Gather the people and I will give them water.”
 ###### ¶ 17
 Then Israel sang this song:
->  “ Spring up, O well, sing to it!
+> “Spring up, O well, sing to it!
 ###### 18
->  “ The well which the princes dug,
->  “ Which the leaders of the people opened
->  “ With their scepters and their staffs.”
+> “The well which the princes dug,
+> “Which the leaders of the people opened
+> “With their scepters and their staffs.”
 And from the wilderness they traveled to Mattanah;
 ###### 19
 and from Mattanah to Nahaliel; and from Nahaliel to Bamoth;
@@ -65,23 +65,23 @@ So Israel took all these cities; and Israel settled in all the cities of the Amo
 For Heshbon was the city of King Sihon of the Amorites. Now he had fought against the former king of Moab and had taken all his land from his control, as far as the Arnon.
 ###### 27
 That is why those who speak in proverbs say,
->  “ Come to Heshbon, let it be built.
->  “ Let the city of Sihon be established!
+> “Come to Heshbon, let it be built.
+> “Let the city of Sihon be established!
 ###### 28
->  “ For fire went out from Heshbon,
->  “ A flame from the city of Sihon.
->  “ It has consumed Ar of Moab
->  “ And the lords of the high places of Arnon.
+> “For fire went out from Heshbon,
+> “A flame from the city of Sihon.
+> “It has consumed Ar of Moab
+> “And the lords of the high places of Arnon.
 ###### 29
->  “ Woe to you, Moab.
->  “ You are ruined, O people of Chemosh!
->  “ He has made his sons fugitives,
->  “ And his daughters the prisoners of King Sihon of the Amorites.
+> “Woe to you, Moab.
+> “You are ruined, O people of Chemosh!
+> “He has made his sons fugitives,
+> “And his daughters the prisoners of King Sihon of the Amorites.
 ###### 30
->  “ We have overpowered them;
->  “ Heshbon has perished as far as Dibon.
->  “ We have shattered them as far as Nophah,
->  “ Which reaches to Medeba.”
+> “We have overpowered them;
+> “Heshbon has perished as far as Dibon.
+> “We have shattered them as far as Nophah,
+> “Which reaches to Medeba.”
 ###### ¶ 31
 So the Israelites lived in the land of the Amorites.
 ###### 32

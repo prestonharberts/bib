@@ -4,8 +4,8 @@
 The LORD’s message came to me:
 ###### 2
 “What do you mean by quoting this proverb concerning the land of Israel:
->  “ ‘The fathers eat sour grapes,
->  ‘ And the children’s teeth become numb?’
+> “‘The fathers eat sour grapes,
+> ‘And the children’s teeth become numb?’
 ###### 3
 “As surely as I live, declares the Sovereign LORD, you will not quote this proverb in Israel anymore!
 ###### 4

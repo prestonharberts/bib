@@ -58,23 +58,23 @@
 > And in the place of fairness, there was wickedness.
 ###### 17
 > I thought to myself, “God will judge both the righteous and the wicked;
->  “ For there is an appropriate time for every activity,
->  “ And there is a time of judgment for every deed.”
+> “For there is an appropriate time for every activity,
+> “And there is a time of judgment for every deed.”
 ###### 18
 > I also thought to myself, “It is for the sake of people,
->  “ So God can clearly show them that they are like animals.
+> “So God can clearly show them that they are like animals.
 ###### 19
->  “ For the fate of humans and the fate of animals are the same:
->  “ As one dies, so dies the other; both have the same breath.
->  “ There is no advantage for humans over animals,
->  “ For both are fleeting.
+> “For the fate of humans and the fate of animals are the same:
+> “As one dies, so dies the other; both have the same breath.
+> “There is no advantage for humans over animals,
+> “For both are fleeting.
 ###### 20
->  “ Both go to the same place,
->  “ Both come from the dust,
->  “ And to dust both return.
+> “Both go to the same place,
+> “Both come from the dust,
+> “And to dust both return.
 ###### 21
->  “ Who really knows if the human spirit ascends upward,
->  “ And the animal’s spirit descends into the earth?”
+> “Who really knows if the human spirit ascends upward,
+> “And the animal’s spirit descends into the earth?”
 ###### 22
 > So I perceived there is nothing better than for people to enjoy their work,
 > Because that is their reward;

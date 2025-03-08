@@ -3,21 +3,21 @@
 ###### ¶ 1
 Then Job answered the LORD:
 ###### 2
->  “ I know that you can do all things;
->  “ No purpose of yours can be thwarted;
+> “I know that you can do all things;
+> “No purpose of yours can be thwarted;
 ###### 3
->  “ You asked, ‘Who is this who darkens counsel without knowledge?’
->  “ But I have declared without understanding
->  “ Things too wonderful for me to know.
+> “You asked, ‘Who is this who darkens counsel without knowledge?’
+> “But I have declared without understanding
+> “Things too wonderful for me to know.
 ###### 4
->  “ You said, ‘Pay attention, and I will speak;
->  ‘ I will question you, and you will answer me.’
+> “You said, ‘Pay attention, and I will speak;
+> ‘I will question you, and you will answer me.’
 ###### 5
->  “ I had heard of you by the hearing of the ear,
->  “ But now my eye has seen you.
+> “I had heard of you by the hearing of the ear,
+> “But now my eye has seen you.
 ###### 6
->  “ Therefore I despise myself,
->  “ And I repent in dust and ashes!”
+> “Therefore I despise myself,
+> “And I repent in dust and ashes!”
 ## VII. The Epilogue 42:
 ## 7-17
 ## Job’s Restoration

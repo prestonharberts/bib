@@ -40,24 +40,24 @@
 > Sharon is like the arid rift valley;
 > Bashan and Carmel are parched.
 ###### 10
->  “ Now I will rise up,” says the LORD.
->  “ Now I will exalt myself;
->  “ Now I will magnify myself.
+> “Now I will rise up,” says the LORD.
+> “Now I will exalt myself;
+> “Now I will magnify myself.
 ###### 11
->  “ You conceive straw,
->  “ You give birth to chaff;
->  “ Your breath is a fire that destroys you.
+> “You conceive straw,
+> “You give birth to chaff;
+> “Your breath is a fire that destroys you.
 ###### 12
->  “ The nations will be burned to ashes;
->  “ Like thorn bushes that have been cut down, they will be set on fire.
+> “The nations will be burned to ashes;
+> “Like thorn bushes that have been cut down, they will be set on fire.
 ###### ¶ 13
->  “ You who are far away, listen to what I have done!
->  “ You who are close by, recognize my strength.”
+> “You who are far away, listen to what I have done!
+> “You who are close by, recognize my strength.”
 ###### 14
 > Sinners are afraid in Zion;
 > Panic grips the godless.
 > They say, “Who among us can coexist with destructive fire?
->  “ Who among us can coexist with unquenchable fire?”
+> “Who among us can coexist with unquenchable fire?”
 ###### 15
 > The one who lives uprightly
 > And speaks honestly;
@@ -76,8 +76,8 @@
 ###### 18
 > Your mind will recall the terror you experienced,
 > And you will ask yourselves, “Where is the scribe?
->  “ Where is the one who weighs the money?
->  “ Where is the one who counts the towers?”
+> “Where is the one who weighs the money?
+> “Where is the one who counts the towers?”
 ###### 19
 > You will no longer see a defiant people
 > Whose language you do not comprehend,

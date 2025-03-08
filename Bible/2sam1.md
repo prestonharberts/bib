@@ -38,38 +38,38 @@ Then David chanted this lament over Saul and his son Jonathan.
 ###### 18
 (He gave instructions that the people of Judah should be taught “The Bow.” Indeed, it is written down in the Scroll of the Upright One.)
 ###### 19
->  “ The beauty of Israel lies slain on your high places!
->  “ How the mighty have fallen!
+> “The beauty of Israel lies slain on your high places!
+> “How the mighty have fallen!
 ###### 20
->  “ Don’t report it in Gath,
->  “ Don’t spread the news in the streets of Ashkelon,
->  “ Or the daughters of the Philistines will rejoice,
->  “ The daughters of the uncircumcised will celebrate!
+> “Don’t report it in Gath,
+> “Don’t spread the news in the streets of Ashkelon,
+> “Or the daughters of the Philistines will rejoice,
+> “The daughters of the uncircumcised will celebrate!
 ###### 21
->  “ O mountains of Gilboa,
->  “ May there be no dew or rain on you, nor fields of grain offerings!
->  “ For it was there that the shield of warriors was defiled;
->  “ The shield of Saul lies neglected without oil.
+> “O mountains of Gilboa,
+> “May there be no dew or rain on you, nor fields of grain offerings!
+> “For it was there that the shield of warriors was defiled;
+> “The shield of Saul lies neglected without oil.
 ###### 22
->  “ From the blood of the slain, from the fat of warriors,
->  “ The bow of Jonathan was not turned away.
->  “ The sword of Saul never returned empty.
+> “From the blood of the slain, from the fat of warriors,
+> “The bow of Jonathan was not turned away.
+> “The sword of Saul never returned empty.
 ###### 23
->  “ Saul and Jonathan were greatly loved during their lives,
->  “ And not even in their deaths were they separated.
->  “ They were swifter than eagles, stronger than lions.
+> “Saul and Jonathan were greatly loved during their lives,
+> “And not even in their deaths were they separated.
+> “They were swifter than eagles, stronger than lions.
 ###### 24
->  “ O daughters of Israel, weep over Saul,
->  “ Who clothed you in scarlet as well as jewelry,
->  “ Who put gold jewelry on your clothes.
+> “O daughters of Israel, weep over Saul,
+> “Who clothed you in scarlet as well as jewelry,
+> “Who put gold jewelry on your clothes.
 ###### 25
->  “ How the warriors have fallen
->  “ In the midst of battle!
->  “ Jonathan lies slain on your high places!
+> “How the warriors have fallen
+> “In the midst of battle!
+> “Jonathan lies slain on your high places!
 ###### 26
->  “ I grieve over you, my brother Jonathan.
->  “ You were very dear to me.
->  “ Your love was more special to me than the love of women.
+> “I grieve over you, my brother Jonathan.
+> “You were very dear to me.
+> “Your love was more special to me than the love of women.
 ###### 27
->  “ How the warriors have fallen!
->  “ The weapons of war are destroyed!
+> “How the warriors have fallen!
+> “The weapons of war are destroyed!

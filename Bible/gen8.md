@@ -42,8 +42,8 @@ Noah built an altar to the LORD. He then took some of every kind of clean animal
 ###### 21
 And the LORD smelled the soothing aroma and said to himself, “I will never again curse the ground because of humankind, even though the inclination of their minds is evil from childhood on. I will never again destroy everything that lives, as I have just done.
 ###### 22
->  “ While the earth continues to exist,
->  “ Planting time and harvest,
->  “ Cold and heat,
->  “ Summer and winter,
->  “ And day and night will not cease.”
+> “While the earth continues to exist,
+> “Planting time and harvest,
+> “Cold and heat,
+> “Summer and winter,
+> “And day and night will not cease.”

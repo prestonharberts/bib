@@ -21,8 +21,8 @@
 > Or a fig withers and falls from a tree.
 ###### 5
 > He says, “Indeed, my sword has slaughtered heavenly powers.
->  “ Look, it now descends on Edom,
->  “ On the people I will annihilate in judgment.”
+> “Look, it now descends on Edom,
+> “On the people I will annihilate in judgment.”
 ###### 6
 > The LORD’s sword is dripping with blood,
 > It is covered with fat;

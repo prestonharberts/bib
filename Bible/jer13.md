@@ -30,69 +30,69 @@ Then the Lord’s message came to me,
 ‘And I will smash them like wine bottles against one another, children and parents alike. I will not show any pity, mercy, or compassion. Nothing will keep me from destroying them,’ says the LORD.”
 ###### ¶ 15
 Then I said to the people of Judah:
->  “ Listen and pay attention! Do not be arrogant!
->  “ For the LORD has spoken.
+> “Listen and pay attention! Do not be arrogant!
+> “For the LORD has spoken.
 ###### 16
->  “ Show the LORD your God the respect that is due him.
->  “ Do it before he brings the darkness of disaster.
->  “ Do it before you stumble into distress
->  “ Like a traveler on the mountains at twilight.
->  “ Do it before he turns the light of deliverance you hope for
->  “ Into the darkness and gloom of exile.
+> “Show the LORD your God the respect that is due him.
+> “Do it before he brings the darkness of disaster.
+> “Do it before you stumble into distress
+> “Like a traveler on the mountains at twilight.
+> “Do it before he turns the light of deliverance you hope for
+> “Into the darkness and gloom of exile.
 ###### 17
->  “ But if you will not pay attention to this warning,
->  “ I will weep alone because of your arrogant pride.
->  “ I will weep bitterly, and my eyes will overflow with tears
->  “ Because you, the LORD’s flock, will be carried into exile.”
+> “But if you will not pay attention to this warning,
+> “I will weep alone because of your arrogant pride.
+> “I will weep bitterly, and my eyes will overflow with tears
+> “Because you, the LORD’s flock, will be carried into exile.”
 ###### 18
 The LORD told me:
->  “ Tell the king and the queen mother,
->  ‘ Surrender your thrones,
->  ‘ For your glorious crowns
->  ‘ Will be removed from your heads.
+> “Tell the king and the queen mother,
+> ‘Surrender your thrones,
+> ‘For your glorious crowns
+> ‘Will be removed from your heads.
 ###### 19
->  ‘ The gates of the towns in southern Judah will be shut tight.
->  ‘ No one will be able to go in or out of them.
->  ‘ All Judah will be carried off into exile.
->  ‘ They will be completely carried off into exile.’”
+> ‘The gates of the towns in southern Judah will be shut tight.
+> ‘No one will be able to go in or out of them.
+> ‘All Judah will be carried off into exile.
+> ‘They will be completely carried off into exile.’”
 ###### ¶ 20
 Then I said,
->  “ Look up, Jerusalem, and see
->  “ The enemy that is coming from the north.
->  “ Where now is the flock of people that were entrusted to your care?
->  “ Where now are the ‘sheep’ that you take such pride in?
+> “Look up, Jerusalem, and see
+> “The enemy that is coming from the north.
+> “Where now is the flock of people that were entrusted to your care?
+> “Where now are the ‘sheep’ that you take such pride in?
 ###### 21
->  “ What will you say when the LORD appoints as rulers over you those allies
->  “ That you, yourself, had actually prepared as such?
->  “ Then anguish and agony will grip you
->  “ Like that of a woman giving birth to a baby.
+> “What will you say when the LORD appoints as rulers over you those allies
+> “That you, yourself, had actually prepared as such?
+> “Then anguish and agony will grip you
+> “Like that of a woman giving birth to a baby.
 ###### 22
->  “ You will probably ask yourself,
->  ‘ Why have these things happened to me?
->  ‘ Why have I been treated like a disgraced adulteress
->  ‘ Whose skirt has been torn off and her limbs exposed?’
->  “ It is because you have sinned so much.
+> “You will probably ask yourself,
+> ‘Why have these things happened to me?
+> ‘Why have I been treated like a disgraced adulteress
+> ‘Whose skirt has been torn off and her limbs exposed?’
+> “It is because you have sinned so much.
 ###### 23
->  “ But there is little hope for you ever doing good,
->  “ You who are so accustomed to doing evil.
->  “ Can an Ethiopian change the color of his skin?
->  “ Can a leopard remove its spots?
+> “But there is little hope for you ever doing good,
+> “You who are so accustomed to doing evil.
+> “Can an Ethiopian change the color of his skin?
+> “Can a leopard remove its spots?
 ###### 24
 “The LORD says,
->  ‘ That is why I will scatter your people like chaff
->  ‘ That is blown away by a desert wind.
+> ‘That is why I will scatter your people like chaff
+> ‘That is blown away by a desert wind.
 ###### 25
->  ‘ This is your fate,
->  ‘ The destiny to which I have appointed you,
->  ‘ Because you have forgotten me
->  ‘ And have trusted in false gods.
+> ‘This is your fate,
+> ‘The destiny to which I have appointed you,
+> ‘Because you have forgotten me
+> ‘And have trusted in false gods.
 ###### 26
->  ‘ So I will pull your skirt up over your face
->  ‘ And expose you to shame like a disgraced adulteress!
+> ‘So I will pull your skirt up over your face
+> ‘And expose you to shame like a disgraced adulteress!
 ###### 27
->  ‘ People of Jerusalem, I have seen your adulterous worship,
->  ‘ Your shameless prostitution to, and your lustful pursuit of, other gods.
->  ‘ I have seen your disgusting acts of worship
->  ‘ On the hills throughout the countryside.
->  ‘ You are doomed to destruction!
->  ‘ How long will you continue to be unclean?’”
+> ‘People of Jerusalem, I have seen your adulterous worship,
+> ‘Your shameless prostitution to, and your lustful pursuit of, other gods.
+> ‘I have seen your disgusting acts of worship
+> ‘On the hills throughout the countryside.
+> ‘You are doomed to destruction!
+> ‘How long will you continue to be unclean?’”

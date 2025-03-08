@@ -39,12 +39,12 @@
 > He did not overlook their cry for help
 ###### 13
 > When they prayed:
->  “ Have mercy on me, LORD!
->  “ See how I am oppressed by those who hate me,
->  “ O one who can snatch me away from the gates of death!
+> “Have mercy on me, LORD!
+> “See how I am oppressed by those who hate me,
+> “O one who can snatch me away from the gates of death!
 ###### 14
->  “ Then I will tell about all your praiseworthy acts;
->  “ In the gates of Daughter Zion I will rejoice because of your deliverance.”
+> “Then I will tell about all your praiseworthy acts;
+> “In the gates of Daughter Zion I will rejoice because of your deliverance.”
 ###### 15
 > The nations fell into the pit they had made;
 > Their feet were caught in the net they had hidden.
@@ -61,7 +61,7 @@
 ###### 19
 > Rise up, LORD!
 > Don’t let men be defiant.
->  “ May the nations be judged in your presence.
+> “May the nations be judged in your presence.
 ###### 20
->  “ Terrify them, LORD.
->  “ Let the nations know they are mere mortals. (Selah)
+> “Terrify them, LORD.
+> “Let the nations know they are mere mortals. (Selah)

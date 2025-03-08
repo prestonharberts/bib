@@ -41,8 +41,8 @@ Again the LORD said to me, “Take up once more the equipment of a foolish sheph
 ###### 16
 “Indeed, I am about to raise up a shepherd in the land who will not take heed of the sheep headed to slaughter, will not seek the scattered, and will not heal the injured. Moreover, he will not nourish the one that is healthy, but instead will eat the meat of the fat sheep and tear off their hooves.
 ###### 17
->  “ Woe to the worthless shepherd
->  “ Who abandons the flock!
->  “ May a sword fall on his arm and his right eye!
->  “ May his arm wither completely away,
->  “ And his right eye become completely blind!”
+> “Woe to the worthless shepherd
+> “Who abandons the flock!
+> “May a sword fall on his arm and his right eye!
+> “May his arm wither completely away,
+> “And his right eye become completely blind!”

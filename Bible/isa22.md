@@ -16,10 +16,10 @@
 > They were captured without a single arrow being shot.
 ###### 4
 > So I say:
->  “ Don’t look at me!
->  “ I am weeping bitterly.
->  “ Don’t try to console me
->  “ Concerning the destruction of my defenseless people.”
+> “Don’t look at me!
+> “I am weeping bitterly.
+> “Don’t try to console me
+> “Concerning the destruction of my defenseless people.”
 ###### 5
 > For the Sovereign LORD of Heaven’s Armies,
 > Has planned a day of panic, defeat, and confusion.
@@ -54,30 +54,30 @@
 ###### 13
 > But look, there is outright celebration!
 > You say, “Kill the ox and slaughter the sheep,
->  “ Eat meat and drink wine.
->  “ Eat and drink, for tomorrow we die!”
+> “Eat meat and drink wine.
+> “Eat and drink, for tomorrow we die!”
 ###### 14
 The LORD of Heaven’s Armies told me this: “Certainly this sin will not be forgiven as long as you live,” says the Sovereign LORD of Heaven’s Armies.
 ###### ¶ 15
 > This is what the Sovereign LORD of Heaven’s Armies says:
->  “ Go visit this administrator, Shebna, who supervises the palace, and tell him:
+> “Go visit this administrator, Shebna, who supervises the palace, and tell him:
 ###### 16
->  ‘ What right do you have to be here? What relatives do you have buried here?
->  ‘ Why do you chisel out a tomb for yourself here?
->  ‘ He chisels out his burial site in an elevated place,
->  ‘ He carves out his tomb on a cliff.
+> ‘What right do you have to be here? What relatives do you have buried here?
+> ‘Why do you chisel out a tomb for yourself here?
+> ‘He chisels out his burial site in an elevated place,
+> ‘He carves out his tomb on a cliff.
 ###### 17
->  ‘ Look, the LORD will throw you far away, you mere man!
->  ‘ He will wrap you up tightly.
+> ‘Look, the LORD will throw you far away, you mere man!
+> ‘He will wrap you up tightly.
 ###### 18
->  ‘ He will wind you up tightly into a ball
->  ‘ And throw you into a wide, open land.
->  ‘ There you will die,
->  ‘ And there with you will be your impressive chariots,
->  ‘ Which bring disgrace to the house of your master.
+> ‘He will wind you up tightly into a ball
+> ‘And throw you into a wide, open land.
+> ‘There you will die,
+> ‘And there with you will be your impressive chariots,
+> ‘Which bring disgrace to the house of your master.
 ###### 19
->  ‘ I will remove you from your office;
->  ‘ You will be thrown down from your position.
+> ‘I will remove you from your office;
+> ‘You will be thrown down from your position.
 ###### 20
 “‘At that time I will summon my servant Eliakim, son of Hilkiah.
 ###### 21

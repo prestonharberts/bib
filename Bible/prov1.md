@@ -33,17 +33,17 @@
 > Do not consent!
 ###### 11
 > If they say, “Come with us!
->  “ We will lie in wait to shed blood;
->  “ We will ambush an innocent person capriciously.
+> “We will lie in wait to shed blood;
+> “We will ambush an innocent person capriciously.
 ###### 12
->  “ We will swallow them alive like Sheol,
->  “ Those full of vigor like those going down to the Pit.
+> “We will swallow them alive like Sheol,
+> “Those full of vigor like those going down to the Pit.
 ###### 13
->  “ We will seize all kinds of precious wealth;
->  “ We will fill our houses with plunder.
+> “We will seize all kinds of precious wealth;
+> “We will fill our houses with plunder.
 ###### 14
->  “ Join with us!
->  “ We will all share equally in what we steal.”
+> “Join with us!
+> “We will all share equally in what we steal.”
 ###### 15
 > My child, do not go down their way,
 > Withhold yourself from their path;
@@ -67,42 +67,42 @@
 > At the head of the noisy streets she calls,
 > In the entrances of the gates in the city she utters her words:
 ###### 22
->  “ How long will you simpletons love naiveté?
->  “ How long have mockers delighted in mockery?
->  “ And how long will fools hate knowledge?
+> “How long will you simpletons love naiveté?
+> “How long have mockers delighted in mockery?
+> “And how long will fools hate knowledge?
 ###### 23
->  “ You should respond to my rebuke.
->  “ Then I would pour out my thoughts to you;
->  “ I would make my words known to you.
+> “You should respond to my rebuke.
+> “Then I would pour out my thoughts to you;
+> “I would make my words known to you.
 ###### 24
->  “ However, because I called but you refused to listen,
->  “ Because I stretched out my hand but no one was paying attention,
+> “However, because I called but you refused to listen,
+> “Because I stretched out my hand but no one was paying attention,
 ###### 25
->  “ And you neglected all my advice,
->  “ And did not comply with my rebuke,
+> “And you neglected all my advice,
+> “And did not comply with my rebuke,
 ###### 26
->  “ So I myself will laugh when disaster strikes you,
->  “ I will mock when what you dread comes,
+> “So I myself will laugh when disaster strikes you,
+> “I will mock when what you dread comes,
 ###### 27
->  “ When what you dread comes like a whirlwind,
->  “ And disaster strikes you like a devastating storm,
->  “ When distressing trouble comes on you.
+> “When what you dread comes like a whirlwind,
+> “And disaster strikes you like a devastating storm,
+> “When distressing trouble comes on you.
 ###### 28
->  “ Then they will call to me, but I will not answer;
->  “ They will diligently seek me, but they will not find me.
+> “Then they will call to me, but I will not answer;
+> “They will diligently seek me, but they will not find me.
 ###### 29
->  “ Because they hated moral knowledge,
->  “ And did not choose to fear the LORD,
+> “Because they hated moral knowledge,
+> “And did not choose to fear the LORD,
 ###### 30
->  “ They did not comply with my advice,
->  “ They spurned all my rebuke.
+> “They did not comply with my advice,
+> “They spurned all my rebuke.
 ###### 31
->  “ Therefore they will eat from the fruit of their way,
->  “ And they will be stuffed full of their own counsel.
+> “Therefore they will eat from the fruit of their way,
+> “And they will be stuffed full of their own counsel.
 ###### 32
->  “ For the waywardness of the
->  “ Simpletons will kill them,
->  “ And the careless ease of fools will destroy them.
+> “For the waywardness of the
+> “Simpletons will kill them,
+> “And the careless ease of fools will destroy them.
 ###### 33
->  “ But the one who listens to me will live in security,
->  “ And will be at ease from the dread of harm.”
+> “But the one who listens to me will live in security,
+> “And will be at ease from the dread of harm.”

@@ -82,11 +82,11 @@ so that the word of the prophet Isaiah would be fulfilled. He said, “Lord, who
 ###### 39
 For this reason they could not believe, because again Isaiah said,
 ###### 40
->  “ He has blinded their eyes
->  “ And hardened their heart,
->  “ So that they would not see with their eyes
->  “ And understand with their heart,
->  “ And turn to me, and I would heal them.”
+> “He has blinded their eyes
+> “And hardened their heart,
+> “So that they would not see with their eyes
+> “And understand with their heart,
+> “And turn to me, and I would heal them.”
 ###### 41
 Isaiah said these things because he saw Christ’s glory, and spoke about him.
 ###### 42

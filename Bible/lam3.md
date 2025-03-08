@@ -53,7 +53,7 @@
 > I have forgotten what happiness is.
 ###### 18
 > So I said, “My endurance has expired;
->  “ I have lost all hope of deliverance from the LORD.”
+> “I have lost all hope of deliverance from the LORD.”
 ###### ¶ 19
 > Remember my impoverished and homeless condition,
 > Which is a bitter poison.
@@ -70,7 +70,7 @@
 > They are fresh every morning;
 > Your faithfulness is abundant!
 ###### 24
->  “ My portion is the LORD,” I have said to myself,
+> “My portion is the LORD,” I have said to myself,
 > So I will put my hope in him.
 ###### 25
 > The LORD is good to those who trust in him,
@@ -124,8 +124,8 @@
 > Let us lift up our hearts and our hands
 > To God in heaven:
 ###### 42
->  “ We have blatantly rebelled;
->  “ You have not forgiven.”
+> “We have blatantly rebelled;
+> “You have not forgiven.”
 ###### 43
 > You shrouded yourself with anger and then pursued us;
 > You killed without mercy.
@@ -166,7 +166,7 @@
 > From the deepest pit.
 ###### 56
 > You heard my plea:
->  “ Do not close your ears to my cry for relief!”
+> “Do not close your ears to my cry for relief!”
 ###### 57
 > You came near on the day I called to you;
 > You said, “Do not fear!”

@@ -2,32 +2,32 @@
 ## The Lord Will Judge Damascus
 ###### ¶ 1
 > This is an oracle about Damascus:
->  “ Look, Damascus is no longer a city,
->  “ It is a heap of ruins!
+> “Look, Damascus is no longer a city,
+> “It is a heap of ruins!
 ###### 2
->  “ The cities of Aroer are abandoned.
->  “ They will be used for herds,
->  “ Which will lie down there in peace.
+> “The cities of Aroer are abandoned.
+> “They will be used for herds,
+> “Which will lie down there in peace.
 ###### 3
->  “ Fortified cities will disappear from Ephraim,
->  “ And Damascus will lose its kingdom.
->  “ The survivors in Syria
->  “ Will end up like the splendor of the Israelites,”
+> “Fortified cities will disappear from Ephraim,
+> “And Damascus will lose its kingdom.
+> “The survivors in Syria
+> “Will end up like the splendor of the Israelites,”
 > Says the LORD of Heaven’s Armies.
 ###### ¶ 4
->  “ At that time
->  “ Jacob’s splendor will be greatly diminished,
->  “ And he will become skin and bones.
+> “At that time
+> “Jacob’s splendor will be greatly diminished,
+> “And he will become skin and bones.
 ###### 5
->  “ It will be as when one gathers the grain harvest,
->  “ And his hand gleans the ear of grain.
->  “ It will be like one gathering the ears of grain
->  “ In the Valley of Rephaim.
+> “It will be as when one gathers the grain harvest,
+> “And his hand gleans the ear of grain.
+> “It will be like one gathering the ears of grain
+> “In the Valley of Rephaim.
 ###### 6
->  “ There will be some left behind,
->  “ As when an olive tree is beaten—
->  “ Two or three ripe olives remain toward the very top,
->  “ Four or five on its fruitful branches,”
+> “There will be some left behind,
+> “As when an olive tree is beaten—
+> “Two or three ripe olives remain toward the very top,
+> “Four or five on its fruitful branches,”
 > Says the LORD God of Israel.
 ###### 7
 > At that time men will trust in their Creator;

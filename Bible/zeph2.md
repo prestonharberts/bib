@@ -19,7 +19,7 @@
 ###### 5
 > Beware, you who live by the sea, the people who came from Crete.
 > The Lord’s message is against you, Canaan, land of the Philistines:
->  “ I will destroy everyone who lives there!”
+> “I will destroy everyone who lives there!”
 ###### 6
 > The seacoast will be used as pasture lands by the shepherds
 > And as pens for their flocks.
@@ -29,19 +29,19 @@
 > In the houses of Ashkelon they will lie down in the evening,
 > For the LORD their God will intervene for them and restore their prosperity.
 ###### ¶ 8
->  “ I have heard Moab’s taunts
->  “ And the Ammonites’ insults.
->  “ They taunted my people
->  “ And verbally harassed those living in Judah.
+> “I have heard Moab’s taunts
+> “And the Ammonites’ insults.
+> “They taunted my people
+> “And verbally harassed those living in Judah.
 ###### 9
->  “ Therefore, as surely as I live,” says the LORD of Heaven’s Armies, the God of Israel,
->  “ Be certain that Moab will become like Sodom
->  “ And the Ammonites like Gomorrah.
->  “ They will be overrun by weeds,
->  “ Filled with salt pits,
->  “ And permanently desolate.
->  “ Those of my people who are left will plunder their belongings;
->  “ Those who are left in Judah will take possession of their land.”
+> “Therefore, as surely as I live,” says the LORD of Heaven’s Armies, the God of Israel,
+> “Be certain that Moab will become like Sodom
+> “And the Ammonites like Gomorrah.
+> “They will be overrun by weeds,
+> “Filled with salt pits,
+> “And permanently desolate.
+> “Those of my people who are left will plunder their belongings;
+> “Those who are left in Judah will take possession of their land.”
 ###### 10
 > This is how they will be repaid for their arrogance,
 > For they taunted and verbally harassed the people of the LORD of Heaven’s Armies.
@@ -50,7 +50,7 @@
 > For he will weaken all the gods of the earth.
 > All the distant nations will worship the LORD in their own lands.
 ###### ¶ 12
->  “ You Ethiopians will also die by my sword!”
+> “You Ethiopians will also die by my sword!”
 ###### 13
 > The LORD will attack the north
 > And destroy Assyria.

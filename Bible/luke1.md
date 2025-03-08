@@ -96,26 +96,26 @@ She exclaimed with a loud voice, “Blessed are you among women, and blessed is 
 ## Mary’s Hymn of Praise
 ###### ¶ 46
 And Mary said,
->  “ My soul exalts the Lord,
+> “My soul exalts the Lord,
 ###### 47
->  “ And my spirit has begun to rejoice in God my Savior,
+> “And my spirit has begun to rejoice in God my Savior,
 ###### 48
->  “ Because he has looked upon the humble state of his servant.
->  “ For from now on all generations will call me blessed,
+> “Because he has looked upon the humble state of his servant.
+> “For from now on all generations will call me blessed,
 ###### 49
->  “ Because he who is mighty has done great things for me, and holy is his name;
+> “Because he who is mighty has done great things for me, and holy is his name;
 ###### 50
->  “ From generation to generation he is merciful to those who fear him.
+> “From generation to generation he is merciful to those who fear him.
 ###### 51
->  “ He has demonstrated power with his arm; he has scattered those whose pride wells up from the sheer arrogance of their hearts.
+> “He has demonstrated power with his arm; he has scattered those whose pride wells up from the sheer arrogance of their hearts.
 ###### 52
->  “ He has brought down the mighty from their thrones, and has lifted up those of lowly position;
+> “He has brought down the mighty from their thrones, and has lifted up those of lowly position;
 ###### 53
->  “ He has filled the hungry with good things, and has sent the rich away empty.
+> “He has filled the hungry with good things, and has sent the rich away empty.
 ###### 54
->  “ He has helped his servant Israel, remembering his mercy,
+> “He has helped his servant Israel, remembering his mercy,
 ###### 55
->  “ As he promised to our ancestors, to Abraham and to his descendants forever.”
+> “As he promised to our ancestors, to Abraham and to his descendants forever.”
 ###### ¶ 56
 So Mary stayed with Elizabeth about three months and then returned to her home.
 ## The Birth of John
@@ -143,36 +143,36 @@ All who heard these things kept them in their hearts, saying, “What then will 
 ###### ¶ 67
 Then his father Zechariah was filled with the Holy Spirit and prophesied,
 ###### 68
->  “ Blessed be the Lord God of Israel,
->  “ Because he has come to help and has redeemed his people.
+> “Blessed be the Lord God of Israel,
+> “Because he has come to help and has redeemed his people.
 ###### 69
->  “ For he has raised up a horn of salvation for us in the house of his servant David,
+> “For he has raised up a horn of salvation for us in the house of his servant David,
 ###### 70
->  “ As he spoke through the mouth of his holy prophets from long ago,
+> “As he spoke through the mouth of his holy prophets from long ago,
 ###### 71
->  “ That we should be saved from our enemies,
->  “ And from the hand of all who hate us.
+> “That we should be saved from our enemies,
+> “And from the hand of all who hate us.
 ###### 72
->  “ He has done this to show mercy to our ancestors,
->  “ And to remember his holy covenant—
+> “He has done this to show mercy to our ancestors,
+> “And to remember his holy covenant—
 ###### 73
->  “ The oath that he swore to our ancestor Abraham.
->  “ This oath grants
+> “The oath that he swore to our ancestor Abraham.
+> “This oath grants
 ###### 74
->  “ That we, being rescued from the hand of our enemies,
->  “ May serve him without fear,
+> “That we, being rescued from the hand of our enemies,
+> “May serve him without fear,
 ###### 75
->  “ In holiness and righteousness before him for as long as we live.
+> “In holiness and righteousness before him for as long as we live.
 ###### 76
->  “ And you, child, will be called the prophet of the Most High.
->  “ For you will go before the Lord to prepare his ways,
+> “And you, child, will be called the prophet of the Most High.
+> “For you will go before the Lord to prepare his ways,
 ###### 77
->  “ To give his people knowledge of salvation through the forgiveness of their sins.
+> “To give his people knowledge of salvation through the forgiveness of their sins.
 ###### 78
->  “ Because of our God’s tender mercy
->  “ The dawn will break upon us from on high
+> “Because of our God’s tender mercy
+> “The dawn will break upon us from on high
 ###### 79
->  “ To give light to those who sit in darkness and in the shadow of death,
->  “ To guide our feet into the way of peace.”
+> “To give light to those who sit in darkness and in the shadow of death,
+> “To guide our feet into the way of peace.”
 ###### ¶ 80
 And the child kept growing and becoming strong in spirit, and he was in the wilderness until the day he was revealed to Israel.

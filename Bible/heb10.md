@@ -10,11 +10,11 @@ But in those sacrifices there is a reminder of sins year after year.
 For it is impossible for the blood of bulls and goats to take away sins.
 ###### 5
 So when he came into the world, he said,
->  “ Sacrifice and offering you did not desire, but a body you prepared for me.
+> “Sacrifice and offering you did not desire, but a body you prepared for me.
 ###### 6
->  “ Whole burnt offerings and sin-offerings you took no delight in.
+> “Whole burnt offerings and sin-offerings you took no delight in.
 ###### 7
->  “ Then I said, ‘Here I am: I have come—it is written of me in the scroll of the book—to do your will, O God.’”
+> “Then I said, ‘Here I am: I have come—it is written of me in the scroll of the book—to do your will, O God.’”
 ###### 8
 When he says above, “Sacrifices and offerings and whole burnt offerings and sin-offerings you did not desire nor did you take delight in them” (which are offered according to the law),
 ###### 9

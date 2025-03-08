@@ -11,23 +11,23 @@
 > A tender, only child before my mother,
 ###### 4
 > He taught me, and he said to me:
->  “ Let your heart lay hold of my words;
->  “ Keep my commands so that you will live.
+> “Let your heart lay hold of my words;
+> “Keep my commands so that you will live.
 ###### 5
->  “ Acquire wisdom, acquire understanding;
->  “ Do not forget and do not turn aside from the words I speak.
+> “Acquire wisdom, acquire understanding;
+> “Do not forget and do not turn aside from the words I speak.
 ###### 6
->  “ Do not forsake wisdom, and she will protect you;
->  “ Love her, and she will guard you.
+> “Do not forsake wisdom, and she will protect you;
+> “Love her, and she will guard you.
 ###### 7
->  “ Wisdom is supreme—so acquire wisdom,
->  “ And whatever you acquire, acquire understanding!
+> “Wisdom is supreme—so acquire wisdom,
+> “And whatever you acquire, acquire understanding!
 ###### 8
->  “ Esteem her highly and she will exalt you;
->  “ She will honor you if you embrace her.
+> “Esteem her highly and she will exalt you;
+> “She will honor you if you embrace her.
 ###### 9
->  “ She will place a fair garland on your head;
->  “ She will bestow a beautiful crown on you.”
+> “She will place a fair garland on your head;
+> “She will bestow a beautiful crown on you.”
 ###### ¶ 10
 > Listen, my child, and accept my words,
 > So that the years of your life will be many.

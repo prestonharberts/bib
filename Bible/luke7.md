@@ -66,8 +66,8 @@ However, the Pharisees and the experts in religious law rejected God’s purpose
 “To what then should I compare the people of this generation, and what are they like?
 ###### 32
 “They are like children sitting in the marketplace and calling out to one another,
->  ‘ We played the flute for you, yet you did not dance;
->  ‘ We wailed in mourning, yet you did not weep.’
+> ‘We played the flute for you, yet you did not dance;
+> ‘We wailed in mourning, yet you did not weep.’
 ###### 33
 “For John the Baptist has come eating no bread and drinking no wine, and you say, ‘He has a demon!’
 ###### 34

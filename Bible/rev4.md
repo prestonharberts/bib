@@ -17,14 +17,14 @@ In the middle of the throne and around the throne were four living creatures ful
 The first living creature was like a lion, the second creature like an ox, the third creature had a face like a man’s, and the fourth creature looked like an eagle flying.
 ###### 8
 Each one of the four living creatures had six wings and was full of eyes all around and inside. They never rest day or night, saying:
->  “ Holy Holy Holy is the Lord God, the All-Powerful,
->  “ Who was and who is, and who is still to come!”
+> “Holy Holy Holy is the Lord God, the All-Powerful,
+> “Who was and who is, and who is still to come!”
 ###### 9
 And whenever the living creatures give glory, honor, and thanks to the one who sits on the throne, who lives forever and ever,
 ###### 10
 the twenty-four elders throw themselves to the ground before the one who sits on the throne and worship the one who lives forever and ever, and they offer their crowns before his throne, saying:
 ###### 11
->  “ You are worthy, our Lord and God,
->  “ To receive glory and honor and power,
->  “ Since you created all things,
->  “ And because of your will they existed and were created!”
+> “You are worthy, our Lord and God,
+> “To receive glory and honor and power,
+> “Since you created all things,
+> “And because of your will they existed and were created!”

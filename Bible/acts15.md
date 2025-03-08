@@ -31,14 +31,14 @@ After they stopped speaking, James replied, “Brothers, listen to me.
 ###### 15
 “The words of the prophets agree with this, as it is written,
 ###### 16
->  ‘ After this I will return,
->  ‘ And I will rebuild the fallen tent of David;
->  ‘ I will rebuild its ruins and restore it,
+> ‘After this I will return,
+> ‘And I will rebuild the fallen tent of David;
+> ‘I will rebuild its ruins and restore it,
 ###### 17
->  ‘ So that the rest of humanity may seek the Lord,
->  ‘ Namely, all the Gentiles I have called to be my own,’ says the Lord, who makes these things
+> ‘So that the rest of humanity may seek the Lord,
+> ‘Namely, all the Gentiles I have called to be my own,’ says the Lord, who makes these things
 ###### 18
->  “ Known from long ago.
+> “Known from long ago.
 ###### 19
 “Therefore I conclude that we should not cause extra difficulty for those among the Gentiles who are turning to God,
 ###### 20

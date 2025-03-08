@@ -67,11 +67,11 @@ David instructed Joab and all the people who were with him, “Tear your clothes
 So they buried Abner in Hebron. The king cried loudly over Abner’s grave, and all the people wept too.
 ###### 33
 The king chanted the following lament for Abner:
->  “ Should Abner have died like a fool?
+> “Should Abner have died like a fool?
 ###### 34
->  “ Your hands were not bound,
->  “ And your feet were not put into irons.
->  “ You fell the way one falls before criminals.”
+> “Your hands were not bound,
+> “And your feet were not put into irons.
+> “You fell the way one falls before criminals.”
 All the people wept over him again.
 ###### 35
 Then all the people came and encouraged David to eat food while it was still day. But David took an oath saying, “God will punish me severely if I taste bread or anything whatsoever before the sun sets!”

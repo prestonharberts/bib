@@ -34,8 +34,8 @@
 > And the life’s breath returns to God who gave it.
 ## Concluding Refrain: The Teacher Restates His Thesis
 ###### 8
->  “ Absolutely futile!” laments the Teacher,
->  “ All these things are futile!”
+> “Absolutely futile!” laments the Teacher,
+> “All these things are futile!”
 ## Concluding Epilogue: The Teacher’s Advice is Wise
 ###### ¶ 9
 > Not only was the Teacher wise,

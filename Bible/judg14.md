@@ -28,8 +28,8 @@ Samson said to them, “I will give you a riddle. If you really can solve it dur
 “But if you cannot solve it, you will give me thirty linen robes and thirty sets of clothes.” They said to him, “Let us hear your riddle.”
 ###### 14
 He said to them,
->  “ Out of the one who eats came something to eat;
->  “ Out of the strong one came something sweet.”
+> “Out of the one who eats came something to eat;
+> “Out of the strong one came something sweet.”
 They could not solve the riddle for three days.
 ###### ¶ 15
 On the fourth day they said to Samson’s bride, “Trick your husband into giving the solution to the riddle. If you refuse, we will burn up you and your father’s family. Did you invite us here to make us poor?”
@@ -39,11 +39,11 @@ So Samson’s bride cried on his shoulder and said, “You must hate me; you do 
 She cried on his shoulder until the party was almost over. Finally, on the seventh day, he told her because she had nagged him so much. Then she told the young men the solution to the riddle.
 ###### 18
 On the seventh day, before the sun set, the men of the city said to him,
->  “ What is sweeter than honey?
->  “ What is stronger than a lion?”
+> “What is sweeter than honey?
+> “What is stronger than a lion?”
 He said to them,
->  “ If you had not plowed with my heifer,
->  “ You would not have solved my riddle!”
+> “If you had not plowed with my heifer,
+> “You would not have solved my riddle!”
 ###### 19
 The LORD’s Spirit empowered him. He went down to Ashkelon and killed thirty men. He took their clothes and gave them to the men who had solved the riddle. He was furious as he went back home.
 ###### 20

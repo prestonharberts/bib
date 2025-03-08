@@ -55,20 +55,20 @@ To you this entire prophetic revelation is like words in a sealed scroll. When t
 Or when they hand the scroll to one who can’t read and say, “Read this,” he says, “I can’t read.”
 ###### ¶ 13
 > The Lord says,
->  “ These people say they are loyal to me;
->  “ They say wonderful things about me,
->  “ But they are not really loyal to me.
->  “ Their worship consists of
->  “ Nothing but man-made ritual.
+> “These people say they are loyal to me;
+> “They say wonderful things about me,
+> “But they are not really loyal to me.
+> “Their worship consists of
+> “Nothing but man-made ritual.
 ###### 14
->  “ Therefore I will again do an amazing thing for these people—
->  “ An absolutely extraordinary deed.
->  “ Wise men will have nothing to say,
->  “ The sages will have no explanations.”
+> “Therefore I will again do an amazing thing for these people—
+> “An absolutely extraordinary deed.
+> “Wise men will have nothing to say,
+> “The sages will have no explanations.”
 ###### ¶ 15
 > Those who try to hide their plans from the LORD are as good as dead,
 > Who do their work in secret and boast,
->  “ Who sees us? Who knows what we’re doing?”
+> “Who sees us? Who knows what we’re doing?”
 ###### 16
 > Your thinking is perverse!
 > Should the potter be regarded as clay?
@@ -95,14 +95,14 @@ Or when they hand the scroll to one who can’t read and say, “Read this,” h
 > And deprive the innocent of justice by making false charges.
 ###### ¶ 22
 > So this is what the LORD, the one who delivered Abraham, has said to the family of Jacob:
->  “ Jacob will no longer be ashamed;
->  “ Their faces will no longer show their embarrassment.
+> “Jacob will no longer be ashamed;
+> “Their faces will no longer show their embarrassment.
 ###### 23
->  “ For when they see their children,
->  “ Whom I will produce among them,
->  “ They will honor my name.
->  “ They will honor the Holy One of Jacob;
->  “ They will respect the God of Israel.
+> “For when they see their children,
+> “Whom I will produce among them,
+> “They will honor my name.
+> “They will honor the Holy One of Jacob;
+> “They will respect the God of Israel.
 ###### 24
->  “ Those who stray morally will gain understanding;
->  “ Those who complain will acquire insight.
+> “Those who stray morally will gain understanding;
+> “Those who complain will acquire insight.

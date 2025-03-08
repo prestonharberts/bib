@@ -78,7 +78,7 @@
 > In the town squares.
 ###### 12
 > Children say to their mothers,
->  “ Where are food and drink?”
+> “Where are food and drink?”
 > They faint like a wounded warrior
 > In the city squares.
 > They die slowly
@@ -102,16 +102,16 @@
 > Clapped their hands to mock you.
 > They sneered and shook their heads
 > At Daughter Jerusalem.
->  “ Ha! Is this the city they called
->  ‘ The perfection of beauty,
->  ‘ The source of joy of the whole earth!’?”
+> “Ha! Is this the city they called
+> ‘The perfection of beauty,
+> ‘The source of joy of the whole earth!’?”
 ###### 16
 > All your enemies
 > Gloated over you.
 > They sneered and gnashed their teeth;
 > They said, “We have destroyed her!
->  “ Ha! We have waited a long time for this day.
->  “ We have lived to see it!”
+> “Ha! We have waited a long time for this day.
+> “We have lived to see it!”
 ###### 17
 > The LORD has done what he planned;
 > He has fulfilled his promise

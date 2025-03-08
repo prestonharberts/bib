@@ -66,4 +66,4 @@ The LORD spoke to Moses:
 ‘as well as one male goat to make an atonement for you.
 ###### 31
 ‘You are to offer them with their drink offerings in addition to the continual burnt offering and its grain offering—they must be unblemished.
-<span class=arrow-right>  ‘##### <span class=arrow-left>  [[num27|Prev]]<span class=navigation-separator>  [[num28notes|Notes]]<span class=navigation-separator>  [[num29|Next]]
+<span class=arrow-right> ‘##### <span class=arrow-left> [[num27|Prev]]<span class=navigation-separator> [[num28notes|Notes]]<span class=navigation-separator> [[num29|Next]]

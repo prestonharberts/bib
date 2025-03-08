@@ -27,8 +27,8 @@ A third angel followed the first two, declaring in a loud voice: “If anyone wo
 This requires the steadfast endurance of the saints—those who obey God’s commandments and hold to their faith in Jesus.
 ###### ¶ 13
 Then I heard a voice from heaven say, “Write this:
->  ‘ Blessed are the dead,
->  ‘ Those who die in the Lord from this moment on!’”
+> ‘Blessed are the dead,
+> ‘Those who die in the Lord from this moment on!’”
 “Yes,” says the Spirit, “so they can rest from their hard work, because their deeds will follow them.”
 ###### ¶ 14
 Then I looked, and a white cloud appeared, and seated on the cloud was one like a son of man! He had a golden crown on his head and a sharp sickle in his hand.

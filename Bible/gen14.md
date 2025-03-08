@@ -38,11 +38,11 @@ After Abram returned from defeating Kedorlaomer and the kings who were with him,
 Melchizedek king of Salem brought out bread and wine. (Now he was the priest of the Most High God.)
 ###### 19
 He blessed Abram, saying,
->  “ Blessed be Abram by the Most High God,
->  “ Creator of heaven and earth.
+> “Blessed be Abram by the Most High God,
+> “Creator of heaven and earth.
 ###### 20
->  “ Worthy of praise is the Most High God,
->  “ Who delivered your enemies into your hand.”
+> “Worthy of praise is the Most High God,
+> “Who delivered your enemies into your hand.”
 Abram gave Melchizedek a tenth of everything.
 ###### 21
 Then the king of Sodom said to Abram, “Give me the people and take the possessions for yourself.”

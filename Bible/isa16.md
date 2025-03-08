@@ -8,12 +8,12 @@
 > The Moabite women are like a bird
 > That flies about when forced from its nest.
 ###### 3
->  “ Bring a plan, make a decision.
->  “ Provide some shade in the middle of the day.
->  “ Hide the fugitives! Do not betray the one who tries to escape.
+> “Bring a plan, make a decision.
+> “Provide some shade in the middle of the day.
+> “Hide the fugitives! Do not betray the one who tries to escape.
 ###### 4
->  “ Please let the Moabite fugitives live among you.
->  “ Hide them from the destroyer!”
+> “Please let the Moabite fugitives live among you.
+> “Hide them from the destroyer!”
 > Certainly the one who applies pressure will cease;
 > The destroyer will come to an end;
 > Those who trample will disappear from the earth.

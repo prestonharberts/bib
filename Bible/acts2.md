@@ -34,24 +34,24 @@ But Peter stood up with the eleven, raised his voice, and addressed them: “You
 ###### 16
 “But this is what was spoken about through the prophet Joel:
 ###### 17
->  ‘ And in the last days it will be,’ God says,
->  ‘ That I will pour out my Spirit on all people,
->  ‘ And your sons and your daughters will prophesy,
->  ‘ And your young men will see visions,
->  ‘ And your old men will dream dreams.
+> ‘And in the last days it will be,’ God says,
+> ‘That I will pour out my Spirit on all people,
+> ‘And your sons and your daughters will prophesy,
+> ‘And your young men will see visions,
+> ‘And your old men will dream dreams.
 ###### 18
->  ‘ Even on my servants, both men and women,
->  ‘ I will pour out my Spirit in those days, and they will prophesy.
+> ‘Even on my servants, both men and women,
+> ‘I will pour out my Spirit in those days, and they will prophesy.
 ###### 19
->  ‘ And I will perform wonders in the sky above
->  ‘ And miraculous signs on the earth below,
->  ‘ Blood and fire and clouds of smoke.
+> ‘And I will perform wonders in the sky above
+> ‘And miraculous signs on the earth below,
+> ‘Blood and fire and clouds of smoke.
 ###### 20
->  ‘ The sun will be changed to darkness
->  ‘ And the moon to blood
->  ‘ Before the great and glorious day of the Lord comes.
+> ‘The sun will be changed to darkness
+> ‘And the moon to blood
+> ‘Before the great and glorious day of the Lord comes.
 ###### 21
->  ‘ And then everyone who calls on the name of the Lord will be saved.’
+> ‘And then everyone who calls on the name of the Lord will be saved.’
 ###### ¶ 22
 “Men of Israel, listen to these words: Jesus the Nazarene, a man clearly attested to you by God with powerful deeds, wonders, and miraculous signs that God performed among you through him, just as you yourselves know—
 ###### 23
@@ -60,17 +60,17 @@ But Peter stood up with the eleven, raised his voice, and addressed them: “You
 “But God raised him up, having released him from the pains of death, because it was not possible for him to be held in its power.
 ###### 25
 “For David says about him,
->  ‘ I saw the Lord always in front of me,
->  ‘ For he is at my right hand so that I will not be shaken.
+> ‘I saw the Lord always in front of me,
+> ‘For he is at my right hand so that I will not be shaken.
 ###### 26
->  ‘ Therefore my heart was glad and my tongue rejoiced;
->  ‘ My body also will live in hope,
+> ‘Therefore my heart was glad and my tongue rejoiced;
+> ‘My body also will live in hope,
 ###### 27
->  ‘ Because you will not leave my soul in Hades,
->  ‘ Nor permit your Holy One to experience decay.
+> ‘Because you will not leave my soul in Hades,
+> ‘Nor permit your Holy One to experience decay.
 ###### 28
->  ‘ You have made known to me the paths of life;
->  ‘ You will make me full of joy with your presence.’
+> ‘You have made known to me the paths of life;
+> ‘You will make me full of joy with your presence.’
 ###### ¶ 29
 “Brothers, I can speak confidently to you about our forefather David, that he both died and was buried, and his tomb is with us to this day.
 ###### 30
@@ -83,10 +83,10 @@ But Peter stood up with the eleven, raised his voice, and addressed them: “You
 “So then, exalted to the right hand of God, and having received the promise of the Holy Spirit from the Father, he has poured out what you both see and hear.
 ###### 34
 “For David did not ascend into heaven, but he himself says,
->  ‘ The Lord said to my lord,
->  “ Sit at my right hand
+> ‘The Lord said to my lord,
+> “Sit at my right hand
 ###### 35
->  “ Until I make your enemies a footstool for your feet.”’
+> “Until I make your enemies a footstool for your feet.”’
 ###### 36
 “Therefore let all the house of Israel know beyond a doubt that God has made this Jesus whom you crucified both Lord and Christ.”
 ## The Response to Peter’s Address

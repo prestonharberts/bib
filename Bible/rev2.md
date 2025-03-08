@@ -60,8 +60,8 @@
 ###### 26
 ‘And to the one who conquers and who continues in my deeds until the end, I will give him authority over the nations—
 ###### 27
->  ‘ He will rule them with an iron rod
->  ‘ And like clay jars he will break them to pieces,
+> ‘He will rule them with an iron rod
+> ‘And like clay jars he will break them to pieces,
 ###### 28
 ‘just as I have received the right to rule from my Father—and I will give him the morning star.
 ###### 29

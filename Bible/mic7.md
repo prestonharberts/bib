@@ -74,8 +74,8 @@
 > Allow them to graze in Bashan and Gilead,
 > As they did in the old days.
 ###### 15
->  “ As in the days when you departed from the land of Egypt,
->  “ I will show you miraculous deeds.”
+> “As in the days when you departed from the land of Egypt,
+> “I will show you miraculous deeds.”
 ###### 16
 > Nations will see this and be disappointed by all their strength;
 > They will put their hands over their mouths

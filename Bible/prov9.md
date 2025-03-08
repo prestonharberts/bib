@@ -10,14 +10,14 @@
 > She has sent out her female servants;
 > She calls out on the highest places of the city.
 ###### 4
->  “ Whoever is naive, let him turn in here.”
+> “Whoever is naive, let him turn in here.”
 > To those who lack understanding, she has said,
 ###### 5
->  “ Come, eat some of my food,
->  “ And drink some of the wine I have mixed.
+> “Come, eat some of my food,
+> “And drink some of the wine I have mixed.
 ###### 6
->  “ Abandon your foolish ways so that you may live,
->  “ And proceed in the way of understanding.”
+> “Abandon your foolish ways so that you may live,
+> “And proceed in the way of understanding.”
 ###### ¶ 7
 > Whoever corrects a mocker is asking for insult;
 > Whoever reproves a wicked person receives abuse.
@@ -46,11 +46,11 @@
 > Calling out to those who are passing by her in the way,
 > Who go straight on their way.
 ###### 16
->  “ Whoever is naive, let him turn in here,”
+> “Whoever is naive, let him turn in here,”
 > To those who lack understanding she has said,
 ###### 17
->  “ Stolen waters are sweet,
->  “ And food obtained in secret is pleasant!”
+> “Stolen waters are sweet,
+> “And food obtained in secret is pleasant!”
 ###### 18
 > But they do not realize that the dead are there,
 > That her guests are in the depths of the grave.

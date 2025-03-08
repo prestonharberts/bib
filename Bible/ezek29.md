@@ -6,25 +6,25 @@ In the tenth year, in the tenth month, on the twelfth day of the month, the Lord
 “Son of man, turn toward Pharaoh king of Egypt and prophesy against him and against all Egypt.
 ###### 3
 “Tell them, ‘This is what the Sovereign LORD says:
->  “ ‘Look, I am against you, Pharaoh king of Egypt,
->  ‘ The great monster lying in the midst of its waterways,
->  ‘ Who has said, “My Nile is my own, I made it for myself.”
+> “‘Look, I am against you, Pharaoh king of Egypt,
+> ‘The great monster lying in the midst of its waterways,
+> ‘Who has said, “My Nile is my own, I made it for myself.”
 ###### 4
->  ‘ I will put hooks in your jaws
->  ‘ And stick the fish of your waterways to your scales.
->  ‘ I will haul you up from the midst of your waterways,
->  ‘ And all the fish of your waterways will stick to your scales.
+> ‘I will put hooks in your jaws
+> ‘And stick the fish of your waterways to your scales.
+> ‘I will haul you up from the midst of your waterways,
+> ‘And all the fish of your waterways will stick to your scales.
 ###### 5
->  ‘ I will leave you in the wilderness,
->  ‘ You and all the fish of your waterways;
->  ‘ You will fall in the open field and will not be gathered up or collected.
->  ‘ I have given you as food to the beasts of the earth and the birds of the skies.
+> ‘I will leave you in the wilderness,
+> ‘You and all the fish of your waterways;
+> ‘You will fall in the open field and will not be gathered up or collected.
+> ‘I have given you as food to the beasts of the earth and the birds of the skies.
 ###### 6
->  ‘ Then all those living in Egypt will know that I am the LORD
->  ‘ Because they were a reed staff for the house of Israel;
+> ‘Then all those living in Egypt will know that I am the LORD
+> ‘Because they were a reed staff for the house of Israel;
 ###### 7
->  ‘ When they grasped you with their hand, you broke and tore their shoulders,
->  ‘ And when they leaned on you, you splintered and caused their legs to be unsteady.
+> ‘When they grasped you with their hand, you broke and tore their shoulders,
+> ‘And when they leaned on you, you splintered and caused their legs to be unsteady.
 ###### ¶ 8
 “‘Therefore, this is what the Sovereign LORD says: Look, I am about to bring a sword against you, and I will kill every person and every animal.
 ###### 9

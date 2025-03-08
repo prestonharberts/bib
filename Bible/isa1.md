@@ -7,13 +7,13 @@ Here is the message about Judah and Jerusalem that was revealed to Isaiah son of
 > Listen, O heavens,
 > Pay attention, O earth!
 > For the LORD speaks:
->  “ I raised children, I brought them up,
->  “ But they have rebelled against me!
+> “I raised children, I brought them up,
+> “But they have rebelled against me!
 ###### 3
->  “ An ox recognizes its owner,
->  “ A donkey recognizes where its owner puts its food;
->  “ But Israel does not recognize me,
->  “ My people do not understand.”
+> “An ox recognizes its owner,
+> “A donkey recognizes where its owner puts its food;
+> “But Israel does not recognize me,
+> “My people do not understand.”
 ###### ¶ 4
 > Beware sinful nation,
 > The people weighed down by evil deeds.
@@ -55,54 +55,54 @@ Here is the message about Judah and Jerusalem that was revealed to Isaiah son of
 > Pay attention to our God’s rebuke,
 > People of Gomorrah!
 ###### 11
->  “ Of what importance to me are your many sacrifices?”
+> “Of what importance to me are your many sacrifices?”
 > Says the LORD.
->  “ I have had my fill of burnt sacrifices,
->  “ Of rams and the fat from steers.
->  “ The blood of bulls, lambs, and goats
->  “ I do not want.
+> “I have had my fill of burnt sacrifices,
+> “Of rams and the fat from steers.
+> “The blood of bulls, lambs, and goats
+> “I do not want.
 ###### 12
->  “ When you enter my presence,
->  “ Do you actually think I want this—
->  “ Animals trampling on my courtyards?
+> “When you enter my presence,
+> “Do you actually think I want this—
+> “Animals trampling on my courtyards?
 ###### 13
->  “ Do not bring any more meaningless offerings;
->  “ I consider your incense detestable!
->  “ You observe new moon festivals, Sabbaths, and convocations,
->  “ But I cannot tolerate sin-stained celebrations!
+> “Do not bring any more meaningless offerings;
+> “I consider your incense detestable!
+> “You observe new moon festivals, Sabbaths, and convocations,
+> “But I cannot tolerate sin-stained celebrations!
 ###### 14
->  “ I hate your new moon festivals and assemblies;
->  “ They are a burden
->  “ That I am tired of carrying.
+> “I hate your new moon festivals and assemblies;
+> “They are a burden
+> “That I am tired of carrying.
 ###### 15
->  “ When you spread out your hands in prayer,
->  “ I look the other way;
->  “ When you offer your many prayers,
->  “ I do not listen,
->  “ Because your hands are covered with blood.
+> “When you spread out your hands in prayer,
+> “I look the other way;
+> “When you offer your many prayers,
+> “I do not listen,
+> “Because your hands are covered with blood.
 ###### ¶ 16
->  “ Wash! Cleanse yourselves!
->  “ Remove your sinful deeds
->  “ From my sight.
->  “ Stop sinning.
+> “Wash! Cleanse yourselves!
+> “Remove your sinful deeds
+> “From my sight.
+> “Stop sinning.
 ###### 17
->  “ Learn to do what is right.
->  “ Promote justice.
->  “ Give the oppressed reason to celebrate.
->  “ Take up the cause of the orphan.
->  “ Defend the rights of the widow.
+> “Learn to do what is right.
+> “Promote justice.
+> “Give the oppressed reason to celebrate.
+> “Take up the cause of the orphan.
+> “Defend the rights of the widow.
 ###### ¶ 18
->  “ Come, let’s consider your options,” says the LORD.
->  “ Though your sins have stained you like the color red,
->  “ You can become white like snow;
->  “ Though they are as easy to see as the color scarlet,
->  “ You can become white like wool.
+> “Come, let’s consider your options,” says the LORD.
+> “Though your sins have stained you like the color red,
+> “You can become white like snow;
+> “Though they are as easy to see as the color scarlet,
+> “You can become white like wool.
 ###### 19
->  “ If you have a willing attitude and obey,
->  “ Then you will again eat the good crops of the land.
+> “If you have a willing attitude and obey,
+> “Then you will again eat the good crops of the land.
 ###### 20
->  “ But if you refuse and rebel,
->  “ You will be devoured by the sword.”
+> “But if you refuse and rebel,
+> “You will be devoured by the sword.”
 > Know for certain that the LORD has spoken.
 ## Purifying Judgment
 ###### ¶ 21
@@ -124,17 +124,17 @@ Here is the message about Judah and Jerusalem that was revealed to Isaiah son of
 ###### ¶ 24
 > Therefore, the Sovereign LORD of Heaven’s Armies,
 > The Powerful One of Israel, says this:
->  “ Ah, I will seek vengeance against my adversaries,
->  “ I will take revenge against my enemies.
+> “Ah, I will seek vengeance against my adversaries,
+> “I will take revenge against my enemies.
 ###### 25
->  “ I will attack you;
->  “ I will purify your metal with flux.
->  “ I will remove all your slag.
+> “I will attack you;
+> “I will purify your metal with flux.
+> “I will remove all your slag.
 ###### 26
->  “ I will reestablish honest judges as in former times,
->  “ Wise advisers as in earlier days.
->  “ Then you will be called, ‘The Just City,
->  ‘ Faithful Town.’”
+> “I will reestablish honest judges as in former times,
+> “Wise advisers as in earlier days.
+> “Then you will be called, ‘The Just City,
+> ‘Faithful Town.’”
 ###### ¶ 27
 > Zion will be freed by justice,
 > And her returnees by righteousness.

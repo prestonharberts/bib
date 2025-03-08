@@ -52,25 +52,25 @@ This is an oracle about Nineveh; the book of the vision of Nahum the Elkoshite:
 ## Oracle of Deliverance to Judah
 ###### 12
 This is what the LORD says:
->  “ Even though they are powerful—
->  “ And what is more, even though their army is numerous—
->  “ Nevertheless, they will be destroyed and trickle away!
->  “ Although I afflicted you,
->  “ I will afflict you no more.
+> “Even though they are powerful—
+> “And what is more, even though their army is numerous—
+> “Nevertheless, they will be destroyed and trickle away!
+> “Although I afflicted you,
+> “I will afflict you no more.
 ###### 13
->  “ And now, I will break Assyria’s yoke bar from your neck;
->  “ I will tear apart the shackles that are on you.”
+> “And now, I will break Assyria’s yoke bar from your neck;
+> “I will tear apart the shackles that are on you.”
 ## Oracle of Judgment against the King of Nineveh
 ###### ¶ 14
 > The LORD has issued a decree against you:
->  “ Your dynasty will come to an end.
->  “ I will destroy the idols and images in the temples of your gods.
->  “ I will desecrate your grave, because you are accursed!”
+> “Your dynasty will come to an end.
+> “I will destroy the idols and images in the temples of your gods.
+> “I will desecrate your grave, because you are accursed!”
 ## Proclamation of the Deliverance of Judah
 ###### ¶ 15
 >  Look! A herald is running on the mountains!
 > A messenger is proclaiming deliverance:
->  “ Celebrate your sacred festivals, O Judah!
->  “ Fulfill your sacred vows to praise God!
->  “ For never again will the wicked Assyrians invade you;
->  “ They have been completely destroyed.”
+> “Celebrate your sacred festivals, O Judah!
+> “Fulfill your sacred vows to praise God!
+> “For never again will the wicked Assyrians invade you;
+> “They have been completely destroyed.”

@@ -21,12 +21,12 @@ But the next day Pashhur released Jeremiah from the stocks. When he did, Jeremia
 > Everyone ridicules me.
 ###### 8
 > For whenever I prophesy, I must cry out,
->  “ Violence and destruction are coming!”
+> “Violence and destruction are coming!”
 > This message from the LORD has made me
 > An object of continual insults and derision.
 ###### 9
 > Sometimes I think, “I will make no mention of his message.
->  “ I will not speak as his messenger anymore.”
+> “I will not speak as his messenger anymore.”
 > But then his message becomes like a fire
 > Locked up inside of me, burning in my heart and soul.
 > I grow weary of trying to hold it in;
@@ -38,7 +38,7 @@ But the next day Pashhur released Jeremiah from the stocks. When he did, Jeremia
 > All my so-called friends are just watching for
 > Something that would lead to my downfall.
 > They say, “Perhaps he can be enticed into slipping up,
->  “ So we can prevail over him and get our revenge on him.”
+> “So we can prevail over him and get our revenge on him.”
 ###### 11
 > But the LORD is with me to help me like an awe-inspiring warrior.
 > Therefore those who persecute me will fail and will not prevail over me.

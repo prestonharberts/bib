@@ -56,10 +56,10 @@ Now Hagar represents Mount Sinai in Arabia and corresponds to the present Jerusa
 But the Jerusalem above is free, and she is our mother.
 ###### 27
 For it is written:
->  “ Rejoice, O barren woman who does not bear children;
->  “ Break forth and shout, you who have no birth pains,
->  “ Because the children of the desolate woman are more numerous
->  “ Than those of the woman who has a husband.”
+> “Rejoice, O barren woman who does not bear children;
+> “Break forth and shout, you who have no birth pains,
+> “Because the children of the desolate woman are more numerous
+> “Than those of the woman who has a husband.”
 ###### 28
 But you, brothers and sisters, are children of the promise like Isaac.
 ###### 29

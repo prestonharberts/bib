@@ -84,9 +84,9 @@ So Paul stood up, gestured with his hand and said,
 ###### 40
 “Watch out, then, that what is spoken about by the prophets does not happen to you:
 ###### 41
->  ‘ Look, you scoffers; be amazed and perish!
->  ‘ For I am doing a work in your days,
->  ‘ A work you would never believe, even if someone tells you.’”
+> ‘Look, you scoffers; be amazed and perish!
+> ‘For I am doing a work in your days,
+> ‘A work you would never believe, even if someone tells you.’”
 ###### ¶ 42
 As Paul and Barnabas were going out, the people were urging them to speak about these things on the next Sabbath.
 ###### 43

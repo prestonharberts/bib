@@ -4,10 +4,10 @@
 ###### 2
 “I am delighted to tell you about the signs and wonders that the most high God has done for me.
 ###### 3
->  “ How great are his signs!
->  “ How mighty are his wonders!
->  “ His kingdom will last forever,
->  “ And his authority continues from one generation to the next.”
+> “How great are his signs!
+> “How mighty are his wonders!
+> “His kingdom will last forever,
+> “And his authority continues from one generation to the next.”
 ## Nebuchadnezzar Dreams of a Tree Chopped Down
 ###### ¶ 4
  I, Nebuchadnezzar, was relaxing in my home, living luxuriously in my palace.
@@ -23,46 +23,46 @@ Later Daniel entered (whose name is Belteshazzar after the name of my god, and i
 saying, “Belteshazzar, chief of the magicians, in whom I know there to be a spirit of the holy gods and whom no mystery baffles, consider my dream that I saw and set forth its interpretation!
 ###### ¶ 10
 “Here are the visions of my mind while I was on my bed.
->  “ While I was watching,
->  “ There was a tree in the middle of the land.
->  “ It was enormously tall.
+> “While I was watching,
+> “There was a tree in the middle of the land.
+> “It was enormously tall.
 ###### 11
->  “ The tree grew large and strong.
->  “ Its top reached far into the sky;
->  “ It could be seen from the borders of all the land.
+> “The tree grew large and strong.
+> “Its top reached far into the sky;
+> “It could be seen from the borders of all the land.
 ###### 12
->  “ Its foliage was attractive and its fruit plentiful;
->  “ On it there was food enough for all.
->  “ Under it the wild animals used to seek shade,
->  “ And in its branches the birds of the sky used to nest.
->  “ All creatures used to feed themselves from it.
+> “Its foliage was attractive and its fruit plentiful;
+> “On it there was food enough for all.
+> “Under it the wild animals used to seek shade,
+> “And in its branches the birds of the sky used to nest.
+> “All creatures used to feed themselves from it.
 ###### ¶ 13
->  “ While I was watching in my mind’s visions on my bed,
->  “ A holy sentinel came down from heaven.
+> “While I was watching in my mind’s visions on my bed,
+> “A holy sentinel came down from heaven.
 ###### 14
->  “ He called out loudly as follows:
->  ‘ Chop down the tree and lop off its branches!
->  ‘ Strip off its foliage
->  ‘ And scatter its fruit!
->  ‘ Let the animals flee from under it
->  ‘ And the birds from its branches.
+> “He called out loudly as follows:
+> ‘Chop down the tree and lop off its branches!
+> ‘Strip off its foliage
+> ‘And scatter its fruit!
+> ‘Let the animals flee from under it
+> ‘And the birds from its branches.
 ###### 15
->  ‘ But leave its taproot in the ground,
->  ‘ With a band of iron and bronze around it
->  ‘ Surrounded by the grass of the field.
->  ‘ Let it become damp with the dew of the sky,
->  ‘ And let it live with the animals in the grass of the land.
+> ‘But leave its taproot in the ground,
+> ‘With a band of iron and bronze around it
+> ‘Surrounded by the grass of the field.
+> ‘Let it become damp with the dew of the sky,
+> ‘And let it live with the animals in the grass of the land.
 ###### 16
->  ‘ Let his mind be altered from that of a human being,
->  ‘ And let an animal’s mind be given to him,
->  ‘ And let seven periods of time go by for him.
+> ‘Let his mind be altered from that of a human being,
+> ‘And let an animal’s mind be given to him,
+> ‘And let seven periods of time go by for him.
 ###### 17
->  ‘ This announcement is by the decree of the sentinels;
->  ‘ This decision is by the pronouncement of the holy ones,
->  ‘ So that those who are alive may understand
->  ‘ That the Most High has authority over human kingdoms,
->  ‘ And he bestows them on whomever he wishes.
->  ‘ He establishes over them even the lowliest of human beings.’
+> ‘This announcement is by the decree of the sentinels;
+> ‘This decision is by the pronouncement of the holy ones,
+> ‘So that those who are alive may understand
+> ‘That the Most High has authority over human kingdoms,
+> ‘And he bestows them on whomever he wishes.
+> ‘He establishes over them even the lowliest of human beings.’
 ###### 18
 “This is the dream that I, King Nebuchadnezzar, saw. Now you, Belteshazzar, declare its interpretation, for none of the wise men in my kingdom are able to make known to me the interpretation. But you can do so, for a spirit of the holy gods is in you.”
 ## Daniel Interprets Nebuchadnezzar’s Dream

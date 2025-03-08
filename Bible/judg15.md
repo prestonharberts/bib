@@ -32,10 +32,10 @@ When he arrived in Lehi, the Philistines shouted as they approached him. But the
 He happened to see a solid jawbone of a donkey. He grabbed it and struck down 1,000 men.
 ###### 16
 Samson then said,
->  “ With the jawbone of a donkey
->  “ I have left them in heaps;
->  “ With the jawbone of a donkey
->  “ I have struck down a thousand men!”
+> “With the jawbone of a donkey
+> “I have left them in heaps;
+> “With the jawbone of a donkey
+> “I have struck down a thousand men!”
 ###### 17
 When he finished speaking, he threw the jawbone down and named that place Ramath Lehi.
 ###### 18

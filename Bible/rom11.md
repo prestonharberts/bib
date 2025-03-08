@@ -16,16 +16,16 @@ And if it is by grace, it is no longer by works, otherwise grace would no longer
 What then? Israel failed to obtain what it was diligently seeking, but the elect obtained it. The rest were hardened,
 ###### 8
 as it is written,
->  “ God gave them a spirit of stupor,
->  “ Eyes that would not see and ears that would not hear,
->  “ To this very day.”
+> “God gave them a spirit of stupor,
+> “Eyes that would not see and ears that would not hear,
+> “To this very day.”
 ###### 9
 And David says,
->  “ Let their table become a snare and trap,
->  “ A stumbling block and a retribution for them;
+> “Let their table become a snare and trap,
+> “A stumbling block and a retribution for them;
 ###### 10
->  “ Let their eyes be darkened so that they may not see,
->  “ And make their backs bend continually.”
+> “Let their eyes be darkened so that they may not see,
+> “And make their backs bend continually.”
 ###### ¶ 11
 I ask then, they did not stumble into an irrevocable fall, did they? Absolutely not! But by their transgression salvation has come to the Gentiles, to make Israel jealous.
 ###### 12
@@ -58,11 +58,11 @@ For if you were cut off from what is by nature a wild olive tree, and grafted, c
 For I do not want you to be ignorant of this mystery, brothers and sisters, so that you may not be conceited: A partial hardening has happened to Israel until the full number of the Gentiles has come in.
 ###### 26
 And so all Israel will be saved, as it is written:
->  “ The Deliverer will come out of Zion;
->  “ He will remove ungodliness from Jacob.
+> “The Deliverer will come out of Zion;
+> “He will remove ungodliness from Jacob.
 ###### 27
->  “ And this is my covenant with them,
->  “ When I take away their sins.”
+> “And this is my covenant with them,
+> “When I take away their sins.”
 ###### 28
 In regard to the gospel they are enemies for your sake, but in regard to election they are dearly loved for the sake of the fathers.
 ###### 29

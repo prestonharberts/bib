@@ -10,10 +10,10 @@ Think of him who endured such opposition against himself by sinners, so that you
 You have not yet resisted to the point of bloodshed in your struggle against sin.
 ###### 5
 And have you forgotten the exhortation addressed to you as sons?
->  “ My son, do not scorn the Lord’s discipline
->  “ Or give up when he corrects you.
+> “My son, do not scorn the Lord’s discipline
+> “Or give up when he corrects you.
 ###### 6
->  “ For the Lord disciplines the one he loves and chastises every son he accepts.”
+> “For the Lord disciplines the one he loves and chastises every son he accepts.”
 ###### 7
 Endure your suffering as discipline; God is treating you as sons. For what son is there that a father does not discipline?
 ###### 8

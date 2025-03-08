@@ -54,21 +54,21 @@ Isaac said, “Bring some of the wild game for me to eat, my son. Then I will bl
 Then his father Isaac said to him, “Come here and kiss me, my son.”
 ###### 27
 So Jacob went over and kissed him. When Isaac caught the scent of his clothing, he blessed him, saying,
->  “ Yes, my son smells
->  “ Like the scent of an open field
->  “ Which the LORD has blessed.
+> “Yes, my son smells
+> “Like the scent of an open field
+> “Which the LORD has blessed.
 ###### 28
->  “ May God give you
->  “ The dew of the sky
->  “ And the richness of the earth,
->  “ And plenty of grain and new wine.
+> “May God give you
+> “The dew of the sky
+> “And the richness of the earth,
+> “And plenty of grain and new wine.
 ###### 29
->  “ May peoples serve you
->  “ And nations bow down to you.
->  “ You will be lord over your brothers,
->  “ And the sons of your mother will bow down to you.
->  “ May those who curse you be cursed,
->  “ And those who bless you be blessed.”
+> “May peoples serve you
+> “And nations bow down to you.
+> “You will be lord over your brothers,
+> “And the sons of your mother will bow down to you.
+> “May those who curse you be cursed,
+> “And those who bless you be blessed.”
 ###### ¶ 30
 Isaac had just finished blessing Jacob, and Jacob had scarcely left his father’s presence, when his brother Esau returned from the hunt.
 ###### 31
@@ -89,14 +89,14 @@ Isaac replied to Esau, “Look! I have made him lord over you. I have made all h
 Esau said to his father, “Do you have only that one blessing, my father? Bless me too!” Then Esau wept loudly.
 ###### ¶ 39
 So his father Isaac said to him,
->  “ See here, your home will be by the richness of the earth,
->  “ And by the dew of the sky above.
+> “See here, your home will be by the richness of the earth,
+> “And by the dew of the sky above.
 ###### 40
->  “ You will live by your sword
->  “ But you will serve your brother.
->  “ When you grow restless,
->  “ You will tear off his yoke
->  “ From your neck.”
+> “You will live by your sword
+> “But you will serve your brother.
+> “When you grow restless,
+> “You will tear off his yoke
+> “From your neck.”
 ###### ¶ 41
 So Esau hated Jacob because of the blessing his father had given to his brother. Esau said privately, “The time of mourning for my father is near; then I will kill my brother Jacob!”
 ###### 42

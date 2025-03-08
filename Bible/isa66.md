@@ -1,73 +1,73 @@
 # Isaiah 66
 ###### ¶ 1
 > This is what the LORD says:
->  “ The heavens are my throne
->  “ And the earth is my footstool.
->  “ Where then is the house you will build for me?
->  “ Where is the place where I will rest?
+> “The heavens are my throne
+> “And the earth is my footstool.
+> “Where then is the house you will build for me?
+> “Where is the place where I will rest?
 ###### 2
->  “ My hand made them;
->  “ That is how they came to be,” says the LORD.
->  “ I show special favor to the humble and contrite,
->  “ Who respect what I have to say.
+> “My hand made them;
+> “That is how they came to be,” says the LORD.
+> “I show special favor to the humble and contrite,
+> “Who respect what I have to say.
 ###### ¶ 3
->  “ The one who slaughters a bull also strikes down a man;
->  “ The one who sacrifices a lamb also breaks a dog’s neck;
->  “ The one who presents an offering includes pig’s blood with it;
->  “ The one who offers incense also praises an idol.
->  “ They have decided to behave this way;
->  “ They enjoy these disgusting practices.
+> “The one who slaughters a bull also strikes down a man;
+> “The one who sacrifices a lamb also breaks a dog’s neck;
+> “The one who presents an offering includes pig’s blood with it;
+> “The one who offers incense also praises an idol.
+> “They have decided to behave this way;
+> “They enjoy these disgusting practices.
 ###### 4
->  “ So I will choose severe punishment for them;
->  “ I will bring on them what they dread,
->  “ Because I called, and no one responded.
->  “ I spoke and they did not listen.
->  “ They did evil before me;
->  “ They chose to do what displeases me.”
+> “So I will choose severe punishment for them;
+> “I will bring on them what they dread,
+> “Because I called, and no one responded.
+> “I spoke and they did not listen.
+> “They did evil before me;
+> “They chose to do what displeases me.”
 ###### 5
 > Listen to the LORD’s message,
 > You who respect his word!
->  “ Your countrymen, who hate you
->  “ And exclude you, supposedly for the sake of my name,
->  “ Say, ‘May the LORD be glorified,
->  ‘ Then we will witness your joy.’
->  “ But they will be put to shame.
+> “Your countrymen, who hate you
+> “And exclude you, supposedly for the sake of my name,
+> “Say, ‘May the LORD be glorified,
+> ‘Then we will witness your joy.’
+> “But they will be put to shame.
 ###### 6
->  “ The sound of battle comes from the city;
->  “ The sound comes from the temple!
->  “ It is the sound of the LORD paying back his enemies.
+> “The sound of battle comes from the city;
+> “The sound comes from the temple!
+> “It is the sound of the LORD paying back his enemies.
 ###### ¶ 7
->  “ Before she goes into labor, she gives birth!
->  “ Before her contractions begin, she delivers a boy!
+> “Before she goes into labor, she gives birth!
+> “Before her contractions begin, she delivers a boy!
 ###### 8
->  “ Who has ever heard of such a thing?
->  “ Who has ever seen this?
->  “ Can a country be brought forth in one day?
->  “ Can a nation be born in a single moment?
->  “ Yet as soon as Zion goes into labor she gives birth to sons!
+> “Who has ever heard of such a thing?
+> “Who has ever seen this?
+> “Can a country be brought forth in one day?
+> “Can a nation be born in a single moment?
+> “Yet as soon as Zion goes into labor she gives birth to sons!
 ###### 9
->  “ Do I bring a baby to the birth opening and then not deliver it?”
+> “Do I bring a baby to the birth opening and then not deliver it?”
 > Asks the LORD.
->  “ Or do I bring a baby to the point of delivery and then hold it back?”
+> “Or do I bring a baby to the point of delivery and then hold it back?”
 > Asks your God.
 ###### 10
->  “ Be happy for Jerusalem
->  “ And rejoice with her, all you who love her!
->  “ Share in her great joy,
->  “ All you who have mourned over her!
+> “Be happy for Jerusalem
+> “And rejoice with her, all you who love her!
+> “Share in her great joy,
+> “All you who have mourned over her!
 ###### 11
->  “ For you will nurse from her satisfying breasts and be nourished;
->  “ You will feed with joy from her milk-filled breasts.
+> “For you will nurse from her satisfying breasts and be nourished;
+> “You will feed with joy from her milk-filled breasts.
 ###### 12
 “For this is what the LORD says:
->  “ Look, I am ready to extend to her prosperity that will flow like a river,
->  “ The riches of nations will flow into her like a stream that floods its banks.
->  “ You will nurse from her breast and be carried at her side;
->  “ You will play on her knees.
+> “Look, I am ready to extend to her prosperity that will flow like a river,
+> “The riches of nations will flow into her like a stream that floods its banks.
+> “You will nurse from her breast and be carried at her side;
+> “You will play on her knees.
 ###### 13
->  “ As a mother consoles a child,
->  “ So I will console you,
->  “ And you will be consoled over Jerusalem.”
+> “As a mother consoles a child,
+> “So I will console you,
+> “And you will be consoled over Jerusalem.”
 ###### 14
 > When you see this, you will be happy,
 > And you will be revived.

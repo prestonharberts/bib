@@ -7,11 +7,11 @@
 > From a land that is feared.
 ###### 2
 > I have received a distressing message:
->  “ The deceiver deceives,
->  “ The destroyer destroys.
->  “ Attack, you Elamites!
->  “ Lay siege, you Medes!
->  “ I will put an end to all the groaning.”
+> “The deceiver deceives,
+> “The destroyer destroys.
+> “Attack, you Elamites!
+> “Lay siege, you Medes!
+> “I will put an end to all the groaning.”
 ###### 3
 > For this reason my stomach churns;
 > Cramps overwhelm me
@@ -31,28 +31,28 @@
 > Smear oil on the shields!
 ###### 6
 For this is what the Lord has told me:
->  “ Go, post a guard!
->  “ He must report what he sees.
+> “Go, post a guard!
+> “He must report what he sees.
 ###### 7
->  “ When he sees chariots,
->  “ Teams of horses,
->  “ Riders on donkeys,
->  “ Riders on camels,
->  “ He must be alert,
->  “ Very alert.”
+> “When he sees chariots,
+> “Teams of horses,
+> “Riders on donkeys,
+> “Riders on camels,
+> “He must be alert,
+> “Very alert.”
 ###### 8
 > Then the guard cries out:
->  “ On the watchtower, O Lord,
->  “ I stand all day long;
->  “ At my post
->  “ I am stationed every night.
+> “On the watchtower, O Lord,
+> “I stand all day long;
+> “At my post
+> “I am stationed every night.
 ###### 9
->  “ Look what’s coming!
->  “ A charioteer,
->  “ A team of horses.”
+> “Look what’s coming!
+> “A charioteer,
+> “A team of horses.”
 > When questioned, he replies,
->  “ Babylon has fallen, fallen!
->  “ All the idols of her gods lie shattered on the ground!”
+> “Babylon has fallen, fallen!
+> “All the idols of her gods lie shattered on the ground!”
 ###### 10
 > O my downtrodden people, crushed like stalks on the threshing floor,
 > What I have heard
@@ -63,13 +63,13 @@ For this is what the Lord has told me:
 ###### ¶ 11
 > This is an oracle about Dumah:
 > Someone calls to me from Seir,
->  “ Watchman, what is left of the night?
->  “ Watchman, what is left of the night?”
+> “Watchman, what is left of the night?
+> “Watchman, what is left of the night?”
 ###### 12
 > The watchman replies,
->  “ Morning is coming, but then night.
->  “ If you want to ask, ask;
->  “ Come back again.”
+> “Morning is coming, but then night.
+> “If you want to ask, ask;
+> “Come back again.”
 ## The Lord Will Judge Arabia
 ###### ¶ 13
 > This is an oracle about Arabia:

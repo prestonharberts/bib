@@ -50,19 +50,19 @@ And what if he is willing to make known the wealth of his glory on the objects o
 even us, whom he has called, not only from the Jews but also from the Gentiles?
 ###### 25
 As he also says in Hosea:
->  “ I will call those who were not my people, ‘My people,’ and I will call her who was unloved, ‘My beloved.’”
+> “I will call those who were not my people, ‘My people,’ and I will call her who was unloved, ‘My beloved.’”
 ###### 26
->  “ And in the very place where it was said to them, ‘You are not my people,’
->  “ There they will be called ‘sons of the living God.’”
+> “And in the very place where it was said to them, ‘You are not my people,’
+> “There they will be called ‘sons of the living God.’”
 ###### ¶ 27
 And Isaiah cries out on behalf of Israel, “Though the number of the children of Israel are as the sand of the sea, only the remnant will be saved,
 ###### 28
 “for the Lord will execute his sentence on the earth completely and quickly.”
 ###### 29
 Just as Isaiah predicted,
->  “ If the Lord of Heaven’s Armies had not left us descendants,
->  “ We would have become like Sodom,
->  “ And we would have resembled Gomorrah.”
+> “If the Lord of Heaven’s Armies had not left us descendants,
+> “We would have become like Sodom,
+> “And we would have resembled Gomorrah.”
 ## Israel’s Rejection Culpable
 ###### ¶ 30
 What shall we say then?—that the Gentiles who did not pursue righteousness obtained it, that is, a righteousness that is by faith,
@@ -72,6 +72,6 @@ but Israel even though pursuing a law of righteousness did not attain it.
 Why not? Because they pursued it not by faith but (as if it were possible) by works. They stumbled over the stumbling stone,
 ###### 33
 just as it is written,
->  “ Look, I am laying in Zion a stone that will cause people to stumble
->  “ And a rock that will make them fall,
->  “ Yet the one who believes in him will not be put to shame.”
+> “Look, I am laying in Zion a stone that will cause people to stumble
+> “And a rock that will make them fall,
+> “Yet the one who believes in him will not be put to shame.”

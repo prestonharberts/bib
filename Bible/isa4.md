@@ -3,9 +3,9 @@
 > Seven women will grab hold of
 > One man at that time.
 > They will say, “We will provide our own food,
->  “ We will provide our own clothes;
->  “ But let us belong to you—
->  “ Take away our shame!”
+> “We will provide our own clothes;
+> “But let us belong to you—
+> “Take away our shame!”
 ## The Branch of the Lord
 ###### ¶ 2
 > At that time

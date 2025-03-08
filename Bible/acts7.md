@@ -97,12 +97,12 @@ So he replied, “Brothers and fathers, listen to me. The God of glory appeared 
 ###### 48
 “Yet the Most High does not live in houses made by human hands, as the prophet says,
 ###### 49
->  ‘ Heaven is my throne,
->  ‘ And earth is the footstool for my feet.
->  ‘ What kind of house will you build for me, says the Lord,
->  ‘ Or what is my resting place?
+> ‘Heaven is my throne,
+> ‘And earth is the footstool for my feet.
+> ‘What kind of house will you build for me, says the Lord,
+> ‘Or what is my resting place?
 ###### 50
->  ‘ Did my hand not make all these things?’
+> ‘Did my hand not make all these things?’
 ###### ¶ 51
 “You stubborn people, with uncircumcised hearts and ears! You are always resisting the Holy Spirit, like your ancestors did!
 ###### 52

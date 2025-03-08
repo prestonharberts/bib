@@ -86,47 +86,47 @@
 > Because his sons and daughters enraged him.
 ###### 20
 > He said, “I will reject them.
->  “ I will see what will happen to them;
->  “ For they are a perverse generation,
->  “ Children who show no loyalty.
+> “I will see what will happen to them;
+> “For they are a perverse generation,
+> “Children who show no loyalty.
 ###### 21
->  “ They have made me jealous with false gods,
->  “ Enraging me with their worthless gods;
->  “ So I will make them jealous with a people they do not recognize,
->  “ With a nation slow to learn I will enrage them.
+> “They have made me jealous with false gods,
+> “Enraging me with their worthless gods;
+> “So I will make them jealous with a people they do not recognize,
+> “With a nation slow to learn I will enrage them.
 ###### 22
->  “ For a fire has been kindled by my anger,
->  “ And it burns to lowest Sheol;
->  “ It consumes the earth and its produce,
->  “ And ignites the foundations of the mountains.
+> “For a fire has been kindled by my anger,
+> “And it burns to lowest Sheol;
+> “It consumes the earth and its produce,
+> “And ignites the foundations of the mountains.
 ###### ¶ 23
->  “ I will increase their disasters;
->  “ I will use up my arrows on them.
+> “I will increase their disasters;
+> “I will use up my arrows on them.
 ###### 24
->  “ They will be starved by famine,
->  “ Eaten by plague, and bitterly stung;
->  “ I will send the teeth of wild animals against them,
->  “ Along with the poison of creatures that crawl in the dust.
+> “They will be starved by famine,
+> “Eaten by plague, and bitterly stung;
+> “I will send the teeth of wild animals against them,
+> “Along with the poison of creatures that crawl in the dust.
 ###### 25
->  “ The sword will make people childless outside,
->  “ And terror will do so inside;
->  “ They will destroy both the young man and the virgin,
->  “ The infant and the gray-haired man.”
+> “The sword will make people childless outside,
+> “And terror will do so inside;
+> “They will destroy both the young man and the virgin,
+> “The infant and the gray-haired man.”
 ## The Weakness of Other Gods
 ###### 26
->  “ I said, ‘I want to cut them in pieces.
->  ‘ I want to make people forget they ever existed.
+> “I said, ‘I want to cut them in pieces.
+> ‘I want to make people forget they ever existed.
 ###### 27
->  ‘ But I fear the reaction of their enemies,
->  ‘ For their adversaries would misunderstand
->  ‘ And say, “Our power is great,
->  ‘ And the LORD has not done all this!”’
+> ‘But I fear the reaction of their enemies,
+> ‘For their adversaries would misunderstand
+> ‘And say, “Our power is great,
+> ‘And the LORD has not done all this!”’
 ###### ¶ 28
->  “ They are a nation devoid of wisdom,
->  “ And there is no understanding among them.
+> “They are a nation devoid of wisdom,
+> “And there is no understanding among them.
 ###### 29
->  “ I wish that they were wise and could understand this,
->  “ And that they could comprehend what will happen to them.”
+> “I wish that they were wise and could understand this,
+> “And that they could comprehend what will happen to them.”
 ###### 30
 > How can one man chase a thousand of them,
 > And two pursue ten thousand,
@@ -144,13 +144,13 @@
 > Their wine is snakes’ poison,
 > The deadly venom of cobras.
 ###### ¶ 34
->  “ Is this not stored up with me?” says the LORD,
->  “ Is it not sealed up in my storehouses?
+> “Is this not stored up with me?” says the LORD,
+> “Is it not sealed up in my storehouses?
 ###### 35
->  “ I will get revenge and pay them back
->  “ At the time their foot slips;
->  “ For the day of their disaster is near,
->  “ And the impending judgment is rushing upon them!”
+> “I will get revenge and pay them back
+> “At the time their foot slips;
+> “For the day of their disaster is near,
+> “And the impending judgment is rushing upon them!”
 ###### 36
 > The LORD will judge his people,
 > And will change his plans concerning his servants;
@@ -158,32 +158,32 @@
 > And that no one is left, whether confined or set free.
 ###### 37
 > He will say, “Where are their gods,
->  “ The rock in whom they sought security,
+> “The rock in whom they sought security,
 ###### 38
->  “ Who ate the best of their sacrifices,
->  “ And drank the wine of their drink offerings?
->  “ Let them rise and help you;
->  “ Let them be your refuge!”
+> “Who ate the best of their sacrifices,
+> “And drank the wine of their drink offerings?
+> “Let them rise and help you;
+> “Let them be your refuge!”
 ## The Vindication of the Lord
 ###### 39
->  “ See now that I, indeed I, am he!” says the LORD,
->  “ And there is no other god besides me.
->  “ I kill and give life,
->  “ I smash and I heal,
->  “ And none can resist my power.
+> “See now that I, indeed I, am he!” says the LORD,
+> “And there is no other god besides me.
+> “I kill and give life,
+> “I smash and I heal,
+> “And none can resist my power.
 ###### 40
->  “ For I raise up my hand to heaven,
->  “ And say, ‘As surely as I live forever,
+> “For I raise up my hand to heaven,
+> “And say, ‘As surely as I live forever,
 ###### 41
->  ‘ I will sharpen my lightning-like sword,
->  ‘ And my hand will grasp hold of the weapon of judgment;
->  ‘ I will execute vengeance on my foes,
->  ‘ And repay those who hate me!
+> ‘I will sharpen my lightning-like sword,
+> ‘And my hand will grasp hold of the weapon of judgment;
+> ‘I will execute vengeance on my foes,
+> ‘And repay those who hate me!
 ###### 42
->  ‘ I will make my arrows drunk with blood,
->  ‘ And my sword will devour flesh—
->  ‘ The blood of the slaughtered and captured,
->  ‘ The chief of the enemy’s leaders.’”
+> ‘I will make my arrows drunk with blood,
+> ‘And my sword will devour flesh—
+> ‘The blood of the slaughtered and captured,
+> ‘The chief of the enemy’s leaders.’”
 ###### 43
 > Cry out, O nations, with his people,
 > For he will avenge his servants’ blood;

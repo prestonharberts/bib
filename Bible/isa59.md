@@ -95,7 +95,7 @@
 > For he comes like a rushing stream
 > Driven on by wind sent from the LORD.
 ###### 20
->  “ A protector comes to Zion,
->  “ To those in Jacob who repent of their rebellious deeds,” says the LORD.
+> “A protector comes to Zion,
+> “To those in Jacob who repent of their rebellious deeds,” says the LORD.
 ###### ¶ 21
 “As for me, this is my promise to them,” says the LORD. “My Spirit, who is upon you, and my words, which I have placed in your mouth, will not depart from your mouth or from the mouths of your children and descendants from this time forward,” says the LORD.

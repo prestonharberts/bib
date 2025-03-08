@@ -121,8 +121,8 @@ So they called Rebekah and asked her, “Do you want to go with this man?” She
 So they sent their sister Rebekah on her way, accompanied by her female attendant, with Abraham’s servant and his men.
 ###### 60
 They blessed Rebekah with these words:
->  “ Our sister, may you become the mother of thousands of ten thousands!
->  “ May your descendants possess the strongholds of their enemies.”
+> “Our sister, may you become the mother of thousands of ten thousands!
+> “May your descendants possess the strongholds of their enemies.”
 ###### 61
 Then Rebekah and her female servants mounted the camels and rode away with the man. So Abraham’s servant took Rebekah and left.
 ###### ¶ 62

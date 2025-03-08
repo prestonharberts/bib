@@ -26,58 +26,58 @@ Then the Lord’s message came to me,
 “But they just keep saying, ‘We do not care what you say! We will do whatever we want to do! We will continue to behave wickedly and stubbornly!’”
 ###### ¶ 13
 Therefore, the LORD says,
->  “ Ask the people of other nations
->  “ Whether they have heard of anything like this.
->  “ Israel should have been like a virgin,
->  “ But she has done something utterly revolting!
+> “Ask the people of other nations
+> “Whether they have heard of anything like this.
+> “Israel should have been like a virgin,
+> “But she has done something utterly revolting!
 ###### 14
->  “ Does the snow ever completely vanish from the rocky slopes of Lebanon?
->  “ Do the cool waters from those distant mountains ever cease to flow?
+> “Does the snow ever completely vanish from the rocky slopes of Lebanon?
+> “Do the cool waters from those distant mountains ever cease to flow?
 ###### 15
->  “ Yet my people have forgotten me
->  “ And offered sacrifices to worthless idols.
->  “ This makes them stumble along in the way they live
->  “ And leave the old reliable path of their fathers.
->  “ They have left them to walk in bypaths,
->  “ In roads that are not smooth and level.
+> “Yet my people have forgotten me
+> “And offered sacrifices to worthless idols.
+> “This makes them stumble along in the way they live
+> “And leave the old reliable path of their fathers.
+> “They have left them to walk in bypaths,
+> “In roads that are not smooth and level.
 ###### 16
->  “ So their land will become an object of horror.
->  “ People will forever hiss out their scorn over it.
->  “ All who pass that way will be filled with horror
->  “ And will shake their heads in derision.
+> “So their land will become an object of horror.
+> “People will forever hiss out their scorn over it.
+> “All who pass that way will be filled with horror
+> “And will shake their heads in derision.
 ###### 17
->  “ I will scatter them before their enemies
->  “ Like dust blowing in front of a burning east wind.
->  “ I will turn my back on them and not look favorably on them
->  “ When disaster strikes them.”
+> “I will scatter them before their enemies
+> “Like dust blowing in front of a burning east wind.
+> “I will turn my back on them and not look favorably on them
+> “When disaster strikes them.”
 ## Jeremiah Petitions the Lord to Punish Those Who Attack Him
 ###### ¶ 18
 Then some people said, “Come on! Let us consider how to deal with Jeremiah! There will still be priests to instruct us, wise men to give us advice, and prophets to declare God’s word. Come on! Let’s bring charges against him and get rid of him! Then we will not need to pay attention to anything he says.”
 ###### ¶ 19
 Then I said,
->  “ LORD, pay attention to me.
->  “ Listen to what my enemies are saying.
+> “LORD, pay attention to me.
+> “Listen to what my enemies are saying.
 ###### 20
->  “ Should good be paid back with evil?
->  “ Yet they are virtually digging a pit to kill me.
->  “ Just remember how I stood before you
->  “ Pleading on their behalf
->  “ To keep you from venting your anger on them.
+> “Should good be paid back with evil?
+> “Yet they are virtually digging a pit to kill me.
+> “Just remember how I stood before you
+> “Pleading on their behalf
+> “To keep you from venting your anger on them.
 ###### 21
->  “ So let their children die of starvation.
->  “ Let them be cut down by the sword.
->  “ Let their wives lose their husbands and children.
->  “ Let the older men die of disease
->  “ And the younger men die by the sword in battle.
+> “So let their children die of starvation.
+> “Let them be cut down by the sword.
+> “Let their wives lose their husbands and children.
+> “Let the older men die of disease
+> “And the younger men die by the sword in battle.
 ###### 22
->  “ Let cries of terror be heard in their houses
->  “ When you send bands of raiders unexpectedly to plunder them.
->  “ For they have virtually dug a pit to capture me
->  “ And have hidden traps for me to step into.
+> “Let cries of terror be heard in their houses
+> “When you send bands of raiders unexpectedly to plunder them.
+> “For they have virtually dug a pit to capture me
+> “And have hidden traps for me to step into.
 ###### 23
->  “ But you, LORD, know
->  “ All their plots to kill me.
->  “ Do not pardon their crimes!
->  “ Do not ignore their sins as though you had erased them.
->  “ Let them be brought down in defeat before you.
->  “ Deal with them while you are still angry!
+> “But you, LORD, know
+> “All their plots to kill me.
+> “Do not pardon their crimes!
+> “Do not ignore their sins as though you had erased them.
+> “Let them be brought down in defeat before you.
+> “Deal with them while you are still angry!

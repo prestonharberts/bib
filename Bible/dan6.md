@@ -53,14 +53,14 @@ The king gave another order, and those men who had maliciously accused Daniel we
 Then King Darius wrote to all the peoples, nations, and language groups who were living in all the land: “Peace and prosperity!
 ###### 26
 “I have issued an edict that throughout all the dominion of my kingdom people are to revere and fear the God of Daniel.
->  “ For he is the living God;
->  “ He endures forever.
->  “ His kingdom will not be destroyed;
->  “ His authority is forever.
+> “For he is the living God;
+> “He endures forever.
+> “His kingdom will not be destroyed;
+> “His authority is forever.
 ###### 27
->  “ He rescues and delivers
->  “ And performs signs and wonders
->  “ In the heavens and on the earth.
->  “ He has rescued Daniel from the power of the lions!”
+> “He rescues and delivers
+> “And performs signs and wonders
+> “In the heavens and on the earth.
+> “He has rescued Daniel from the power of the lions!”
 ###### ¶ 28
 So this Daniel prospered during the reign of Darius and the reign of Cyrus the Persian.

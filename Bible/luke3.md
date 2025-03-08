@@ -8,16 +8,16 @@ during the high priesthood of Annas and Caiaphas, the word of God came to John t
 He went into all the region around the Jordan River, preaching a baptism of repentance for the forgiveness of sins.
 ###### 4
 As it is written in the book of the words of the prophet Isaiah,
->  “ The voice of one shouting in the wilderness:
->  ‘ Prepare the way for the Lord,
->  ‘ Make his paths straight.
+> “The voice of one shouting in the wilderness:
+> ‘Prepare the way for the Lord,
+> ‘Make his paths straight.
 ###### 5
->  ‘ Every valley will be filled,
->  ‘ And every mountain and hill will be brought low,
->  ‘ And the crooked will be made straight,
->  ‘ And the rough ways will be made smooth,
+> ‘Every valley will be filled,
+> ‘And every mountain and hill will be brought low,
+> ‘And the crooked will be made straight,
+> ‘And the rough ways will be made smooth,
 ###### 6
->  ‘ And all humanity will see the salvation of God.’”
+> ‘And all humanity will see the salvation of God.’”
 ###### ¶ 7
 So John said to the crowds that came out to be baptized by him, “You offspring of vipers! Who warned you to flee from the coming wrath?
 ###### 8

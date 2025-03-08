@@ -29,24 +29,24 @@
 > And the one with clean hands grows stronger.
 ## Anticipation of Death
 ###### 10
->  “ But turn, all of you, and come now!
->  “ I will not find a wise man among you.
+> “But turn, all of you, and come now!
+> “I will not find a wise man among you.
 ###### 11
->  “ My days have passed, my plans are shattered,
->  “ Even the desires of my heart.
+> “My days have passed, my plans are shattered,
+> “Even the desires of my heart.
 ###### 12
->  “ These men change night into day;
->  “ They say, ‘The light is near
->  ‘ In the face of darkness.’
+> “These men change night into day;
+> “They say, ‘The light is near
+> ‘In the face of darkness.’
 ###### 13
->  “ If I hope for the grave to be my home,
->  “ If I spread out my bed in darkness,
+> “If I hope for the grave to be my home,
+> “If I spread out my bed in darkness,
 ###### 14
->  “ If I cry out to corruption, ‘You are my father,’
->  “ And to the worm, ‘My mother,’ or ‘My sister,’
+> “If I cry out to corruption, ‘You are my father,’
+> “And to the worm, ‘My mother,’ or ‘My sister,’
 ###### 15
->  “ Where then is my hope?
->  “ And my hope, who sees it?
+> “Where then is my hope?
+> “And my hope, who sees it?
 ###### 16
->  “ Will it go down to the barred gates of death?
->  “ Will we descend together into the dust?”
+> “Will it go down to the barred gates of death?
+> “Will we descend together into the dust?”

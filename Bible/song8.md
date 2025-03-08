@@ -16,7 +16,7 @@
 and his right hand embraces me.
 ###### ¶ 4
 > I admonish you, O maidens of Jerusalem:
->  “ Do not arouse or awaken love until it pleases!”
+> “Do not arouse or awaken love until it pleases!”
 ## The Awakening of Love
 ###### ¶ 5
 > Who is this coming up from the wilderness,

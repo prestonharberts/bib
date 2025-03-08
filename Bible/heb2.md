@@ -13,12 +13,12 @@ while God confirmed their witness with signs and wonders and various miracles an
 For he did not put the world to come, about which we are speaking, under the control of angels.
 ###### 6
 Instead someone testified somewhere:
->  “ What is man that you think of him or the son of man that you care for him?
+> “What is man that you think of him or the son of man that you care for him?
 ###### 7
->  “ You made him lower than the angels for a little while.
->  “ You crowned him with glory and honor.
+> “You made him lower than the angels for a little while.
+> “You crowned him with glory and honor.
 ###### 8
->  “ You put all things under his control.”
+> “You put all things under his control.”
 For when he put all things under his control, he left nothing outside of his control. At present we do not yet see all things under his control,
 ###### 9
 but we see Jesus, who was made lower than the angels for a little while, now crowned with glory and honor because he suffered death, so that by God’s grace he would experience death on behalf of everyone.

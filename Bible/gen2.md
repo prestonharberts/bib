@@ -46,10 +46,10 @@ So the LORD God caused the man to fall into a deep sleep, and while he was aslee
 Then the LORD God made a woman from the part he had taken out of the man, and he brought her to the man.
 ###### 23
 Then the man said,
->  “ This one at last is bone of my bones
->  “ And flesh of my flesh;
->  “ This one will be called ‘woman,’
->  “ For she was taken out of man.”
+> “This one at last is bone of my bones
+> “And flesh of my flesh;
+> “This one will be called ‘woman,’
+> “For she was taken out of man.”
 ###### 24
 That is why a man leaves his father and mother and unites with his wife, and they become one family.
 ###### 25

@@ -1,51 +1,51 @@
 # Isaiah 51
 ## There is Hope for the Future
 ###### ¶ 1
->  “ Listen to me, you who pursue godliness,
->  “ Who seek the LORD.
->  “ Look at the rock from which you were chiseled,
->  “ At the quarry from which you were dug.
+> “Listen to me, you who pursue godliness,
+> “Who seek the LORD.
+> “Look at the rock from which you were chiseled,
+> “At the quarry from which you were dug.
 ###### 2
->  “ Look at Abraham, your father,
->  “ And Sarah, who gave you birth.
->  “ When I summoned him, he was a lone individual,
->  “ But I blessed him and gave him numerous descendants.
+> “Look at Abraham, your father,
+> “And Sarah, who gave you birth.
+> “When I summoned him, he was a lone individual,
+> “But I blessed him and gave him numerous descendants.
 ###### 3
->  “ Certainly the LORD will console Zion;
->  “ He will console all her ruins.
->  “ He will make her wilderness like Eden,
->  “ Her arid rift valley like the garden of the LORD.
->  “ Happiness and joy will be restored to her,
->  “ Thanksgiving and the sound of music.
+> “Certainly the LORD will console Zion;
+> “He will console all her ruins.
+> “He will make her wilderness like Eden,
+> “Her arid rift valley like the garden of the LORD.
+> “Happiness and joy will be restored to her,
+> “Thanksgiving and the sound of music.
 ###### ¶ 4
->  “ Pay attention to me, my people.
->  “ Listen to me, my people!
->  “ For I will issue a decree,
->  “ I will make my justice a light to the nations.
+> “Pay attention to me, my people.
+> “Listen to me, my people!
+> “For I will issue a decree,
+> “I will make my justice a light to the nations.
 ###### 5
->  “ I am ready to vindicate,
->  “ I am ready to deliver,
->  “ I will establish justice among the nations.
->  “ The coastlands wait patiently for me;
->  “ They wait in anticipation for the revelation of my power.
+> “I am ready to vindicate,
+> “I am ready to deliver,
+> “I will establish justice among the nations.
+> “The coastlands wait patiently for me;
+> “They wait in anticipation for the revelation of my power.
 ###### 6
->  “ Look up at the sky.
->  “ Look at the earth below.
->  “ For the sky will dissipate like smoke,
->  “ And the earth will wear out like clothes;
->  “ Its residents will die like gnats.
->  “ But the deliverance I give is permanent;
->  “ The vindication I provide will not disappear.
+> “Look up at the sky.
+> “Look at the earth below.
+> “For the sky will dissipate like smoke,
+> “And the earth will wear out like clothes;
+> “Its residents will die like gnats.
+> “But the deliverance I give is permanent;
+> “The vindication I provide will not disappear.
 ###### 7
->  “ Listen to me, you who know what is right,
->  “ You people who are aware of my law.
->  “ Don’t be afraid of the insults of men;
->  “ Don’t be discouraged because of their abuse.
+> “Listen to me, you who know what is right,
+> “You people who are aware of my law.
+> “Don’t be afraid of the insults of men;
+> “Don’t be discouraged because of their abuse.
 ###### 8
->  “ For a moth will eat away at them like clothes;
->  “ A clothes moth will devour them like wool.
->  “ But the vindication I provide will be permanent;
->  “ The deliverance I give will last.”
+> “For a moth will eat away at them like clothes;
+> “A clothes moth will devour them like wool.
+> “But the vindication I provide will be permanent;
+> “The deliverance I give will last.”
 ###### ¶ 9
 > Wake up! Wake up!
 > Clothe yourself with strength, O arm of the LORD!
@@ -64,31 +64,31 @@
 > Happiness and joy will overwhelm them;
 > Grief and suffering will disappear.
 ###### ¶ 12
->  “ I, I am the one who consoles you.
->  “ Why are you afraid of mortal men,
->  “ Of mere human beings who are as short-lived as grass?
+> “I, I am the one who consoles you.
+> “Why are you afraid of mortal men,
+> “Of mere human beings who are as short-lived as grass?
 ###### 13
->  “ Why do you forget the LORD, who made you,
->  “ Who stretched out the sky
->  “ And founded the earth?
->  “ Why do you constantly tremble all day long
->  “ At the anger of the oppressor,
->  “ When he makes plans to destroy?
->  “ Where is the anger of the oppressor?
+> “Why do you forget the LORD, who made you,
+> “Who stretched out the sky
+> “And founded the earth?
+> “Why do you constantly tremble all day long
+> “At the anger of the oppressor,
+> “When he makes plans to destroy?
+> “Where is the anger of the oppressor?
 ###### 14
->  “ The one who suffers will soon be released;
->  “ He will not die in prison,
->  “ He will not go hungry.
+> “The one who suffers will soon be released;
+> “He will not die in prison,
+> “He will not go hungry.
 ###### 15
->  “ I am the LORD your God,
->  “ Who churns up the sea so that its waves surge.
->  “ The LORD of Heaven’s Armies is his name!”
+> “I am the LORD your God,
+> “Who churns up the sea so that its waves surge.
+> “The LORD of Heaven’s Armies is his name!”
 ## Zion’s Time to Celebrate
 ###### 16
->  “ I commission you as my spokesman;
->  “ I cover you with the palm of my hand,
->  “ To establish the sky and to found the earth,
->  “ To say to Zion, ‘You are my people.’”
+> “I commission you as my spokesman;
+> “I cover you with the palm of my hand,
+> “To establish the sky and to found the earth,
+> “To say to Zion, ‘You are my people.’”
 ###### ¶ 17
 > Wake up! Wake up!
 > Get up, O Jerusalem!
@@ -118,12 +118,12 @@
 > Who is drunk, but not from wine.
 ###### 22
 > This is what your Sovereign LORD, even your God who judges his people says:
->  “ Look, I have removed from your hand
->  “ The cup of intoxicating wine,
->  “ The goblet full of my anger.
->  “ You will no longer have to drink it.
+> “Look, I have removed from your hand
+> “The cup of intoxicating wine,
+> “The goblet full of my anger.
+> “You will no longer have to drink it.
 ###### 23
->  “ I will put it into the hand of your tormentors
->  “ Who said to you, ‘Lie down, so we can walk over you.’
->  “ You made your back like the ground,
->  “ And like the street for those who walked over you.”
+> “I will put it into the hand of your tormentors
+> “Who said to you, ‘Lie down, so we can walk over you.’
+> “You made your back like the ground,
+> “And like the street for those who walked over you.”

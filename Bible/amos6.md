@@ -7,11 +7,11 @@
 > The family of Israel looks to them for leadership.
 ###### 2
 > They say to the people:
->  “ Journey over to Calneh and look at it;
->  “ Then go from there to Hamath-Rabbah;
->  “ Then go down to Gath of the Philistines.
->  “ Are they superior to our two kingdoms?
->  “ Is their territory larger than yours?”
+> “Journey over to Calneh and look at it;
+> “Then go from there to Hamath-Rabbah;
+> “Then go down to Gath of the Philistines.
+> “Are they superior to our two kingdoms?
+> “Is their territory larger than yours?”
 ###### 3
 > You refuse to believe a day of disaster will come,
 > But you establish a reign of violence.
@@ -33,9 +33,9 @@
 ###### ¶ 8
 > The Sovereign LORD confirms this oath by his very own life.
 > The LORD God of Heaven’s Armies is speaking:
->  “ I despise Jacob’s arrogance;
->  “ I hate their fortresses.
->  “ I will hand over to their enemies the city of Samaria and everything in it.”
+> “I despise Jacob’s arrogance;
+> “I hate their fortresses.
+> “I will hand over to their enemies the city of Samaria and everything in it.”
 ###### 9
 If ten men are left in one house, they too will die.
 ###### 10
@@ -53,6 +53,6 @@ When their close relatives, the ones who will burn the corpses, pick up their bo
 > You are happy because you conquered Lo Debar.
 > You say, “Did we not conquer Karnaim by our own power?”
 ###### 14
->  “ Look! I am about to bring a nation against you, family of Israel,”
+> “Look! I am about to bring a nation against you, family of Israel,”
 > The LORD, the God who commands armies, is speaking.
->  “ They will oppress you all the way from Lebo Hamath to the stream of the rift valley.”
+> “They will oppress you all the way from Lebo Hamath to the stream of the rift valley.”

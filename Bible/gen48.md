@@ -30,17 +30,17 @@ Joseph positioned them; he put Ephraim on his right hand across from Israel’s 
 Israel stretched out his right hand and placed it on Ephraim’s head, although he was the younger. Crossing his hands, he put his left hand on Manasseh’s head, for Manasseh was the firstborn.
 ###### 15
 > Then he blessed Joseph and said,
->  “ May the God before whom my fathers
->  “ Abraham and Isaac walked—
->  “ The God who has been my shepherd
->  “ All my life long to this day,
+> “May the God before whom my fathers
+> “Abraham and Isaac walked—
+> “The God who has been my shepherd
+> “All my life long to this day,
 ###### 16
->  “ The angel who has protected me
->  “ From all harm—
->  “ Bless these boys.
->  “ May my name be named in them,
->  “ And the name of my fathers Abraham and Isaac.
->  “ May they grow into a multitude on the earth.”
+> “The angel who has protected me
+> “From all harm—
+> “Bless these boys.
+> “May my name be named in them,
+> “And the name of my fathers Abraham and Isaac.
+> “May they grow into a multitude on the earth.”
 ###### ¶ 17
 When Joseph saw that his father placed his right hand on Ephraim’s head, it displeased him. So he took his father’s hand to move it from Ephraim’s head to Manasseh’s head.
 ###### 18
@@ -49,8 +49,8 @@ Joseph said to his father, “Not so, my father, for this is the firstborn. Put 
 But his father refused and said, “I know, my son, I know. He too will become a nation and he too will become great. In spite of this, his younger brother will be even greater and his descendants will become a multitude of nations.”
 ###### 20
 So he blessed them that day, saying,
->  “ By you will Israel bless, saying,
->  ‘ May God make you like Ephraim and Manasseh.’”
+> “By you will Israel bless, saying,
+> ‘May God make you like Ephraim and Manasseh.’”
 > Thus he put Ephraim before Manasseh.
 ###### 21
 Then Israel said to Joseph, “I am about to die, but God will be with you and will bring you back to the land of your fathers.

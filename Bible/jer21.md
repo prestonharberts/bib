@@ -23,22 +23,22 @@ Jeremiah answered them, “Tell Zedekiah
 ## Warnings to the Royal Court
 ###### ¶ 11
 The LORD told me to say to the royal court of Judah:
->  “ Listen to the Lord’s message,
+> “Listen to the Lord’s message,
 ###### 12
->  “ O royal family descended from David.
->  “ The LORD says:
->  ‘ See to it that people each day are judged fairly.
->  ‘ Deliver those who have been robbed from those who oppress them.
->  ‘ Otherwise, my wrath will blaze out against you.
->  ‘ It will burn like a fire that cannot be put out
->  ‘ Because of the evil that you have done.
+> “O royal family descended from David.
+> “The LORD says:
+> ‘See to it that people each day are judged fairly.
+> ‘Deliver those who have been robbed from those who oppress them.
+> ‘Otherwise, my wrath will blaze out against you.
+> ‘It will burn like a fire that cannot be put out
+> ‘Because of the evil that you have done.
 ###### ¶ 13
->  ‘ Listen, you who sit enthroned above the valley on a rocky plateau.
->  ‘ I am opposed to you,’ says the LORD.
->  ‘ You boast, “No one can swoop down on us.
->  “ No one can penetrate into our places of refuge.”
+> ‘Listen, you who sit enthroned above the valley on a rocky plateau.
+> ‘I am opposed to you,’ says the LORD.
+> ‘You boast, “No one can swoop down on us.
+> “No one can penetrate into our places of refuge.”
 ###### 14
 > But I will punish you as your deeds deserve,’
->  “ Says the LORD.
->  ‘ I will set fire to your palace;
->  ‘ It will burn up everything around it.’”
+> “Says the LORD.
+> ‘I will set fire to your palace;
+> ‘It will burn up everything around it.’”

@@ -12,11 +12,11 @@ And when they come from the marketplace, they do not eat unless they wash. They 
 The Pharisees and the experts in the law asked him, “Why do your disciples not live according to the tradition of the elders, but eat with unwashed hands?”
 ###### 6
 He said to them, “Isaiah prophesied correctly about you hypocrites, as it is written:
->  ‘ This people honors me with their lips,
->  ‘ But their heart is far from me.
+> ‘This people honors me with their lips,
+> ‘But their heart is far from me.
 ###### 7
->  ‘ They worship me in vain,
->  ‘ Teaching as doctrine the commandments of men.’
+> ‘They worship me in vain,
+> ‘Teaching as doctrine the commandments of men.’
 ###### 8
 “Having no regard for the command of God, you hold fast to human tradition.”
 ###### ¶ 9

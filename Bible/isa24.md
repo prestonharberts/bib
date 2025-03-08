@@ -66,7 +66,7 @@
 > From the ends of the earth we hear songs—
 > The Just One is majestic.
 > But I say, “I’m wasting away! I’m wasting away! I’m doomed!
->  “ Deceivers deceive, deceivers thoroughly deceive!”
+> “Deceivers deceive, deceivers thoroughly deceive!”
 ###### 17
 > Terror, pit, and snare
 > Are ready to overtake, you inhabitants of the earth!

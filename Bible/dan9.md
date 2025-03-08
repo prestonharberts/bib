@@ -49,32 +49,32 @@ He spoke with me, instructing me as follows: “Daniel, I have now come to impar
 ###### 23
 “At the beginning of your requests a message went out, and I have come to convey it to you, for you are of great value in God’s sight. Therefore consider the message and understand the vision:
 ###### ¶ 24
->  “ Seventy weeks have been determined
->  “ Concerning your people and your holy city
->  “ To put an end to rebellion,
->  “ To bring sin to completion,
->  “ To atone for iniquity,
->  “ To bring in perpetual righteousness,
->  “ To seal up the prophetic vision,
->  “ And to anoint a Most Holy Place.
+> “Seventy weeks have been determined
+> “Concerning your people and your holy city
+> “To put an end to rebellion,
+> “To bring sin to completion,
+> “To atone for iniquity,
+> “To bring in perpetual righteousness,
+> “To seal up the prophetic vision,
+> “And to anoint a Most Holy Place.
 ###### 25
->  “ So know and understand:
->  “ From the issuing of the command to restore and rebuild
->  “ Jerusalem until an anointed one, a prince arrives,
->  “ There will be a period of seven weeks and sixty-two weeks.
->  “ It will again be built, with plaza and moat,
->  “ But in distressful times.
+> “So know and understand:
+> “From the issuing of the command to restore and rebuild
+> “Jerusalem until an anointed one, a prince arrives,
+> “There will be a period of seven weeks and sixty-two weeks.
+> “It will again be built, with plaza and moat,
+> “But in distressful times.
 ###### 26
->  “ Now after the sixty-two weeks,
->  “ An anointed one will be cut off and have nothing.
->  “ As for the city and the sanctuary,
->  “ The people of the coming prince will destroy them.
->  “ But his end will come speedily like a flood.
->  “ Until the end of the war that has been decreed
->  “ There will be destruction.
+> “Now after the sixty-two weeks,
+> “An anointed one will be cut off and have nothing.
+> “As for the city and the sanctuary,
+> “The people of the coming prince will destroy them.
+> “But his end will come speedily like a flood.
+> “Until the end of the war that has been decreed
+> “There will be destruction.
 ###### 27
->  “ He will confirm a covenant with many for one week.
->  “ But in the middle of that week
->  “ He will bring sacrifices and offerings to a halt.
->  “ On the wing of abominations will come one who destroys,
->  “ Until the decreed end is poured out on the one who destroys.”
+> “He will confirm a covenant with many for one week.
+> “But in the middle of that week
+> “He will bring sacrifices and offerings to a halt.
+> “On the wing of abominations will come one who destroys,
+> “Until the decreed end is poured out on the one who destroys.”

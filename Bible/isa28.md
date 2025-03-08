@@ -51,9 +51,9 @@
 > He will speak to these people.
 ###### 12
 > In the past he said to them,
->  “ This is where security can be found.
->  “ Provide security for the one who is exhausted.
->  “ This is where rest can be found.”
+> “This is where security can be found.
+> “Provide security for the one who is exhausted.
+> “This is where rest can be found.”
 > But they refused to listen.
 ###### 13
 > So the LORD’s message to them will sound like
@@ -70,32 +70,32 @@
 > Who reside in Jerusalem.
 ###### 15
 > For you say,
->  “ We have made a treaty with death,
->  “ With Sheol we have made an agreement.
->  “ When the overwhelming judgment sweeps by
->  “ It will not reach us.
->  “ For we have made a lie our refuge,
->  “ We have hidden ourselves in a deceitful word.”
+> “We have made a treaty with death,
+> “With Sheol we have made an agreement.
+> “When the overwhelming judgment sweeps by
+> “It will not reach us.
+> “For we have made a lie our refuge,
+> “We have hidden ourselves in a deceitful word.”
 ###### 16
 > Therefore, this is what the Sovereign LORD, says:
->  “ Look, I am laying a stone in Zion,
->  “ An approved stone,
->  “ Set in place as a precious cornerstone for the foundation.
->  “ The one who maintains his faith will not panic.
+> “Look, I am laying a stone in Zion,
+> “An approved stone,
+> “Set in place as a precious cornerstone for the foundation.
+> “The one who maintains his faith will not panic.
 ###### 17
->  “ I will make justice the measuring line,
->  “ Fairness the plumb line;
->  “ Hail will sweep away the unreliable refuge,
->  “ The floodwaters will overwhelm the hiding place.
+> “I will make justice the measuring line,
+> “Fairness the plumb line;
+> “Hail will sweep away the unreliable refuge,
+> “The floodwaters will overwhelm the hiding place.
 ###### 18
->  “ Your treaty with death will be dissolved;
->  “ Your agreement with Sheol will not last.
->  “ When the overwhelming judgment sweeps by,
->  “ You will be overrun by it.
+> “Your treaty with death will be dissolved;
+> “Your agreement with Sheol will not last.
+> “When the overwhelming judgment sweeps by,
+> “You will be overrun by it.
 ###### 19
->  “ Whenever it sweeps by, it will overtake you;
->  “ Indeed, every morning it will sweep by,
->  “ It will come through during the day and the night.”
+> “Whenever it sweeps by, it will overtake you;
+> “Indeed, every morning it will sweep by,
+> “It will come through during the day and the night.”
 > When this announcement is understood,
 > It will cause nothing but terror.
 ###### 20

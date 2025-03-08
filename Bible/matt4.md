@@ -30,11 +30,11 @@ While in Galilee, he moved from Nazareth to make his home in Capernaum by the se
 ###### 14
 so that what was spoken by the prophet Isaiah would be fulfilled:
 ###### 15
->  “ Land of Zebulun and land of Naphtali,
->  “ The way by the sea, beyond the Jordan, Galilee of the Gentiles—_
+> “Land of Zebulun and land of Naphtali,
+> “The way by the sea, beyond the Jordan, Galilee of the Gentiles—_
 ###### 16
->  “ The people who sit in darkness have seen a great light,
->  “ And on those who sit in the region and shadow of death a light has dawned.”
+> “The people who sit in darkness have seen a great light,
+> “And on those who sit in the region and shadow of death a light has dawned.”
 ###### ¶ 17
 From that time Jesus began to preach this message: “Repent, for the kingdom of heaven is near!”
 ## The Call of the Disciples

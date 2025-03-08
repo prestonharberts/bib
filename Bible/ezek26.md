@@ -34,12 +34,12 @@ In the eleventh year, on the first day of the month, the Lord’s message came t
 “All the princes of the sea will vacate their thrones. They will remove their robes and strip off their embroidered clothes; they will clothe themselves with trembling. They will sit on the ground; they will tremble continually and be shocked at what has happened to you.
 ###### 17
 “They will sing this lament over you:
->  “ ‘How you have perished—you have vanished from the seas,
->  ‘ O renowned city, once mighty in the sea,
->  ‘ She and her inhabitants, who spread their terror!
+> “‘How you have perished—you have vanished from the seas,
+> ‘O renowned city, once mighty in the sea,
+> ‘She and her inhabitants, who spread their terror!
 ###### 18
->  ‘ Now the coastlands will tremble on the day of your fall;
->  ‘ The coastlands by the sea will be terrified by your passing.’
+> ‘Now the coastlands will tremble on the day of your fall;
+> ‘The coastlands by the sea will be terrified by your passing.’
 ###### ¶ 19
 “For this is what the Sovereign LORD says: When I make you desolate like the uninhabited cities, when I bring up the deep over you and the surging waters overwhelm you,
 ###### 20

@@ -20,7 +20,7 @@
 > Do not crave his delicacies;
 ###### 7
 > For he is like someone who has calculated the cost in his mind.
->  “ Eat and drink,” he says to you,
+> “Eat and drink,” he says to you,
 > But his heart is not with you;
 ###### 8
 > You will vomit up the little bit you have eaten,
@@ -107,5 +107,5 @@
 > And like one who lies down on the top of the rigging.
 ###### 35
 > You will say, “They have struck me, but I am not harmed!
->  “ They beat me, but I did not know it!
->  “ When will I awake? I will look for another drink.”
+> “They beat me, but I did not know it!
+> “When will I awake? I will look for another drink.”

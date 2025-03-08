@@ -1,23 +1,23 @@
 # Isaiah 50
 ###### ¶ 1
 > This is what the LORD says:
->  “ Where is your mother’s divorce certificate
->  “ By which I divorced her?
->  “ Or to which of my creditors did I sell you?
->  “ Look, you were sold because of your sins;
->  “ Because of your rebellious acts I divorced your mother.
+> “Where is your mother’s divorce certificate
+> “By which I divorced her?
+> “Or to which of my creditors did I sell you?
+> “Look, you were sold because of your sins;
+> “Because of your rebellious acts I divorced your mother.
 ###### 2
->  “ Why does no one challenge me when I come?
->  “ Why does no one respond when I call?
->  “ Is my hand too weak to deliver you?
->  “ Do I lack the power to rescue you?
->  “ Look, with a mere shout I can dry up the sea;
->  “ I can turn streams into a desert,
->  “ So the fish rot away and die
->  “ From lack of water.
+> “Why does no one challenge me when I come?
+> “Why does no one respond when I call?
+> “Is my hand too weak to deliver you?
+> “Do I lack the power to rescue you?
+> “Look, with a mere shout I can dry up the sea;
+> “I can turn streams into a desert,
+> “So the fish rot away and die
+> “From lack of water.
 ###### 3
->  “ I can clothe the sky in darkness;
->  “ I can cover it with sackcloth.”
+> “I can clothe the sky in darkness;
+> “I can cover it with sackcloth.”
 ## The Servant Perseveres
 ###### ¶ 4
 > The Sovereign LORD has given me the capacity to be his spokesman,

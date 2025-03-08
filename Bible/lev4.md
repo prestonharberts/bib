@@ -73,4 +73,4 @@ Then the LORD spoke to Moses:
 ‘Then the priest must take some of the blood of the sin offering with his finger and put it on the horns of the altar of burnt offering, and he must pour out all the rest of its blood at the base of the altar.
 ###### 35
 ‘Then the one who brought the offering must remove all its fat (just as the fat of the sheep is removed from the peace-offering sacrifice) and the priest must offer them up in smoke on the altar on top of the other gifts for the LORD. So the priest will make atonement on his behalf for his sin which he has committed and he will be forgiven.
-<span class=arrow-right>  ‘##### <span class=arrow-left>  [[lev3|Prev]]<span class=navigation-separator>  [[lev4notes|Notes]]<span class=navigation-separator>  [[lev5|Next]]
+<span class=arrow-right> ‘##### <span class=arrow-left> [[lev3|Prev]]<span class=navigation-separator> [[lev4notes|Notes]]<span class=navigation-separator> [[lev5|Next]]

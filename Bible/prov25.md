@@ -52,38 +52,38 @@ These also are proverbs of Solomon, which the men of King Hezekiah of Judah copi
 > Lest you become stuffed with it and vomit it up.
 ###### 17
 > Don’t set foot too frequently in your neighbor’s house,
->  “ Lest he become weary of you and hate you.
+> “Lest he become weary of you and hate you.
 ###### 18
->  “ Like a club or a sword or a sharp arrow,
->  “ So is the one who testifies against his neighbor as a false witness.
+> “Like a club or a sword or a sharp arrow,
+> “So is the one who testifies against his neighbor as a false witness.
 ###### 19
->  “ Like a bad tooth or a foot out of joint,
->  “ So is confidence in an unfaithful person at the time of trouble.
+> “Like a bad tooth or a foot out of joint,
+> “So is confidence in an unfaithful person at the time of trouble.
 ###### 20
->  “ Like one who takes off a garment on a cold day,
->  “ Or like vinegar poured on soda,
->  “ So is one who sings songs to a heavy heart.
+> “Like one who takes off a garment on a cold day,
+> “Or like vinegar poured on soda,
+> “So is one who sings songs to a heavy heart.
 ###### 21
->  “ If your enemy is hungry, give him food to eat,
->  “ And if he is thirsty, give him water to drink,
+> “If your enemy is hungry, give him food to eat,
+> “And if he is thirsty, give him water to drink,
 ###### 22
->  “ For you will heap coals of fire on his head,
->  “ And the LORD will reward you.
+> “For you will heap coals of fire on his head,
+> “And the LORD will reward you.
 ###### 23
->  “ The north wind brings forth rain,
->  “ And a gossiping tongue brings forth an angry look.
+> “The north wind brings forth rain,
+> “And a gossiping tongue brings forth an angry look.
 ###### 24
->  “ It is better to live on a corner of the housetop
->  “ Than in a house in company with a quarrelsome wife.
+> “It is better to live on a corner of the housetop
+> “Than in a house in company with a quarrelsome wife.
 ###### 25
->  “ Like cold water to a weary person,
->  “ So is good news from a distant land.
+> “Like cold water to a weary person,
+> “So is good news from a distant land.
 ###### 26
->  “ Like a muddied spring and a polluted well,
->  “ So is a righteous person who gives way before the wicked.
+> “Like a muddied spring and a polluted well,
+> “So is a righteous person who gives way before the wicked.
 ###### 27
->  “ It is not good to eat too much honey,
->  “ Nor is it honorable for people to seek their own glory.
+> “It is not good to eat too much honey,
+> “Nor is it honorable for people to seek their own glory.
 ###### 28
->  “ Like a city that is broken down and without a wall,
->  “ So is a person who cannot control his temper.
+> “Like a city that is broken down and without a wall,
+> “So is a person who cannot control his temper.

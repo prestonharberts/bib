@@ -15,15 +15,15 @@ But Christ is faithful as a son over God’s house. We are of his house, if in f
 ## Exposition of Psalm 95: Hearing God’s Word in Faith
 ###### ¶ 7
 Therefore, as the Holy Spirit says,
->  “ Oh, that today you would listen as he speaks!
+> “Oh, that today you would listen as he speaks!
 ###### 8
->  “ Do not harden your hearts as in the rebellion, in the day of testing in the wilderness.
+> “Do not harden your hearts as in the rebellion, in the day of testing in the wilderness.
 ###### 9
->  “ There your fathers tested me and tried me, and they saw my works for forty years.
+> “There your fathers tested me and tried me, and they saw my works for forty years.
 ###### 10
->  “ Therefore, I became provoked at that generation and said, ‘Their hearts are always wandering and they have not known my ways.’
+> “Therefore, I became provoked at that generation and said, ‘Their hearts are always wandering and they have not known my ways.’
 ###### 11
->  “ As I swore in my anger, ‘They will never enter my rest!’”
+> “As I swore in my anger, ‘They will never enter my rest!’”
 ###### 12
 See to it, brothers and sisters, that none of you has an evil, unbelieving heart that forsakes the living God.
 ###### 13

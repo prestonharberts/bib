@@ -34,4 +34,4 @@
 ‘And you must put olive oil on it and set frankincense on it—it is a grain offering.
 ###### 16
 ‘Then the priest must offer its memorial portion up in smoke—some of its crushed bits, some of its olive oil, in addition to all of its frankincense—it is a gift to the LORD.
-<span class=arrow-right>  ‘##### <span class=arrow-left>  [[lev1|Prev]]<span class=navigation-separator>  [[lev2notes|Notes]]<span class=navigation-separator>  [[lev3|Next]]
+<span class=arrow-right> ‘##### <span class=arrow-left> [[lev1|Prev]]<span class=navigation-separator> [[lev2notes|Notes]]<span class=navigation-separator> [[lev3|Next]]

@@ -55,10 +55,10 @@
 > The people of Ephraim and those living in Samaria.
 > Yet with pride and an arrogant attitude, they said,
 ###### 10
->  “ The bricks have fallen,
->  “ But we will rebuild with chiseled stone;
->  “ The sycamore fig trees have been cut down,
->  “ But we will replace them with cedars.”
+> “The bricks have fallen,
+> “But we will rebuild with chiseled stone;
+> “The sycamore fig trees have been cut down,
+> “But we will replace them with cedars.”
 ###### 11
 > Then the LORD provoked their adversaries to attack them,
 > He stirred up their enemies—

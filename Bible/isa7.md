@@ -14,17 +14,17 @@ So the LORD told Isaiah, “Go out with your son Shear Jashub and meet Ahaz at t
 “They say, “Let’s attack Judah, terrorize it, and conquer it. Then we’ll set up the son of Tabeel as its king.”
 ###### 7
 For this reason the Sovereign LORD says:
->  “ ‘It will not take place;
->  ‘ It will not happen.
+> “‘It will not take place;
+> ‘It will not happen.
 ###### 8
->  ‘ For Syria’s leader is Damascus,
->  ‘ And the leader of Damascus is Rezin.
->  ‘ Within sixty-five years Ephraim will no longer exist as a nation.
+> ‘For Syria’s leader is Damascus,
+> ‘And the leader of Damascus is Rezin.
+> ‘Within sixty-five years Ephraim will no longer exist as a nation.
 ###### 9
->  ‘ Ephraim’s leader is Samaria,
->  ‘ And Samaria’s leader is the son of Remaliah.
->  ‘ If your faith does not remain firm,
->  ‘ Then you will not remain secure.’”
+> ‘Ephraim’s leader is Samaria,
+> ‘And Samaria’s leader is the son of Remaliah.
+> ‘If your faith does not remain firm,
+> ‘Then you will not remain secure.’”
 ###### ¶ 10
 The LORD again spoke to Ahaz:
 ###### 11

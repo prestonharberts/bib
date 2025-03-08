@@ -18,9 +18,9 @@
 > You will hear a trumpet being blown.
 ###### 4
 > For this is what the LORD has told me:
->  “ I will wait and watch from my place,
->  “ Like scorching heat produced by the sunlight,
->  “ Like a cloud of mist in the heat of harvest.”
+> “I will wait and watch from my place,
+> “Like scorching heat produced by the sunlight,
+> “Like a cloud of mist in the heat of harvest.”
 ###### 5
 > For before the harvest, when the bud has sprouted,
 > And the ripening fruit appears,

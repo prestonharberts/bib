@@ -2,50 +2,50 @@
 ## Hannah Exalts the Lord in Prayer
 ###### ¶ 1
 Hannah prayed,
->  “ My heart has rejoiced in the LORD;
->  “ My horn has been raised high because of the LORD.
->  “ I have loudly denounced my enemies.
->  “ Indeed I rejoice in your deliverance.
+> “My heart has rejoiced in the LORD;
+> “My horn has been raised high because of the LORD.
+> “I have loudly denounced my enemies.
+> “Indeed I rejoice in your deliverance.
 ###### 2
->  “ No one is holy like the LORD!
->  “ There is no one other than you!
->  “ There is no rock like our God!
+> “No one is holy like the LORD!
+> “There is no one other than you!
+> “There is no rock like our God!
 ###### 3
->  “ Don’t keep speaking so arrogantly.
->  “ Proud talk should not come out of your mouth,
->  “ For the LORD is a God who knows;
->  “ He evaluates what people do.
+> “Don’t keep speaking so arrogantly.
+> “Proud talk should not come out of your mouth,
+> “For the LORD is a God who knows;
+> “He evaluates what people do.
 ###### 4
->  “ The bows of warriors are shattered,
->  “ But those who stumbled have taken on strength.
+> “The bows of warriors are shattered,
+> “But those who stumbled have taken on strength.
 ###### 5
->  “ The well fed hire themselves out to earn food,
->  “ But the hungry no longer lack.
->  “ Even the barren woman has given birth to seven,
->  “ But the one with many children has declined.
+> “The well fed hire themselves out to earn food,
+> “But the hungry no longer lack.
+> “Even the barren woman has given birth to seven,
+> “But the one with many children has declined.
 ###### 6
->  “ The LORD both kills and gives life;
->  “ He brings down to the grave and raises up.
+> “The LORD both kills and gives life;
+> “He brings down to the grave and raises up.
 ###### 7
->  “ The LORD impoverishes and makes wealthy;
->  “ He humbles and he exalts.
+> “The LORD impoverishes and makes wealthy;
+> “He humbles and he exalts.
 ###### 8
->  “ He lifts the weak from the dust;
->  “ He raises the poor from the ash heap
->  “ To seat them with princes—
->  “ He bestows on them an honored position.
->  “ The foundations of the earth belong to the LORD—
->  “ He placed the world on them.
+> “He lifts the weak from the dust;
+> “He raises the poor from the ash heap
+> “To seat them with princes—
+> “He bestows on them an honored position.
+> “The foundations of the earth belong to the LORD—
+> “He placed the world on them.
 ###### 9
->  “ He watches over his holy ones,
->  “ But the wicked are made speechless in the darkness,
->  “ For it is not by one’s own strength that one prevails.
+> “He watches over his holy ones,
+> “But the wicked are made speechless in the darkness,
+> “For it is not by one’s own strength that one prevails.
 ###### 10
->  “ The LORD shatters his adversaries;
->  “ He thunders against them from the heavens.
->  “ The LORD executes judgment to the ends of the earth.
->  “ He will strengthen his king
->  “ And exalt the power of his anointed one.”
+> “The LORD shatters his adversaries;
+> “He thunders against them from the heavens.
+> “The LORD executes judgment to the ends of the earth.
+> “He will strengthen his king
+> “And exalt the power of his anointed one.”
 ###### ¶ 11
 Then Elkanah went back home to Ramah.
 ## Eli’s Sons Misuse Their Sacred Office

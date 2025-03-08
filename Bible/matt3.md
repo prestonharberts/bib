@@ -6,8 +6,8 @@ In those days John the Baptist came into the wilderness of Judea proclaiming,
 “Repent, for the kingdom of heaven is near.”
 ###### 3
 For he is the one about whom the prophet Isaiah had spoken:
->  “ The voice of one shouting in the wilderness,
->  ‘ Prepare the way for the Lord, make his paths straight.’”
+> “The voice of one shouting in the wilderness,
+> ‘Prepare the way for the Lord, make his paths straight.’”
 ###### 4
 Now John wore clothing made from camel’s hair with a leather belt around his waist, and his diet consisted of locusts and wild honey.
 ###### 5

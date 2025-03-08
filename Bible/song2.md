@@ -41,20 +41,20 @@ and his right hand embraces me.
 ## The Season of Love and the Song of the Turtledove
 ###### ¶ 10
 > My lover spoke to me, saying:
->  “ Arise, my darling;
->  “ My beautiful one, come away with me!
+> “Arise, my darling;
+> “My beautiful one, come away with me!
 ###### 11
->  “ Look! The winter has passed,
->  “ The winter rains are over and gone.
+> “Look! The winter has passed,
+> “The winter rains are over and gone.
 ###### 12
->  “ Blossoms have appeared in the land,
->  “ The time for pruning and singing has come;
->  “ The voice of the turtledove is heard in our land.
+> “Blossoms have appeared in the land,
+> “The time for pruning and singing has come;
+> “The voice of the turtledove is heard in our land.
 ###### 13
->  “ The fig tree has ripened its figs,
->  “ The vines have blossomed and give off their fragrance.
->  “ Arise, come away my darling;
->  “ My beautiful one, come away with me!”
+> “The fig tree has ripened its figs,
+> “The vines have blossomed and give off their fragrance.
+> “Arise, come away my darling;
+> “My beautiful one, come away with me!”
 ## The Dove in the Clefts of En Gedi
 ###### ¶ 14
 > O my dove, in the clefts of the rock,

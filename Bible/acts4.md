@@ -51,12 +51,12 @@ When they were released, Peter and John went to their fellow believers and repor
 When they heard this, they raised their voices to God with one mind and said, “Master of all, you who made the heaven, the earth, the sea, and everything that is in them,
 ###### 25
 “who said by the Holy Spirit through your servant David our forefather,
->  ‘ Why do the nations rage,
->  ‘ And the peoples plot foolish things?
+> ‘Why do the nations rage,
+> ‘And the peoples plot foolish things?
 ###### 26
->  ‘ The kings of the earth stood together,
->  ‘ And the rulers assembled together,
->  ‘ Against the Lord and against his Christ.’
+> ‘The kings of the earth stood together,
+> ‘And the rulers assembled together,
+> ‘Against the Lord and against his Christ.’
 ###### 27
 “For indeed both Herod and Pontius Pilate, with the Gentiles and the people of Israel, assembled together in this city against your holy servant Jesus, whom you anointed,
 ###### 28

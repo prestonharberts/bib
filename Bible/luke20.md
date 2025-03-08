@@ -88,10 +88,10 @@ For they did not dare any longer to ask him anything.
 But he said to them, “How is it that they say that the Christ is David’s son?
 ###### 42
 “For David himself says in the book of Psalms,
->  ‘ The Lord said to my lord,
->  “ Sit at my right hand,
+> ‘The Lord said to my lord,
+> “Sit at my right hand,
 ###### 43
->  “ Until I make your enemies a footstool for your feet.”’
+> “Until I make your enemies a footstool for your feet.”’
 ###### 44
 “If David then calls him ‘Lord,’ how can he be his son?”
 ## Jesus Warns the Disciples against Pride

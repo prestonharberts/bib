@@ -11,11 +11,11 @@ Then God blessed Noah and his sons and said to them, “Be fruitful and multiply
 ###### 5
 “For your lifeblood I will surely exact punishment, from every living creature I will exact punishment. From each person I will exact punishment for the life of the individual since the man was his relative.
 ###### 6
->  “ Whoever sheds human blood,
->  “ By other humans
->  “ Must his blood be shed;
->  “ For in God’s image
->  “ God has made humankind.
+> “Whoever sheds human blood,
+> “By other humans
+> “Must his blood be shed;
+> “For in God’s image
+> “God has made humankind.
 ###### 7
 “But as for you, be fruitful and multiply; increase abundantly on the earth and multiply on it.”
 ###### ¶ 8
@@ -55,17 +55,17 @@ Shem and Japheth took the garment and placed it on their shoulders. Then they wa
 When Noah awoke from his drunken stupor he learned what his youngest son had done to him.
 ###### 25
 So he said,
->  “ Cursed be Canaan!
->  “ The lowest of slaves
->  “ He will be to his brothers.”
+> “Cursed be Canaan!
+> “The lowest of slaves
+> “He will be to his brothers.”
 ###### 26
 He also said,
->  “ Worthy of praise is the LORD, the God of Shem!
->  “ May Canaan be the slave of Shem!
+> “Worthy of praise is the LORD, the God of Shem!
+> “May Canaan be the slave of Shem!
 ###### 27
->  “ May God enlarge Japheth’s territory and numbers!
->  “ May he live in the tents of Shem
->  “ And may Canaan be the slave of Japheth!”
+> “May God enlarge Japheth’s territory and numbers!
+> “May he live in the tents of Shem
+> “And may Canaan be the slave of Japheth!”
 ###### ¶ 28
 After the flood Noah lived 350 years.
 ###### 29

@@ -18,34 +18,34 @@ Daniel explained: “I was watching in my vision during the night as the four wi
 “As I was contemplating the horns, another horn—a small one—came up between them, and three of the former horns were torn out by the roots to make room for it. This horn had eyes resembling human eyes and a mouth speaking arrogant things.
 ###### ¶ 9
 “While I was watching,
->  “ Thrones were set up,
->  “ And the Ancient of Days took his seat.
->  “ His attire was white like snow;
->  “ The hair of his head was like lamb’s wool.
->  “ His throne was ablaze with fire
->  “ And its wheels were all aflame.
+> “Thrones were set up,
+> “And the Ancient of Days took his seat.
+> “His attire was white like snow;
+> “The hair of his head was like lamb’s wool.
+> “His throne was ablaze with fire
+> “And its wheels were all aflame.
 ###### 10
->  “ A river of fire was streaming forth
->  “ And proceeding from his presence.
->  “ Many thousands were ministering to him;
->  “ Many tens of thousands stood ready to serve him.
->  “ The court convened
->  “ And the books were opened.
+> “A river of fire was streaming forth
+> “And proceeding from his presence.
+> “Many thousands were ministering to him;
+> “Many tens of thousands stood ready to serve him.
+> “The court convened
+> “And the books were opened.
 ###### 11
 “Then I kept on watching because of the arrogant words of the horn that was speaking. I was watching until the beast was killed and its body destroyed and thrown into the flaming fire.
 ###### 12
 “As for the rest of the beasts, their ruling authority had already been removed, though they were permitted to go on living for a time and a season.
 ###### ¶ 13
->  “ I was watching in the night visions,
->  “ And with the clouds of the sky
->  “ One like a son of man was approaching.
->  “ He went up to the Ancient of Days
->  “ And was escorted before him.
+> “I was watching in the night visions,
+> “And with the clouds of the sky
+> “One like a son of man was approaching.
+> “He went up to the Ancient of Days
+> “And was escorted before him.
 ###### 14
->  “ To him was given ruling authority, honor, and sovereignty.
->  “ All peoples, nations, and language groups were serving him.
->  “ His authority is eternal and will not pass away.
->  “ His kingdom will not be destroyed.”
+> “To him was given ruling authority, honor, and sovereignty.
+> “All peoples, nations, and language groups were serving him.
+> “His authority is eternal and will not pass away.
+> “His kingdom will not be destroyed.”
 ## An Angel Interprets Daniel’s Vision
 ###### ¶ 15
 “As for me, Daniel, my spirit was distressed, and the visions of my mind were alarming me.
@@ -65,30 +65,30 @@ Daniel explained: “I was watching in my vision during the night as the four wi
 “until the Ancient of Days arrived and judgment was rendered in favor of the holy ones of the Most High. Then the time came for the holy ones to take possession of the kingdom.
 ###### ¶ 23
 “This is what he told me:
->  ‘ The fourth beast means that there will be a fourth kingdom on earth
->  ‘ That will differ from all the other kingdoms.
->  ‘ It will devour all the earth
->  ‘ And will trample and crush it.
+> ‘The fourth beast means that there will be a fourth kingdom on earth
+> ‘That will differ from all the other kingdoms.
+> ‘It will devour all the earth
+> ‘And will trample and crush it.
 ###### 24
->  ‘ The ten horns mean that ten kings
->  ‘ Will arise from that kingdom.
->  ‘ Another king will arise after them,
->  ‘ But he will be different from the earlier ones.
->  ‘ He will humiliate three kings.
+> ‘The ten horns mean that ten kings
+> ‘Will arise from that kingdom.
+> ‘Another king will arise after them,
+> ‘But he will be different from the earlier ones.
+> ‘He will humiliate three kings.
 ###### 25
->  ‘ He will speak words against the Most High.
->  ‘ He will harass the holy ones of the Most High continually.
->  ‘ His intention will be to change times established by law.
->  ‘ The holy ones will be delivered into his hand
->  ‘ For a time, times, and half a time.
+> ‘He will speak words against the Most High.
+> ‘He will harass the holy ones of the Most High continually.
+> ‘His intention will be to change times established by law.
+> ‘The holy ones will be delivered into his hand
+> ‘For a time, times, and half a time.
 ###### 26
->  ‘ But the court will convene, and his ruling authority will be removed—
->  ‘ Destroyed and abolished forever!
+> ‘But the court will convene, and his ruling authority will be removed—
+> ‘Destroyed and abolished forever!
 ###### 27
->  ‘ Then the kingdom, authority,
->  ‘ And greatness of the kingdoms under the whole heaven
->  ‘ Will be delivered to the people of the holy ones of the Most High.
->  ‘ His kingdom is an eternal kingdom;
->  ‘ All authorities will serve him and obey him.’
+> ‘Then the kingdom, authority,
+> ‘And greatness of the kingdoms under the whole heaven
+> ‘Will be delivered to the people of the holy ones of the Most High.
+> ‘His kingdom is an eternal kingdom;
+> ‘All authorities will serve him and obey him.’
 ###### ¶ 28
 “This is the conclusion of the matter. As for me, Daniel, my thoughts troubled me greatly, and the color drained from my face. But I kept the matter to myself.”

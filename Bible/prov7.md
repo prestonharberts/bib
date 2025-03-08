@@ -41,26 +41,26 @@
 > So she grabbed him and kissed him,
 > And with a bold expression she said to him,
 ###### 14
->  “ I have meat from my peace offerings at home;
->  “ Today I have fulfilled my vows!
+> “I have meat from my peace offerings at home;
+> “Today I have fulfilled my vows!
 ###### 15
->  “ That is why I came out to meet you,
->  “ To look for you, and I found you!
+> “That is why I came out to meet you,
+> “To look for you, and I found you!
 ###### 16
->  “ I have spread my bed with elegant coverings,
->  “ With richly colored fabric from Egypt.
+> “I have spread my bed with elegant coverings,
+> “With richly colored fabric from Egypt.
 ###### 17
->  “ I have perfumed my bed
->  “ With myrrh, aloes, and cinnamon.
+> “I have perfumed my bed
+> “With myrrh, aloes, and cinnamon.
 ###### 18
->  “ Come, let’s drink deeply of lovemaking until morning,
->  “ Let’s delight ourselves with love’s pleasures.
+> “Come, let’s drink deeply of lovemaking until morning,
+> “Let’s delight ourselves with love’s pleasures.
 ###### 19
->  “ For my husband is not at home;
->  “ He has gone on a journey of some distance.
+> “For my husband is not at home;
+> “He has gone on a journey of some distance.
 ###### 20
->  “ He has taken a bag of money with him;
->  “ He will not return until the end of the month.”
+> “He has taken a bag of money with him;
+> “He will not return until the end of the month.”
 ###### 21
 > She turned him aside with her persuasions;
 > With her smooth talk she was enticing him along.

@@ -28,15 +28,15 @@ Now I heard the number of those who were marked with the seal, 144,000, sealed f
 After these things I looked, and here was an enormous crowd that no one could count, made up of persons from every nation, tribe, people, and language, standing before the throne and before the Lamb dressed in long white robes, and with palm branches in their hands.
 ###### 10
 They were shouting out in a loud voice,
->  “ Salvation belongs to our God, who is seated on the throne, and to the Lamb!”
+> “Salvation belongs to our God, who is seated on the throne, and to the Lamb!”
 ###### 11
 And all the angels stood there in a circle around the throne and around the elders and the four living creatures, and they threw themselves down with their faces to the ground before the throne and worshiped God,
 ###### 12
 saying,
->  “ Amen! Praise and glory,
->  “ And wisdom and thanksgiving,
->  “ And honor and power and strength
->  “ Be to our God for ever and ever. Amen!”
+> “Amen! Praise and glory,
+> “And wisdom and thanksgiving,
+> “And honor and power and strength
+> “Be to our God for ever and ever. Amen!”
 ###### ¶ 13
 Then one of the elders asked me, “These dressed in long white robes—who are they and where have they come from?”
 ###### 14

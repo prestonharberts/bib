@@ -50,12 +50,12 @@ The LORD spoke to Moses:
 ###### 23
 “Tell Aaron and his sons, ‘This is the way you are to bless the Israelites. Say to them:
 ###### ¶ 24
->  “ The LORD bless you and protect you;
+> “The LORD bless you and protect you;
 ###### ¶ 25
->  “ The LORD make his face to shine upon you,
->  “ And be gracious to you;
+> “The LORD make his face to shine upon you,
+> “And be gracious to you;
 ###### ¶ 26
->  “ The LORD lift up his countenance upon you
->  “ And give you peace.”’
+> “The LORD lift up his countenance upon you
+> “And give you peace.”’
 ###### 27
 “So they will put my name on the Israelites, and I will bless them.”

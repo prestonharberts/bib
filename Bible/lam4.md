@@ -72,7 +72,7 @@
 > To touch their garments.
 ###### 15
 > People cry to them, “Turn away! You are unclean!
->  “ Turn away! Turn away! Don’t touch us!”
+> “Turn away! Turn away! Don’t touch us!”
 > So they have fled and wander about;
 > But the nations say, “They may not stay here any longer.”
 ###### 16
@@ -100,7 +100,7 @@
 > Our very life breath—the LORD’s anointed king—
 > Was caught in their traps,
 > Of whom we thought,
->  “ Under his protection we will survive among the nations.”
+> “Under his protection we will survive among the nations.”
 ## The Prophet Speaks
 ###### 21
 > Rejoice and be glad for now, O people of Edom,

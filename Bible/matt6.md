@@ -19,16 +19,16 @@
 “Do not be like them, for your Father knows what you need before you ask him.
 ###### ¶ 9
 “So pray this way:
->  “ Our Father in heaven, may your name be honored,
+> “Our Father in heaven, may your name be honored,
 ###### 10
->  “ May your kingdom come,
->  “ May your will be done on earth as it is in heaven.
+> “May your kingdom come,
+> “May your will be done on earth as it is in heaven.
 ###### 11
->  “ Give us today our daily bread,
+> “Give us today our daily bread,
 ###### 12
->  “ And forgive us our debts, as we ourselves have forgiven our debtors.
+> “And forgive us our debts, as we ourselves have forgiven our debtors.
 ###### 13
->  “ And do not lead us into temptation, but deliver us from the evil one.
+> “And do not lead us into temptation, but deliver us from the evil one.
 ###### 14
 “For if you forgive others their sins, your heavenly Father will also forgive you.
 ###### 15

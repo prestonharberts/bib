@@ -41,7 +41,7 @@
 > But no one turns back.
 ###### 9
 > Her conquerors cry out:
->  “ Plunder the silver! Plunder the gold!”
+> “Plunder the silver! Plunder the gold!”
 > There is no end to the treasure;
 > Riches of every kind of precious thing.
 ###### 10
@@ -61,8 +61,8 @@
 > And his dens with torn flesh.
 ## Battle Cry of the Divine Warrior
 ###### ¶ 13
->  “ I am against you!” declares the LORD of Heaven’s Armies:
->  “ I will burn your chariots with fire;
->  “ The sword will devour your young lions.
->  “ You will no longer prey upon the land;
->  “ The voices of your messengers will no longer be heard.”
+> “I am against you!” declares the LORD of Heaven’s Armies:
+> “I will burn your chariots with fire;
+> “The sword will devour your young lions.
+> “You will no longer prey upon the land;
+> “The voices of your messengers will no longer be heard.”

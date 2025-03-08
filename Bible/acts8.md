@@ -67,13 +67,13 @@ So Philip ran up to it and heard the man reading the prophet Isaiah. He asked hi
 The man replied, “How in the world can I, unless someone guides me?” So he invited Philip to come up and sit with him.
 ###### 32
 Now the passage of scripture the man was reading was this:
->  “ He was led like a sheep to slaughter,
->  “ And like a lamb before its shearer is silent,
->  “ So he did not open his mouth.
+> “He was led like a sheep to slaughter,
+> “And like a lamb before its shearer is silent,
+> “So he did not open his mouth.
 ###### 33
->  “ In humiliation justice was taken from him.
->  “ Who can describe his posterity?
->  “ For his life was taken away from the earth.”
+> “In humiliation justice was taken from him.
+> “Who can describe his posterity?
+> “For his life was taken away from the earth.”
 ###### 34
 Then the eunuch said to Philip, “Please tell me, who is the prophet saying this about—himself or someone else?”
 ###### 35

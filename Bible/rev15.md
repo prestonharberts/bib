@@ -6,15 +6,15 @@ Then I saw another great and astounding sign in heaven: seven angels who have se
 Then I saw something like a sea of glass mixed with fire, and those who had conquered the beast and his image and the number of his name. They were standing by the sea of glass, holding harps given to them by God.
 ###### 3
 They sang the song of Moses the servant of God and the song of the Lamb:
->  “ Great and astounding are your deeds,
->  “ Lord God, the All-Powerful!
->  “ Just and true are your ways,
->  “ King over the nations!
+> “Great and astounding are your deeds,
+> “Lord God, the All-Powerful!
+> “Just and true are your ways,
+> “King over the nations!
 ###### 4
->  “ Who will not fear you, O Lord,
->  “ And glorify your name, because you alone are holy?
->  “ All nations will come and worship before you
->  “ For your righteous acts have been revealed.”
+> “Who will not fear you, O Lord,
+> “And glorify your name, because you alone are holy?
+> “All nations will come and worship before you
+> “For your righteous acts have been revealed.”
 ###### ¶ 5
 After these things I looked, and the temple (the tent of the testimony) was opened in heaven,
 ###### 6

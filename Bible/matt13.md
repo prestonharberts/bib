@@ -28,16 +28,16 @@ He replied, “You have been given the opportunity to know the secrets of the ki
 “For this reason I speak to them in parables: Although they see they do not see, and although they hear they do not hear nor do they understand.
 ###### 14
 “And concerning them the prophecy of Isaiah is fulfilled that says:
->  ‘ You will listen carefully yet will never understand,
->  ‘ You will look closely yet will never comprehend.
+> ‘You will listen carefully yet will never understand,
+> ‘You will look closely yet will never comprehend.
 ###### 15
->  ‘ For the heart of this people has become dull;
->  ‘ They are hard of hearing,
->  ‘ And they have shut their eyes,
->  ‘ So that they would not see with their eyes
->  ‘ And hear with their ears
->  ‘ And understand with their hearts
->  ‘ And turn, and I would heal them.’
+> ‘For the heart of this people has become dull;
+> ‘They are hard of hearing,
+> ‘And they have shut their eyes,
+> ‘So that they would not see with their eyes
+> ‘And hear with their ears
+> ‘And understand with their hearts
+> ‘And turn, and I would heal them.’
 ###### 16
 “But your eyes are blessed because they see, and your ears because they hear.
 ###### 17
@@ -82,8 +82,8 @@ He told them another parable: “The kingdom of heaven is like yeast that a woma
 Jesus spoke all these things in parables to the crowds; he did not speak to them without a parable.
 ###### 35
 This fulfilled what was spoken by the prophet:
->  “ I will open my mouth in parables,
->  “ I will announce what has been hidden from the foundation of the world.”
+> “I will open my mouth in parables,
+> “I will announce what has been hidden from the foundation of the world.”
 ## Explanation for the Disciples
 ###### ¶ 36
 Then he left the crowds and went into the house. And his disciples came to him saying, “Explain to us the parable of the darnel in the field.”

@@ -30,21 +30,21 @@ The LORD said to me, “The people of Judah and the citizens of Jerusalem have p
 “But as for you, Jeremiah, do not pray for these people. Do not raise a cry of prayer for them. For I will not listen to them when they call out to me for help when disaster strikes them.”
 ###### 15
 The LORD says to the people of Judah,
->  “ What right do you have to be in my temple, my beloved people?
->  “ Many of you have done wicked things.
->  “ Can your acts of treachery be so easily canceled by sacred offerings
->  “ That you take joy in doing evil even while you make them?
+> “What right do you have to be in my temple, my beloved people?
+> “Many of you have done wicked things.
+> “Can your acts of treachery be so easily canceled by sacred offerings
+> “That you take joy in doing evil even while you make them?
 ###### 16
->  “ I, the LORD, once called you a thriving olive tree,
->  “ One that produced beautiful fruit.
->  “ But I will set you on fire,
->  “ Fire that will blaze with a mighty roar.
->  “ Then all your branches will be good for nothing.
+> “I, the LORD, once called you a thriving olive tree,
+> “One that produced beautiful fruit.
+> “But I will set you on fire,
+> “Fire that will blaze with a mighty roar.
+> “Then all your branches will be good for nothing.
 ###### 17
->  “ For though I, the LORD of Heaven’s Armies, planted you in the land,
->  “ I now decree that disaster will come on you
->  “ Because the nations of Israel and Judah have done evil
->  “ And have made me angry by offering sacrifices to the god Baal.”
+> “For though I, the LORD of Heaven’s Armies, planted you in the land,
+> “I now decree that disaster will come on you
+> “Because the nations of Israel and Judah have done evil
+> “And have made me angry by offering sacrifices to the god Baal.”
 ## A Plot Against Jeremiah is Revealed and He Complains of Injustice
 ###### ¶ 18
 > The LORD gave me knowledge, that I might have understanding.
@@ -53,15 +53,15 @@ The LORD says to the people of Judah,
 > Before this I had been like a docile lamb ready to be led to the slaughter.
 > I did not know they were making plans to kill me.
 > I did not know they were saying,
->  “ Let’s destroy the tree along with its fruit!
->  “ Let’s remove Jeremiah from the world of the living
->  “ So people will not even be reminded of him anymore.”
+> “Let’s destroy the tree along with its fruit!
+> “Let’s remove Jeremiah from the world of the living
+> “So people will not even be reminded of him anymore.”
 ###### 20
 So I said,
->  “ O LORD of Heaven’s Armies, you are a just judge!
->  “ You examine people’s hearts and minds.
->  “ I want to see you pay them back for what they have done
->  “ Because I trust you to vindicate my cause.”
+> “O LORD of Heaven’s Armies, you are a just judge!
+> “You examine people’s hearts and minds.
+> “I want to see you pay them back for what they have done
+> “Because I trust you to vindicate my cause.”
 ###### ¶ 21
 Then the LORD told me about some men from Anathoth who were threatening to kill me. They had threatened, “Stop prophesying in the name of the LORD or we will kill you!”
 ###### 22

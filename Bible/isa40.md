@@ -1,46 +1,46 @@
 # Isaiah 40
 ## The Lord Returns to Jerusalem
 ###### ¶ 1
->  “ Comfort, comfort my people,”
+> “Comfort, comfort my people,”
 > Says your God.
 ###### 2
->  “ Speak kindly to Jerusalem and tell her
->  “ That her time of warfare is over,
->  “ That her punishment is completed.
->  “ For the LORD has made her pay double for all her sins.”
+> “Speak kindly to Jerusalem and tell her
+> “That her time of warfare is over,
+> “That her punishment is completed.
+> “For the LORD has made her pay double for all her sins.”
 ###### ¶ 3
 > A voice cries out,
->  “ In the wilderness clear a way for the LORD;
->  “ Build a level road through the rift valley for our God.
+> “In the wilderness clear a way for the LORD;
+> “Build a level road through the rift valley for our God.
 ###### 4
->  “ Every valley must be elevated,
->  “ And every mountain and hill leveled.
->  “ The rough terrain will become a level plain,
->  “ The rugged landscape a wide valley.
+> “Every valley must be elevated,
+> “And every mountain and hill leveled.
+> “The rough terrain will become a level plain,
+> “The rugged landscape a wide valley.
 ###### 5
->  “ The splendor of the LORD will be revealed,
->  “ And all people will see it at the same time.
->  “ For the LORD has decreed it.”
+> “The splendor of the LORD will be revealed,
+> “And all people will see it at the same time.
+> “For the LORD has decreed it.”
 ###### 6
 > A voice says, “Cry out!”
 > Another asks, “What should I cry out?”
 > The first voice responds: “All people are like grass,
->  “ And all their promises are like the flowers in the field.
+> “And all their promises are like the flowers in the field.
 ###### 7
->  “ The grass dries up,
->  “ The flowers wither,
->  “ When the wind sent by the LORD blows on them.
->  “ Surely humanity is like grass.
+> “The grass dries up,
+> “The flowers wither,
+> “When the wind sent by the LORD blows on them.
+> “Surely humanity is like grass.
 ###### 8
->  “ The grass dries up,
->  “ The flowers wither,
->  “ But the decree of our God is forever reliable.”
+> “The grass dries up,
+> “The flowers wither,
+> “But the decree of our God is forever reliable.”
 ###### ¶ 9
 > Go up on a high mountain, O herald Zion.
 > Shout out loudly, O herald Jerusalem!
 > Shout, don’t be afraid!
->  “ Say to the towns of Judah,
->  “ Here is your God!”
+> “Say to the towns of Judah,
+> “Here is your God!”
 ###### 10
 > Look, the Sovereign LORD comes as a victorious warrior;
 > His military power establishes his rule.
@@ -107,7 +107,7 @@
 > And then he blows on them, causing them to dry up,
 > And the wind carries them away like straw.
 ###### 25
->  “ To whom can you compare me? Whom do I resemble?”
+> “To whom can you compare me? Whom do I resemble?”
 > Says the Holy One.
 ###### 26
 > Look up at the sky!
@@ -119,8 +119,8 @@
 ###### ¶ 27
 > Why do you say, Jacob,
 > Why do you say, Israel,
->  “ The LORD is not aware of what is happening to me;
->  “ My God is not concerned with my vindication”?
+> “The LORD is not aware of what is happening to me;
+> “My God is not concerned with my vindication”?
 ###### 28
 > Do you not know?
 > Have you not heard?

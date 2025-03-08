@@ -9,19 +9,19 @@
 > When that time comes,
 > Sing about a delightful vineyard!
 ###### 3
->  “ I, the LORD, protect it;
->  “ I water it regularly.
->  “ I guard it night and day,
->  “ So no one can harm it.
+> “I, the LORD, protect it;
+> “I water it regularly.
+> “I guard it night and day,
+> “So no one can harm it.
 ###### 4
->  “ I am not angry.
->  “ I wish I could confront some thorns and briers!
->  “ Then I would march against them for battle;
->  “ I would set them all on fire,
+> “I am not angry.
+> “I wish I could confront some thorns and briers!
+> “Then I would march against them for battle;
+> “I would set them all on fire,
 ###### 5
->  “ Unless they became my subjects
->  “ And made peace with me;
->  “ Let them make peace with me.”
+> “Unless they became my subjects
+> “And made peace with me;
+> “Let them make peace with me.”
 ###### 6
 > The time is coming when Jacob will take root;
 > Israel will blossom and grow branches.

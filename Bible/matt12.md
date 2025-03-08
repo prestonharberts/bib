@@ -36,17 +36,17 @@ But he sternly warned them not to make him known.
 ###### 17
 This fulfilled what was spoken by the prophet Isaiah:
 ###### 18
->  “ Here is my servant whom I have chosen,
->  “ The one I love, in whom I take great delight.
->  “ I will put my Spirit on him, and he will proclaim justice to the nations.
+> “Here is my servant whom I have chosen,
+> “The one I love, in whom I take great delight.
+> “I will put my Spirit on him, and he will proclaim justice to the nations.
 ###### 19
->  “ He will not quarrel or cry out,
->  “ Nor will anyone hear his voice in the streets.
+> “He will not quarrel or cry out,
+> “Nor will anyone hear his voice in the streets.
 ###### 20
->  “ He will not break a bruised reed or extinguish a smoldering wick,
->  “ Until he brings justice to victory.
+> “He will not break a bruised reed or extinguish a smoldering wick,
+> “Until he brings justice to victory.
 ###### 21
->  “ And in his name the Gentiles will hope.”
+> “And in his name the Gentiles will hope.”
 ## Jesus and Beelzebul
 ###### ¶ 22
 Then they brought to him a demon-possessed man who was blind and mute. Jesus healed him so that he could speak and see.

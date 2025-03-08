@@ -15,9 +15,9 @@
 > Steady the knees that shake.
 ###### 4
 > Tell those who panic,
->  “ Be strong! Do not fear!
->  “ Look, your God comes to avenge;
->  “ With divine retribution he comes to deliver you.”
+> “Be strong! Do not fear!
+> “Look, your God comes to avenge;
+> “With divine retribution he comes to deliver you.”
 ###### 5
 > Then blind eyes will open,
 > Deaf ears will hear.

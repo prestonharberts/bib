@@ -13,19 +13,19 @@
 ###### 6
 “Then someone will ask him, ‘What are these wounds on your chest?’ and he will answer, ‘Some that I received in the house of my friends.’
 ###### ¶ 7
->  “ Awake, sword, against my shepherd,
->  “ Against the man who is my associate,”
+> “Awake, sword, against my shepherd,
+> “Against the man who is my associate,”
 > Says the LORD of Heaven’s Armies.
->  “ Strike the shepherd that the flock may be scattered;
->  “ I will turn my hand against the insignificant ones.
+> “Strike the shepherd that the flock may be scattered;
+> “I will turn my hand against the insignificant ones.
 ###### 8
->  “ It will happen in all the land,” says the LORD,
->  “ That two-thirds of the people in it will be cut off and die,
->  “ But one-third will be left in it.
+> “It will happen in all the land,” says the LORD,
+> “That two-thirds of the people in it will be cut off and die,
+> “But one-third will be left in it.
 ###### 9
->  “ Then I will bring the remaining third into the fire;
->  “ I will refine them like silver is refined
->  “ And will test them like gold is tested.
->  “ They will call on my name and I will answer;
->  “ I will say, ‘These are my people,’
->  “ And they will say, ‘The LORD is our God.’”
+> “Then I will bring the remaining third into the fire;
+> “I will refine them like silver is refined
+> “And will test them like gold is tested.
+> “They will call on my name and I will answer;
+> “I will say, ‘These are my people,’
+> “And they will say, ‘The LORD is our God.’”

@@ -63,4 +63,4 @@ The LORD said to me: “Son of man, pay attention, watch closely, and listen car
 ‘The first of all the firstfruits and all contributions of any kind will be for the priests; you will also give to the priest the first portion of your dough, so that a blessing may rest on your house.
 ###### 31
 ‘The priests will not eat any bird or animal that has died a natural death or was torn to pieces by a wild animal.
-<span class=arrow-right>  ‘##### <span class=arrow-left>  [[ezek43|Prev]]<span class=navigation-separator>  [[ezek44notes|Notes]]<span class=navigation-separator>  [[ezek45|Next]]
+<span class=arrow-right> ‘##### <span class=arrow-left> [[ezek43|Prev]]<span class=navigation-separator> [[ezek44notes|Notes]]<span class=navigation-separator> [[ezek45|Next]]

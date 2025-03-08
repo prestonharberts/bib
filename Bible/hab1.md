@@ -19,36 +19,36 @@ This is the oracle that the prophet Habakkuk saw:
 > For this reason justice is perverted.
 ## The Lord’s Surprising Answer
 ###### ¶ 5
->  “ Look at the nations and pay attention!
->  “ You will be shocked and amazed!
->  “ For I will do something in your lifetime
->  “ That you will not believe even though you are forewarned.
+> “Look at the nations and pay attention!
+> “You will be shocked and amazed!
+> “For I will do something in your lifetime
+> “That you will not believe even though you are forewarned.
 ###### 6
->  “ Look, I am about to empower the Babylonians,
->  “ That ruthless and greedy nation.
->  “ They sweep across the surface of the earth,
->  “ Seizing dwelling places that do not belong to them.
+> “Look, I am about to empower the Babylonians,
+> “That ruthless and greedy nation.
+> “They sweep across the surface of the earth,
+> “Seizing dwelling places that do not belong to them.
 ###### 7
->  “ They are frightening and terrifying;
->  “ They decide for themselves what is right.
+> “They are frightening and terrifying;
+> “They decide for themselves what is right.
 ###### 8
->  “ Their horses are faster than leopards
->  “ And more alert than wolves in the desert.
->  “ Their horses gallop,
->  “ Their horses come a great distance;
->  “ Like vultures they swoop down quickly to devour their prey.
+> “Their horses are faster than leopards
+> “And more alert than wolves in the desert.
+> “Their horses gallop,
+> “Their horses come a great distance;
+> “Like vultures they swoop down quickly to devour their prey.
 ###### 9
->  “ All of them intend to do violence;
->  “ Every face is determined.
->  “ They take prisoners as easily as one scoops up sand.
+> “All of them intend to do violence;
+> “Every face is determined.
+> “They take prisoners as easily as one scoops up sand.
 ###### 10
->  “ They mock kings
->  “ And laugh at rulers.
->  “ They laugh at every fortified city;
->  “ They build siege ramps and capture them.
+> “They mock kings
+> “And laugh at rulers.
+> “They laugh at every fortified city;
+> “They build siege ramps and capture them.
 ###### 11
->  “ They sweep by like the wind and pass on.
->  “ But the one who considers himself a god will be held guilty.”
+> “They sweep by like the wind and pass on.
+> “But the one who considers himself a god will be held guilty.”
 ## Habakkuk Voices Some Concerns
 ###### ¶ 12
 > LORD, you have been active from ancient times;

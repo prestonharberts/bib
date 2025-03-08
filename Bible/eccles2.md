@@ -2,7 +2,7 @@
 ## Futility of Self-Indulgent Pleasure
 ###### ¶ 1
 I thought to myself,
->  “ Come now, I will try self-indulgent pleasure to see if it is worthwhile.”
+> “Come now, I will try self-indulgent pleasure to see if it is worthwhile.”
 > But I found that it also is futile.
 ###### 2
 > I said of partying, “It is folly,”
@@ -46,8 +46,8 @@ I thought to myself,
 > Yet when I reflected on everything I had accomplished
 > And on all the effort that I had expended to accomplish it,
 > I concluded: “All these achievements and possessions are ultimately profitless—
->  “ Like chasing the wind!
->  “ There is nothing gained from them on earth.”
+> “Like chasing the wind!
+> “There is nothing gained from them on earth.”
 ## Wisdom is Better than Folly
 ###### ¶ 12
 > Next, I decided to consider wisdom, as well as foolish behavior and ideas.
@@ -60,9 +60,9 @@ I thought to myself,
 > Yet I also realized that the same fate happens to them both.
 ###### 15
 > So I thought to myself, “The fate of the fool will happen even to me!
->  “ Then what did I gain by becoming so excessively wise?”
+> “Then what did I gain by becoming so excessively wise?”
 > So I lamented to myself,
->  “ The benefits of wisdom are ultimately meaningless!”
+> “The benefits of wisdom are ultimately meaningless!”
 ###### 16
 > For the wise man, like the fool, will not be remembered for very long,
 > Because in the days to come, both will already have been forgotten.

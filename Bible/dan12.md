@@ -1,24 +1,24 @@
 # Daniel 12
 ###### ¶ 1
->  “ At that time Michael,
->  “ The great prince who watches over your people,
->  “ Will arise.
->  “ There will be a time of distress
->  “ Unlike any other from the nation’s beginning
->  “ Up to that time.
->  “ But at that time your own people,
->  “ All those whose names are found written in the book,
->  “ Will escape.
+> “At that time Michael,
+> “The great prince who watches over your people,
+> “Will arise.
+> “There will be a time of distress
+> “Unlike any other from the nation’s beginning
+> “Up to that time.
+> “But at that time your own people,
+> “All those whose names are found written in the book,
+> “Will escape.
 ###### 2
->  “ Many of those who sleep
->  “ In the dusty ground will awake—
->  “ Some to everlasting life,
->  “ And others to shame and everlasting abhorrence.
+> “Many of those who sleep
+> “In the dusty ground will awake—
+> “Some to everlasting life,
+> “And others to shame and everlasting abhorrence.
 ###### 3
->  “ But the wise will shine
->  “ Like the brightness of the heavenly expanse.
->  “ And those bringing many to righteousness
->  “ Will be like the stars forever and ever.
+> “But the wise will shine
+> “Like the brightness of the heavenly expanse.
+> “And those bringing many to righteousness
+> “Will be like the stars forever and ever.
 ###### 4
 “But you, Daniel, close up these words and seal the book until the time of the end. Many will dash about, and knowledge will increase.”
 ###### ¶ 5

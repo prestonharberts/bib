@@ -10,29 +10,29 @@ Now the LORD spoke to Moses in the tent of meeting in the desert of Sinai on the
 “And to help you there is to be a man from each tribe, each man the head of his family.
 ###### 5
 “Now these are the names of the men who are to help you:
->  “ From Reuben, Elizur son of Shedeur;
+> “From Reuben, Elizur son of Shedeur;
 ###### 6
->  “ From Simeon, Shelumiel son of Zurishaddai;
+> “From Simeon, Shelumiel son of Zurishaddai;
 ###### 7
->  “ From Judah, Nahshon son of Amminadab;
+> “From Judah, Nahshon son of Amminadab;
 ###### 8
->  “ From Issachar, Nethanel son of Zuar;
+> “From Issachar, Nethanel son of Zuar;
 ###### 9
->  “ From Zebulun, Eliab son of Helon;
+> “From Zebulun, Eliab son of Helon;
 ###### 10
->  “ From the sons of Joseph:
->  “ From Ephraim, Elishama son of Ammihud;
->  “ From Manasseh, Gamaliel son of Pedahzur;
+> “From the sons of Joseph:
+> “From Ephraim, Elishama son of Ammihud;
+> “From Manasseh, Gamaliel son of Pedahzur;
 ###### 11
->  “ From Benjamin, Abidan son of Gideoni;
+> “From Benjamin, Abidan son of Gideoni;
 ###### 12
->  “ From Dan, Ahiezer son of Ammishaddai;
+> “From Dan, Ahiezer son of Ammishaddai;
 ###### 13
->  “ From Asher, Pagiel son of Ocran;
+> “From Asher, Pagiel son of Ocran;
 ###### 14
->  “ From Gad, Eliasaph son of Deuel;
+> “From Gad, Eliasaph son of Deuel;
 ###### 15
->  “ From Naphtali, Ahira son of Enan.”
+> “From Naphtali, Ahira son of Enan.”
 ## The Census of the Tribes
 ###### 16
 These were the ones chosen from the community, leaders of their ancestral tribes. They were the heads of the thousands of Israel.

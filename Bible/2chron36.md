@@ -52,4 +52,4 @@ In the first year of King Cyrus of Persia, in fulfillment of the LORD’s messag
 ###### 23
 “This is what King Cyrus of Persia says:
 ‘The LORD God of heaven has given me all the kingdoms of the earth. He has appointed me to build a temple for him in Jerusalem, which is in Judah. Anyone of his people among you may go up there, and may the LORD his God be with him.”
-<span class=arrow-right>  ‘##### <span class=arrow-left>  [[2chron35|Prev]]<span class=navigation-separator>  [[2chron36notes|Notes]]<span class=navigation-separator>  [[ezra1|Next]]
+<span class=arrow-right> ‘##### <span class=arrow-left> [[2chron35|Prev]]<span class=navigation-separator> [[2chron36notes|Notes]]<span class=navigation-separator> [[ezra1|Next]]

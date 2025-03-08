@@ -43,21 +43,21 @@ and those who suffered from unclean spirits were cured.
 The whole crowd was trying to touch him, because power was coming out from him and healing them all.
 ###### ¶ 20
 Then he looked up at his disciples and said:
->  “ Blessed are you who are poor, for the kingdom of God belongs to you.
+> “Blessed are you who are poor, for the kingdom of God belongs to you.
 ###### 21
->  “ Blessed are you who hunger now, for you will be satisfied.
->  “ Blessed are you who weep now, for you will laugh.
+> “Blessed are you who hunger now, for you will be satisfied.
+> “Blessed are you who weep now, for you will laugh.
 ###### 22
->  “ Blessed are you when people hate you, and when they exclude you and insult you and reject you as evil on account of the Son of Man!
+> “Blessed are you when people hate you, and when they exclude you and insult you and reject you as evil on account of the Son of Man!
 ###### 23
->  “ Rejoice in that day, and jump for joy, because your reward is great in heaven. For their ancestors did the same things to the prophets.
+> “Rejoice in that day, and jump for joy, because your reward is great in heaven. For their ancestors did the same things to the prophets.
 ###### 24
->  “ But woe to you who are rich, for you have received your comfort already.
+> “But woe to you who are rich, for you have received your comfort already.
 ###### 25
->  “ Woe to you who are well satisfied with food now, for you will be hungry.
->  “ Woe to you who laugh now, for you will mourn and weep.
+> “Woe to you who are well satisfied with food now, for you will be hungry.
+> “Woe to you who laugh now, for you will mourn and weep.
 ###### 26
->  “ Woe to you when all people speak well of you, for their ancestors did the same things to the false prophets.
+> “Woe to you when all people speak well of you, for their ancestors did the same things to the false prophets.
 ###### ¶ 27
 “But I say to you who are listening: Love your enemies, do good to those who hate you,
 ###### 28

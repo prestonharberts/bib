@@ -67,8 +67,8 @@ After singing a hymn, they went out to the Mount of Olives.
 ## The Prediction of Peter’s Denial
 ###### ¶ 31
 Then Jesus said to them, “This night you will all fall away because of me, for it is written:
->  ‘ I will strike the shepherd,
->  ‘ And the sheep of the flock will be scattered.’
+> ‘I will strike the shepherd,
+> ‘And the sheep of the flock will be scattered.’
 ###### 32
 “But after I am raised, I will go ahead of you into Galilee.”
 ###### 33

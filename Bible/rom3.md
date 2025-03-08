@@ -20,28 +20,28 @@ And why not say, “Let us do evil so that good may come of it”?—as some who
 What then? Are we better off? Certainly not, for we have already charged that Jews and Greeks alike are all under sin,
 ###### 10
 just as it is written:
->  “ There is no one righteous, not even one,
+> “There is no one righteous, not even one,
 ###### 11
->  “ There is no one who understands,
->  “ There is no one who seeks God.
+> “There is no one who understands,
+> “There is no one who seeks God.
 ###### 12
->  “ All have turned away,
->  “ Together they have become worthless;
->  “ There is no one who shows kindness, not even one.”
+> “All have turned away,
+> “Together they have become worthless;
+> “There is no one who shows kindness, not even one.”
 ###### 13
->  “ Their throats are open graves,
->  “ They deceive with their tongues,
->  “ The poison of asps is under their lips.”
+> “Their throats are open graves,
+> “They deceive with their tongues,
+> “The poison of asps is under their lips.”
 ###### 14
->  “ Their mouths are full of cursing and bitterness.”
+> “Their mouths are full of cursing and bitterness.”
 ###### 15
->  “ Their feet are swift to shed blood,
+> “Their feet are swift to shed blood,
 ###### 16
->  “ Ruin and misery are in their paths,
+> “Ruin and misery are in their paths,
 ###### 17
->  “ And the way of peace they have not known.”
+> “And the way of peace they have not known.”
 ###### 18
->  “ There is no fear of God before their eyes.”
+> “There is no fear of God before their eyes.”
 ###### ¶ 19
 Now we know that whatever the law says, it says to those who are under the law, so that every mouth may be silenced and the whole world may be held accountable to God.
 ###### 20

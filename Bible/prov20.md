@@ -25,7 +25,7 @@
 > Separates out all evil with his eyes.
 ###### 9
 > Who can say, “I have kept my heart clean;
->  “ I am pure from my sin”?
+> “I am pure from my sin”?
 ###### 10
 > Diverse weights and diverse measures—
 > The LORD abhors both of them.
@@ -39,7 +39,7 @@
 > Do not love sleep, lest you become impoverished;
 > Open your eyes so that you might be satisfied with food.
 ###### 14
->  “ It’s worthless! It’s worthless!” says the buyer,
+> “It’s worthless! It’s worthless!” says the buyer,
 > But when he goes on his way, he boasts.
 ###### 15
 > There is gold, and an abundance of rubies,

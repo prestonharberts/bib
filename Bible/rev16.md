@@ -10,11 +10,11 @@ Next, the second angel poured out his bowl on the sea and it turned into blood, 
 Then the third angel poured out his bowl on the rivers and the springs of water, and they turned into blood.
 ###### 5
 Now I heard the angel of the waters saying:
->  “ You are just—the one who is and who was,
->  “ The Holy One—because you have passed these judgments,
+> “You are just—the one who is and who was,
+> “The Holy One—because you have passed these judgments,
 ###### 6
->  “ Because they poured out the blood of your saints and prophets,
->  “ So you have given them blood to drink. They got what they deserved!”
+> “Because they poured out the blood of your saints and prophets,
+> “So you have given them blood to drink. They got what they deserved!”
 ###### 7
 Then I heard the altar reply, “Yes, Lord God, the All-Powerful, your judgments are true and just!”
 ###### ¶ 8

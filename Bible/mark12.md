@@ -20,9 +20,9 @@ Then he began to speak to them in parables: “A man planted a vineyard. He put 
 “What then will the owner of the vineyard do? He will come and destroy those tenants and give the vineyard to others.
 ###### 10
 “Have you not read this scripture:
->  ‘ The stone the builders rejected has become the cornerstone.
+> ‘The stone the builders rejected has become the cornerstone.
 ###### 11
->  ‘ This is from the Lord, and it is marvelous in our eyes’?”
+> ‘This is from the Lord, and it is marvelous in our eyes’?”
 ###### ¶ 12
 Now they wanted to arrest him (but they feared the crowd), because they realized that he told this parable against them. So they left him and went away.
 ## Paying Taxes to Caesar
@@ -77,9 +77,9 @@ When Jesus saw that he had answered thoughtfully, he said to him, “You are not
 While Jesus was teaching in the temple courts, he said, “How is it that the experts in the law say that the Christ is David’s son?
 ###### 36
 “David himself, by the Holy Spirit, said,
->  ‘ The Lord said to my lord,
->  “ Sit at my right hand,
->  “ Until I put your enemies under your feet.”’
+> ‘The Lord said to my lord,
+> “Sit at my right hand,
+> “Until I put your enemies under your feet.”’
 ###### 37
 “If David himself calls him ‘Lord,’ how can he be his son?” And the large crowd was listening to him with delight.
 ## Warnings About Experts in the Law

@@ -44,9 +44,9 @@ Tell us, that we may seek him with you.
 > The maidens saw her and complimented her;
 > The queens and concubines praised her:
 ###### 10
->  “ Who is this who appears like the dawn?
->  “ Beautiful as the moon, bright as the sun,
->  “ Awe-inspiring as the stars in procession?”
+> “Who is this who appears like the dawn?
+> “Beautiful as the moon, bright as the sun,
+> “Awe-inspiring as the stars in procession?”
 ## The Return to the Vineyards
 ###### ¶ 11
 > I went down to the orchard of walnut trees,

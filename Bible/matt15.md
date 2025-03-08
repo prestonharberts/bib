@@ -15,11 +15,11 @@ He answered them, “And why do you disobey the commandment of God because of yo
 ###### 7
 “Hypocrites! Isaiah prophesied correctly about you when he said,
 ###### 8
->  ‘ This people honors me with their lips,
->  ‘ But their heart is far from me,
+> ‘This people honors me with their lips,
+> ‘But their heart is far from me,
 ###### 9
->  ‘ And they worship me in vain,
->  ‘ Teaching as doctrines the commandments of men.’”
+> ‘And they worship me in vain,
+> ‘Teaching as doctrines the commandments of men.’”
 ## True Defilement
 ###### ¶ 10
 Then he called the crowd to him and said, “Listen and understand.

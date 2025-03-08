@@ -36,9 +36,9 @@ Then the officials and all the people rendered their verdict to the priests and 
 Then some of the elders of Judah stepped forward and spoke to all the people gathered there. They said,
 ###### 18
 “Micah from Moresheth prophesied during the time Hezekiah was king of Judah. He told all the people of Judah, ‘The LORD of Heaven’s Armies says,
->  “ ‘Zion will become a plowed field.
->  ‘ Jerusalem will become a pile of rubble.
->  ‘ The temple mount will become a mere wooded ridge.”’
+> “‘Zion will become a plowed field.
+> ‘Jerusalem will become a pile of rubble.
+> ‘The temple mount will become a mere wooded ridge.”’
 ###### 19
 “King Hezekiah and all the people of Judah did not put him to death, did they? Did not Hezekiah show reverence for the LORD and seek the LORD’s favor? Did not the LORD forgo destroying them as he threatened he would? But we are on the verge of bringing great disaster on ourselves.”
 ###### ¶ 20

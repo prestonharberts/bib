@@ -4,8 +4,8 @@
 The words of the Teacher, the son of David, king in Jerusalem:
 ## Introduction: Utter Futility
 ###### 2
->  “ Futile! Futile!” laments the Teacher.
->  “ Absolutely futile! Everything is futile!”
+> “Futile! Futile!” laments the Teacher.
+> “Absolutely futile! Everything is futile!”
 ## Futility Illustrated from Nature
 ###### ¶ 3
 > What benefit do people get from all the effort
@@ -53,8 +53,8 @@ The words of the Teacher, the son of David, king in Jerusalem:
 ## Futility of Secular Wisdom
 ###### ¶ 16
 > I thought to myself,
->  “ I have become much wiser than any of my predecessors who ruled over Jerusalem;
->  “ I have acquired much wisdom and knowledge.”
+> “I have become much wiser than any of my predecessors who ruled over Jerusalem;
+> “I have acquired much wisdom and knowledge.”
 ###### 17
 > So I decided to discern the benefit of wisdom and knowledge over foolish behavior and ideas;
 > However, I concluded that even this endeavor is like trying to chase the wind.

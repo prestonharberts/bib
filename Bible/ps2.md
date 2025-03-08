@@ -8,7 +8,7 @@
 > Against the LORD and his anointed king.
 ###### 3
 > They say, “Let’s tear off the shackles they’ve put on us.
->  “ Let’s free ourselves from their ropes.”
+> “Let’s free ourselves from their ropes.”
 ###### ¶ 4
 > The one enthroned in heaven laughs in disgust;
 > The Lord taunts them.
@@ -16,18 +16,18 @@
 > Then he angrily speaks to them
 > And terrifies them in his rage, saying,
 ###### 6
->  “ I myself have installed my king
->  “ On Zion, my holy hill.”
+> “I myself have installed my king
+> “On Zion, my holy hill.”
 ###### ¶ 7
 > The king says, “I will announce the LORD’s decree. He said to me:
->  ‘ You are my son. This very day I have become your father.
+> ‘You are my son. This very day I have become your father.
 ###### 8
->  ‘ Ask me,
->  ‘ And I will give you the nations as your inheritance,
->  ‘ The ends of the earth as your personal property.
+> ‘Ask me,
+> ‘And I will give you the nations as your inheritance,
+> ‘The ends of the earth as your personal property.
 ###### 9
->  ‘ You will break them with an iron scepter;
->  ‘ You will smash them like a potter’s jar.’”
+> ‘You will break them with an iron scepter;
+> ‘You will smash them like a potter’s jar.’”
 ###### ¶ 10
 > So now, you kings, do what is wise;
 > You rulers of the earth, submit to correction.

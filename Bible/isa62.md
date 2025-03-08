@@ -30,20 +30,20 @@
 > They should keep praying all day and all night.
 > You who pray to the LORD, don’t be silent!
 ###### 7
->  “ Don’t allow him to rest until he reestablishes Jerusalem,
->  “ Until he makes Jerusalem the pride of the earth.
+> “Don’t allow him to rest until he reestablishes Jerusalem,
+> “Until he makes Jerusalem the pride of the earth.
 ###### 8
->  “ The LORD swears an oath by his right hand,
->  “ By his strong arm:
->  “ I will never again give your grain
->  “ To your enemies as food,
->  “ And foreigners will not drink your wine,
->  “ Which you worked hard to produce.
+> “The LORD swears an oath by his right hand,
+> “By his strong arm:
+> “I will never again give your grain
+> “To your enemies as food,
+> “And foreigners will not drink your wine,
+> “Which you worked hard to produce.
 ###### 9
->  “ But those who harvest the grain will eat it,
->  “ And will praise the LORD.
->  “ Those who pick the grapes will drink the wine
->  “ In the courts of my holy sanctuary.”
+> “But those who harvest the grain will eat it,
+> “And will praise the LORD.
+> “Those who pick the grapes will drink the wine
+> “In the courts of my holy sanctuary.”
 ###### ¶ 10
 > Come through! Come through the gates!
 > Prepare the way for the people!
@@ -52,12 +52,12 @@
 > Lift a signal flag for the nations.
 ###### 11
 > Look, the LORD announces to the entire earth:
->  “ Say to Daughter Zion,
->  ‘ Look, your deliverer comes!
->  ‘ Look, his reward is with him,
->  ‘ And his reward goes before him!’”
+> “Say to Daughter Zion,
+> ‘Look, your deliverer comes!
+> ‘Look, his reward is with him,
+> ‘And his reward goes before him!’”
 ###### 12
 > They will be called, “The Holy People,
->  “ The Ones Protected by the LORD.”
+> “The Ones Protected by the LORD.”
 > You will be called, “Sought After,
->  “ City Not Abandoned.”
+> “City Not Abandoned.”

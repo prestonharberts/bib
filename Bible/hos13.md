@@ -10,7 +10,7 @@
 > Idols that they skillfully fashion from their own silver;
 > All of them are nothing but the work of craftsmen.
 > There is a saying about them:
->  “ Those who sacrifice to the calf idol are calf kissers!”
+> “Those who sacrifice to the calf idol are calf kissers!”
 ###### 3
 > Therefore they will disappear like the morning mist,
 > Like early morning dew that evaporates,
@@ -45,7 +45,7 @@
 > Where then is your king,
 > That he may save you in all your cities?
 > Where are your rulers for whom you asked, saying,
->  “ Give me a king and princes”?
+> “Give me a king and princes”?
 ###### 11
 > I granted you a king in my anger,
 > And I will take him away in my wrath!

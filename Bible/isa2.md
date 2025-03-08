@@ -10,10 +10,10 @@ Here is the message about Judah and Jerusalem that was revealed to Isaiah son of
 > All the nations will stream to it;
 ###### 3
 > Many peoples will come and say,
->  “ Come, let us go up to the LORD’s mountain,
->  “ To the temple of the God of Jacob,
->  “ So he can teach us his requirements,
->  “ And we can follow his standards.”
+> “Come, let us go up to the LORD’s mountain,
+> “To the temple of the God of Jacob,
+> “So he can teach us his requirements,
+> “And we can follow his standards.”
 > For Zion will be the center for moral instruction;
 > The LORD’s message will issue from Jerusalem.
 ###### 4
@@ -47,57 +47,57 @@ Here is the message about Judah and Jerusalem that was revealed to Isaiah son of
 > They lie flat on the ground in worship.
 > Don’t spare them!
 ###### 10
->  “ Go up into the rocky cliffs,
->  “ Hide in the ground.
->  “ Get away from the dreadful judgment of the LORD,
->  “ From his royal splendor!
+> “Go up into the rocky cliffs,
+> “Hide in the ground.
+> “Get away from the dreadful judgment of the LORD,
+> “From his royal splendor!
 ###### 11
->  “ Proud men will be brought low,
->  “ Arrogant men will be humiliated;
->  “ The LORD alone will be exalted
->  “ In that day.
+> “Proud men will be brought low,
+> “Arrogant men will be humiliated;
+> “The LORD alone will be exalted
+> “In that day.
 ###### ¶ 12
->  “ Indeed, the LORD of Heaven’s Armies has planned a day of judgment,
->  “ For all the high and mighty,
->  “ For all who are proud—they will be humiliated;
+> “Indeed, the LORD of Heaven’s Armies has planned a day of judgment,
+> “For all the high and mighty,
+> “For all who are proud—they will be humiliated;
 ###### 13
->  “ For all the cedars of Lebanon,
->  “ That are so high and mighty,
->  “ For all the oaks of Bashan;
+> “For all the cedars of Lebanon,
+> “That are so high and mighty,
+> “For all the oaks of Bashan;
 ###### 14
->  “ For all the tall mountains,
->  “ For all the high hills,
+> “For all the tall mountains,
+> “For all the high hills,
 ###### 15
->  “ For every high tower,
->  “ For every fortified wall,
+> “For every high tower,
+> “For every fortified wall,
 ###### 16
->  “ For all the large ships,
->  “ For all the impressive ships.
+> “For all the large ships,
+> “For all the impressive ships.
 ###### 17
->  “ Proud men will be humiliated,
->  “ Arrogant men will be brought low;
->  “ The LORD alone will be exalted
->  “ In that day.
+> “Proud men will be humiliated,
+> “Arrogant men will be brought low;
+> “The LORD alone will be exalted
+> “In that day.
 ###### 18
->  “ The worthless idols will be completely eliminated.
+> “The worthless idols will be completely eliminated.
 ###### 19
->  “ They will go into caves in the rocky cliffs
->  “ And into holes in the ground,
->  “ Trying to escape the dreadful judgment of the LORD
->  “ And his royal splendor,
->  “ When he rises up to terrify the earth.
+> “They will go into caves in the rocky cliffs
+> “And into holes in the ground,
+> “Trying to escape the dreadful judgment of the LORD
+> “And his royal splendor,
+> “When he rises up to terrify the earth.
 ###### 20
->  “ At that time men will throw
->  “ Their silver and gold idols,
->  “ Which they made for themselves to worship,
->  “ Into the caves where rodents and bats live,
+> “At that time men will throw
+> “Their silver and gold idols,
+> “Which they made for themselves to worship,
+> “Into the caves where rodents and bats live,
 ###### 21
->  “ So they themselves can go into the crevices of the rocky cliffs
->  “ And the openings under the rocky overhangs,
->  “ Trying to escape the dreadful judgment of the LORD
->  “ And his royal splendor,
->  “ When he rises up to terrify the earth.
+> “So they themselves can go into the crevices of the rocky cliffs
+> “And the openings under the rocky overhangs,
+> “Trying to escape the dreadful judgment of the LORD
+> “And his royal splendor,
+> “When he rises up to terrify the earth.
 ###### 22
->  “ Stop trusting in human beings,
->  “ Whose life’s breath is in their nostrils.
->  “ For why should they be given special consideration?
+> “Stop trusting in human beings,
+> “Whose life’s breath is in their nostrils.
+> “For why should they be given special consideration?

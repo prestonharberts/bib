@@ -31,16 +31,16 @@
 > They use dishonest scales.
 ###### 8
 > Ephraim boasts, “I am very rich!
->  “ I have become wealthy!
->  “ In all that I have done to gain my wealth,
->  “ No one can accuse me of any offense that is actually sinful.”
+> “I have become wealthy!
+> “In all that I have done to gain my wealth,
+> “No one can accuse me of any offense that is actually sinful.”
 ###### 9
->  “ I am the LORD your God who brought you out of Egypt;
->  “ I will make you live in tents again as in the days of old.
+> “I am the LORD your God who brought you out of Egypt;
+> “I will make you live in tents again as in the days of old.
 ###### 10
->  “ I spoke to the prophets;
->  “ I myself revealed many visions;
->  “ I spoke in parables through the prophets.”
+> “I spoke to the prophets;
+> “I myself revealed many visions;
+> “I spoke in parables through the prophets.”
 ###### 11
 > Is there idolatry in Gilead?
 > Certainly its inhabitants will come to nothing!

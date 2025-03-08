@@ -61,45 +61,45 @@ Then the LORD said to me, “Tell them that the LORD of Heaven’s Armies, the G
 ‘For take note, I am already beginning to bring disaster on the city that I call my own. So how can you possibly avoid being punished? You will not go unpunished. For I am proclaiming war against all who live on the earth. I, the LORD of Heaven’s Armies, affirm it!’
 ###### ¶ 30
 “Then, Jeremiah, make the following prophecy against them:
->  ‘ Like a lion about to attack, the LORD will roar from the heights of heaven;
->  ‘ From his holy dwelling on high he will roar loudly.
->  ‘ He will roar mightily against his land.
->  ‘ He will shout in triumph, like those stomping juice from the grapes,
->  ‘ Against all those who live on the earth.
+> ‘Like a lion about to attack, the LORD will roar from the heights of heaven;
+> ‘From his holy dwelling on high he will roar loudly.
+> ‘He will roar mightily against his land.
+> ‘He will shout in triumph, like those stomping juice from the grapes,
+> ‘Against all those who live on the earth.
 ###### 31
->  ‘ The sounds of battle will resound to the ends of the earth.
->  ‘ For the LORD will bring charges against the nations.
->  ‘ He will pass judgment on all humankind
->  ‘ And will hand the wicked over to be killed in war.’
->  “ The LORD so affirms it!
+> ‘The sounds of battle will resound to the ends of the earth.
+> ‘For the LORD will bring charges against the nations.
+> ‘He will pass judgment on all humankind
+> ‘And will hand the wicked over to be killed in war.’
+> “The LORD so affirms it!
 ###### ¶ 32
->  “ The LORD of Heaven’s Armies says,
->  ‘ Disaster will soon come on one nation after another.
->  ‘ A mighty storm of military destruction is rising up
->  ‘ From the distant parts of the earth.’
+> “The LORD of Heaven’s Armies says,
+> ‘Disaster will soon come on one nation after another.
+> ‘A mighty storm of military destruction is rising up
+> ‘From the distant parts of the earth.’
 ###### ¶ 33
->  “ Those who have been killed by the LORD at that time
->  “ Will be scattered from one end of the earth to the other.
->  “ They will not be mourned over, gathered up, or buried.
->  “ Their dead bodies will lie scattered over the ground like manure.
+> “Those who have been killed by the LORD at that time
+> “Will be scattered from one end of the earth to the other.
+> “They will not be mourned over, gathered up, or buried.
+> “Their dead bodies will lie scattered over the ground like manure.
 ###### 34
->  “ Wail and cry out in anguish, you rulers!
->  “ Roll in the dust, you who shepherd flocks of people!
->  “ The time for you to be slaughtered has come.
->  “ You will lie scattered and fallen like broken pieces of fine pottery.
+> “Wail and cry out in anguish, you rulers!
+> “Roll in the dust, you who shepherd flocks of people!
+> “The time for you to be slaughtered has come.
+> “You will lie scattered and fallen like broken pieces of fine pottery.
 ###### 35
->  “ The leaders will not be able to run away and hide.
->  “ The shepherds of the flocks will not be able to escape.
+> “The leaders will not be able to run away and hide.
+> “The shepherds of the flocks will not be able to escape.
 ###### 36
->  “ Listen to the cries of anguish of the leaders.
->  “ Listen to the wails of the shepherds of the flocks.
->  “ They are wailing because the LORD
->  “ Is about to destroy their lands.
+> “Listen to the cries of anguish of the leaders.
+> “Listen to the wails of the shepherds of the flocks.
+> “They are wailing because the LORD
+> “Is about to destroy their lands.
 ###### 37
->  “ Their peaceful dwelling places will be laid waste
->  “ By the fierce anger of the LORD.
+> “Their peaceful dwelling places will be laid waste
+> “By the fierce anger of the LORD.
 ###### 38
->  “ The LORD is like a lion who has left his lair.
->  “ So their lands will certainly be laid waste
->  “ By the warfare of the oppressive nation
->  “ And by the fierce anger of the LORD.”
+> “The LORD is like a lion who has left his lair.
+> “So their lands will certainly be laid waste
+> “By the warfare of the oppressive nation
+> “And by the fierce anger of the LORD.”

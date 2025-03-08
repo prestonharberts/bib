@@ -46,10 +46,10 @@ Then Jeremiah answered, “You will not be handed over to them. Please obey the 
 “But if you refuse to surrender, the LORD has shown me a vision of what will happen. Here is what I saw:
 ###### 22
 “All the women who are left in the royal palace of Judah will be led out to the officers of the king of Babylon. They will taunt you saying:
->  “ ‘Your trusted friends misled you;
->  ‘ They have gotten the best of you.
->  ‘ Now that your feet are stuck in the mud,
->  ‘ They have turned their backs on you.’
+> “‘Your trusted friends misled you;
+> ‘They have gotten the best of you.
+> ‘Now that your feet are stuck in the mud,
+> ‘They have turned their backs on you.’
 ###### 23
 “All your wives and your children will be turned over to the Babylonians. You yourself will not escape from them but will be captured by the king of Babylon. This city will be burned down.”
 ###### ¶ 24

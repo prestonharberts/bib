@@ -54,17 +54,17 @@ Some were convinced by what he said, but others refused to believe.
 So they began to leave, unable to agree among themselves, after Paul made one last statement: “The Holy Spirit spoke rightly to your ancestors through the prophet Isaiah
 ###### 26
 “when he said,
->  ‘ Go to this people and say,
->  “ You will keep on hearing, but will never understand,
->  “ And you will keep on looking, but will never perceive.
+> ‘Go to this people and say,
+> “You will keep on hearing, but will never understand,
+> “And you will keep on looking, but will never perceive.
 ###### 27
->  “ For the heart of this people has become dull,
->  “ And their ears are hard of hearing,
->  “ And they have closed their eyes,
->  “ So that they would not see with their eyes
->  “ And hear with their ears
->  “ And understand with their heart
->  “ And turn, and I would heal them.”’
+> “For the heart of this people has become dull,
+> “And their ears are hard of hearing,
+> “And they have closed their eyes,
+> “So that they would not see with their eyes
+> “And hear with their ears
+> “And understand with their heart
+> “And turn, and I would heal them.”’
 ###### 28
 “Therefore be advised that this salvation from God has been sent to the Gentiles; they will listen!”
 ###### ¶ 30

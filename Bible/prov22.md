@@ -37,7 +37,7 @@
 > And subverted the words of the treacherous person.
 ###### 13
 > The sluggard has said, “There is a lion outside!
->  “ I will be killed in the middle of the streets!”
+> “I will be killed in the middle of the streets!”
 ###### 14
 > The mouth of an adulteress is like a deep pit;
 > The one against whom the LORD is angry will fall into it.

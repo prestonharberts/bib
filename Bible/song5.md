@@ -10,13 +10,13 @@ I have drunk my wine and my milk!
 ###### ¶ 2
 > I was asleep, but my mind was dreaming.
 Listen! My lover is knocking at the door!
->  “ Open for me, my sister, my darling,
+> “Open for me, my sister, my darling,
 “my dove, my flawless one!
 “My head is drenched with dew,
 “my hair with the dampness of the night.”
 ###### 3
->  “ I have already taken off my robe—must I put it on again?
->  “ I have already washed my feet—must I soil them again?”
+> “I have already taken off my robe—must I put it on again?
+> “I have already washed my feet—must I soil them again?”
 ###### 4
 > My lover thrust his hand through the hole,
 > And my feelings were stirred for him.

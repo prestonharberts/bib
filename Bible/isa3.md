@@ -16,24 +16,24 @@
 > And those who know incantations.
 ###### 4
 > The LORD says, “I will make youths their officials;
->  “ Malicious young men will rule over them.
+> “Malicious young men will rule over them.
 ###### 5
->  “ The people will treat each other harshly;
->  “ Men will oppose each other;
->  “ Neighbors will fight.
->  “ Youths will proudly defy the elderly
->  “ And riffraff will challenge those who were once respected.
+> “The people will treat each other harshly;
+> “Men will oppose each other;
+> “Neighbors will fight.
+> “Youths will proudly defy the elderly
+> “And riffraff will challenge those who were once respected.
 ###### 6
->  “ Indeed, a man will grab his brother
->  “ Right in his father’s house and say,
->  ‘ You own a coat—
->  ‘ You be our leader!
->  ‘ This heap of ruins will be under your control.’
+> “Indeed, a man will grab his brother
+> “Right in his father’s house and say,
+> ‘You own a coat—
+> ‘You be our leader!
+> ‘This heap of ruins will be under your control.’
 ###### 7
->  “ At that time the brother will shout,
->  ‘ I am no doctor,
->  ‘ I have no food or coat in my house;
->  ‘ Don’t make me a leader of the people!’”
+> “At that time the brother will shout,
+> ‘I am no doctor,
+> ‘I have no food or coat in my house;
+> ‘Don’t make me a leader of the people!’”
 ###### 8
 > Jerusalem certainly stumbles,
 > Judah falls,
@@ -62,22 +62,22 @@
 > The LORD comes to pronounce judgment
 > On the leaders of his people and their officials.
 > He says, “It is you who have ruined the vineyard!
->  “ You have stashed in your houses what you have stolen from the poor.
+> “You have stashed in your houses what you have stolen from the poor.
 ###### 15
->  “ Why do you crush my people
->  “ And grind the faces of the poor?”
+> “Why do you crush my people
+> “And grind the faces of the poor?”
 > The Sovereign LORD of Heaven’s Armies has spoken.
 ## Washing Away Impurity
 ###### ¶ 16
 > The LORD says,
->  “ The women of Zion are proud.
->  “ They walk with their heads high
->  “ And flirt with their eyes.
->  “ They skip along
->  “ And the jewelry on their ankles jingles.
+> “The women of Zion are proud.
+> “They walk with their heads high
+> “And flirt with their eyes.
+> “They skip along
+> “And the jewelry on their ankles jingles.
 ###### 17
->  “ So the Lord will afflict the foreheads of Zion’s women with skin diseases;
->  “ The LORD will make the front of their heads bald.”
+> “So the Lord will afflict the foreheads of Zion’s women with skin diseases;
+> “The LORD will make the front of their heads bald.”
 ###### 18
 At that time the Lord will remove their beautiful ankle jewelry, neck ornaments, crescent-shaped ornaments,
 ###### 19

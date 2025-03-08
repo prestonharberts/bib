@@ -33,15 +33,15 @@ Again they wept loudly. Then Orpah kissed her mother-in-law goodbye, but Ruth cl
 So Naomi said, “Look, your sister-in-law is returning to her people and to her god. Follow your sister-in-law back home!”
 ###### 16
 But Ruth replied,
->  “ Stop urging me to abandon you!
->  “ For wherever you go, I will go.
->  “ Wherever you live, I will live.
->  “ Your people will become my people,
->  “ And your God will become my God.
+> “Stop urging me to abandon you!
+> “For wherever you go, I will go.
+> “Wherever you live, I will live.
+> “Your people will become my people,
+> “And your God will become my God.
 ###### 17
->  “ Wherever you die, I will die—and there I will be buried.
->  “ May the LORD punish me severely if I do not keep my promise!
->  “ Only death will be able to separate me from you!”
+> “Wherever you die, I will die—and there I will be buried.
+> “May the LORD punish me severely if I do not keep my promise!
+> “Only death will be able to separate me from you!”
 ###### 18
 When Naomi realized that Ruth was determined to go with her, she stopped trying to dissuade her.
 ###### ¶ 19

@@ -15,8 +15,8 @@
 ## The Lord Will Punish Israel by Removing Its Kings
 ###### ¶ 3
 > Very soon they will say, “We have no king
->  “ Since we did not fear the LORD.
->  “ But what can a king do for us anyway?”
+> “Since we did not fear the LORD.
+> “But what can a king do for us anyway?”
 ###### 4
 > They utter empty words,
 > Taking false oaths and making empty agreements.

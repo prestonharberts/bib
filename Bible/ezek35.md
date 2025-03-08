@@ -6,13 +6,13 @@ The Lord’s message came to me:
 “Son of man, turn toward Mount Seir, and prophesy against it.
 ###### 3
 “Say to it, ‘This is what the Sovereign LORD says:
->  “ ‘Look, I am against you, Mount Seir;
->  ‘ I will stretch out my hand against you
->  ‘ And turn you into a desolate ruin.
+> “‘Look, I am against you, Mount Seir;
+> ‘I will stretch out my hand against you
+> ‘And turn you into a desolate ruin.
 ###### 4
->  ‘ I will lay waste your cities,
->  ‘ And you will become desolate.
->  ‘ Then you will know that I am the LORD!
+> ‘I will lay waste your cities,
+> ‘And you will become desolate.
+> ‘Then you will know that I am the LORD!
 ###### 5
 “‘You have shown unrelenting hostility and poured the people of Israel onto the blades of a sword at the time of their calamity, at the time of their final punishment.
 ###### 6

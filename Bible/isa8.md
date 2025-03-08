@@ -30,23 +30,23 @@ The LORD spoke to me again:
 ###### ¶ 11
 Indeed this is what the LORD told me quite forcefully. He warned me not to act like these people:
 ###### 12
->  “ Do not say, ‘Conspiracy,’ every time these people say the word.
->  “ Don’t be afraid of what scares them; don’t be terrified.
+> “Do not say, ‘Conspiracy,’ every time these people say the word.
+> “Don’t be afraid of what scares them; don’t be terrified.
 ###### 13
->  “ You must recognize the authority of the LORD of Heaven’s Armies.
->  “ He is the one you must respect;
->  “ He is the one you must fear.
+> “You must recognize the authority of the LORD of Heaven’s Armies.
+> “He is the one you must respect;
+> “He is the one you must fear.
 ###### 14
->  “ He will become a sanctuary,
->  “ But a stone that makes a person trip,
->  “ And a rock that makes one stumble—
->  “ To the two houses of Israel.
->  “ He will become a trap and a snare
->  “ To the residents of Jerusalem.
+> “He will become a sanctuary,
+> “But a stone that makes a person trip,
+> “And a rock that makes one stumble—
+> “To the two houses of Israel.
+> “He will become a trap and a snare
+> “To the residents of Jerusalem.
 ###### 15
->  “ Many will stumble over the stone and the rock,
->  “ And will fall and be seriously injured,
->  “ And will be ensnared and captured.”
+> “Many will stumble over the stone and the rock,
+> “And will fall and be seriously injured,
+> “And will be ensnared and captured.”
 ###### ¶ 16
 > Tie up the scroll as legal evidence,
 > Seal the official record of God’s instructions and give it to my followers.

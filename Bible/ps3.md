@@ -4,7 +4,7 @@
 > Many attack me.
 ###### 2
 > Many say about me,
->  “ God will not deliver him.” (Selah)
+> “God will not deliver him.” (Selah)
 ###### ¶ 3
 > But you, LORD, are a shield that protects me;
 > You are my glory and the one who restores me.

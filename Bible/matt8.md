@@ -36,7 +36,7 @@ He touched her hand, and the fever left her. Then she got up and began to serve 
 When it was evening, many demon-possessed people were brought to him. He drove out the spirits with a word, and healed all who were sick.
 ###### 17
 In this way what was spoken by the prophet Isaiah was fulfilled:
->  “ He took our weaknesses and carried our diseases.”
+> “He took our weaknesses and carried our diseases.”
 ## Challenging Professed Followers
 ###### ¶ 18
 Now when Jesus saw a large crowd around him, he gave orders to go to the other side of the lake.

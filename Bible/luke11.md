@@ -4,14 +4,14 @@
 Now Jesus was praying in a certain place. When he stopped, one of his disciples said to him, “Lord, teach us to pray, just as John taught his disciples.”
 ###### 2
 So he said to them, “When you pray, say:
->  “ Father, may your name be honored;
->  “ May your kingdom come.
+> “Father, may your name be honored;
+> “May your kingdom come.
 ###### 3
->  “ Give us each day our daily bread,
+> “Give us each day our daily bread,
 ###### 4
->  “ And forgive us our sins,
->  “ For we also forgive everyone who sins against us.
->  “ And do not lead us into temptation.”
+> “And forgive us our sins,
+> “For we also forgive everyone who sins against us.
+> “And do not lead us into temptation.”
 ###### ¶ 5
 Then he said to them, “Suppose one of you has a friend, and you go to him at midnight and say to him, ‘Friend, lend me three loaves of bread,
 ###### 6

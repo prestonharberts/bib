@@ -26,19 +26,19 @@
 > Who enslaves nations by her harlotry,
 > And entices peoples by her sorcery—
 ###### 5
->  “ I am against you,” declares the LORD of Heaven’s Armies.
->  “ I will strip off your clothes!
->  “ I will show your nakedness to the nations
->  “ And your shame to the kingdoms.
+> “I am against you,” declares the LORD of Heaven’s Armies.
+> “I will strip off your clothes!
+> “I will show your nakedness to the nations
+> “And your shame to the kingdoms.
 ###### 6
->  “ I will pelt you with filth;
->  “ I will treat you with contempt;
->  “ I will make you a public spectacle.
+> “I will pelt you with filth;
+> “I will treat you with contempt;
+> “I will make you a public spectacle.
 ###### 7
->  “ Everyone who sees you will turn away from you in disgust;
->  “ They will say, ‘Nineveh has been devastated!
->  ‘ Who will lament for her?’
->  “ There will be no one to comfort you!”
+> “Everyone who sees you will turn away from you in disgust;
+> “They will say, ‘Nineveh has been devastated!
+> ‘Who will lament for her?’
+> “There will be no one to comfort you!”
 ## Nineveh Will Suffer the Same Fate as Thebes
 ###### ¶ 8
 > You are no more secure than Thebes—

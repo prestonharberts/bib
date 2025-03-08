@@ -11,9 +11,9 @@ After assembling all the chief priests and experts in the law, he asked them whe
 ###### 5
 “In Bethlehem of Judea,” they said, “for it is written this way by the prophet:
 ###### 6
->  ‘ And you, Bethlehem, in the land of Judah,
->  ‘ Are in no way least among the rulers of Judah,
->  ‘ For out of you will come a ruler who will shepherd my people Israel.’”
+> ‘And you, Bethlehem, in the land of Judah,
+> ‘Are in no way least among the rulers of Judah,
+> ‘For out of you will come a ruler who will shepherd my people Israel.’”
 ###### ¶ 7
 Then Herod privately summoned the wise men and determined from them when the star had appeared.
 ###### 8
@@ -38,10 +38,10 @@ When Herod saw that he had been tricked by the wise men, he became enraged. He s
 ###### 17
 Then what was spoken by Jeremiah the prophet was fulfilled:
 ###### 18
->  “ A voice was heard in Ramah,
->  “ Weeping and loud wailing,
->  “ Rachel weeping for her children,
->  “ And she did not want to be comforted, because they were gone.”
+> “A voice was heard in Ramah,
+> “Weeping and loud wailing,
+> “Rachel weeping for her children,
+> “And she did not want to be comforted, because they were gone.”
 ## The Return to Nazareth
 ###### ¶ 19
 After Herod had died, an angel of the Lord appeared in a dream to Joseph in Egypt

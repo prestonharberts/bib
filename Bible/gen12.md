@@ -2,16 +2,16 @@
 ## The Obedience of Abram
 ###### ¶ 1
 Now the LORD said to Abram,
->  “ Go out from your country, your relatives, and your father’s household
->  “ To the land that I will show you.
+> “Go out from your country, your relatives, and your father’s household
+> “To the land that I will show you.
 ###### 2
->  “ Then I will make you into a great nation, and I will bless you,
->  “ And I will make your name great,
->  “ So that you will exemplify divine blessing.
+> “Then I will make you into a great nation, and I will bless you,
+> “And I will make your name great,
+> “So that you will exemplify divine blessing.
 ###### 3
->  “ I will bless those who bless you,
->  “ But the one who treats you lightly I must curse,
->  “ So that all the families of the earth may receive blessing through you.”
+> “I will bless those who bless you,
+> “But the one who treats you lightly I must curse,
+> “So that all the families of the earth may receive blessing through you.”
 ###### ¶ 4
 So Abram left, just as the LORD had told him to do, and Lot went with him. (Now Abram was 75 years old when he departed from Haran.)
 ###### 5

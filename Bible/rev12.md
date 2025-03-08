@@ -21,23 +21,23 @@ But the dragon was not strong enough to prevail, so there was no longer any plac
 So that huge dragon—the ancient serpent, the one called the devil and Satan, who deceives the whole world—was thrown down to the earth, and his angels along with him.
 ###### 10
 Then I heard a loud voice in heaven saying,
->  “ The salvation and the power
->  “ And the kingdom of our God,
->  “ And the ruling authority of his Christ, have now come,
->  “ Because the accuser of our brothers and sisters,
->  “ The one who accuses them day and night before our God,
->  “ Has been thrown down.
+> “The salvation and the power
+> “And the kingdom of our God,
+> “And the ruling authority of his Christ, have now come,
+> “Because the accuser of our brothers and sisters,
+> “The one who accuses them day and night before our God,
+> “Has been thrown down.
 ###### 11
->  “ But they overcame him
->  “ By the blood of the Lamb
->  “ And by the word of their testimony,
->  “ And they did not love their lives so much that they were afraid to die.
+> “But they overcame him
+> “By the blood of the Lamb
+> “And by the word of their testimony,
+> “And they did not love their lives so much that they were afraid to die.
 ###### 12
->  “ Therefore you heavens rejoice, and all who reside in them!
->  “ But woe to the earth and the sea
->  “ Because the devil has come down to you!
->  “ He is filled with terrible anger,
->  “ For he knows that he only has a little time!”
+> “Therefore you heavens rejoice, and all who reside in them!
+> “But woe to the earth and the sea
+> “Because the devil has come down to you!
+> “He is filled with terrible anger,
+> “For he knows that he only has a little time!”
 ###### ¶ 13
 Now when the dragon realized that he had been thrown down to the earth, he pursued the woman who had given birth to the male child.
 ###### 14

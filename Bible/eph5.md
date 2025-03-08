@@ -29,9 +29,9 @@ For the things they do in secret are shameful even to mention.
 But all things being exposed by the light are made visible.
 ###### 14
 For everything made visible is light, and for this reason it says:
->  “ Awake, O sleeper!
->  “ Rise from the dead,
->  “ And Christ will shine on you!”
+> “Awake, O sleeper!
+> “Rise from the dead,
+> “And Christ will shine on you!”
 ## Live Wisely
 ###### ¶ 15
 Therefore consider carefully how you live—not as unwise but as wise,

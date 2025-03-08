@@ -19,46 +19,46 @@
 > And his hand is ready to strike again.
 ## The Lord Turns on Arrogant Assyria
 ###### ¶ 5
->  “ Beware, Assyria, the club I use to vent my anger,
->  “ A cudgel with which I angrily punish.
+> “Beware, Assyria, the club I use to vent my anger,
+> “A cudgel with which I angrily punish.
 ###### 6
->  “ I sent him against a godless nation,
->  “ I ordered him to attack the people with whom I was angry,
->  “ To take plunder and to carry away loot,
->  “ To trample them down like dirt in the streets.
+> “I sent him against a godless nation,
+> “I ordered him to attack the people with whom I was angry,
+> “To take plunder and to carry away loot,
+> “To trample them down like dirt in the streets.
 ###### 7
->  “ But he does not agree with this;
->  “ His mind does not reason this way,
->  “ For his goal is to destroy,
->  “ And to eliminate many nations.
+> “But he does not agree with this;
+> “His mind does not reason this way,
+> “For his goal is to destroy,
+> “And to eliminate many nations.
 ###### 8
->  “ Indeed, he says:
->  ‘ Are not my officials all kings?
+> “Indeed, he says:
+> ‘Are not my officials all kings?
 ###### 9
->  ‘ Is not Calneh like Carchemish?
->  ‘ Hamath like Arpad?
->  ‘ Samaria like Damascus?
+> ‘Is not Calneh like Carchemish?
+> ‘Hamath like Arpad?
+> ‘Samaria like Damascus?
 ###### 10
->  ‘ I overpowered kingdoms ruled by idols,
->  ‘ Whose carved images were more impressive than Jerusalem’s or Samaria’s.
+> ‘I overpowered kingdoms ruled by idols,
+> ‘Whose carved images were more impressive than Jerusalem’s or Samaria’s.
 ###### 11
->  ‘ As I have done to Samaria and its idols,
->  ‘ So I will do to Jerusalem and its idols.”
+> ‘As I have done to Samaria and its idols,
+> ‘So I will do to Jerusalem and its idols.”
 ###### ¶ 12
 ‘But when the Lord finishes judging Mount Zion and Jerusalem, then he will punish the king of Assyria for what he has proudly planned and for the arrogant attitude he displays.
 ###### 13
 ‘For he says:
->  “ By my strong hand I have accomplished this,
->  “ By my strategy that I devised.
->  “ I invaded the territory of nations,
->  “ And looted their storehouses.
->  “ Like a mighty conqueror, I brought down rulers.
+> “By my strong hand I have accomplished this,
+> “By my strategy that I devised.
+> “I invaded the territory of nations,
+> “And looted their storehouses.
+> “Like a mighty conqueror, I brought down rulers.
 ###### 14
->  “ My hand discovered the wealth of the nations, as if it were in a nest,
->  “ As one gathers up abandoned eggs,
->  “ I gathered up the whole earth.
->  “ There was no wing flapping,
->  “ Or open mouth chirping.”
+> “My hand discovered the wealth of the nations, as if it were in a nest,
+> “As one gathers up abandoned eggs,
+> “I gathered up the whole earth.
+> “There was no wing flapping,
+> “Or open mouth chirping.”
 ###### ¶ 15
 > Does an ax exalt itself over the one who wields it,
 > Or a saw magnify itself over the one who cuts with it?

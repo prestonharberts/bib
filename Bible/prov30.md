@@ -52,7 +52,7 @@
 > And the needy from among the human race.
 ###### ¶ 15
 > The leech has two daughters:
->  “ Give! Give!”
+> “Give! Give!”
 > There are three things that will never be satisfied,
 > Four that have never said, “Enough”—
 ###### 16

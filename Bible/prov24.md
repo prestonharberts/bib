@@ -35,45 +35,45 @@
 ###### 12
 > If you say, “But we did not know about this,”
 > Won’t the one who evaluates hearts discern it?
->  “ Won’t the one who guards your life realize
->  “ And repay each person according to his deeds?
+> “Won’t the one who guards your life realize
+> “And repay each person according to his deeds?
 ###### ¶ 13
->  “ Eat honey, my child, for it is good,
->  “ And honey from the honeycomb is sweet to your taste.
+> “Eat honey, my child, for it is good,
+> “And honey from the honeycomb is sweet to your taste.
 ###### 14
->  “ Likewise, know that wisdom is sweet to your soul;
->  “ If you have found it, you have a future,
->  “ And your hope will not be cut off.
+> “Likewise, know that wisdom is sweet to your soul;
+> “If you have found it, you have a future,
+> “And your hope will not be cut off.
 ###### ¶ 15
->  “ Do not lie in wait like the wicked against the place where the righteous live;
->  “ Do not assault his home.
+> “Do not lie in wait like the wicked against the place where the righteous live;
+> “Do not assault his home.
 ###### 16
->  “ Indeed a righteous person will fall seven times, and then get up again,
->  “ But the guilty will collapse in calamity.
+> “Indeed a righteous person will fall seven times, and then get up again,
+> “But the guilty will collapse in calamity.
 ###### ¶ 17
->  “ Do not rejoice when your enemy falls,
->  “ And when he stumbles do not let your heart rejoice,
+> “Do not rejoice when your enemy falls,
+> “And when he stumbles do not let your heart rejoice,
 ###### 18
->  “ Lest the LORD see it, and be displeased,
->  “ And turn his wrath away from him.
+> “Lest the LORD see it, and be displeased,
+> “And turn his wrath away from him.
 ###### ¶ 19
->  “ Do not fret because of evil people
->  “ Or be envious of wicked people,
+> “Do not fret because of evil people
+> “Or be envious of wicked people,
 ###### 20
->  “ For the evil person has no future,
->  “ And the lamp of the wicked will be extinguished.
+> “For the evil person has no future,
+> “And the lamp of the wicked will be extinguished.
 ###### ¶ 21
->  “ Fear the LORD, my child, as well as the king,
->  “ And do not associate with rebels,
+> “Fear the LORD, my child, as well as the king,
+> “And do not associate with rebels,
 ###### 22
->  “ For suddenly their destruction will overtake them,
->  “ And who knows the ruinous judgment both the LORD and the king can bring?”
+> “For suddenly their destruction will overtake them,
+> “And who knows the ruinous judgment both the LORD and the king can bring?”
 ## Further Sayings of the Wise
 ###### ¶ 23
 “These sayings also are from the wise:
->  “ To show partiality in judgment is terrible:
+> “To show partiality in judgment is terrible:
 ###### 24
->  “ The one who says to the guilty, “You are innocent,”
+> “The one who says to the guilty, “You are innocent,”
 > Peoples will curse him, and nations will denounce him.
 ###### 25
 > But there will be delight for those who convict the guilty,
@@ -89,7 +89,7 @@
 > And do not deceive with your words.
 ###### 29
 > Do not say, “I will do to him just as he has done to me;
->  “ I will pay him back according to what he has done.”
+> “I will pay him back according to what he has done.”
 ###### ¶ 30
 > I passed by the field of a sluggard,
 > By the vineyard of one who lacks sense.
@@ -101,8 +101,8 @@
 > Then I scrutinized it. I was putting my mind to it—
 > I saw; I took in a lesson:
 ###### 33
->  “ A little sleep, a little slumber,
->  “ A little folding of the hands to relax,
+> “A little sleep, a little slumber,
+> “A little folding of the hands to relax,
 ###### 34
->  “ And your poverty will come like a bandit,
->  “ And your need like an armed robber.”
+> “And your poverty will come like a bandit,
+> “And your need like an armed robber.”

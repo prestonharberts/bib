@@ -6,10 +6,10 @@
 > People will stream to it.
 ###### 2
 > Many nations will come, saying,
->  “ Come on! Let’s go up to the LORD’s mountain,
->  “ To the temple of Jacob’s God,
->  “ So he can teach us his ways
->  “ And we can live by his laws.”
+> “Come on! Let’s go up to the LORD’s mountain,
+> “To the temple of Jacob’s God,
+> “So he can teach us his ways
+> “And we can live by his laws.”
 > For instruction will proceed from Zion,
 > The LORD’s message from Jerusalem.
 ###### 3
@@ -28,8 +28,8 @@
 > We will follow the LORD our God forever.
 ## Restoration Will Follow Crisis
 ###### ¶ 6
->  “ In that day,” says the LORD, “I will gather the lame
->  “ And assemble the outcasts whom I injured.
+> “In that day,” says the LORD, “I will gather the lame
+> “And assemble the outcasts whom I injured.
 ###### 7
 > I will transform the lame into the nucleus of a new nation,
 > And those far off into a mighty nation.
@@ -56,15 +56,15 @@
 ###### 11
 > Many nations have now assembled against you.
 > They say, “Jerusalem must be desecrated,
->  “ So we can gloat over Zion!”
+> “So we can gloat over Zion!”
 ###### 12
 > But they do not know what the LORD is planning;
 > They do not understand his strategy.
 > He has gathered them like stalks of grain to be threshed at the threshing floor.
 ###### 13
->  “ Get up and thresh, Daughter Zion!
->  “ For I will give you iron horns;
->  “ I will give you bronze hooves,
->  “ And you will crush many nations.”
+> “Get up and thresh, Daughter Zion!
+> “For I will give you iron horns;
+> “I will give you bronze hooves,
+> “And you will crush many nations.”
 > You will devote to the LORD the spoils you take from them
 > And dedicate their wealth to the sovereign Ruler of the whole earth.

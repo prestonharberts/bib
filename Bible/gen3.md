@@ -29,37 +29,37 @@ The man said, “The woman whom you gave me, she gave me some fruit from the tre
 So the LORD God said to the woman, “What is this you have done?” And the woman replied, “The serpent tricked me, and I ate.”
 ###### 14
 The LORD God said to the serpent,
->  “ Because you have done this,
->  “ Cursed are you above all the cattle
->  “ And all the living creatures of the field!
->  “ On your belly you will crawl
->  “ And dust you will eat all the days of your life.
+> “Because you have done this,
+> “Cursed are you above all the cattle
+> “And all the living creatures of the field!
+> “On your belly you will crawl
+> “And dust you will eat all the days of your life.
 ###### 15
->  “ And I will put hostility between you and the woman
->  “ And between your offspring and her offspring;
->  “ He will strike your head,
->  “ And you will strike his heel.”
+> “And I will put hostility between you and the woman
+> “And between your offspring and her offspring;
+> “He will strike your head,
+> “And you will strike his heel.”
 ###### 16
 To the woman he said,
->  “ I will greatly increase your labor pains;
->  “ With pain you will give birth to children.
->  “ You will want to control your husband,
->  “ But he will dominate you.”
+> “I will greatly increase your labor pains;
+> “With pain you will give birth to children.
+> “You will want to control your husband,
+> “But he will dominate you.”
 ###### 17
 But to Adam he said,
->  “ Because you obeyed your wife
->  “ And ate from the tree about which I commanded you,
->  ‘ You must not eat from it,’
->  “ The ground is cursed because of you;
->  “ In painful toil you will eat of it all the days of your life.
+> “Because you obeyed your wife
+> “And ate from the tree about which I commanded you,
+> ‘You must not eat from it,’
+> “The ground is cursed because of you;
+> “In painful toil you will eat of it all the days of your life.
 ###### 18
->  “ It will produce thorns and thistles for you,
->  “ But you will eat the grain of the field.
+> “It will produce thorns and thistles for you,
+> “But you will eat the grain of the field.
 ###### 19
->  “ By the sweat of your brow you will eat food
->  “ Until you return to the ground,
->  “ For out of it you were taken;
->  “ For you are dust, and to dust you will return.”
+> “By the sweat of your brow you will eat food
+> “Until you return to the ground,
+> “For out of it you were taken;
+> “For you are dust, and to dust you will return.”
 ###### ¶ 20
 The man named his wife Eve, because she was the mother of all the living.
 ###### 21

@@ -5,30 +5,30 @@
 > Dressed in bright red, coming from Bozrah?
 > Who is this one wearing royal attire,
 > Who marches confidently because of his great strength?
->  “ It is I, the one who announces vindication,
->  “ And who is able to deliver!”
+> “It is I, the one who announces vindication,
+> “And who is able to deliver!”
 ###### 2
 > Why are your clothes red?
 > Why do you look like someone who has stomped on grapes in a vat?
 ###### 3
->  “ I have stomped grapes in the winepress all by myself;
->  “ No one from the nations joined me.
->  “ I stomped on them in my anger;
->  “ I trampled them down in my rage.
->  “ Their juice splashed on my garments,
->  “ And stained all my clothes.
+> “I have stomped grapes in the winepress all by myself;
+> “No one from the nations joined me.
+> “I stomped on them in my anger;
+> “I trampled them down in my rage.
+> “Their juice splashed on my garments,
+> “And stained all my clothes.
 ###### 4
->  “ For I looked forward to the day of vengeance,
->  “ And then payback time arrived.
+> “For I looked forward to the day of vengeance,
+> “And then payback time arrived.
 ###### 5
->  “ I looked, but there was no one to help;
->  “ I was shocked because there was no one offering support.
->  “ So my right arm accomplished deliverance;
->  “ My raging anger drove me on.
+> “I looked, but there was no one to help;
+> “I was shocked because there was no one offering support.
+> “So my right arm accomplished deliverance;
+> “My raging anger drove me on.
 ###### 6
->  “ I trampled nations in my anger;
->  “ I made them drunk in my rage;
->  “ I splashed their blood on the ground.”
+> “I trampled nations in my anger;
+> “I made them drunk in my rage;
+> “I splashed their blood on the ground.”
 ## A Prayer for Divine Intervention
 ###### ¶ 7
 > I will tell of the faithful acts of the LORD,
@@ -38,7 +38,7 @@
 > Because of his compassion and great faithfulness.
 ###### 8
 > He said, “Certainly they will be my people,
->  “ Children who are not disloyal.”
+> “Children who are not disloyal.”
 > He became their deliverer.
 ###### 9
 > Through all that they suffered, he suffered too.

@@ -64,4 +64,4 @@ Then the LORD spoke to Moses:
 ‘Any male among the priests may eat it. It is most holy.
 ###### 30
 ‘But any sin offering from which some of its blood is brought into the Meeting Tent to make atonement in the sanctuary must not be eaten. It must be burned up in the fire.
-<span class=arrow-right>  ‘##### <span class=arrow-left>  [[lev5|Prev]]<span class=navigation-separator>  [[lev6notes|Notes]]<span class=navigation-separator>  [[lev7|Next]]
+<span class=arrow-right> ‘##### <span class=arrow-left> [[lev5|Prev]]<span class=navigation-separator> [[lev6notes|Notes]]<span class=navigation-separator> [[lev7|Next]]

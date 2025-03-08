@@ -40,23 +40,23 @@ He asked them to pray for mercy from the God of heaven concerning this mystery s
 Then in a night vision the mystery was revealed to Daniel. So Daniel praised the God of heaven,
 ###### 20
 saying:
->  “ Let the name of God be praised forever and ever,
->  “ For wisdom and power belong to him.
+> “Let the name of God be praised forever and ever,
+> “For wisdom and power belong to him.
 ###### 21
->  “ He changes times and seasons,
->  “ Deposing some kings
->  “ And establishing others.
->  “ He gives wisdom to the wise;
->  “ He imparts knowledge to those with understanding;
+> “He changes times and seasons,
+> “Deposing some kings
+> “And establishing others.
+> “He gives wisdom to the wise;
+> “He imparts knowledge to those with understanding;
 ###### 22
->  “ He reveals deep and hidden things.
->  “ He knows what is in the darkness,
->  “ And light resides with him.
+> “He reveals deep and hidden things.
+> “He knows what is in the darkness,
+> “And light resides with him.
 ###### 23
->  “ O God of my fathers, I acknowledge and glorify you,
->  “ For you have bestowed wisdom and power on me.
->  “ Now you have enabled me to understand what we requested from you.
->  “ For you have enabled us to understand the king’s dilemma.”
+> “O God of my fathers, I acknowledge and glorify you,
+> “For you have bestowed wisdom and power on me.
+> “Now you have enabled me to understand what we requested from you.
+> “For you have enabled us to understand the king’s dilemma.”
 ###### ¶ 24
 Then Daniel went in to see Arioch (whom the king had appointed to destroy the wise men of Babylon). He came and said to him, “Don’t destroy the wise men of Babylon! Escort me to the king, and I will disclose the interpretation to him.”
 ###### ¶ 25

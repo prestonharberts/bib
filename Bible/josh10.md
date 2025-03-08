@@ -24,8 +24,8 @@ The LORD routed them before Israel. Israel thoroughly defeated them at Gibeon. T
 As they fled from Israel on the slope leading down from Beth Horon, the LORD threw down on them large hailstones from the sky, all the way to Azekah. They died—in fact, more died from the hailstones than the Israelites killed with the sword.
 ###### ¶ 12
 The day the LORD delivered the Amorites over to the Israelites, Joshua prayed to the LORD before Israel:
->  “ O sun, stand still over Gibeon;
->  “ O moon, over the Valley of Aijalon!”
+> “O sun, stand still over Gibeon;
+> “O moon, over the Valley of Aijalon!”
 ###### 13
 The sun stood still and the moon stood motionless while the nation took vengeance on its enemies. The event is recorded in the Scroll of the Upright One. The sun stood motionless in the middle of the sky and did not set for about a full day.
 ###### 14

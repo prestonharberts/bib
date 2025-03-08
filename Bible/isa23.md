@@ -17,10 +17,10 @@
 ###### 4
 > Be ashamed, O Sidon,
 > For the sea says this, O fortress of the sea:
->  “ I have not gone into labor
->  “ Or given birth;
->  “ I have not raised young men
->  “ Or brought up young women.”
+> “I have not gone into labor
+> “Or given birth;
+> “I have not raised young men
+> “Or brought up young women.”
 ###### 5
 > When the news reaches Egypt,
 > They will be shaken by what has happened to Tyre.
@@ -49,10 +49,10 @@
 > To destroy Canaan’s fortresses.
 ###### ¶ 12
 > He said,
->  “ You will no longer celebrate,
->  “ Oppressed virgin daughter Sidon!
->  “ Get up, travel to Cyprus,
->  “ But you will find no relief there.”
+> “You will no longer celebrate,
+> “Oppressed virgin daughter Sidon!
+> “Get up, travel to Cyprus,
+> “But you will find no relief there.”
 ###### ¶ 13
 > Look at the land of the Chaldeans,
 > These people who have lost their identity!
@@ -66,12 +66,12 @@
 ###### 15
 At that time Tyre will be forgotten for seventy years, the typical life span of a king. At the end of seventy years Tyre will try to attract attention again, like the prostitute in the popular song:
 ###### 16
->  “ Take the harp,
->  “ Go through the city,
->  “ Forgotten prostitute!
->  “ Play it well,
->  “ Play lots of songs,
->  “ So you’ll be noticed.”
+> “Take the harp,
+> “Go through the city,
+> “Forgotten prostitute!
+> “Play it well,
+> “Play lots of songs,
+> “So you’ll be noticed.”
 ###### 17
 At the end of seventy years the LORD will revive Tyre. She will start making money again by selling her services to all the earth’s kingdoms.
 ###### 18

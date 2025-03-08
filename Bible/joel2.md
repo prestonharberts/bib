@@ -57,12 +57,12 @@
 > And very terrifying—who can survive it?
 ## An Appeal for Repentance
 ###### ¶ 12
->  “ Yet even now,” the LORD says,
->  “ Return to me with all your heart—
->  “ With fasting, weeping, and mourning.
+> “Yet even now,” the LORD says,
+> “Return to me with all your heart—
+> “With fasting, weeping, and mourning.
 ###### 13
->  “ Tear your hearts,
->  “ Not just your garments.”
+> “Tear your hearts,
+> “Not just your garments.”
 > Return to the LORD your God,
 > For he is merciful and compassionate,
 > Slow to anger and boundless in loyal love—often relenting from calamitous punishment.
@@ -86,26 +86,26 @@
 > Let the priests, those who serve the LORD, weep
 > From the vestibule all the way back to the altar.
 > Let them say, “Have pity, O LORD, on your people;
->  “ Please do not turn over your inheritance to be mocked,
->  “ To become a proverb among the nations.
->  “ Why should it be said among the peoples,
->  ‘ Where is their God?’
+> “Please do not turn over your inheritance to be mocked,
+> “To become a proverb among the nations.
+> “Why should it be said among the peoples,
+> ‘Where is their God?’
 ## The LORD’s Response
 ###### ¶ 18
->  “ Then the LORD became zealous for his land;
->  “ He had compassion on his people.
+> “Then the LORD became zealous for his land;
+> “He had compassion on his people.
 ###### 19
->  “ The LORD responded to his people,
->  “ Look! I am about to restore your grain
->  “ As well as fresh wine and olive oil.
->  “ You will be fully satisfied.
->  “ I will never again make you an object of mockery among the nations.
+> “The LORD responded to his people,
+> “Look! I am about to restore your grain
+> “As well as fresh wine and olive oil.
+> “You will be fully satisfied.
+> “I will never again make you an object of mockery among the nations.
 ###### 20
->  “ I will remove the one from the north far from you.
->  “ I will drive him out to a dry and desolate place.
->  “ Those in front will be driven eastward into the Dead Sea,
->  “ And those in back westward into the Mediterranean Sea.
->  “ His stench will rise up as a foul smell.”
+> “I will remove the one from the north far from you.
+> “I will drive him out to a dry and desolate place.
+> “Those in front will be driven eastward into the Dead Sea,
+> “And those in back westward into the Mediterranean Sea.
+> “His stench will rise up as a foul smell.”
 > Indeed, the LORD has accomplished great things!
 ###### ¶ 21
 > Do not fear, my land.
@@ -128,41 +128,41 @@
 ###### 25
 > I will make up for the years
 > That the ‘arbeh-locust consumed your crops—
->  ‘ The yeleq-locust, the hasil-locust, and the gazam-locust—
->  ‘ My great army that I sent against you.
+> ‘The yeleq-locust, the hasil-locust, and the gazam-locust—
+> ‘My great army that I sent against you.
 ###### 26
->  ‘ You will have plenty to eat,
->  ‘ And your hunger will be fully satisfied;
->  ‘ You will praise the name of the LORD your God,
->  ‘ Who has acted wondrously in your behalf.
->  ‘ My people will never again be put to shame.
+> ‘You will have plenty to eat,
+> ‘And your hunger will be fully satisfied;
+> ‘You will praise the name of the LORD your God,
+> ‘Who has acted wondrously in your behalf.
+> ‘My people will never again be put to shame.
 ###### 27
->  ‘ You will be convinced that I am in the midst of Israel.
->  ‘ I am the LORD your God; there is no other.
->  ‘ My people will never again be put to shame.
+> ‘You will be convinced that I am in the midst of Israel.
+> ‘I am the LORD your God; there is no other.
+> ‘My people will never again be put to shame.
 ‘## An Outpouring of the Spirit
 ###### ¶ 28
->  ‘ 3:
+> ‘3:
 ‘## 1 After all of this
->  ‘ I will pour out my Spirit on all kinds of people.
->  ‘ Your sons and daughters will prophesy.
->  ‘ Your elderly will have prophetic dreams;
->  ‘ Your young men will see visions.
+> ‘I will pour out my Spirit on all kinds of people.
+> ‘Your sons and daughters will prophesy.
+> ‘Your elderly will have prophetic dreams;
+> ‘Your young men will see visions.
 ###### 29
->  ‘ Even on male and female servants
->  ‘ I will pour out my Spirit in those days.
+> ‘Even on male and female servants
+> ‘I will pour out my Spirit in those days.
 ###### 30
->  ‘ I will produce portents both in the sky and on the earth—
->  ‘ Blood, fire, and columns of smoke.
+> ‘I will produce portents both in the sky and on the earth—
+> ‘Blood, fire, and columns of smoke.
 ###### 31
->  ‘ The sunlight will be turned to darkness
->  ‘ And the moon to the color of blood,
->  ‘ Before the day of the LORD comes—
->  ‘ That great and terrible day!
+> ‘The sunlight will be turned to darkness
+> ‘And the moon to the color of blood,
+> ‘Before the day of the LORD comes—
+> ‘That great and terrible day!
 ###### 32
->  ‘ It will so happen that
->  ‘ Everyone who calls on the name of the LORD will be delivered.
->  ‘ For on Mount Zion and in Jerusalem there will be those who survive,
->  ‘ Just as the LORD has promised;
->  ‘ The remnant will be those whom the LORD will call.
-<span class=arrow-right>  ‘##### <span class=arrow-left>  [[joel1|Prev]]<span class=navigation-separator>  [[joel2notes|Notes]]<span class=navigation-separator>  [[joel3|Next]]
+> ‘It will so happen that
+> ‘Everyone who calls on the name of the LORD will be delivered.
+> ‘For on Mount Zion and in Jerusalem there will be those who survive,
+> ‘Just as the LORD has promised;
+> ‘The remnant will be those whom the LORD will call.
+<span class=arrow-right> ‘##### <span class=arrow-left> [[joel1|Prev]]<span class=navigation-separator> [[joel2notes|Notes]]<span class=navigation-separator> [[joel3|Next]]

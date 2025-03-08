@@ -48,7 +48,7 @@ That day David first gave to Asaph and his colleagues this song of thanks to the
 > To Israel as a lasting promise,
 ###### 18
 > Saying, “To you I will give the land of Canaan
->  “ As the portion of your inheritance.”
+> “As the portion of your inheritance.”
 ###### 19
 > When they were few in number,
 > Just a very few, and foreign residents within it,
@@ -60,7 +60,7 @@ That day David first gave to Asaph and his colleagues this song of thanks to the
 > He disciplined kings for their sake,
 ###### 22
 > Saying, “Don’t touch my anointed ones!
->  “ Don’t harm my prophets!”
+> “Don’t harm my prophets!”
 ###### 23
 > Sing to the LORD, all the earth!
 > Announce every day how he delivers.
@@ -100,9 +100,9 @@ That day David first gave to Asaph and his colleagues this song of thanks to the
 > And his loyal love endures.
 ###### 35
 > Say this prayer: “Deliver us, O God who delivers us!
->  “ Gather us! Rescue us from the nations!
->  “ Then we will give thanks to your holy name,
->  “ And boast about your praiseworthy deeds.”
+> “Gather us! Rescue us from the nations!
+> “Then we will give thanks to your holy name,
+> “And boast about your praiseworthy deeds.”
 ###### 36
 > May the LORD God of Israel be praised,
 > In the future and forevermore.

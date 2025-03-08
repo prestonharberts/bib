@@ -45,11 +45,11 @@
 > And you are the only landowners remaining within the land.
 ###### 9
 > The LORD of Heaven’s Armies told me this:
->  “ Many houses will certainly become desolate,
->  “ Large, impressive houses will have no one living in them.
+> “Many houses will certainly become desolate,
+> “Large, impressive houses will have no one living in them.
 ###### 10
->  “ Indeed, a large vineyard will produce just a few gallons,
->  “ And enough seed to yield several bushels will produce less than a bushel.”
+> “Indeed, a large vineyard will produce just a few gallons,
+> “And enough seed to yield several bushels will produce less than a bushel.”
 ###### ¶ 11
 > Beware, those who get up early to drink beer,
 > Those who keep drinking long after dark
@@ -84,9 +84,9 @@
 > Who pull sin as with cart ropes.
 ###### 19
 > They say, “Let him hurry, let him act quickly,
->  “ So we can see;
->  “ Let the plan of the Holy One of Israel take shape and come to pass,
->  “ Then we will know it!”
+> “So we can see;
+> “Let the plan of the Holy One of Israel take shape and come to pass,
+> “Then we will know it!”
 ###### ¶ 20
 > Beware, those who call evil good and good evil,
 > Who turn darkness into light and light into darkness,
@@ -121,20 +121,20 @@
 ###### 27
 > None tire or stumble,
 > They don’t stop to nap or sleep.
->  “ They don’t loosen their belts,
->  “ Or unstrap their sandals to rest.
+> “They don’t loosen their belts,
+> “Or unstrap their sandals to rest.
 ###### 28
->  “ Their arrows are sharpened,
->  “ And all their bows are prepared.
->  “ The hooves of their horses are hard as flint,
->  “ And their chariot wheels are like a windstorm.
+> “Their arrows are sharpened,
+> “And all their bows are prepared.
+> “The hooves of their horses are hard as flint,
+> “And their chariot wheels are like a windstorm.
 ###### 29
->  “ Their roar is like a lion’s;
->  “ They roar like young lions.
->  “ They growl and seize their prey;
->  “ They drag it away and no one can come to the rescue.
+> “Their roar is like a lion’s;
+> “They roar like young lions.
+> “They growl and seize their prey;
+> “They drag it away and no one can come to the rescue.
 ###### 30
->  “ At that time they will growl over their prey,
->  “ It will sound like sea waves crashing against rocks.
->  “ One will look out over the land and see the darkness of disaster,
->  “ Clouds will turn the light into darkness.
+> “At that time they will growl over their prey,
+> “It will sound like sea waves crashing against rocks.
+> “One will look out over the land and see the darkness of disaster,
+> “Clouds will turn the light into darkness.

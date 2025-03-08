@@ -18,24 +18,24 @@ He touched my mouth with it and said, “Look, this coal has touched your lips. 
 I heard the voice of the Lord say, “Whom will I send? Who will go on our behalf?” I answered, “Here I am, send me!”
 ###### 9
 He said, “Go and tell these people:
->  “ ‘Listen continually, but don’t understand.
->  “ Look continually, but don’t perceive.’
+> “‘Listen continually, but don’t understand.
+> “Look continually, but don’t perceive.’
 ###### 10
->  “ Make the hearts of these people calloused;
->  “ Make their ears deaf and their eyes blind.
->  “ Otherwise they might see with their eyes and hear with their ears,
->  “ Their hearts might understand and they might repent and be healed.”
+> “Make the hearts of these people calloused;
+> “Make their ears deaf and their eyes blind.
+> “Otherwise they might see with their eyes and hear with their ears,
+> “Their hearts might understand and they might repent and be healed.”
 ###### 11
 > I replied, “How long, Lord?” He said,
->  “ Until cities are in ruins and unpopulated,
->  “ And houses are uninhabited,
->  “ And the land is ruined and devastated,
+> “Until cities are in ruins and unpopulated,
+> “And houses are uninhabited,
+> “And the land is ruined and devastated,
 ###### 12
->  “ And the LORD has sent the people off to a distant place,
->  “ And the very heart of the land is completely abandoned.
+> “And the LORD has sent the people off to a distant place,
+> “And the very heart of the land is completely abandoned.
 ###### 13
->  “ Even if only a tenth of the people remain in the land,
->  “ It will again be destroyed,
->  “ Like one of the large sacred trees or an Asherah pole,
->  “ When a sacred pillar on a high place is thrown down.
->  “ That sacred pillar symbolizes the special chosen family.”
+> “Even if only a tenth of the people remain in the land,
+> “It will again be destroyed,
+> “Like one of the large sacred trees or an Asherah pole,
+> “When a sacred pillar on a high place is thrown down.
+> “That sacred pillar symbolizes the special chosen family.”

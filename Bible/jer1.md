@@ -10,9 +10,9 @@ It also came in the days of Jehoiakim, son of Josiah, king of Judah, and continu
 ###### ¶ 4
 The Lord’s message came to me,
 ###### 5
->  “ Before I formed you in your mother’s womb I chose you.
->  “ Before you were born I set you apart.
->  “ I appointed you to be a prophet to the nations.”
+> “Before I formed you in your mother’s womb I chose you.
+> “Before you were born I set you apart.
+> “I appointed you to be a prophet to the nations.”
 ###### 6
 I answered, “Oh, Sovereign LORD, Really I do not know how to speak well enough for that, for I am too young.”
 ###### 7

@@ -22,15 +22,15 @@ Then the angel of the LORD said to her, “Return to your mistress and submit to
 “I will greatly multiply your descendants,” the angel of the LORD added, “so that they will be too numerous to count.”
 ###### 11
 Then the angel of the LORD said to her,
->  “ You are now pregnant
->  “ And are about to give birth to a son.
->  “ You are to name him Ishmael,
->  “ For the LORD has heard your painful groans.
+> “You are now pregnant
+> “And are about to give birth to a son.
+> “You are to name him Ishmael,
+> “For the LORD has heard your painful groans.
 ###### 12
->  “ He will be a wild donkey of a man.
->  “ He will be hostile to everyone,
->  “ And everyone will be hostile to him.
->  “ He will live away from his brothers.”
+> “He will be a wild donkey of a man.
+> “He will be hostile to everyone,
+> “And everyone will be hostile to him.
+> “He will live away from his brothers.”
 ###### 13
 So Hagar named the LORD who spoke to her, “You are the God who sees me,” for she said, “Here I have seen one who sees me!”
 ###### 14

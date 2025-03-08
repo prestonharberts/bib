@@ -37,7 +37,7 @@
 > There is more hope for a fool than for him.
 ###### 13
 > The sluggard has said, “There is a lion in the road!
->  “ A lion in the streets!”
+> “A lion in the streets!”
 ###### 14
 > Like a door that turns on its hinges,
 > So a sluggard turns on his bed.
