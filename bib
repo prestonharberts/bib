@@ -26,10 +26,26 @@ main() {
   print_title "$@"
   format_markdown
   # justify text
-  for i in {1..10}; do
+  if [ $width -le 20 ]; then
+    x=26
+  elif [ $width -le 30 ]; then
+    x=15
+  elif [ $width -le 40 ]; then
+    x=8
+  elif [ $width -le 50 ] || [ $width -le 60 ]; then
+    x=7
+  elif [ $width -le 70 ]; then
+    x=6
+  elif [ $width -le 80 ]; then
+    x=5
+  else
+    x=4
+  fi
+
+  for i in $(seq 1 $x); do
     justify_quotes
   done
-  for i in {1..10}; do
+  for i in $(seq 1 $x); do
     justify_normal
   done
   cleanup
