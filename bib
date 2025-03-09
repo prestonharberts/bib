@@ -196,6 +196,7 @@ justify_normal() {
 
   # move char to newline if width is an em dash
   -e "s/^(.{$((width - 3))})([A-Za-z])––([A-Za-z])/\1\2––\n      \3/"
+  -e "s/^(.{$((width - 2))})([A-Za-z])––([A-Za-z])/\1\2––\n      \3/"
 
   # add newline right after punctuation
   -e "s/^(.{$((width - 1))})([!?.,”’;:])/\1\2\n      /"
