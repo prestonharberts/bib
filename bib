@@ -131,17 +131,57 @@ justify_poetry() {
     -e "s/^(.{6}>.{$((width - 9))}) /\1\n      > /"
 
     # hyphenate words that are in width
-    -e "s/^(.{6}>.{$((width - 9))})([A-Za-z0-9])([A-Za-z0-9])([^ ])/\1\2-\n      > \3\4/"
+    -e "s/^(.{6}>.{$((width - 9))})([A-Za-z0-9])([A-Za-z0-9])([A-Za-z0-9])/\1\2-\n      > \3\4/"
 
     # move char to newline if width-2 is [[
-    -e "s/^(.{6}>.{$((width - 10))})\[\[([A-Za-z0-9])/\1\n      [[\2/"
+    -e "s/^(.{6}>.{$((width - 10))})\[\[([A-Za-z0-9])/\1\n      > [[\2/"
 
   # move char to newline if width-3 is a 2-letter word with ] at end
-  -e "s/^(.{6}>.{$((width - 11))}) ([A-Za-z0-9]{2}\])/\1\n      \2/"
+  -e "s/^(.{6}>.{$((width - 11))}) ([A-Za-z0-9]{2}\])/\1\n      > \2/"
 
     # move char to newline if width-1 is a space or symbol
     -e "s/^(.{6}>.{$((width - 9))})([ “‘[({])([A-Za-z0-9“‘[({][^ ])/\1\n      > \2\3/"
     -e "s/^(.{6}>.{$((width - 9))}) ([A-Za-z0-9“‘[({][^ ])/\1\n      > \2/"
+    
+  # ] or ) not followed by space
+
+  # move char to newline if width is a 3+ letter word + ) or ] + punctuation
+  -e "s/^(.{6}>.{$((width - 11))}[A-Za-z0-9])([A-Za-z0-9]{2}\))([^ ])/\1-\n      > \2\3/"
+  -e "s/^(.{6}>.{$((width - 11))}[A-Za-z0-9])([A-Za-z0-9]{2}\])([^ ])/\1-\n      > \2\3/"
+
+  -e "s/^(.{6}>.{$((width - 10))}[A-Za-z0-9])([A-Za-z0-9]{2}\))([^ ])/\1-\n      > \2\3/"
+  -e "s/^(.{6}>.{$((width - 10))}[A-Za-z0-9])([A-Za-z0-9]{2}\])([^ ])/\1-\n      > \2\3/"
+
+  # move char to newline if width is 2 letter word + ) or ] + punctuation
+  -e "s/^(.{6}>.{$((width - 11))}) ([A-Za-z0-9]{2}\))([^ ])/\1\n      > \2\3/"
+  -e "s/^(.{6}>.{$((width - 10))}) ([A-Za-z0-9]{2}\))([^ ])/\1\n      > \2\3/"
+  -e "s/^(.{6}>.{$((width - 11))}[A-Za-z0-9])([A-Za-z0-9]{2}\))([^ ])/\1-\n      > \2\3/"
+  -e "s/^(.{6}>.{$((width - 11))}[A-Za-z0-9])([A-Za-z0-9]{2}\))([^ ])/\1-\n      > \2\3/"
+
+  -e "s/^(.{6}>.{$((width - 11))}) ([A-Za-z0-9]{2}\])([^ ])/\1\n      > \2\3/"
+  -e "s/^(.{6}>.{$((width - 10))}) ([A-Za-z0-9]{2}\])([^ ])/\1\n      > \2\3/"
+  -e "s/^(.{6}>.{$((width - 11))}[A-Za-z0-9])([A-Za-z0-9]{2}\])([^ ])/\1-\n      > \2\3/"
+  -e "s/^(.{6}>.{$((width - 10))}[A-Za-z0-9])([A-Za-z0-9]{2}\])([^ ])/\1-\n      > \2\3/"
+
+  # ] or ) followed by space
+
+  # move char to newline if width is a 3+ letter word + ) or ] + punctuation
+  -e "s/^(.{6}>.{$((width - 10))}[A-Za-z0-9])([A-Za-z0-9]{2}\))/\1-\n      > \2/"
+  -e "s/^(.{6}>.{$((width - 10))}[A-Za-z0-9])([A-Za-z0-9]{2}\])/\1-\n      > \2/"
+
+  -e "s/^(.{6}>.{$((width - 9))}[A-Za-z0-9])([A-Za-z0-9]{2}\))/\1-\n      > \2/"
+  -e "s/^(.{6}>.{$((width - 9))}[A-Za-z0-9])([A-Za-z0-9]{2}\])/\1-\n      > \2/"
+
+  # move char to newline if width is 2 letter word + ) or ] + punctuation
+  -e "s/^(.{6}>.{$((width - 10))}) ([A-Za-z0-9]{2}\))/\1\n      > \2/"
+  -e "s/^(.{6}>.{$((width - 9))}) ([A-Za-z0-9]{2}\))/\1\n      > \2/"
+  -e "s/^(.{6}>.{$((width - 10))}[A-Za-z0-9])([A-Za-z0-9]{2}\))/\1-\n      > \2/"
+  -e "s/^(.{6}>.{$((width - 10))}[A-Za-z0-9])([A-Za-z0-9]{2}\))/\1-\n      > \2/"
+
+  -e "s/^(.{6}>.{$((width - 10))}) ([A-Za-z0-9]{2}\])/\1\n      > \2/"
+  -e "s/^(.{6}>.{$((width - 9))}) ([A-Za-z0-9]{2}\])/\1\n      > \2/"
+  -e "s/^(.{6}>.{$((width - 10))}[A-Za-z0-9])([A-Za-z0-9]{2}\])/\1-\n      > \2/"
+  -e "s/^(.{6}>.{$((width - 9))}[A-Za-z0-9])([A-Za-z0-9]{2}\])/\1-\n      > \2/"
 
     # move char to newline if width-1 is a hyphen
     -e "s/^(.{6}>.{$((width - 9))})-([A-Za-z0-9“‘])/\1-\n      > \2/"
@@ -181,7 +221,7 @@ justify_normal() {
   -e "s/^(.{$((width - 1))}) /\1\n      /"
 
   # hyphenate words that are in width
-  -e "s/^(.{$((width - 2))}[A-Za-z0-9])([A-Za-z0-9][^ ])/\1-\n      \2/"
+  -e "s/^(.{$((width - 2))}[A-Za-z0-9])([A-Za-z0-9][A-Za-z0-9])/\1-\n      \2/"
 
   # move char to newline if width-2 is [[
   -e "s/^(.{$((width - 3))})\[\[([A-Za-z0-9])/\1\n      [[\2/"
@@ -192,6 +232,46 @@ justify_normal() {
   # move char to newline if width-1 is a space or symbol
   -e "s/^(.{$((width - 2))})([“‘[({])([A-Za-z0-9“‘[({][^ ])/\1\n      \2\3/"
   -e "s/^(.{$((width - 2))}) ([A-Za-z0-9“‘[({][^ ])/\1\n      \2/"
+
+  # ] or ) not followed by space
+
+  # move char to newline if width is a 3+ letter word + ) or ] + punctuation
+  -e "s/^(.{$((width - 4))}[A-Za-z0-9])([A-Za-z0-9]{2}\))([^ ])/\1-\n      \2\3/"
+  -e "s/^(.{$((width - 4))}[A-Za-z0-9])([A-Za-z0-9]{2}\])([^ ])/\1-\n      \2\3/"
+
+  -e "s/^(.{$((width - 3))}[A-Za-z0-9])([A-Za-z0-9]{2}\))([^ ])/\1-\n      \2\3/"
+  -e "s/^(.{$((width - 3))}[A-Za-z0-9])([A-Za-z0-9]{2}\])([^ ])/\1-\n      \2\3/"
+
+  # move char to newline if width is 2 letter word + ) or ] + punctuation
+  -e "s/^(.{$((width - 4))}) ([A-Za-z0-9]{2}\))([^ ])/\1\n      \2\3/"
+  -e "s/^(.{$((width - 3))}) ([A-Za-z0-9]{2}\))([^ ])/\1\n      \2\3/"
+  -e "s/^(.{$((width - 4))}[A-Za-z0-9])([A-Za-z0-9]{2}\))([^ ])/\1-\n      \2\3/"
+  -e "s/^(.{$((width - 3))}[A-Za-z0-9])([A-Za-z0-9]{2}\))([^ ])/\1-\n      \2\3/"
+
+  -e "s/^(.{$((width - 4))}) ([A-Za-z0-9]{2}\])([^ ])/\1\n      \2\3/"
+  -e "s/^(.{$((width - 3))}) ([A-Za-z0-9]{2}\])([^ ])/\1\n      \2\3/"
+  -e "s/^(.{$((width - 4))}[A-Za-z0-9])([A-Za-z0-9]{2}\])([^ ])/\1-\n      \2\3/"
+  -e "s/^(.{$((width - 3))}[A-Za-z0-9])([A-Za-z0-9]{2}\])([^ ])/\1-\n      \2\3/"
+
+  # ] or ) followed by space
+
+  # move char to newline if width is a 3+ letter word + ) or ] + punctuation
+  -e "s/^(.{$((width - 3))}[A-Za-z0-9])([A-Za-z0-9]{2}\))/\1-\n      \2/"
+  -e "s/^(.{$((width - 3))}[A-Za-z0-9])([A-Za-z0-9]{2}\])/\1-\n      \2/"
+
+  -e "s/^(.{$((width - 2))}[A-Za-z0-9])([A-Za-z0-9]{2}\))/\1-\n      \2/"
+  -e "s/^(.{$((width - 2))}[A-Za-z0-9])([A-Za-z0-9]{2}\])/\1-\n      \2/"
+
+  # move char to newline if width is 2 letter word + ) or ] + punctuation
+  -e "s/^(.{$((width - 3))}) ([A-Za-z0-9]{2}\))/\1\n      \2/"
+  -e "s/^(.{$((width - 2))}) ([A-Za-z0-9]{2}\))/\1\n      \2/"
+  -e "s/^(.{$((width - 3))}[A-Za-z0-9])([A-Za-z0-9]{2}\))/\1-\n      \2/"
+  -e "s/^(.{$((width - 2))}[A-Za-z0-9])([A-Za-z0-9]{2}\))/\1-\n      \2/"
+
+  -e "s/^(.{$((width - 3))}) ([A-Za-z0-9]{2}\])/\1\n      \2/"
+  -e "s/^(.{$((width - 2))}) ([A-Za-z0-9]{2}\])/\1\n      \2/"
+  -e "s/^(.{$((width - 3))}[A-Za-z0-9])([A-Za-z0-9]{2}\])/\1-\n      \2/"
+  -e "s/^(.{$((width - 2))}[A-Za-z0-9])([A-Za-z0-9]{2}\])/\1-\n      \2/"
 
   # move char to newline if width-1 is a hyphen
   -e "s/^(.{$((width - 2))})-([A-Za-z0-9“‘])/\1-\n      \2/"
