@@ -71,6 +71,12 @@ I recommend just running bib multiple times in a row similar to this, and then j
 
 <p align=center><img src="https://github.com/user-attachments/assets/aec021e4-a29e-4674-afb0-52f3fb0f3bc5" width="512"></p>
 
+### Scaling demonstration
+
+One of my favorite features of this program and one that I spent a bit of time on is the "pseudo" text justification along with hyphenating words when a word goes off the screen, so it scales very well on various terminal widths. It catches a lot of edge cases that I painstakingly sought out and covered with regex, such as when character 80 of an 80-width terminal is `)` but is followed by a comma, it will hyphenate the word that is before the `)`. Below are some picture of what this bib looks like on different terminal sizes. 
+
+<p align=center><img src="https://github.com/user-attachments/assets/52da7b37-f75b-4403-8c74-4ef9bb9ebf2b" width="768"></p>
+
 ## Other Translations
 
 If you would like to use another translation, please use my [BibleGateway-to-Obsidian script](https://github.com/prestonharberts/biblegateway-to-obsidian) to generate a new Bible (also be aware that not all translations will work with either bib or BibleGateway-to-Obsidian). Once it has, move only the Scripture folder to this repository, and rename it to Bible. Run the following from this folder to make the files compatible with this program:
