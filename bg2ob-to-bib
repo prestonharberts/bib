@@ -49,7 +49,7 @@ sed_args=(
   -e 's/Cʜʀɪꜱᴛ/CHRIST/g'
 )
 
-sed -i -E "${sed_args[@]}" Bible/*.md
+sed -i -E "${sed_args[@]}" bible/*.md
 
 # remove empty lines
-sed -i -E ":a;$!{N;s/\n\n/\n/;ba;}" Bible/*.md
+sed -i -E ":a;$!{N;s/\n\n/\n/;ba;}" bible/*.md
