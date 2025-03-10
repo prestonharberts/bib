@@ -7,7 +7,7 @@ if [ -z "$1" ]; then
 fi
 
 # Process the file
-cat ~/Bin/bible/${1}.md | sed -E 's/^#{2,5} .*$//g' | \
+cat ~/Bin/Bible/${1}.md | sed -E 's/^#{2,5} .*$//g' | \
 sed -E 's/\[.*\]//g' | \
 sed -E 's/[ ]*(↓|¶|[ ]{2,})//g' | \
 tr -s ' ' | \
