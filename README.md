@@ -79,7 +79,7 @@ One of my favorite features of this program and one that I spent a bit of time o
 
 ## Other Translations
 
-If you would like to use another translation, please use my [BibleGateway-to-Obsidian script](https://github.com/prestonharberts/biblegateway-to-obsidian) to generate a new Bible (also be aware that not all translations will work with either bib or BibleGateway-to-Obsidian). Once it has, move only the Scripture folder to this repository, and rename it to Bible. Run the following from this folder to make the files compatible with this program:
+If you would like to use another translation, please use my [BibleGateway-to-Obsidian script](https://github.com/prestonharberts/biblegateway-to-obsidian) to generate a new Bible (also be aware that not all translations will work with either bib or BibleGateway-to-Obsidian). Once it has, move only the Scripture folder to this repository, and rename it to `bible` (lowercase). Run the following from this folder to make the files compatible with this program:
 
 ```
 chmod u+x ./bg2ob-to-bib
