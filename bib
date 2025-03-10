@@ -21,7 +21,7 @@ done
 shift $((OPTIND - 1))
 
 main() {
-  text=$(cat ~/Bin/Bible/"${1}".md)
+  text=$(cat ~/Bin/bible/"${1}".md)
   get_terminal_width
   print_title "$@"
   format_markdown
