@@ -49,19 +49,17 @@ bib gen1 1 2
 bib -c john3 16
 ```
 
-### Example (NKJV)
+### Example
 
-Until I get the NET translation working, here is an example of the program running with the [New King James Version](https://www.biblegateway.com/versions/New-King-James-Version-NKJV-Bible/):
+Here is an example of the program running with the included NET translation.
 
-<p align=center><img src="https://github.com/user-attachments/assets/878d0824-dbb9-492f-9b13-525107623619" width="512"></p>
-
-Scripture taken from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved.
+<p align=center><img src="https://github.com/user-attachments/assets/f2b1c09d-7df5-4035-ba93-d902ddf9cb21" width="512"></p>
 
 ### Copying text
 
-Included in this repo is a program `bibcopy` that copies entire chapters at a time, reformats them, and lets me paste them into [Monkeytype](https://monkeytype.com/). It's formatted to be very minimal and looks like this in the NKJV:
+Included in this repo is a program `bibcopy` that copies entire chapters at a time, reformats them, and lets me paste them into [Monkeytype](https://monkeytype.com/). It's formatted to be very minimal and looks like this in the NET translation:
 
-<p align=center><img src="https://github.com/user-attachments/assets/d8b225cb-54fc-4652-94e6-20fda4cb3e00" width="512"></p>
+<p align=center><img src="https://github.com/user-attachments/assets/573e279f-234e-463c-b559-f6b199ca468b" width="512"></p>
 
 Support to automatically copy what you see with Bib isn't fully supported, but it would be done like this if you can remove the color codes that get introduced with my code. Just make sure to install `xclip`.
 
@@ -71,7 +69,7 @@ bib john3 16|xclip -sel clipboard
 
 I recommend just running bib multiple times in a row similar to this, and then just copying the output from the terminal:
 
-<p align=center><img src="https://github.com/user-attachments/assets/0c2a8efe-93db-4146-947b-ea3d8b9f24a7" width="512"></p>
+<p align=center><img src="https://github.com/user-attachments/assets/aec021e4-a29e-4674-afb0-52f3fb0f3bc5" width="512"></p>
 
 ## Other Translations
 
