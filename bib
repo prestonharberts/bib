@@ -179,6 +179,9 @@ show_abbreviations() {
 }
 
 find_chapter() {
+  # Author: bjarneh
+  # Reddit: https://www.reddit.com/u/bjarneh/s/ACMAhTI1WY
+  # Source: https://www.reddit.com/r/commandline/s/ySIsbxOYex
   set_books_array
 
   # remove the trailing digits to get the book name
@@ -189,9 +192,8 @@ find_chapter() {
 
   # find book in books array
   book=$(echo "$books_array" | jq -r --arg book "$book" 'to_entries[] | select(.value[] == $book) | .key')
-
-
 }
+
 get_terminal_width() {
   width=$(tput cols)
 }
