@@ -27,6 +27,8 @@ If you would like to use another translation, see Other Translations near the bo
 - Hyphenated text to give the appearance of justified text alignment
 - Works on a variety of terminal sizes
 
+Also included is the program `bibr` (credit to [w1ldrabb1t](https://github.com/w1ldrabb1t)), that lets you randomly find and print Bible verses to your terminal. See [bibr](#bibr) for more information.
+
 ## Setup
 
 I recommend putting this script in your PATH so that it can be called anywhere. I made a Bin folder in my user directory, moved bib to it, and added this line to my `.bashrc`:
@@ -93,6 +95,14 @@ One of my favorite features of this program and one that I spent a bit of time o
 
 <p align=center><img src="https://github.com/user-attachments/assets/52da7b37-f75b-4403-8c74-4ef9bb9ebf2b" width="768"></p>
 
+### bibr
+
+The included script bibr by [w1ldrabb1t](https://github.com/w1ldrabb1t) will randomly find and print a Bible verse to your terminal using bib. It does so by finding the last verse in a file, generating a number between 1 and x, and then calling bib.
+
+Use the option `-c` to hide context verses like bib. Also available is the option `-v` to enable verbose mode which will show the bib command it executes.
+
+Someday in the future, bibr will be a feature of bib and be run with `bib -r`.
+
 ## Other Translations
 
 If you would like to use another translation, please use my [BibleGateway-to-Obsidian script](https://github.com/prestonharberts/biblegateway-to-obsidian) to generate a new Bible (also be aware that not all translations will work with either bib or BibleGateway-to-Obsidian). Once it has, move only the Scripture folder to this repository, and rename it to `bible` (lowercase). Run the following from this folder to make the files compatible with this program:
@@ -106,8 +116,10 @@ Now you can move the Bible folder to `~/Bin`, and bib is ready to be used.
 
 ## Todo
 
-- [ ] Help menu [(1)](https://www.reddit.com/r/bash/comments/1j7qfl3/comment/mh3k4wv/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
-- [ ] Abbreviations list [(1)](https://www.reddit.com/r/bash/comments/1j7qfl3/comment/mh3k4wv/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- [ ] Help menu
+- [ ] Make bibr an option in bib
+- [(1)](https://www.reddit.com/r/bash/comments/1j7qfl3/comment/mh3k4wv/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- [x] Abbreviations list [(1)](https://www.reddit.com/r/bash/comments/1j7qfl3/comment/mh3k4wv/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [x] Add instructions if `Bin` path is different [(1)](https://www.reddit.com/r/bash/comments/1j7qfl3/comment/mh0m7pw/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [x] Symbolic link to script [(1)](https://www.reddit.com/r/commandline/comments/1j7qew9/comment/mh2lwgk/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [ ] Other language support [(1)](https://www.reddit.com/r/commandline/comments/1j7qew9/comment/mh39p9b/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
