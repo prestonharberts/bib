@@ -88,7 +88,7 @@ rename 's/^eccles([1-9])/ecclesiastes\1/' *.md
 rename 's/^isa([1-9])/isaiah\1/' *.md
 rename 's/^jer([1-9])/jeremiah\1/' *.md
 rename 's/^lam([1-9])/lamentations\1/' *.md
-rename 's/^ezek([1-9])/ezekial\1/' *.md
+rename 's/^ezek([1-9])/ezekiel\1/' *.md
 rename 's/^dan([1-9])/daniel\1/' *.md
 rename 's/^hos([1-9])/hosea\1/' *.md
 #rename 's/^joel([1-9])/joel\1/' *.md
