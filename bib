@@ -179,9 +179,6 @@ show_abbreviations() {
 }
 
 find_chapter() {
-  # Author: bjarneh
-  # Reddit: https://www.reddit.com/u/bjarneh/s/ACMAhTI1WY
-  # Source: https://www.reddit.com/r/commandline/s/ySIsbxOYex
   set_books_array
 
   # remove the trailing digits to get the book name
@@ -199,6 +196,10 @@ get_terminal_width() {
 }
 
 get_text() {
+  # Author: bjarneh
+  # Reddit: https://www.reddit.com/u/bjarneh/s/ACMAhTI1WY
+  # Source: https://www.reddit.com/r/commandline/s/ySIsbxOYex
+
     # find file relative to bib
   dir_of_script=$(dirname "$(readlink -f $0)")
   bible_dir="${dir_of_script}/${bible_name}"
