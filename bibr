@@ -1,0 +1,55 @@
+#!/bin/bash
+
+# Set the folder path
+FOLDER_PATH="bible"
+
+# Default values
+PASS_C_FLAG=""
+VERBOSE=false
+
+# Parse command-line options
+while getopts "cv" opt; do
+  case $opt in
+	c) PASS_C_FLAG="-c" ;;  # If -c is passed, store it
+	v) VERBOSE=true ;;
+  esac
+done
+
+# Shift arguments so that positional parameters ($1, $2, etc.) are correct
+shift $((OPTIND - 1))
+
+# Get a random file from the folder
+RANDOM_FILE=$(find "$FOLDER_PATH" -type f | shuf -n 1)
+
+# Check if a file was found
+if [ -z "$RANDOM_FILE" ]; then
+    echo "Error: No files found in the folder."
+    exit 1
+fi
+
+# Get the second-to-last line (last line - 1)
+LAST_MINUS_ONE=$(tail -n -2 "$RANDOM_FILE" | head -n 1)
+
+# Extract the number after the last # character
+NUMBER=$(grep -oE '#### [0-9]+' "$RANDOM_FILE" | tail -n 1 | awk '{print $2}')
+
+# Check if a valid number was found
+if [ -z "$NUMBER" ]; then
+    echo "Error: Could not extract a valid number from the second-to-last line."
+    exit 1
+fi
+
+# Generate a random number between 1 and NUMBER (inclusive)
+RANDOM_NUMBER=$(( RANDOM % NUMBER + 1 ))
+
+# Get the file name without the extension
+FILE_NAME=$(basename "$RANDOM_FILE" | sed 's/\.[^.]*$//')
+
+# If verbose, then show the bib call
+# The user might want to explore more bible verses
+if $VERBOSE; then
+	echo "./bib $FILE_NAME $RANDOM_NUMBER"
+fi
+
+# call main program bib
+./bib $PASS_C_FLAG "$FILE_NAME" "$RANDOM_NUMBER"
