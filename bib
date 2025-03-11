@@ -188,7 +188,7 @@ find_chapter() {
   chapter=$(echo "$1" | sed 's/^[0-9]*[a-zA-Z]*//')
 
   # find book in books array
-  book=$(echo "$books_array" | jq -r --arg book "$book" 'to_entries | map(select(.value | map(ascii_downcase) | index($book | ascii_downcase))) | .[0].key | gsub("^[ \t]+|[ \t]+$"; "") | ascii_downcase')
+  book=$(echo "$books_array" | jq -r --arg book "$book" 'to_entries[] | select(.value[] == $book) | .key')
 
 
 }
