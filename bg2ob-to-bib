@@ -23,6 +23,9 @@ sed_args=(
   -e 's/<span class=paragraph-break>//g'
   # remove lingering closing span tags
   -e 's/<\/span>//g'
+
+  # remove uncaught errors from BG2OB
+  -e 's/^<span .*$//g'
   
   # change HTML italics to markdown italics
   -e 's/<i>/[/g'
@@ -40,6 +43,8 @@ sed_args=(
   # change \[\[ and \]\] to [ and ]
   -e 's/\\\[\\\[/[/g'
   -e 's/\\\]\\\]/]/g'
+
+  -e 's/([^#])#/\n#/g'
   
   # replace small cap words
   -e 's/Lᴏʀᴅ/LORD/g'
@@ -56,72 +61,74 @@ sed -i -E ":a;$!{N;s/\n\n/\n/;ba;}" bible/*.md
 
 # rename files to be bib compatible
 
+cd bible
 # Old Testament
-rename 's/^gen([1-9])/genesis\1/' bible/*.md
-rename 's/^ex([1-9])/exodus\1/' bible/*.md
-rename 's/^lev([1-9])/leviticus\1/' bible/*.md
-rename 's/^num([1-9])/numbers\1/' bible/*.md
-rename 's/^deut([1-9])/deut\1/' bible/*.md
-rename 's/^josh([1-9])/joshua\1/' bible/*.md
-rename 's/^judg([1-9])/judges\1/' bible/*.md
-#rename 's/^ruth([1-9])/ruth\1/' bible/*.md
-rename 's/^1sam([1-9])/1samuel\1/' bible/*.md
-rename 's/^2sam([1-9])/2samuel\1/' bible/*.md
-#rename 's/^1kings([1-9])/1kings\1/' bible/*.md
-#rename 's/^2kings([1-9])/2kings\1/' bible/*.md
-rename 's/^1chron([1-9])/1chronicles\1/' bible/*.md
-rename 's/^2chron([1-9])/2chronicles\1/' bible/*.md
-#rename 's/^ezra([1-9])/ezra\1/' bible/*.md
-rename 's/^neh([1-9])/nehemiah\1/' bible/*.md
-rename 's/^est([1-9])/esther\1/' bible/*.md
-#rename 's/^job([1-9])/job\1/' bible/*.md
-rename 's/^ps([1-9])/psalm\1/' bible/*.md
-rename 's/^prov([1-9])/proverbs\1/' bible/*.md
-rename 's/^eccles([1-9])/ecclesiastes\1/' bible/*.md
-#rename 's/^song([1-9])/song\1/' bible/*.md
-rename 's/^isa([1-9])/isaiah\1/' bible/*.md
-rename 's/^jer([1-9])/jeremiah\1/' bible/*.md
-rename 's/^lam([1-9])/lamentations\1/' bible/*.md
-rename 's/^ezek([1-9])/ezekial\1/' bible/*.md
-rename 's/^dan([1-9])/daniel\1/' bible/*.md
-rename 's/^hos([1-9])/hosea\1/' bible/*.md
-#rename 's/^joel([1-9])/joel\1/' bible/*.md
-#rename 's/^amos([1-9])/amos\1/' bible/*.md
-rename 's/^obad([1-9])/obadiah\1/' bible/*.md
-#rename 's/^jonah([1-9])/jonah\1/' bible/*.md
-rename 's/^mic([1-9])/micah\1/' bible/*.md
-rename 's/^nah([1-9])/nahum\1/' bible/*.md
-rename 's/^hab([1-9])/habakkuk\1/' bible/*.md
-rename 's/^zeph([1-9])/zephaniah\1/' bible/*.md
-rename 's/^hag([1-9])/haggai\1/' bible/*.md
-rename 's/^zech([1-9])/zechariah\1/' bible/*.md
-rename 's/^mal([1-9])/malachi\1/' bible/*.md
+rename 's/^gen([1-9])/genesis\1/' *.md
+rename 's/^ex([1-9])/exodus\1/' *.md
+rename 's/^lev([1-9])/leviticus\1/' *.md
+rename 's/^num([1-9])/numbers\1/' *.md
+rename 's/^deut([1-9])/deut\1/' *.md
+rename 's/^josh([1-9])/joshua\1/' *.md
+rename 's/^judg([1-9])/judges\1/' *.md
+#rename 's/^ruth([1-9])/ruth\1/' *.md
+rename 's/^1sam([1-9])/1samuel\1/' *.md
+rename 's/^2sam([1-9])/2samuel\1/' *.md
+#rename 's/^1kings([1-9])/1kings\1/' *.md
+#rename 's/^2kings([1-9])/2kings\1/' *.md
+rename 's/^1chron([1-9])/1chronicles\1/' *.md
+rename 's/^2chron([1-9])/2chronicles\1/' *.md
+#rename 's/^ezra([1-9])/ezra\1/' *.md
+rename 's/^neh([1-9])/nehemiah\1/' *.md
+rename 's/^est([1-9])/esther\1/' *.md
+#rename 's/^job([1-9])/job\1/' *.md
+rename 's/^ps([1-9])/psalm\1/' *.md
+rename 's/^prov([1-9])/proverbs\1/' *.md
+rename 's/^eccles([1-9])/ecclesiastes\1/' *.md
+#rename 's/^song([1-9])/song\1/' *.md
+rename 's/^isa([1-9])/isaiah\1/' *.md
+rename 's/^jer([1-9])/jeremiah\1/' *.md
+rename 's/^lam([1-9])/lamentations\1/' *.md
+rename 's/^ezek([1-9])/ezekial\1/' *.md
+rename 's/^dan([1-9])/daniel\1/' *.md
+rename 's/^hos([1-9])/hosea\1/' *.md
+#rename 's/^joel([1-9])/joel\1/' *.md
+#rename 's/^amos([1-9])/amos\1/' *.md
+rename 's/^obad([1-9])/obadiah\1/' *.md
+#rename 's/^jonah([1-9])/jonah\1/' *.md
+rename 's/^mic([1-9])/micah\1/' *.md
+rename 's/^nah([1-9])/nahum\1/' *.md
+rename 's/^hab([1-9])/habakkuk\1/' *.md
+rename 's/^zeph([1-9])/zephaniah\1/' *.md
+rename 's/^hag([1-9])/haggai\1/' *.md
+rename 's/^zech([1-9])/zechariah\1/' *.md
+rename 's/^mal([1-9])/malachi\1/' *.md
 
 # New Testament
-rename 's/^matt([1-9])/matthew\1/' bible/*.md
-#rename 's/^mark([1-9])/mark\1/' bible/*.md
-#rename 's/^luke([1-9])/luke\1/' bible/*.md
-#rename 's/^john([1-9])/john\1/' bible/*.md
-#rename 's/^acts([1-9])/acts\1/' bible/*.md
-rename 's/^rom([1-9])/romans\1/' bible/*.md
-rename 's/^1cor([1-9])/1corinthians\1/' bible/*.md
-rename 's/^2cor([1-9])/2corinthians\1/' bible/*.md
-rename 's/^gal([1-9])/galatians\1/' bible/*.md
-rename 's/^eph([1-9])/ephesians\1/' bible/*.md
-rename 's/^phil([1-9])/philippians\1/' bible/*.md
-rename 's/^col([1-9])/colossians\1/' bible/*.md
-rename 's/^1thess([1-9])/1thessalonians\1/' bible/*.md
-rename 's/^2thess([1-9])/2thessalonians\1/' bible/*.md
-rename 's/^1tim([1-9])/1timothy\1/' bible/*.md
-rename 's/^2tim([1-9])/2timothy\1/' bible/*.md
-#rename 's/^titus([1-9])/titus\1/' bible/*.md
-rename 's/^philem([1-9])/philemon\1/' bible/*.md
-rename 's/^heb([1-9])/hebrews\1/' bible/*.md
-#rename 's/^james([1-9])/james\1/' bible/*.md
-rename 's/^1pet([1-9])/1peter\1/' bible/*.md
-rename 's/^2pet([1-9])/2peter\1/' bible/*.md
-#rename 's/^1john([1-9])/1john\1/' bible/*.md
-#rename 's/^2john([1-9])/2john\1/' bible/*.md
-#rename 's/^3john([1-9])/3john\1/' bible/*.md
-#rename 's/^jude([1-9])/jude\1/' bible/*.md
-rename 's/^rev([1-9])/revelation\1/' bible/*.md
+rename 's/^matt([1-9])/matthew\1/' *.md
+#rename 's/^mark([1-9])/mark\1/' *.md
+#rename 's/^luke([1-9])/luke\1/' *.md
+#rename 's/^john([1-9])/john\1/' *.md
+#rename 's/^acts([1-9])/acts\1/' *.md
+rename 's/^rom([1-9])/romans\1/' *.md
+rename 's/^1cor([1-9])/1corinthians\1/' *.md
+rename 's/^2cor([1-9])/2corinthians\1/' *.md
+rename 's/^gal([1-9])/galatians\1/' *.md
+rename 's/^eph([1-9])/ephesians\1/' *.md
+rename 's/^phil([1-9])/philippians\1/' *.md
+rename 's/^col([1-9])/colossians\1/' *.md
+rename 's/^1thess([1-9])/1thessalonians\1/' *.md
+rename 's/^2thess([1-9])/2thessalonians\1/' *.md
+rename 's/^1tim([1-9])/1timothy\1/' *.md
+rename 's/^2tim([1-9])/2timothy\1/' *.md
+#rename 's/^titus([1-9])/titus\1/' *.md
+rename 's/^philem([1-9])/philemon\1/' *.md
+rename 's/^heb([1-9])/hebrews\1/' *.md
+#rename 's/^james([1-9])/james\1/' *.md
+rename 's/^1pet([1-9])/1peter\1/' *.md
+rename 's/^2pet([1-9])/2peter\1/' *.md
+#rename 's/^1john([1-9])/1john\1/' *.md
+#rename 's/^2john([1-9])/2john\1/' *.md
+#rename 's/^3john([1-9])/3john\1/' *.md
+#rename 's/^jude([1-9])/jude\1/' *.md
+rename 's/^rev([1-9])/revelation\1/' *.md
+cd ..
