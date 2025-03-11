@@ -87,3 +87,13 @@ chmod u+x ./bg2ob-to-bib
 ```
 
 Now you can move the Bible folder to `~/Bin`, and bib is ready to be used.
+
+## Todo
+
+- [ ] Help menu [(1)](https://www.reddit.com/r/bash/comments/1j7qfl3/comment/mh3k4wv/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- [ ] Abbreviations list [(1)](https://www.reddit.com/r/bash/comments/1j7qfl3/comment/mh3k4wv/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- [ ] Add instructions if `Bin` path is different [(1)](https://www.reddit.com/r/bash/comments/1j7qfl3/comment/mh0m7pw/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- [ ] Symbolic link to script [(1)](https://www.reddit.com/r/commandline/comments/1j7qew9/comment/mh2lwgk/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- [ ] Other language support [(1)](https://www.reddit.com/r/commandline/comments/1j7qew9/comment/mh39p9b/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- [ ] Favorites [(1)](https://www.reddit.com/r/commandline/comments/1j7qew9/comment/mh67ax6/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- [ ] Switch from markdown to XML [(1)](https://www.reddit.com/r/bash/comments/1j7qfl3/comment/mh44sjb/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
