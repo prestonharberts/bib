@@ -1,6 +1,9 @@
 #!/bin/bash
 # shellcheck disable=1111,1112,2030,2031,2034,2086
 
+# change if your bible folder has a different name
+bible_name="bible"
+
 show_help() {
   echo "Usage: $0 [-ch]"
   echo "   -c    Disable context verses"
@@ -23,13 +26,13 @@ shift $((OPTIND - 1))
 main() {
   # find file relative to bib
   dir_of_script=$(dirname $(readlink -f $0))
-  bible_dir="${dir_of_script}/bible"
-  verse_file="${bible_dir}/${1}.md"
-  if [ ! -f "${verse_file}" ]; then
+  bible_dir="${dir_of_script}/${bible_name}"
+  chapter_file="${bible_dir}/${1}.md"
+  if [ ! -f "${chapter_file}" ]; then
     echo "[bib] chapter not found: ${1}"
     exit 1
   fi
-  text=$(cat "${verse_file}")
+  text=$(cat "${chapter_file}")
 
   get_terminal_width
   print_title "$@"
