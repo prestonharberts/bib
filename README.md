@@ -6,6 +6,14 @@ bib is a CLI program that quickly prints Bible verses to the Terminal, using mar
 
 If you would like to use another translation, see Other Translations near the bottom of this page. Translation support may vary as this program relies on BibleGateway-to-Obsidian.
 
+- [Features](#features)
+- [Usage](#usage)
+  - [Example](#example)
+  - [Copying text](#copying-text)
+  - [Scaling demonstration](#scaling-demonstration)
+- [Other translations](#other-translations)
+- [Todo](#todo)
+
 ## Features
 
 - Verse-by-verse format
