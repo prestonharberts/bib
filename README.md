@@ -116,9 +116,8 @@ Now you can move the Bible folder to `~/Bin`, and bib is ready to be used.
 
 ## Todo
 
-- [ ] Help menu
+- [ ] Help menu [(1)](https://www.reddit.com/r/bash/comments/1j7qfl3/comment/mh3k4wv/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [ ] Make bibr an option in bib
-- [(1)](https://www.reddit.com/r/bash/comments/1j7qfl3/comment/mh3k4wv/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [x] Abbreviations list [(1)](https://www.reddit.com/r/bash/comments/1j7qfl3/comment/mh3k4wv/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [x] Add instructions if `Bin` path is different [(1)](https://www.reddit.com/r/bash/comments/1j7qfl3/comment/mh0m7pw/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [x] Symbolic link to script [(1)](https://www.reddit.com/r/commandline/comments/1j7qew9/comment/mh2lwgk/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
