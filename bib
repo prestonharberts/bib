@@ -1,6 +1,8 @@
 #!/bin/bash
 # shellcheck disable=1111,1112,2030,2031,2034,2086
 
+bible_dir="$HOME/Bin/bible"
+
 show_help() {
   echo "Usage: $0 [-ch]"
   echo "   -c    Disable context verses"
@@ -21,7 +23,7 @@ done
 shift $((OPTIND - 1))
 
 main() {
-  text=$(cat ~/Bin/bible/"${1}".md)
+  text=$(cat "${bible_dir}/${1}".md)
   get_terminal_width
   print_title "$@"
   format_markdown
