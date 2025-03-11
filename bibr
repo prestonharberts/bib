@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Author: w1ldrabb1t
+# GitHub: https://github.com/w1ldrabb1t
+
 # Set the folder path
 FOLDER_PATH="bible"
 
