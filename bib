@@ -1,8 +1,6 @@
 #!/bin/bash
 # shellcheck disable=1111,1112,2030,2031,2034,2086
 
-bible_dir="$HOME/Bin/bible"
-
 show_help() {
   echo "Usage: $0 [-ch]"
   echo "   -c    Disable context verses"
@@ -23,7 +21,16 @@ done
 shift $((OPTIND - 1))
 
 main() {
-  text=$(cat "${bible_dir}/${1}".md)
+  # find file relative to bib
+  dir_of_script=$(dirname $(readlink -f $0))
+  bible_dir="${dir_of_script}/bible"
+  verse_file="${bible_dir}/${1}.md"
+  if [ ! -f "${verse_file}" ]; then
+    echo "[bib] chapter not found: ${1}"
+    exit 1
+  fi
+  text=$(cat "${verse_file}")
+
   get_terminal_width
   print_title "$@"
   format_markdown
