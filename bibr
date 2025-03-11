@@ -5,11 +5,13 @@ FOLDER_PATH="bible"
 
 # Default values
 PASS_C_FLAG=""
+VERBOSE=false
 
 # Parse command-line options
-while getopts "c" opt; do
+while getopts "cv" opt; do
   case $opt in
-    c) PASS_C_FLAG="-c" ;;  # If -c is passed, store it
+	c) PASS_C_FLAG="-c" ;;  # If -c is passed, store it
+	v) VERBOSE=true ;;
   esac
 done
 
@@ -42,6 +44,12 @@ RANDOM_NUMBER=$(( RANDOM % NUMBER + 1 ))
 
 # Get the file name without the extension
 FILE_NAME=$(basename "$RANDOM_FILE" | sed 's/\.[^.]*$//')
+
+# If verbose, then show the bib call
+# The user might want to explore more bible verses
+if $VERBOSE; then
+	echo "./bib $FILE_NAME $RANDOM_NUMBER"
+fi
 
 # call main program bib
 ./bib $PASS_C_FLAG "$FILE_NAME" "$RANDOM_NUMBER"
