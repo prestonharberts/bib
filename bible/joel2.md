@@ -140,10 +140,10 @@
 > ‘You will be convinced that I am in the midst of Israel.
 > ‘I am the LORD your God; there is no other.
 > ‘My people will never again be put to shame.
-‘## An Outpouring of the Spirit
+## An Outpouring of the Spirit
 ###### ¶ 28
 > ‘3:
-‘## 1 After all of this
+## 1 After all of this
 > ‘I will pour out my Spirit on all kinds of people.
 > ‘Your sons and daughters will prophesy.
 > ‘Your elderly will have prophetic dreams;
@@ -165,4 +165,3 @@
 > ‘For on Mount Zion and in Jerusalem there will be those who survive,
 > ‘Just as the LORD has promised;
 > ‘The remnant will be those whom the LORD will call.
-<span class=arrow-right> ‘##### <span class=arrow-left> [[joel1|Prev]]<span class=navigation-separator> [[joel2notes|Notes]]<span class=navigation-separator> [[joel3|Next]]

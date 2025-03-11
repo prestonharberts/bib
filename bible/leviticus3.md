@@ -10,7 +10,7 @@
 ‘the two kidneys with the fat on their sinews, and the protruding lobe on the liver (which he is to remove along with the kidneys).
 ###### 5
 ‘Then the sons of Aaron must offer it up in smoke on the altar atop the burnt offering that is on the wood in the fire as a gift of a soothing aroma to the LORD.
-‘## Animal from the Flock
+## Animal from the Flock
 ###### 6
 “‘If his offering for a peace-offering sacrifice to the LORD is from the flock, he must present a flawless male or female.
 ###### 7

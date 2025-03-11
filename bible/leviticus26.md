@@ -4,7 +4,7 @@
 “‘You must not make for yourselves idols, so you must not set up for yourselves a carved image or a pillar, and you must not place a sculpted stone in your land to bow down before it, for I am the LORD your God.
 ###### 2
 ‘You must keep my Sabbaths and reverence my sanctuary. I am the LORD.
-‘## The Benefits of Obedience
+## The Benefits of Obedience
 ###### 3
 “‘If you walk in my statutes and are sure to obey my commandments,
 ###### 4
@@ -27,7 +27,7 @@
 ‘I will walk among you, and I will be your God and you will be my people.
 ###### 13
 ‘I am the LORD your God who brought you out from the land of Egypt, from being their slaves, and I broke the bars of your yoke and caused you to walk upright.
-‘## The Consequences of Disobedience
+## The Consequences of Disobedience
 ###### ¶ 14
 “‘If, however, you do not obey me and keep all these commandments—
 ###### 15
@@ -78,7 +78,7 @@
 ‘They will stumble over each other as those who flee before a sword, though there is no pursuer, and there will be no one to take a stand for you before your enemies.
 ###### 38
 ‘You will perish among the nations; the land of your enemies will consume you.
-‘## Restoration through Confession and Repentance
+## Restoration through Confession and Repentance
 ###### 39
 “‘As for the ones who remain among you, they will rot away because of their iniquity in the lands of your enemies, and they will also rot away because of their ancestors’ iniquities which are with them.
 ###### ¶ 40

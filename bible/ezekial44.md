@@ -28,7 +28,7 @@ The LORD said to me: “Son of man, pay attention, watch closely, and listen car
 ‘They will not come near me to serve me as priest, nor will they come near any of my holy things, the things that are most sacred. They will bear the shame of the abominable deeds they have committed.
 ###### 14
 ‘Yet I will appoint them to keep charge of the temple, all its service, and all that will be done in it.
-‘## The Levitical Priests
+## The Levitical Priests
 ###### ¶ 15
 “‘But the Levitical priests, the descendants of Zadok who kept the charge of my sanctuary when the people of Israel went astray from me, will approach me to minister to me; they will stand before me to offer me the fat and the blood, declares the Sovereign LORD.
 ###### 16
@@ -63,4 +63,3 @@ The LORD said to me: “Son of man, pay attention, watch closely, and listen car
 ‘The first of all the firstfruits and all contributions of any kind will be for the priests; you will also give to the priest the first portion of your dough, so that a blessing may rest on your house.
 ###### 31
 ‘The priests will not eat any bird or animal that has died a natural death or was torn to pieces by a wild animal.
-<span class=arrow-right> ‘##### <span class=arrow-left> [[ezek43|Prev]]<span class=navigation-separator> [[ezek44notes|Notes]]<span class=navigation-separator> [[ezek45|Next]]

@@ -27,7 +27,7 @@
 ‘but the fire which is on the altar must be kept burning on it. It must not be extinguished. So the priest must kindle wood on it morning by morning, and he must arrange the burnt offering on it and offer the fat of the peace offering up in smoke on it.
 ###### 13
 ‘A continual fire must be kept burning on the altar. It must not be extinguished.
-‘## The Grain Offering of the Common Person
+## The Grain Offering of the Common Person
 ###### ¶ 14
 “‘This is the law of the grain offering. The sons of Aaron are to present it before the LORD in front of the altar,
 ###### 15
@@ -64,4 +64,3 @@ Then the LORD spoke to Moses:
 ‘Any male among the priests may eat it. It is most holy.
 ###### 30
 ‘But any sin offering from which some of its blood is brought into the Meeting Tent to make atonement in the sanctuary must not be eaten. It must be burned up in the fire.
-<span class=arrow-right> ‘##### <span class=arrow-left> [[lev5|Prev]]<span class=navigation-separator> [[lev6notes|Notes]]<span class=navigation-separator> [[lev7|Next]]

@@ -14,7 +14,7 @@ The LORD spoke to Moses at Mount Sinai:
 ‘You may have the Sabbath produce of the land to eat—you, your male servant, your female servant, your hired worker, the resident foreigner who stays with you,
 ###### 7
 ‘your cattle, and the wild animals that are in your land—all its produce will be for you to eat.
-‘## Regulations for the Jubilee Year of Release
+## Regulations for the Jubilee Year of Release
 ###### ¶ 8
 “‘You must count off seven weeks of years, seven times seven years, and the days of the seven weeks of years will amount to forty-nine years.
 ###### 9
@@ -25,7 +25,7 @@ The LORD spoke to Moses at Mount Sinai:
 ‘That fiftieth year will be your Jubilee; you must not sow the land, harvest its aftergrowth, or pick the grapes of its unpruned vines.
 ###### 12
 ‘Because that year is a Jubilee, it will be holy to you—you may eat its produce from the field.
-‘## Release of Landed Property
+## Release of Landed Property
 ###### ¶ 13
 “‘In this Year of Jubilee you must each return to your property.
 ###### 14
@@ -58,7 +58,7 @@ The LORD spoke to Moses at Mount Sinai:
 ‘he is to calculate the value of the years it was sold, refund the balance to the man to whom he had sold it, and return to his property.
 ###### 28
 ‘If he has not prospered enough to refund a balance to him, then what he sold will belong to the one who bought it until the Jubilee year, but it must revert in the Jubilee and the original owner may return to his property.
-‘## Release of Houses
+## Release of Houses
 ###### ¶ 29
 “‘If a man sells a residential house in a walled city, its right of redemption must extend until one full year from its sale; its right of redemption must extend to a full calendar year.
 ###### 30
@@ -71,7 +71,7 @@ The LORD spoke to Moses at Mount Sinai:
 ‘Whatever someone among the Levites might redeem—the sale of a house which is his property in a city—must revert in the Jubilee, because the houses of the cities of the Levites are their property in the midst of the Israelites.
 ###### 34
 ‘Moreover, the open field areas of their cities must not be sold, because that is their perpetual possession.
-‘## Debt and Slave Regulations
+## Debt and Slave Regulations
 ###### ¶ 35
 “‘If your brother becomes impoverished and is indebted to you, you must support him; he must live with you like a foreign resident.
 ###### 36
@@ -114,4 +114,3 @@ The LORD spoke to Moses at Mount Sinai:
 ‘If, however, he is not redeemed in these ways, he must go free in the Jubilee year, he and his children with him,
 ###### 55
 ‘because the Israelites are my own servants; they are my servants whom I brought out from the land of Egypt. I am the LORD your God.
-<span class=arrow-right> ‘##### <span class=arrow-left> [[lev24|Prev]]<span class=navigation-separator> [[lev25notes|Notes]]<span class=navigation-separator> [[lev26|Next]]

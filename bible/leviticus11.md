@@ -16,7 +16,7 @@ The LORD spoke to Moses and Aaron, saying to them,
 ‘The pig is unclean to you because its hoof is divided (the hoof is completely split in two), even though it does not chew the cud.
 ###### 8
 ‘You must not eat from their meat and you must not touch their carcasses; they are unclean to you.
-‘## Clean and Unclean Water Creatures
+## Clean and Unclean Water Creatures
 ###### ¶ 9
 “‘These you can eat from all creatures that are in the water: Any creatures in the water that have both fins and scales, whether in the seas or in the streams, you may eat.
 ###### 10
@@ -25,7 +25,7 @@ The LORD spoke to Moses and Aaron, saying to them,
 ‘Since they are detestable to you, you must not eat their meat and their carcass you must detest.
 ###### 12
 ‘Any creature in the water that does not have both fins and scales is detestable to you.
-‘## Clean and Unclean Birds
+## Clean and Unclean Birds
 ###### ¶ 13
 “‘These you are to detest from among the birds—they must not be eaten, because they are detestable: the griffon vulture, the bearded vulture, the black vulture,
 ###### 14
@@ -40,7 +40,7 @@ The LORD spoke to Moses and Aaron, saying to them,
 ‘the white owl, the scops owl, the osprey,
 ###### 19
 ‘the stork, the heron of any kind, the hoopoe, and the bat.
-‘## Clean and Unclean Insects
+## Clean and Unclean Insects
 ###### ¶ 20
 “‘Every winged swarming thing that walks on all fours is detestable to you.
 ###### 21
@@ -49,19 +49,19 @@ The LORD spoke to Moses and Aaron, saying to them,
 ‘These you may eat from them: the locust of any kind, the bald locust of any kind, the cricket of any kind, the grasshopper of any kind.
 ###### 23
 ‘But any other winged swarming thing that has four legs is detestable to you.
-‘## Carcass Uncleanness
+## Carcass Uncleanness
 ###### ¶ 24
 “‘By these you defile yourselves—anyone who touches their carcass will be unclean until the evening,
 ###### 25
 ‘and anyone who carries their carcass must wash his clothes and will be unclean until the evening.
-‘## Inedible Land Quadrupeds
+## Inedible Land Quadrupeds
 ###### 26
 “‘All animals that divide the hoof, but it is not completely split in two, and do not chew the cud are unclean to you; anyone who touches them becomes unclean.
 ###### 27
 ‘All that walk on their paws among all the creatures that walk on all fours are unclean to you. Anyone who touches their carcass will be unclean until the evening,
 ###### 28
 ‘and the one who carries their carcass must wash his clothes and be unclean until the evening; they are unclean to you.
-‘## Creatures that Swarm on the Land
+## Creatures that Swarm on the Land
 ###### ¶ 29
 “‘Now this is what is unclean to you among the swarming things that swarm on the land: the rat, the mouse, the large lizard of any kind,
 ###### 30
@@ -82,7 +82,7 @@ The LORD spoke to Moses and Aaron, saying to them,
 ‘Now, if such a carcass falls on any sowing seed which is to be sown, it is clean,
 ###### 38
 ‘but if water is put on the seed and such a carcass falls on it, it is unclean to you.
-‘## Edible Land Animals
+## Edible Land Animals
 ###### ¶ 39
 “‘Now if an animal that you may eat dies, whoever touches its carcass will be unclean until the evening.
 ###### 40

@@ -33,7 +33,7 @@ The LORD then addressed good, comforting words to the angelic messenger who was 
 Turning to me, the messenger then said, “Cry out that the LORD of Heaven’s Armies says, ‘I am very much moved for Jerusalem and for Zion.
 ###### 15
 ‘But I am greatly displeased with the nations that take my grace for granted. I was a little displeased with them, but they have only made things worse for themselves.
-‘## The Oracle of Response
+## The Oracle of Response
 ###### 16
 “‘Therefore,’ this is what the LORD has said, ‘I have become compassionate toward Jerusalem and will rebuild my temple in it,’ says the LORD of Heaven’s Armies. ‘Once more a surveyor’s measuring line will be stretched out over Jerusalem.’
 ###### 17

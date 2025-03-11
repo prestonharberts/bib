@@ -4,10 +4,10 @@
 The LORD spoke to Moses:
 ###### 2
 “Speak to the Israelites and tell them, ‘These are the LORD’s appointed times which you must proclaim as holy assemblies—my appointed times.
-‘## The Weekly Sabbath
+## The Weekly Sabbath
 ###### ¶ 3
 “‘Six days work may be done, but on the seventh day there must be a Sabbath of complete rest, a holy assembly. You must not do any work; it is a Sabbath to the LORD in all the places where you live.
-‘## The Passover and Feast of Unleavened Bread
+## The Passover and Feast of Unleavened Bread
 ###### ¶ 4
 “‘These are the LORD’s appointed times, holy assemblies, which you must proclaim at their appointed time.
 ###### 5
@@ -31,7 +31,7 @@ The LORD spoke to Moses:
 ‘along with its grain offering, two-tenths of an ephah of choice wheat flour mixed with olive oil, as a gift to the LORD, a soothing aroma, and its drink offering, one-fourth of a hin of wine.
 ###### 14
 ‘You must not eat bread, roasted grain, or fresh grain until this very day, until you bring the offering to your God. This is a perpetual statute throughout your generations in all the places where you live.
-‘## The Feast of Weeks
+## The Feast of Weeks
 ###### ¶ 15
 “‘You must count for yourselves seven weeks from the day after the Sabbath, from the day you bring the wave offering sheaf; they must be complete weeks.
 ###### 16

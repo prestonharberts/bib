@@ -16,12 +16,12 @@ The LORD spoke to Moses:
 “‘And its drink offering must be one-quarter of a hin for each lamb. You must pour out the strong drink as a drink offering to the LORD in the Holy Place.
 ###### 8
 ‘And the second lamb you must offer in the late afternoon; just as you offered the grain offering and drink offering in the morning, you must offer it as an offering made by fire, as a pleasing aroma to the LORD.
-‘## Weekly Offerings
+## Weekly Offerings
 ###### ¶ 9
 “‘On the Sabbath day, you must offer two unblemished lambs a year old, and two-tenths of an ephah of finely ground flour as a grain offering, mixed with olive oil, along with its drink offering.
 ###### 10
 ‘This is the burnt offering for every Sabbath, besides the continual burnt offering and its drink offering.
-‘## Monthly Offerings
+## Monthly Offerings
 ###### ¶ 11
 “‘On the first day of each month you must offer as a burnt offering to the LORD two young bulls, one ram, and seven unblemished lambs a year old,
 ###### 12
@@ -32,7 +32,7 @@ The LORD spoke to Moses:
 ‘For their drink offerings, include half a hin of wine with each bull, one-third of a hin for the ram, and one-fourth of a hin for each lamb. This is the burnt offering for each month throughout the months of the year.
 ###### 15
 ‘And one male goat must be offered to the LORD as a purification offering, in addition to the continual burnt offering and its drink offering.
-‘## The Passover
+## The Passover
 ###### ¶ 16
 “‘On the fourteenth day of the first month is the LORD’s Passover.
 ###### 17
@@ -53,7 +53,7 @@ The LORD spoke to Moses:
 ‘In this manner you must offer daily throughout the seven days the food of the sacrifice made by fire as a sweet aroma to the LORD. It is to be offered in addition to the continual burnt offering and its drink offering.
 ###### 25
 ‘On the seventh day you are to have a holy assembly, you must do no regular work.
-‘## Firstfruits
+## Firstfruits
 ###### ¶ 26
 “‘Also, on the day of the firstfruits, when you bring a new grain offering to the LORD during your Feast of Weeks, you are to have a holy assembly. You must do no ordinary work.
 ###### 27
@@ -66,4 +66,3 @@ The LORD spoke to Moses:
 ‘as well as one male goat to make an atonement for you.
 ###### 31
 ‘You are to offer them with their drink offerings in addition to the continual burnt offering and its grain offering—they must be unblemished.
-<span class=arrow-right> ‘##### <span class=arrow-left> [[num27|Prev]]<span class=navigation-separator> [[num28notes|Notes]]<span class=navigation-separator> [[num29|Next]]

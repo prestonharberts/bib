@@ -10,17 +10,17 @@ Then the LORD spoke to Moses:
 ‘and then the border will turn from the south to the Scorpion Ascent, continue to Zin, and then its direction will be from the south to Kadesh Barnea. Then it will go to Hazar Addar and pass over to Azmon.
 ###### 5
 ‘There the border will turn from Azmon to the Stream of Egypt, and then its direction is to the sea.
-‘## The Western Border of the Land
+## The Western Border of the Land
 ###### ¶ 6
 “‘And for a western border you will have the Great Sea. This will be your western border.
-‘## The Northern Border of the Land
+## The Northern Border of the Land
 ###### ¶ 7
 “‘And this will be your northern border: From the Great Sea you will draw a line to Mount Hor;
 ###### 8
 ‘from Mount Hor you will draw a line to Lebo Hamath, and the direction of the border will be to Zedad.
 ###### 9
 ‘The border will continue to Ziphron, and its direction will be to Hazar Enan. This will be your northern border.
-‘## The Eastern Border of the Land
+## The Eastern Border of the Land
 ###### ¶ 10
 “‘For your eastern border you will draw a line from Hazar Enan to Shepham.
 ###### 11

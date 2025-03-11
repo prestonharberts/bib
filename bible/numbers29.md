@@ -12,7 +12,7 @@
 ‘with one male goat for a purification offering to make an atonement for you;
 ###### 6
 ‘this is in addition to the monthly burnt offering and its grain offering, and the daily burnt offering with its grain offering and their drink offerings as prescribed, as a sweet aroma, a sacrifice made by fire to the LORD.
-‘## The Day of Atonement
+## The Day of Atonement
 ###### ¶ 7
 “‘On the tenth day of this seventh month you are to have a holy assembly. You must humble yourselves; you must not do any work on it.
 ###### 8
@@ -23,7 +23,7 @@
 ‘and one-tenth for each of the seven lambs,
 ###### 11
 ‘along with one male goat for a purification offering, in addition to the purification offering for atonement and the continual burnt offering with its grain offering and their drink offerings.
-‘## The Feast of Temporary Shelters
+## The Feast of Temporary Shelters
 ###### ¶ 12
 “‘On the fifteenth day of the seventh month you are to have a holy assembly; you must do no ordinary work, and you must keep a festival to the LORD for seven days.
 ###### 13

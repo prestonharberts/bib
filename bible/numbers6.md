@@ -16,7 +16,7 @@ Then the LORD spoke to Moses:
 ‘He must not defile himself even for his father or his mother or his brother or his sister if they die, because the separation for his God is on his head.
 ###### 8
 ‘All the days of his separation he must be holy to the LORD.
-‘## Contingencies for Defilement
+## Contingencies for Defilement
 ###### ¶ 9
 “‘If anyone dies very suddenly beside him and he defiles his consecrated head, then he must shave his head on the day of his purification—on the seventh day he must shave it.
 ###### 10
@@ -25,7 +25,7 @@ Then the LORD spoke to Moses:
 ‘Then the priest will offer one for a purification offering and the other as a burnt offering, and make atonement for him, because of his transgression in regard to the corpse. So he must reconsecrate his head on that day.
 ###### 12
 ‘He must rededicate to the LORD the days of his separation and bring a male lamb in its first year as a reparation offering, but the former days will not be counted because his separation was defiled.
-‘## Fulfilling the Vows
+## Fulfilling the Vows
 ###### ¶ 13
 “‘Now this is the law of the Nazirite: When the days of his separation are fulfilled, he must be brought to the entrance of the tent of meeting,
 ###### 14

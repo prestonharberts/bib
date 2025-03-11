@@ -10,15 +10,15 @@ The LORD spoke to Moses:
 ‘If, however, the people of the land shut their eyes to that man when he gives some of his children to Molech so that they do not put him to death,
 ###### 5
 ‘I myself will set my face against that man and his clan. I will cut off from the midst of the people both him and all who follow after him in spiritual prostitution, committing prostitution by worshiping Molech.
-‘## Prohibition against Spiritists and Mediums
+## Prohibition against Spiritists and Mediums
 ###### ¶ 6
 “‘The person who turns to the spirits of the dead and familiar spirits to commit prostitution by going after them, I will set my face against that person and cut him off from the midst of his people.
-‘## Exhortation to Holiness and Obedience
+## Exhortation to Holiness and Obedience
 ###### 7
 “‘You must sanctify yourselves and be holy, because I am the LORD your God.
 ###### 8
 ‘You must be sure to obey my statutes. I am the LORD who sanctifies you.
-‘## Family Life and Sexual Prohibitions
+## Family Life and Sexual Prohibitions
 ###### ¶ 9
 “‘If anyone curses his father or mother he must be put to death. He has cursed his father or mother; his blood guilt is on himself.
 ###### ¶ 10
@@ -45,7 +45,7 @@ The LORD spoke to Moses:
 ‘If a man goes to bed with his aunt, he has exposed his uncle’s nakedness; they must bear responsibility for their sin, they will die childless.
 ###### 21
 ‘If a man has marital relations with his brother’s wife, it is indecency. He has exposed his brother’s nakedness; they will be childless.
-‘## Exhortation to Holiness and Obedience
+## Exhortation to Holiness and Obedience
 ###### ¶ 22
 “‘You must be sure to obey all my statutes and regulations, so that the land to which I am about to bring you to take up residence does not vomit you out.
 ###### 23
@@ -56,6 +56,6 @@ The LORD spoke to Moses:
 ‘Therefore you must distinguish between the clean animal and the unclean, and between the unclean bird and the clean, and you must not make yourselves detestable by means of an animal or bird or anything that creeps on the ground—creatures I have distinguished for you as unclean.
 ###### 26
 ‘You must be holy to me because I, the LORD, am holy, and I have set you apart from the other peoples to be mine.
-‘## Prohibition against Spiritists and Mediums
+## Prohibition against Spiritists and Mediums
 ###### ¶ 27
 “‘A man or woman who has in them a spirit of the dead or a familiar spirit must be put to death. They must pelt them with stones; their blood guilt is on themselves.’”

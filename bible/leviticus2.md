@@ -6,7 +6,7 @@
 ‘Then he must bring it to the sons of Aaron, the priests, and the priest must scoop out from there a handful of its choice wheat flour and some of its olive oil in addition to all of its frankincense, and the priest must offer its memorial portion up in smoke on the altar—it is a gift of a soothing aroma to the LORD.
 ###### 3
 ‘The remainder of the grain offering belongs to Aaron and to his sons—it is most holy from the gifts of the LORD.
-‘## Processed Grain Offerings
+## Processed Grain Offerings
 ###### ¶ 4
 “‘When you present an offering of grain baked in an oven, it must be made of choice wheat flour baked into unleavened loaves mixed with olive oil or unleavened wafers smeared with olive oil.
 ###### 5
@@ -21,7 +21,7 @@
 ‘Then the priest must take up from the grain offering its memorial portion and offer it up in smoke on the altar—it is a gift of a soothing aroma to the LORD.
 ###### 10
 ‘The remainder of the grain offering belongs to Aaron and to his sons—it is most holy from the gifts of the LORD.
-‘## Additional Grain-Offering Regulations
+## Additional Grain-Offering Regulations
 ###### ¶ 11
 “‘No grain offering which you present to the LORD can be made with yeast, for you must not offer up in smoke any yeast or honey as a gift to the LORD.
 ###### 12
@@ -34,4 +34,3 @@
 ‘And you must put olive oil on it and set frankincense on it—it is a grain offering.
 ###### 16
 ‘Then the priest must offer its memorial portion up in smoke—some of its crushed bits, some of its olive oil, in addition to all of its frankincense—it is a gift to the LORD.
-<span class=arrow-right> ‘##### <span class=arrow-left> [[lev1|Prev]]<span class=navigation-separator> [[lev2notes|Notes]]<span class=navigation-separator> [[lev3|Next]]

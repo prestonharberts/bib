@@ -30,7 +30,7 @@ This is the LORD’s message that came to Joel the son of Pethuel:
 > ‘They have turned my fig trees into mere splinters.
 > ‘They have completely stripped off the bark and thrown it aside;
 > ‘The twigs are stripped bare.
-‘## A Call to Lament
+## A Call to Lament
 ###### ¶ 8
 > ‘Wail like a young virgin clothed in sackcloth,
 > ‘Lamenting the death of her husband to be.
@@ -90,4 +90,3 @@ This is the LORD’s message that came to Joel the son of Pethuel:
 > ‘Even the wild animals cry out to you,
 > ‘For the river beds have dried up;
 > ‘Fire has destroyed the pastures of the wilderness.
-<span class=arrow-right> ‘##### <span class=arrow-left> [[hos14|Prev]]<span class=navigation-separator> [[joel1notes|Notes]]<span class=navigation-separator> [[joel2|Next]]

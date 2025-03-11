@@ -18,7 +18,7 @@ The LORD said to Moses, “Say to the priests, the sons of Aaron—say to them: 
 ‘You must sanctify him because he presents the food of your God. He must be holy to you because I, the LORD who sanctifies you all, am holy.
 ###### 9
 ‘If a daughter of a priest profanes herself by engaging in prostitution, she is profaning her father. She must be burned to death.
-‘## Rules for the High Priest
+## Rules for the High Priest
 ###### ¶ 10
 “‘The high priest—who is greater than his brothers, and on whose head the anointing oil is poured, and who has been ordained to wear the priestly garments—must neither dishevel the hair of his head nor tear his garments.
 ###### 11

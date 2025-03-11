@@ -24,7 +24,7 @@ Then the LORD spoke to Moses:
 ‘But the hide of the bull, all its flesh along with its head and its legs, its entrails, and its dung—
 ###### 12
 ‘all the rest of the bull—he must bring outside the camp to a ceremonially clean place, to the fatty-ash pile, and he must burn it on a wood fire; it must be burned on the fatty-ash pile.
-‘## For the Whole Congregation
+## For the Whole Congregation
 ###### ¶ 13
 “‘If the whole congregation of Israel strays unintentionally and the matter is not noticed by the assembly, and they violate one of the LORD’s commandments, which must not be violated, so they become guilty,
 ###### 14
@@ -43,7 +43,7 @@ Then the LORD spoke to Moses:
 ‘He must do with the rest of the bull just as he did with the bull of the sin offering; this is what he must do with it. So the priest will make atonement on their behalf and they will be forgiven.
 ###### 21
 ‘He must bring the rest of the bull outside the camp and burn it just as he burned the first bull—it is the sin offering of the assembly.
-‘## For the Leader
+## For the Leader
 ###### ¶ 22
 “‘Whenever a leader, by straying unintentionally, sins and violates one of the commandments of the LORD his God which must not be violated, and he pleads guilty,
 ###### 23
@@ -54,7 +54,7 @@ Then the LORD spoke to Moses:
 ‘Then the priest must take some of the blood of the sin offering with his finger and put it on the horns of the altar of burnt offering, and he must pour out the rest of its blood at the base of the altar of burnt offering.
 ###### 26
 ‘Then the priest must offer all of its fat up in smoke on the altar like the fat of the peace-offering sacrifice. So the priest will make atonement on his behalf for his sin and he will be forgiven.
-‘## For the Common Person
+## For the Common Person
 ###### ¶ 27
 “‘If an ordinary individual sins by straying unintentionally when he violates one of the LORD’s commandments which must not be violated, and he pleads guilty,
 ###### 28
@@ -73,4 +73,3 @@ Then the LORD spoke to Moses:
 ‘Then the priest must take some of the blood of the sin offering with his finger and put it on the horns of the altar of burnt offering, and he must pour out all the rest of its blood at the base of the altar.
 ###### 35
 ‘Then the one who brought the offering must remove all its fat (just as the fat of the sheep is removed from the peace-offering sacrifice) and the priest must offer them up in smoke on the altar on top of the other gifts for the LORD. So the priest will make atonement on his behalf for his sin which he has committed and he will be forgiven.
-<span class=arrow-right> ‘##### <span class=arrow-left> [[lev3|Prev]]<span class=navigation-separator> [[lev4notes|Notes]]<span class=navigation-separator> [[lev5|Next]]

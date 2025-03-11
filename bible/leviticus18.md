@@ -10,7 +10,7 @@ The LORD spoke to Moses:
 ‘You must observe my regulations and you must be sure to walk in my statutes. I am the LORD your God.
 ###### 5
 ‘So you must keep my statutes and my regulations; anyone who does so will live by keeping them. I am the LORD.
-‘## Laws of Sexual Relations
+## Laws of Sexual Relations
 ###### ¶ 6
 “‘No man is to approach any close relative to have sexual relations with her. I am the LORD.
 ###### 7
@@ -47,7 +47,7 @@ The LORD spoke to Moses:
 ‘You must not have sexual relations with a male as one has sexual relations with a woman; it is a detestable act.
 ###### 23
 ‘You must not have sexual relations with any animal to become defiled with it, and a woman must not stand before an animal to have sexual relations with it; it is a perversion.
-‘## Warning against the Abominations of the Nations
+## Warning against the Abominations of the Nations
 ###### ¶ 24
 “‘Do not defile yourselves with any of these things, for the nations that I am about to drive out before you have been defiled with all these things.
 ###### 25

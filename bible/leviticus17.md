@@ -18,7 +18,7 @@ The LORD spoke to Moses,
 “You are to say to them: ‘Any man from the house of Israel or from the resident foreigners who live in their midst, who offers a burnt offering or a sacrifice
 ###### 9
 ‘but does not bring it to the entrance of the Meeting Tent to offer it to the LORD—that person will be cut off from his people.
-‘## Prohibition against Eating Blood
+## Prohibition against Eating Blood
 ###### ¶ 10
 “‘Any man from the house of Israel or from the resident foreigners who live in their midst who eats any blood, I will set my face against that person who eats the blood, and I will cut him off from the midst of his people,
 ###### 11
@@ -29,7 +29,7 @@ The LORD spoke to Moses,
 “‘Any man from the Israelites or from the resident foreigners who live in their midst who hunts a wild animal or a bird that may be eaten must pour out its blood and cover it with soil,
 ###### ¶ 14
 ‘for the life of all flesh is its blood. So I have said to the Israelites: You must not eat the blood of any living thing because the life of every living thing is its blood—all who eat it will be cut off.
-‘## Regulations for Eating Carcasses
+## Regulations for Eating Carcasses
 ###### 15
 “‘Any person who eats an animal that has died of natural causes or an animal torn by beasts, whether a native citizen or a resident foreigner, must wash his clothes, bathe in water, and be unclean until evening; then he will be clean.
 ###### 16

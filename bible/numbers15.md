@@ -43,7 +43,7 @@ The LORD spoke to Moses:
 ‘You must offer up a cake of the first of your finely ground flour as a raised offering; as you offer the raised offering of the threshing floor, so you must offer it up.
 ###### 21
 ‘You must give to the LORD some of the first of your finely ground flour as a raised offering in your future generations.
-‘## Rules for Unintentional Offenses
+## Rules for Unintentional Offenses
 ###### ¶ 22
 “‘If you sin unintentionally and do not observe all these commandments that the LORD has spoken to Moses—
 ###### 23
@@ -60,7 +60,7 @@ The LORD spoke to Moses:
 ‘And the priest must make atonement for the person who sins unintentionally—when he sins unintentionally before the LORD—to make atonement for him, and he will be forgiven.
 ###### 29
 ‘You must have one law for the person who sins unintentionally, both for the native-born among the Israelites and for the resident foreigner who lives among them.
-‘## Deliberate Sin
+## Deliberate Sin
 ###### 30
 “‘But the person who acts defiantly, whether native-born or a resident foreigner, insults the LORD. That person must be cut off from among his people.
 ###### 31

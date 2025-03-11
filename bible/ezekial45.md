@@ -50,4 +50,3 @@
 ‘He will provide as a grain offering an ephah for each bull, an ephah for each ram, and a gallon of olive oil for each ephah of grain.
 ###### 25
 ‘In the seventh month, on the fifteenth day of the month, at the feast, he will make the same provisions for the sin offering, burnt offering, and grain offering, and for the olive oil, for the seven days.
-<span class=arrow-right> ‘##### <span class=arrow-left> [[ezek44|Prev]]<span class=navigation-separator> [[ezek45notes|Notes]]<span class=navigation-separator> [[ezek46|Next]]

@@ -24,7 +24,7 @@ The LORD told me, “Go down to the palace of the king of Judah. Give him a mess
 “‘People from other nations will pass by this city. They will ask one another, “Why has the LORD done such a thing to this great city?”
 ###### 9
 ‘The answer will come back, “It is because they broke their covenant with the LORD their God and worshiped and served other gods.”
-‘## Judgment on Jehoahaz
+## Judgment on Jehoahaz
 ###### ¶ 10
 > “‘Do not weep for the king who was killed.
 > ‘Do not grieve for him.
@@ -34,7 +34,7 @@ The LORD told me, “Go down to the palace of the king of Judah. Give him a mess
 “‘For the LORD has spoken about Shallum son of Josiah, who succeeded his father as king of Judah but was carried off into exile. He has said, “He will never return to this land.
 ###### 12
 ‘For he will die in the country where they took him as a captive. He will never see this land again.”
-‘## Judgment on Jehoiakim
+## Judgment on Jehoiakim
 ###### ¶ 13
 > “‘Sure to be judged is the king who builds his palace using injustice
 > ‘And treats people unfairly while adding its upper rooms.

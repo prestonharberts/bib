@@ -16,7 +16,7 @@ The LORD spoke to Moses:
 ‘If the person is from sixty years old and older, if he is a male the conversion value is fifteen shekels, and for the female ten shekels.
 ###### 8
 ‘If the person making the votive offering is too poor to pay the conversion value, he must stand the person before the priest and the priest will establish his conversion value; according to what the man who made the votive offering can afford, the priest will establish his conversion value.
-‘## Redemption of Animals Given as Votive Offerings
+## Redemption of Animals Given as Votive Offerings
 ###### ¶ 9
 “‘If what is vowed is a kind of animal from which an offering may be presented to the LORD, anything which he gives to the LORD from this kind of animal will be holy.
 ###### 10
@@ -27,12 +27,12 @@ The LORD spoke to Moses:
 ‘and the priest will establish its conversion value, whether good or bad. According to the conversion value assessed by the priest, thus it will be.
 ###### 13
 ‘If, however, the person who made the vow redeems the animal, he must add one-fifth to its conversion value.
-‘## Redemption of Houses Given as Votive Offerings
+## Redemption of Houses Given as Votive Offerings
 ###### ¶ 14
 “‘If a man consecrates his house as holy to the LORD, the priest will establish its conversion value, whether good or bad. Just as the priest establishes its conversion value, thus it will stand.
 ###### 15
 ‘If the one who consecrates it redeems his house, he must add to it one-fifth of its conversion value in silver, and it will belong to him.
-‘## Redemption of Fields Given as Votive Offerings
+## Redemption of Fields Given as Votive Offerings
 ###### ¶ 16
 “‘If a man consecrates to the LORD some of his own landed property, the conversion value must be calculated in accordance with the amount of seed needed to sow it, a homer of barley seed being priced at fifty shekels of silver.
 ###### 17
@@ -53,17 +53,17 @@ The LORD spoke to Moses:
 ‘In the Jubilee year the field will return to the one from whom he bought it, the one to whom it belongs as landed property.
 ###### 25
 ‘Every conversion value must be calculated by the standard of the sanctuary shekel; twenty gerahs to the shekel.
-‘## Redemption of the Firstborn
+## Redemption of the Firstborn
 ###### ¶ 26
 “‘Surely no man may consecrate a firstborn that already belongs to the LORD as a firstborn among the animals; whether it is an ox or a sheep, it belongs to the LORD.
 ###### 27
 ‘If, however, it is among the unclean animals, he may ransom it according to its conversion value and must add one-fifth to it, but if it is not redeemed it must be sold according to its conversion value.
-‘## Things Permanently Dedicated to the Lord
+## Things Permanently Dedicated to the Lord
 ###### ¶ 28
 “‘Surely anything that a man permanently dedicates to the LORD from all that belongs to him, whether from people, animals, or his landed property, must be neither sold nor redeemed; anything permanently dedicated is most holy to the LORD.
 ###### 29
 ‘Any human being who is permanently dedicated to the LORD must not be ransomed; such a person must be put to death.
-‘## Redemption of the Tithe
+## Redemption of the Tithe
 ###### ¶ 30
 “‘Any tithe of the land, from the grain of the land or from the fruit of the trees, belongs to the LORD; it is holy to the LORD.
 ###### 31
