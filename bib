@@ -165,7 +165,6 @@ get_scripture() {
   dir_of_script=$(dirname "$(readlink -f $0)")
   bible_dir="${dir_of_script}/${bible_name}"
   chapter_file="${bible_dir}/${book}${chapter}.md"
-  echo $chapter_file
   # enter if given book name is an abbreviation
   if [ ! -f "${chapter_file}" ]; then
     set_books_array
