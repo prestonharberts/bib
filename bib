@@ -347,9 +347,12 @@ justify_poetry() {
 
     # move char to newline if width + 1 is punctuation
 
+    -e "s/^(.{6}>.{$((width - 11))}[A-Za-z0-9])([A-Za-z0-9]{2}[!?.,”’;:-]{2})/\1-\n      > \2/"
     -e "s/^(.{6}>.{$((width - 10))}[A-Za-z0-9])([A-Za-z0-9]{2}[!?.,”’;:])/\1-\n      > \2/"
+    -e "s/^(.{6}>.{$((width - 10))}[A-Za-z0-9])([A-Za-z0-9]{2}––)/\1-\n      > \2/"
     -e "s/^(.{6}>.{$((width - 9))}[A-Za-z0-9])([A-Za-z0-9]{2}[!?.,”’;:])/\1-\n      > \2/"
 
+    -e "s/^(.{6}>.{$((width - 11))}) ([A-Za-z0-9]{2}[!?.,”’;:-]{2})/\1\n      > \2/"
     -e "s/^(.{6}>.{$((width - 10))}) ([A-Za-z0-9]{2}[!?.,”’;:])/\1\n      > \2/"
     -e "s/^(.{6}>.{$((width - 9))}) ([A-Za-z0-9]{2}[!?.,”’;:])/\1\n      > \2/"
 
@@ -462,9 +465,12 @@ justify_normal() {
 
     # move char to newline if width + 1 is punctutation
 
+    -e "s/^(.{$((width - 4))}[A-Za-z0-9])([A-Za-z0-9]{2}[!?.,”’;:-]{2})/\1-\n      \2/"
     -e "s/^(.{$((width - 3))}[A-Za-z0-9])([A-Za-z0-9]{2}[!?.,”’;:-])/\1-\n      \2/"
+    -e "s/^(.{$((width - 3))}[A-Za-z0-9])([A-Za-z0-9]{2}––)/\1-\n      \2/"
     -e "s/^(.{$((width - 2))}[A-Za-z0-9])([A-Za-z0-9]{2}[!?.,”’;:-])/\1-\n      \2/"
 
+    -e "s/^(.{$((width - 4))}) ([A-Za-z0-9]{2}[!?.,”’;:-]{2})/\1\n      \2/"
     -e "s/^(.{$((width - 3))}) ([A-Za-z0-9]{2}[!?.,”’;:-])/\1\n      \2/"
     -e "s/^(.{$((width - 2))}) ([A-Za-z0-9]{2}[!?.,”’;:-])/\1\n      \2/"
 
@@ -485,10 +491,10 @@ justify_normal() {
     -e "s/^(.{$((width - 2))})([A-Za-z])––([A-Za-z])/\1\2––\n      \3/"
 
     # add newline right after punctuation
-    -e "s/^(.{$((width - 1))})([!?.,”’;:])/\1\2\n      /"
+    # -e "s/^(.{$((width - 1))})([!?.,”’;:])/\1\2\n      /"
 
     # fix verses that didn't get move to newline
-    -e "s/^(.{$((width))})([!?.,”’;:])/\1\n      \2/"
+    # -e "s/^(.{$((width))})([!?.,”’;:])/\1\n      \2/"
     # -e "s/^(.{$((width - 1))}) /\1\n      /"
 
     # fix verse number spacing
