@@ -44,7 +44,7 @@ start_bib_console() {
       break
     fi
 
-    if [[ "$input" =~ ^([a-z]+)([0-9]*)?([ ]?[0-9]+)?([ ]?[0-9]+)?$ ]]; then
+    if [[ "$input" =~ ^([0-9]*[a-z]+)([0-9]*)?([ ]?[0-9]+)?([ ]?[0-9]+)?$ ]]; then
       # extract book, chapter, starting verse, ending verse
       set -- "${BASH_REMATCH[1]}" "${BASH_REMATCH[2]// /}" "${BASH_REMATCH[3]// /}" "${BASH_REMATCH[4]// /}"
       start_processing "$@"
