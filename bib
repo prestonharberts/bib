@@ -5,44 +5,14 @@
 bible_name="bible"
 
 main() {
-  get_text $1
+  get_scripture "$@"
   get_terminal_width
-  print_title "$@"
-  format_markdown
-
-  # justify text
-  if [ $width -le 20 ]; then
-    passes=26
-  elif [ $width -le 30 ]; then
-    passes=15
-  elif [ $width -le 40 ]; then
-    passes=8
-  elif [ $width -le 50 ] || [ $width -le 60 ]; then
-    passes=7
-  elif [ $width -le 70 ]; then
-    passes=6
-  elif [ $width -le 80 ]; then
-    passes=5
-  else
-    passes=4
-  fi
-
-  for i in $(seq 1 $passes); do
-    justify_poetry
-  done
-  for i in $(seq 1 $passes); do
-    justify_normal
-  done
-
-  cleanup
-  # output
-  if [[ $3 != '' ]]; then
-    print_passage "$@"
-  elif [[ $2 != '' ]]; then
-    print_verse "$@"
-  else
-    print_chapter
-  fi
+  get_hline
+  get_title "$@"
+  cleanup_markdown
+  justify_scripture
+  cleanup_scripture
+  output_scripture "$@"
 }
 
 set_books_array() {
@@ -55,20 +25,20 @@ set_books_array() {
     "joshua": ["josh", "jos", "jsh"],
     "judges": ["judg", "jdg", "jg", "jdgs"],
     "ruth": ["rth", "ru"],
-    "1samuel": ["1sam", "1sm", "1sa", "1s", "isam", "isa", "1stsamuel", "1stsam", "firstsamuel", "firstsam"],
-    "2samuel": ["2sam", "2sm", "2sa", "2s", "iisam", "iisa", "2ndsamuel", "2ndsam", "secondsamuel", "secondsam"],
-    "1kings": ["1kgs", "1ki", "1kin", "1k", "ikgs", "iki", "1stkings", "1stkgs", "firstkings", "firstkgs"],
-    "2kings": ["2kgs", "2ki", "2kin", "2k", "iikgs", "iiki", "2ndkings", "2ndkgs", "secondkings", "secondkgs"],
-    "1chronicles": ["1chron", "1chr", "1ch", "ichron", "ichr"],
-    "2chronicles": ["2chron", "2chr", "2ch", "iichron", "iichr"],
+    "1samuel": ["1sam", "1sm", "1sa", "1s"],
+    "2samuel": ["2sam", "2sm", "2sa", "2s"],
+    "1kings": ["1kgs", "1ki", "1kin", "1k"],
+    "2kings": ["2kgs", "2ki", "2kin", "2k"],
+    "1chronicles": ["1chron", "1chr", "1ch"],
+    "2chronicles": ["2chron", "2chr", "2ch"],
     "ezra": ["ezr", "ez"],
     "nehemiah": ["neh", "ne"],
     "esther": ["est", "esth", "es"],
     "job": ["jb"],
-    "psalm": ["ps", "psalms", "pslm", "psa", "psm", "pss"],
-    "proverbs": ["prov", "pro", "prv", "pr"],
-    "ecclesiastes": ["eccles", "eccle", "ecc", "ec", "qoh"],
-    "song": ["songofsolomon", "songofsongs", "sos", "so", "canticleofcanticles", "canticles", "cant"],
+    "psalm": ["ps", "pslm", "psa", "psm", "pss", "psalms"],
+    "proverbs": ["prov", "pro", "prv", "pr", "proverb"],
+    "ecclesiastes": ["eccles", "eccle", "ecc", "ec"],
+    "song": ["songofsolomon", "songofsongs", "sos", "so"],
     "isaiah": ["isa", "is"],
     "jeremiah": ["jer", "je", "jr"],
     "lamentations": ["lam", "la"],
@@ -92,25 +62,25 @@ set_books_array() {
     "john": ["joh", "jhn", "jn"],
     "acts": ["act", "ac"],
     "romans": ["rom", "ro", "rm"],
-    "1corinthians": ["1cor", "1co", "icor", "ico", "1stcorinthians", "firstcorinthians"],
-    "2corinthians": ["2cor", "2co", "iicor", "iico",  "2ndcorinthians", "secondcorinthians"],
+    "1corinthians": ["1cor", "1co"],
+    "2corinthians": ["2cor", "2co"],
     "galatians": ["gal", "ga"],
     "ephesians": ["eph", "ephes"],
     "philippians": ["phil", "php", "pp"],
     "colossians": ["col", "co"],
-    "1thessalonians": ["1thess", "1thes", "1th", "ithessalonians", "ithess", "ithes", "1stthessalonians", "1stthess"],
-    "2thessalonians": ["2thess", "2thes", "2th", "iithessalonians", "iithess", "iithes", "2ndthessalonians", "2ndthess"],
-    "1timothy": ["1tim", "1ti", "itimothy", "itim", "iti", "1sttimothy", "1sttim", "firsttimothy", "firsttim"],
-    "2timothy": ["2tim", "2ti", "iitimothy", "iitim", "iiti", "2ndtimothy", "2ndtim", "secondtimothy", "secondtim"],
+    "1thessalonians": ["1thess", "1thes", "1th"],
+    "2thessalonians": ["2thess", "2thes", "2th"],
+    "1timothy": ["1tim", "1ti"],
+    "2timothy": ["2tim", "2ti"],
     "titus": ["tit", "ti"],
     "philemon": ["philem", "phm", "pm"],
     "hebrews": ["heb"],
     "james": ["jas", "jm"],
-    "1peter": ["1pet", "1pe", "1pt", "1p", "ip", "ipet", "ipt", "ipe", "1pet"],
-    "2peter": ["2pet", "2pe", "2pt", "2p", "iip", "iipet", "iipt", "iipe"],
-    "1john": ["1joh", "1jhn", "1jn", "1j", "1joh", "1jo", "ijohn"],
-    "2john": ["2joh", "2jhn", "2jn", "2j", "2joh", "2jo", "iijohn"],
-    "3john": ["3joh", "3jhn", "3jn", "3j", "3jhn", "3jo", "iiijohn"],
+    "1peter": ["1pet", "1pe", "1pt", "1p"],
+    "2peter": ["2pet", "2pe", "2pt", "2p"],
+    "1john": ["1joh", "1jhn", "1jn", "1j", "1joh", "1jo"],
+    "2john": ["2joh", "2jhn", "2jn", "2j", "2joh", "2jo"],
+    "3john": ["3joh", "3jhn", "3jn", "3j", "3jhn", "3jo"],
     "jude": ["jud", "jd"],
     "revelation": ["rev", "re"]
   }'
@@ -127,43 +97,13 @@ show_help() {
 show_abbreviations() {
   set_books_array
   get_terminal_width
-
-  hline=$(
-    printf '=%.0s' $(seq 1 "$width")
-    echo
-  )
+  get_hline
 
   abbreviations="$(
     echo "$books_array" | jq -r 'to_entries | .[] | "\(.key) | \(.value | join(", "))"' | column -t -s '|'
   )"
 
-  sed_args=(
-    -e 's/([^ ])    ([^ ])/\1  \2/g'
-    -e 's/([^ ])     ([^ ])/\1   \2/g'
-    -e 's/([^ ])      ([^ ])/\1    \2/g'
-    -e 's/([^ ])       ([^ ])/\1     \2/g'
-    -e 's/([^ ])        ([^ ])/\1      \2/g'
-    -e 's/([^ ])         ([^ ])/\1       \2/g'
-    -e 's/([^ ])          ([^ ])/\1        \2/g'
-    -e 's/([^ ])           ([^ ])/\1         \2/g'
-    -e 's/([^ ])            ([^ ])/\1          \2/g'
-    -e 's/([^ ])             ([^ ])/\1           \2/g'
-    -e 's/([^ ])              ([^ ])/\1            \2/g'
-    -e 's/([^ ])               ([^ ])/\1             \2/g'
-    -e 's/([^ ])                ([^ ])/\1              \2/g'
-    -e 's/([^ ])                 ([^ ])/\1               \2/g'
-    -e 's/([^ ])                  ([^ ])/\1                \2/g'
-    -e 's/^/  /g'
-
-    # move char to newline if width-1 is a space or symbol
-    -e "s/^(.{$((width - 1))})([A-Za-z0-9]*,)/\1\n                   \2/"
-    -e "s/^(.{$((width))})([A-Za-z0-9]*,)/\1\n                   \2/"
-
-    -e "s/^(.{$((width - 1))})([A-Za-z0-9]*)$/\1\n                   \2/"
-    -e "s/^(.{$((width))})([A-Za-z0-9]*)$/\1\n                   \2/"
-  )
-
-  abbreviations=$(echo "$abbreviations" | sed -E "${sed_args[@]}")
+  justify_abbreviations
 
   output="$(
     echo "$hline"
@@ -178,35 +118,39 @@ show_abbreviations() {
   exit 1
 }
 
-find_chapter() {
-  set_books_array
-
-  # remove the trailing digits to get the book name
-  book=$(echo "$1" | sed 's/[0-9]*$//')
-
-  # remove the letters to get the chapter number
-  chapter=$(echo "$1" | sed 's/^[0-9]*[a-zA-Z]*//')
-
-  # find book in books array
-  book=$(echo "$books_array" | jq -r --arg book "$book" 'to_entries[] | select(.value[] == $book) | .key')
-}
-
 get_terminal_width() {
   width=$(tput cols)
 }
 
-get_text() {
+get_scripture() {
+  # trim book title and also substitute various numbers
+  book=$(echo "$1"|
+  sed 's/[0-9]*$//'|
+
+  # substitute i, ii, and iii for 1, 2 and 3 except for isaiah
+  sed 's/^iii/3/'|
+  sed 's/^ii/2/'|
+  sed 's/^i\([^s]\)/1\1/'|
+
+  # substitute first, second, and third for 1, 2, and 3
+  sed 's/^first/1/'|
+  sed 's/^second/2/'|
+  sed 's/^third/3/')
+
+  # remove the book name to get the chapter number
+  chapter=$(echo "$1" | sed 's/^[0-9]*[a-zA-Z]*//')
+
   # Author: bjarneh
   # Reddit: https://www.reddit.com/u/bjarneh/s/ACMAhTI1WY
   # Source: https://www.reddit.com/r/commandline/s/ySIsbxOYex
-
   # find file relative to bib
   dir_of_script=$(dirname "$(readlink -f $0)")
   bible_dir="${dir_of_script}/${bible_name}"
-  chapter_file="${bible_dir}/${1}.md"
+  chapter_file="${bible_dir}/${book}${chapter}.md"
   # enter if given book name is an abbreviation
   if [ ! -f "${chapter_file}" ]; then
-    find_chapter $1
+    set_books_array
+    book=$(echo "$books_array" | jq -r --arg book "$book" 'to_entries[] | select(.value[] == $book) | .key')
     chapter_file="${bible_dir}/${book}${chapter}.md"
     # enter if book name does not exist
     if [ ! -f "${chapter_file}" ]; then
@@ -214,24 +158,27 @@ get_text() {
       exit 1
     fi
   fi
-  text=$(cat "${chapter_file}")
+  scripture=$(cat "${chapter_file}")
 }
 
-print_title() {
-  hline=$(
+get_hline() {
+    hline=$(
     printf '=%.0s' $(seq 1 "$width")
     echo
   )
+}
+
+get_title() {
   if [[ $3 != '' ]]; then
-    title="$(echo "$text" | grep '^# .*' | sed 's/# \(.*\) *(*[A-Z]*)*$/\1/'):$2-$3"
+    title="$(echo "$scripture" | grep '^# .*' | sed 's/# \(.*\) *(*[A-Z]*)*$/\1/'):$2-$3"
   elif [[ $2 != '' ]]; then
-    title="$(echo "$text" | grep '^# .*' | sed 's/# \(.*\) *(*[A-Z]*)*$/\1/'):$2"
+    title="$(echo "$scripture" | grep '^# .*' | sed 's/# \(.*\) *(*[A-Z]*)*$/\1/'):$2"
   else
-    title="$(echo "$text" | grep '^# .*' | sed 's/# \(.*\) *(*[A-Z]*)*$/\1/')"
+    title="$(echo "$scripture" | grep '^# .*' | sed 's/# \(.*\) *(*[A-Z]*)*$/\1/')"
   fi
 }
 
-format_markdown() {
+cleanup_markdown() {
   sed_args=(
     # remove headings
     -e 's/^(# |#### |##### ).*//'
@@ -244,10 +191,10 @@ format_markdown() {
     -e 's/###### (¶* *[0-9][0-9])/\1    tempnewline/g'
     -e 's/###### (¶* *[0-9])/\1     tempnewline/g'
   )
-  text=$(echo "$text" | sed -E "${sed_args[@]}")
+  scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
 
-  text=$(echo "$text" | sed -E ':a;$!{N;s/tempnewline\n//;ba;}')
-  text=$(echo "$text" | sed -E ':a;$!{N;s/\n¶ / ~\n/;ba;}')
+  scripture=$(echo "$scripture" | sed -E ':a;$!{N;s/tempnewline\n//;ba;}')
+  scripture=$(echo "$scripture" | sed -E ':a;$!{N;s/\n¶ / ~\n/;ba;}')
 
   sed_args=(
     # fix/remove markdown syntax
@@ -279,10 +226,36 @@ format_markdown() {
     # add space before lines that are not on the same line as the verse num
     -e 's/(^[^0-9 ])/      \1/g'
   )
-  text=$(echo "$text" | sed -E "${sed_args[@]}")
+  scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
 }
 
-justify_poetry() {
+justify_scripture() {
+  # justify scripture
+  if [ $width -le 20 ]; then
+    passes=26
+  elif [ $width -le 30 ]; then
+    passes=15
+  elif [ $width -le 40 ]; then
+    passes=8
+  elif [ $width -le 50 ] || [ $width -le 60 ]; then
+    passes=7
+  elif [ $width -le 70 ]; then
+    passes=6
+  elif [ $width -le 80 ]; then
+    passes=5
+  else
+    passes=4
+  fi
+
+  for i in $(seq 1 $passes); do
+    justify_scripture_poetry
+  done
+  for i in $(seq 1 $passes); do
+    justify_scripture_normal
+  done
+}
+
+justify_scripture_poetry() {
   sed_args=(
     # add newline when width is a space
     -e "s/^(.{6}>.{$((width - 9))}) /\1\n      > /"
@@ -396,10 +369,10 @@ justify_poetry() {
     # add newline if width+1 is a space
     -e "s/^(.{4}>.{$((width - 5))}) /\1\n      > /"
   )
-  text=$(echo "$text" | sed -E "${sed_args[@]}")
+  scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
 }
 
-justify_normal() {
+justify_scripture_normal() {
   sed_args=(
     # add newline when width is a space
     -e "s/^(.{$((width - 1))}) /\1\n      /"
@@ -510,13 +483,43 @@ justify_normal() {
     -e 's/([0-9]{2})     /\1   /g'
     -e 's/([0-9]{3})   /\1  /g'
   )
-  text=$(echo "$text" | sed -E "${sed_args[@]}")
+  scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
 
   # add newline if width+1 is a space
-  text=$(echo "$text" | sed -E "s/^(.{$((width))}) /\1\n      /")
+  scripture=$(echo "$scripture" | sed -E "s/^(.{$((width))}) /\1\n      /")
 }
 
-cleanup() {
+justify_abbreviations() {
+  sed_args=(
+    -e 's/([^ ])    ([^ ])/\1  \2/g'
+    -e 's/([^ ])     ([^ ])/\1   \2/g'
+    -e 's/([^ ])      ([^ ])/\1    \2/g'
+    -e 's/([^ ])       ([^ ])/\1     \2/g'
+    -e 's/([^ ])        ([^ ])/\1      \2/g'
+    -e 's/([^ ])         ([^ ])/\1       \2/g'
+    -e 's/([^ ])          ([^ ])/\1        \2/g'
+    -e 's/([^ ])           ([^ ])/\1         \2/g'
+    -e 's/([^ ])            ([^ ])/\1          \2/g'
+    -e 's/([^ ])             ([^ ])/\1           \2/g'
+    -e 's/([^ ])              ([^ ])/\1            \2/g'
+    -e 's/([^ ])               ([^ ])/\1             \2/g'
+    -e 's/([^ ])                ([^ ])/\1              \2/g'
+    -e 's/([^ ])                 ([^ ])/\1               \2/g'
+    -e 's/([^ ])                  ([^ ])/\1                \2/g'
+    -e 's/^/  /g'
+
+    # move char to newline if width-1 is a space or symbol
+    -e "s/^(.{$((width - 1))})([A-Za-z0-9]*,)/\1\n                   \2/"
+    -e "s/^(.{$((width))})([A-Za-z0-9]*,)/\1\n                   \2/"
+
+    -e "s/^(.{$((width - 1))})([A-Za-z0-9]*)$/\1\n                   \2/"
+    -e "s/^(.{$((width))})([A-Za-z0-9]*)$/\1\n                   \2/"
+  )
+
+  abbreviations=$(echo "$abbreviations" | sed -E "${sed_args[@]}")
+}
+
+cleanup_scripture() {
   sed_args=(
     # fix spacing
     -e 's/^ {2,4}([^ ])/      \1/g'
@@ -528,13 +531,13 @@ cleanup() {
     # change ~ back to pilcrow signs
     -e 's/~/¶/g'
   )
-  text=$(echo "$text" | sed -E "${sed_args[@]}")
+  scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
 
-  text=$(echo "$text" | sed -E ':a;$!{N;s/\n *¶ */ ¶/;ba;}')
-  text=$(echo "$text" | sed -E "s/^(.{$((width))})¶/\1\n     ¶/g")
-  text=$(echo "$text" | sed -E ':a;$!{N;s/ ¶\n([0-9])    /\n\1   ↓/;ba;}')
-  text=$(echo "$text" | sed -E ':a;$!{N;s/ ¶\n([0-9][0-9])   /\n\1  ↓/;ba;}')
-  text=$(echo "$text" | sed -E ':a;$!{N;s/ ¶\n([0-9][0-9][0-9])  /\n\1 ↓/;ba;}')
+  scripture=$(echo "$scripture" | sed -E ':a;$!{N;s/\n *¶ */ ¶/;ba;}')
+  scripture=$(echo "$scripture" | sed -E "s/^(.{$((width))})¶/\1\n     ¶/g")
+  scripture=$(echo "$scripture" | sed -E ':a;$!{N;s/ ¶\n([0-9])    /\n\1   ↓/;ba;}')
+  scripture=$(echo "$scripture" | sed -E ':a;$!{N;s/ ¶\n([0-9][0-9])   /\n\1  ↓/;ba;}')
+  scripture=$(echo "$scripture" | sed -E ':a;$!{N;s/ ¶\n([0-9][0-9][0-9])  /\n\1 ↓/;ba;}')
 
   sed_args=(
     # remove blank lines
@@ -553,68 +556,92 @@ cleanup() {
     # fix ↓ with no space before >
     -e "s/↓>/↓ >/"
   )
-  text=$(echo "$text" | sed -E "${sed_args[@]}")
+  scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
 }
 
-print_passage() {
+cleanup_chapter() {
+    sed_args=(
+    -e '1s/^      ## (.*)/      [\1]/g'
+    -e 's/^      ## (.*)/\n      [\1]/g'
+    # add blank line before footnotes
+    -e 's/^ *¹/\n&/'
+  )
+  scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
+}
+
+cleanup_passage() {
+  sed_args=(
+    # format editorial headings
+    -e 's/^ *## (.*)//'
+    -e '/^$/d'
+  )
+  scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
+}
+
+cleanup_verse() {
+  cleanup_passage
+}
+
+output_scripture() {
+  # output
+  if [[ $3 != '' ]]; then
+    output_passage "$@"
+  elif [[ $2 != '' ]]; then
+    output_verse "$@"
+  else
+    output_chapter
+  fi
+}
+
+output_chapter() {
+  cleanup_chapter
+  output="$(
+    echo "$hline"
+    padding=$(((width + ${#title}) / 2))
+    printf "%*s\n" $padding "$title"
+    echo "$hline"
+    echo -e "$scripture"
+  )"
+  echo "$output" | less -RFX
+}
+
+output_passage() {
+  cleanup_passage
   output="$(
     sed_args=(
       # format editorial headings
       -e 's/^ *## (.*)//'
       -e '/^$/d'
     )
-    text=$(echo "$text" | sed -E "${sed_args[@]}")
+    scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
     echo "$hline"
     padding=$(((width + ${#title}) / 2))
     printf "%*s\n" $padding "$title"
     echo "$hline"
-    # echo -e "${text}" | awk "/^ *$(($2)) /{print; flag=1; next} /^ *$(($3 + 1)) /{flag=0} flag"
-    echo -e "${text}" | awk "/^ *$(($2)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($3 + 1)) /{flag=0} flag {print \"\033[31m\" \$0}"
+    # echo -e "${scripture}" | awk "/^ *$(($2)) /{print; flag=1; next} /^ *$(($3 + 1)) /{flag=0} flag"
+    echo -e "${scripture}" | awk "/^ *$(($2)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($3 + 1)) /{flag=0} flag {print \"\033[31m\" \$0}"
   )"
   echo "$output" | less -RFX
   echo -en "\033[0m"
 }
 
-print_verse() {
-  sed_args=(
-    # format editorial headings
-    -e 's/^ *## (.*)//'
-    -e '/^$/d'
-  )
-  text=$(echo "$text" | sed -E "${sed_args[@]}")
+output_verse() {
+  cleanup_verse
   echo "$hline"
   padding=$(((width + ${#title}) / 2))
   printf "%*s\n" $padding "$title"
   echo "$hline"
   if [[ $ARG_CONTEXT == 'true' ]]; then
-    echo -e "${text}" | awk "/^ *$(($2 - 2)) /{print; flag=1; next} /^ *$(($2 - 1)) /{flag=0} flag"
-    echo -e "${text}" | awk "/^ *$(($2 - 1)) /{print; flag=1; next} /^ *$(($2 - 0)) /{flag=0} flag"
-    echo -e "${text}" | awk "/^ *$2 /{print \"\033[31m\" \$0; flag=1; next} /^ *($(($2 + 1)) |¹)/{flag=0} flag"
+    echo -e "${scripture}" | awk "/^ *$(($2 - 2)) /{print; flag=1; next} /^ *$(($2 - 1)) /{flag=0} flag"
+    echo -e "${scripture}" | awk "/^ *$(($2 - 1)) /{print; flag=1; next} /^ *$(($2 - 0)) /{flag=0} flag"
+    echo -e "${scripture}" | awk "/^ *$2 /{print \"\033[31m\" \$0; flag=1; next} /^ *($(($2 + 1)) |¹)/{flag=0} flag"
     echo -en "\033[0m"
-    echo -e "${text}" | awk "/^ *$(($2 + 1)) /{print; flag=1; next} /^ *($(($2 + 2)) |¹)/{flag=0} flag"
-    echo -e "${text}" | awk "/^ *$(($2 + 2)) /{print; flag=1; next} /^ *($(($2 + 3)) |¹)/{flag=0} flag"
+    echo -e "${scripture}" | awk "/^ *$(($2 + 1)) /{print; flag=1; next} /^ *($(($2 + 2)) |¹)/{flag=0} flag"
+    echo -e "${scripture}" | awk "/^ *$(($2 + 2)) /{print; flag=1; next} /^ *($(($2 + 3)) |¹)/{flag=0} flag"
   elif [[ $ARG_CONTEXT == 'false' ]]; then
-    echo -e "${text}" | awk "/^ *$2 /{print \"\033[31m\" \$0; flag=1; next} /^ *($(($2 + 1)) |¹)/{flag=0} flag"
+    echo -e "${scripture}" | awk "/^ *$2 /{print \"\033[31m\" \$0; flag=1; next} /^ *($(($2 + 1)) |¹)/{flag=0} flag"
     echo -en "\033[0m"
   fi
-}
-
-print_chapter() {
-  sed_args=(
-    -e '1s/^      ## (.*)/      [\1]/g'
-    -e 's/^      ## (.*)/\n      [\1]/g'
-    # add blank line before footnotes
-    -e 's/^ *¹/\n&/'
-  )
-  text=$(echo "$text" | sed -E "${sed_args[@]}")
-  output="$(
-    echo "$hline"
-    padding=$(((width + ${#title}) / 2))
-    printf "%*s\n" $padding "$title"
-    echo "$hline"
-    echo -e "$text"
-  )"
-  echo "$output" | less -RFX
 }
 
 # Process command line args
