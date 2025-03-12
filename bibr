@@ -4,7 +4,9 @@
 # GitHub: https://github.com/w1ldrabb1t
 
 # Set the folder path
-FOLDER_PATH="bible"
+BIBLE_NAME="bible"
+DIR_OF_SCRIPT=$(dirname "$(readlink -f $0)")
+FOLDER_PATH="${DIR_OF_SCRIPT}/${BIBLE_NAME}"
 
 # Default values
 PASS_C_FLAG=""
@@ -13,8 +15,8 @@ VERBOSE=false
 # Parse command-line options
 while getopts "cv" opt; do
   case $opt in
-	c) PASS_C_FLAG="-c" ;;  # If -c is passed, store it
-	v) VERBOSE=true ;;
+  c) PASS_C_FLAG="-c" ;; # If -c is passed, store it
+  v) VERBOSE=true ;;
   esac
 done
 
@@ -26,8 +28,8 @@ RANDOM_FILE=$(find "$FOLDER_PATH" -type f | shuf -n 1)
 
 # Check if a file was found
 if [ -z "$RANDOM_FILE" ]; then
-    echo "Error: No files found in the folder."
-    exit 1
+  echo "Error: No files found in the folder."
+  exit 1
 fi
 
 # Get the second-to-last line (last line - 1)
@@ -38,12 +40,12 @@ NUMBER=$(grep -oE '#### [0-9]+' "$RANDOM_FILE" | tail -n 1 | awk '{print $2}')
 
 # Check if a valid number was found
 if [ -z "$NUMBER" ]; then
-    echo "Error: Could not extract a valid number from the second-to-last line."
-    exit 1
+  echo "Error: Could not extract a valid number from the second-to-last line."
+  exit 1
 fi
 
 # Generate a random number between 1 and NUMBER (inclusive)
-RANDOM_NUMBER=$(( RANDOM % NUMBER + 1 ))
+RANDOM_NUMBER=$((RANDOM % NUMBER + 1))
 
 # Get the file name without the extension
 FILE_NAME=$(basename "$RANDOM_FILE" | sed 's/\.[^.]*$//')
@@ -51,8 +53,8 @@ FILE_NAME=$(basename "$RANDOM_FILE" | sed 's/\.[^.]*$//')
 # If verbose, then show the bib call
 # The user might want to explore more bible verses
 if $VERBOSE; then
-	echo "./bib $FILE_NAME $RANDOM_NUMBER"
+  echo "${DIR_OF_SCRIPT}/bib $FILE_NAME $RANDOM_NUMBER"
 fi
 
 # call main program bib
-./bib $PASS_C_FLAG "$FILE_NAME" "$RANDOM_NUMBER"
+${DIR_OF_SCRIPT}/bib $PASS_C_FLAG "$FILE_NAME" "$RANDOM_NUMBER"
