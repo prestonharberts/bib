@@ -12,6 +12,7 @@ If you would like to use another translation, see Other Translations near the bo
   - [Example](#example)
   - [Copying text](#copying-text)
   - [Scaling demonstration](#scaling-demonstration)
+  - [Random Bible verses](#random-bible-verses)
 - [Other translations](#other-translations)
 - [Todo](#todo)
 
@@ -27,7 +28,7 @@ If you would like to use another translation, see Other Translations near the bo
 - Hyphenated text to give the appearance of justified text alignment
 - Works on a variety of terminal sizes
 
-Also included is the program `bibr` (credit to [w1ldrabb1t](https://github.com/w1ldrabb1t)), that lets you randomly find and print Bible verses to your terminal. See [bibr](#bibr) for more information.
+Also included is the program `bibr` (credit to [w1ldrabb1t](https://github.com/w1ldrabb1t)), that lets you randomly print a Bible verse to your terminal. See [Random Bible verses](#random-bible-verses) for more information.
 
 ## Setup
 
@@ -95,9 +96,11 @@ One of my favorite features of this program and one that I spent a bit of time o
 
 <p align=center><img src="https://github.com/user-attachments/assets/52da7b37-f75b-4403-8c74-4ef9bb9ebf2b" width="768"></p>
 
-### bibr
+### Random Bible verses
 
-The included script bibr by [w1ldrabb1t](https://github.com/w1ldrabb1t) will randomly find and print a Bible verse to your terminal using bib. It does so by finding the last verse in a file, generating a number between 1 and x, and then calling bib.
+The included script bibr by [w1ldrabb1t](https://github.com/w1ldrabb1t) will randomly print a Bible verse to your terminal using bib. It does so by finding the last verse in a file, generating a number between 1 and x, and then calling bib.
+
+To use, put bibr in the same director as bib and the Bible folder, ideally in your PATH.
 
 Use the option `-c` to hide context verses like bib. Also available is the option `-v` to enable verbose mode which will show the bib command it executes.
 
