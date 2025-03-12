@@ -106,6 +106,8 @@ Use the option `-c` to hide context verses like bib. Also available is the optio
 
 Someday in the future, bibr will be a feature of bib and be run with `bib -r`.
 
+<p align=center><img src="https://github.com/user-attachments/assets/a6ff99fc-7054-45a2-b482-ef4d94f3857c" width="512"></p>
+
 ## Other Translations
 
 If you would like to use another translation, please use my [BibleGateway-to-Obsidian script](https://github.com/prestonharberts/biblegateway-to-obsidian) to generate a new Bible (also be aware that not all translations will work with either bib or BibleGateway-to-Obsidian). Once it has, move only the Scripture folder to this repository, and rename it to `bible` (lowercase). Run the following from this folder to make the files compatible with this program:
