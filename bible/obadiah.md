@@ -1,4 +1,4 @@
-# Obadiah 1
+# Obadiah
 ## God’s Judgment on Edom
 ###### ¶ 1
 > The vision that Obadiah saw.

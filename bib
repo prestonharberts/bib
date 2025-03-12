@@ -153,20 +153,30 @@ get_scripture() {
   sed 's/^2nd/2/'|
   sed 's/^3rd/3/')
 
-  # remove the book name to get the chapter number
-  chapter=$(echo "$1" | sed 's/^[0-9]*[a-zA-Z]*//')
+  if [[ ! $book == "obadiah" ]] && [[ ! $book == "philemon" ]] && [[ ! $book == "2john" ]] && [[ ! $book == "3john" ]] && [[ ! $book == "jude" ]]; then
+    # remove the book name to get the chapter number
+    chapter=$(echo "$1" | sed 's/^[0-9]*[a-zA-Z]*//')
+  else
+    chapter=""
+  fi
 
-  # Author: bjarneh
-  # Reddit: https://www.reddit.com/u/bjarneh/s/ACMAhTI1WY
-  # Source: https://www.reddit.com/r/commandline/s/ySIsbxOYex
-  # find file relative to bib
+  # credit to u/bjarneh (https://www.reddit.com/r/commandline/s/ySIsbxOYex)
+  # for helping me find files relative to bib
   dir_of_script=$(dirname "$(readlink -f $0)")
   bible_dir="${dir_of_script}/${bible_name}"
   chapter_file="${bible_dir}/${book}${chapter}.md"
+  echo $chapter_file
   # enter if given book name is an abbreviation
   if [ ! -f "${chapter_file}" ]; then
     set_books_array
     book=$(echo "$books_array" | jq -r --arg book "$book" 'to_entries[] | select(.value[] == $book) | .key')
+    # chop off any number put after any of the single chapter books of the Bible
+    if [[ ! $book == "obadiah" ]] && [[ ! $book == "philemon" ]] && [[ ! $book == "2john" ]] && [[ ! $book == "3john" ]] && [[ ! $book == "jude" ]]; then
+      # remove the book name to get the chapter number
+      chapter=$(echo "$1" | sed 's/^[0-9]*[a-zA-Z]*//')
+    else
+      chapter=""
+    fi
     chapter_file="${bible_dir}/${book}${chapter}.md"
     # enter if book name does not exist
     if [ ! -f "${chapter_file}" ]; then
@@ -185,10 +195,18 @@ get_hline() {
 }
 
 get_title() {
+
+  # do not use a : for any of the single chapter books of the Bible
+  if [[ ! $book == "obadiah" ]] && [[ ! $book == "philemon" ]] && [[ ! $book == "2john" ]] && [[ ! $book == "3john" ]] && [[ ! $book == "jude" ]]; then
+    separator=":"
+  else
+    separator=" "
+  fi
+
   if [[ $3 != '' ]]; then
-    title="$(echo "$scripture" | grep '^# .*' | sed 's/# \(.*\) *(*[A-Z]*)*$/\1/'):$2-$3"
+    title="$(echo "$scripture" | grep '^# .*' | sed 's/# \(.*\) *(*[A-Z]*)*$/\1/')$separator$2-$3"
   elif [[ $2 != '' ]]; then
-    title="$(echo "$scripture" | grep '^# .*' | sed 's/# \(.*\) *(*[A-Z]*)*$/\1/'):$2"
+    title="$(echo "$scripture" | grep '^# .*' | sed 's/# \(.*\) *(*[A-Z]*)*$/\1/')$separator$2"
   else
     title="$(echo "$scripture" | grep '^# .*' | sed 's/# \(.*\) *(*[A-Z]*)*$/\1/')"
   fi

@@ -1,4 +1,4 @@
-# Philemon 1
+# Philemon
 ## Salutation
 ###### ¶ 1
 From Paul, a prisoner of Christ Jesus, and Timothy our brother, to Philemon, our dear friend and colaborer,
