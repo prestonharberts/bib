@@ -135,3 +135,4 @@ Now you can move the Bible folder to `~/Bin`, and bib is ready to be used.
 - [ ] Other language support [(1)](https://www.reddit.com/r/commandline/comments/1j7qew9/comment/mh39p9b/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [ ] Favorites [(1)](https://www.reddit.com/r/commandline/comments/1j7qew9/comment/mh67ax6/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [ ] Switch from markdown to XML [(1)](https://www.reddit.com/r/bash/comments/1j7qfl3/comment/mh44sjb/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- [ ] Type `bib` to enter a console so you don't have to type bib for every verse you want
