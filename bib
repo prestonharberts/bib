@@ -111,6 +111,17 @@ show_abbreviations() {
     padding=$(((width + ${#title}) / 2))
     printf "%*s\n" $padding "$title"
     echo "$hline"
+
+    notice1="|      1, 2, or 3 can also be replaced with any of      |"
+    notice2="|  i, ii, iii or first, second, third or 1st, 2nd, 3rd  |"
+    
+    echo
+    padding=$(((width + ${#notice1}) / 2))
+    printf "%*s\n" $padding "$notice1"
+    padding=$(((width + ${#notice2}) / 2))
+    printf "%*s\n" $padding "$notice2"
+    echo
+
     echo -e "${abbreviations}"
   )"
 
@@ -135,7 +146,12 @@ get_scripture() {
   # substitute first, second, and third for 1, 2, and 3
   sed 's/^first/1/'|
   sed 's/^second/2/'|
-  sed 's/^third/3/')
+  sed 's/^third/3/'|
+
+  # substitute 1st, 2nd, and 3rd for 1, 2, and 3
+  sed 's/^1st/1/'|
+  sed 's/^2nd/2/'|
+  sed 's/^3rd/3/')
 
   # remove the book name to get the chapter number
   chapter=$(echo "$1" | sed 's/^[0-9]*[a-zA-Z]*//')
@@ -321,6 +337,7 @@ justify_scripture_poetry() {
     # move char to newline if width + 1 is punctuation
 
     -e "s/^(.{6}>.{$((width - 11))}[A-Za-z0-9])([A-Za-z0-9]{2}[!?.,”’;:-]{2})/\1-\n      > \2/"
+    -e "s/^(.{6}>.{$((width - 11))}[A-Za-z0-9])([A-Za-z0-9]{2}[!?.,”’;:-][^!?.,”’;:-])/\1-\n      > \2/"
     -e "s/^(.{6}>.{$((width - 12))}[A-Za-z0-9])([A-Za-z0-9]{2}[!?.,”’;:-]{3})/\1-\n      > \2/"
     -e "s/^(.{6}>.{$((width - 13))}[A-Za-z0-9])([A-Za-z0-9]{2}[!?.,”’;:-]{4})/\1-\n      > \2/"
     -e "s/^(.{6}>.{$((width - 10))}[A-Za-z0-9])([A-Za-z0-9]{2}[!?.,”’;:])/\1-\n      > \2/"
@@ -328,6 +345,7 @@ justify_scripture_poetry() {
     -e "s/^(.{6}>.{$((width - 9))}[A-Za-z0-9])([A-Za-z0-9]{2}[!?.,”’;:])/\1-\n      > \2/"
 
     -e "s/^(.{6}>.{$((width - 11))}) ([A-Za-z0-9]{2}[!?.,”’;:-]{2})/\1\n      > \2/"
+    -e "s/^(.{6}>.{$((width - 11))}) ([A-Za-z0-9]{2}[!?.,”’;:-][^!?.,”’;:-])/\1\n      > \2/"
     -e "s/^(.{6}>.{$((width - 12))}) ([A-Za-z0-9]{2}[!?.,”’;:-]{3})/\1\n      > \2/"
     -e "s/^(.{6}>.{$((width - 13))}) ([A-Za-z0-9]{2}[!?.,”’;:-]{4})/\1\n      > \2/"
     -e "s/^(.{6}>.{$((width - 10))}) ([A-Za-z0-9]{2}[!?.,”’;:])/\1\n      > \2/"
@@ -443,6 +461,7 @@ justify_scripture_normal() {
     # move char to newline if width + 1 is punctutation
 
     -e "s/^(.{$((width - 4))}[A-Za-z0-9])([A-Za-z0-9]{2}[!?.,”’;:-]{2})/\1-\n      \2/"
+    -e "s/^(.{$((width - 4))}[A-Za-z0-9])([A-Za-z0-9]{2}[!?.,”’;:-][^!?.,”’;:-])/\1-\n      \2/"
     -e "s/^(.{$((width - 5))}[A-Za-z0-9])([A-Za-z0-9]{2}[!?.,”’;:-]{3})/\1-\n      \2/"
     -e "s/^(.{$((width - 6))}[A-Za-z0-9])([A-Za-z0-9]{2}[!?.,”’;:-]{4})/\1-\n      \2/"
     -e "s/^(.{$((width - 3))}[A-Za-z0-9])([A-Za-z0-9]{2}[!?.,”’;:-])/\1-\n      \2/"
@@ -450,6 +469,7 @@ justify_scripture_normal() {
     -e "s/^(.{$((width - 2))}[A-Za-z0-9])([A-Za-z0-9]{2}[!?.,”’;:-])/\1-\n      \2/"
 
     -e "s/^(.{$((width - 4))}) ([A-Za-z0-9]{2}[!?.,”’;:-]{2})/\1\n      \2/"
+    -e "s/^(.{$((width - 4))}) ([A-Za-z0-9]{2}[!?.,”’;:-][^!?.,”’;:-])/\1\n      \2/"
     -e "s/^(.{$((width - 5))}) ([A-Za-z0-9]{2}[!?.,”’;:-]{3})/\1\n      \2/"
     -e "s/^(.{$((width - 6))}) ([A-Za-z0-9]{2}[!?.,”’;:-]{4})/\1\n      \2/"
     -e "s/^(.{$((width - 3))}) ([A-Za-z0-9]{2}[!?.,”’;:-])/\1\n      \2/"
