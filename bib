@@ -100,8 +100,8 @@ set_books_array() {
     "colossians": ["col", "co"],
     "1thessalonians": ["1thess", "1thes", "1th", "ithessalonians", "ithess", "ithes", "1thessalonians", "1thess", "1stthessalonians"],
     "2thessalonians": ["2thess", "2thes", "2th", "iithessalonians", "iithess", "iithes", "2thessalonians", "2thess", "2ndthessalonians"],
-    "1timothy": ["1tim", "1ti", "itimothy", "itim", "iti", "1timothy", "1tim", "1sttimothy", "1sttim", "firsttimothy", "firsttim"],
-    "2timothy": ["2tim", "2ti", "iitimothy", "iitim", "iiti", "2timothy", "2tim", "2ndtimothy", "2ndtim", "secondtimothy"],
+    "1timothy": ["1tim", "1ti", "itimothy", "itim", "iti", "1sttimothy", "1sttim", "firsttimothy", "firsttim"],
+    "2timothy": ["2tim", "2ti", "iitimothy", "iitim", "iiti", "2ndtimothy", "2ndtim", "secondtimothy"],
     "titus": ["tit", "ti"],
     "philemon": ["philem", "phm", "pm"],
     "hebrews": ["heb"],
@@ -162,8 +162,8 @@ show_abbreviations() {
     -e "s/^(.{$((width - 1))})([A-Za-z0-9]*)$/\1\n                   \2/"
     -e "s/^(.{$((width))})([A-Za-z0-9]*)$/\1\n                   \2/"
   )
-  
-    abbreviations=$(echo "$abbreviations" | sed -E "${sed_args[@]}")
+
+  abbreviations=$(echo "$abbreviations" | sed -E "${sed_args[@]}")
 
   output="$(
     echo "$hline"
@@ -200,7 +200,7 @@ get_text() {
   # Reddit: https://www.reddit.com/u/bjarneh/s/ACMAhTI1WY
   # Source: https://www.reddit.com/r/commandline/s/ySIsbxOYex
 
-    # find file relative to bib
+  # find file relative to bib
   dir_of_script=$(dirname "$(readlink -f $0)")
   bible_dir="${dir_of_script}/${bible_name}"
   chapter_file="${bible_dir}/${1}.md"
@@ -255,7 +255,6 @@ format_markdown() {
     -e 's/==//g'
     -e 's/—/––/g'
 
-
     # italic -> brackets
     -e 's/\*([A-Za-z0-9])/[\1/g'
     -e 's/([A-Za-z0-9!?.,”’;:])\*/\1]/g'
@@ -297,7 +296,7 @@ justify_poetry() {
     # move char to newline if width-3 is a 2-letter word with ] at end
     -e "s/^(.{6}>.{$((width - 11))}) ([A-Za-z0-9]{2}\])/\1\n      > \2/"
 
-      # move char to newline if width-1 is a space or symbol
+    # move char to newline if width-1 is a space or symbol
     -e "s/^(.{6}>.{$((width - 9))})([ “‘[({])([A-Za-z0-9“‘[({][^ ])/\1\n      > \2\3/"
     -e "s/^(.{6}>.{$((width - 9))}) ([A-Za-z0-9“‘[({][^ ])/\1\n      > \2/"
 
@@ -558,11 +557,11 @@ print_passage() {
 }
 
 print_verse() {
-    sed_args=(
-      # format editorial headings
-      -e 's/^ *## (.*)//'
-      -e '/^$/d'
-    )
+  sed_args=(
+    # format editorial headings
+    -e 's/^ *## (.*)//'
+    -e '/^$/d'
+  )
   text=$(echo "$text" | sed -E "${sed_args[@]}")
   echo "$hline"
   padding=$(((width + ${#title}) / 2))
