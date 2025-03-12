@@ -34,10 +34,17 @@ start_processing() {
 start_bib_console() {
   echo "bib (interactive CLI prompt)"
   echo "Type 'exit' to quit. Enter Bible reference (e.g., john3 16)"
+
+  # history
+  export HISTFILE=~/.bib_history
+  export HISTSIZE=1000
+  shopt -s histappend
+
+  history -n
   
   while true; do
     # prompt the user for input
-      read -p ">>> " input
+      read -e -p ">>> " input
 
     # exit condition
     if [[ "$input" == "exit" || "$input" == "quit" ]]; then
@@ -47,16 +54,22 @@ start_bib_console() {
     if [[ "$input" =~ ^([0-9]*[a-z]+)([0-9]*)?([ ]?[0-9]+)?([ ]?[0-9]+)?$ ]]; then
       # extract book, chapter, starting verse, ending verse
       set -- "${BASH_REMATCH[1]}" "${BASH_REMATCH[2]// /}" "${BASH_REMATCH[3]// /}" "${BASH_REMATCH[4]// /}"
+
+      # add command to history
+      echo $1$2 $3 $4 >> ${HISTFILE}
+
+      # begin fetching scripture and then output
       start_processing "$@"
     fi
 
+    set -- "" "" "" ""
+    hline=""
+    title=""
+    separator=""
+    scripture=""
 
-
-      set -- "" "" "" ""
-      hline=""
-      title=""
-      separator=""
-      scripture=""
+    # history
+    history -n
   done
 }
 
