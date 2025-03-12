@@ -106,7 +106,7 @@ Use the option `-c` to hide context verses like bib. There is also the option `-
 
 > Someday in the future, bibr will be a feature of bib and be run with `bib -r`.
 
-<p align=center><img src="https://github.com/user-attachments/assets/a6ff99fc-7054-45a2-b482-ef4d94f3857c" width="512"></p>
+<p align=center><img src="https://github.com/user-attachments/assets/c2765797-9e9e-43ed-8412-f58865dde872" width="512"></p>
 
 A cool way to run this script and a fun way to find any [Issues](https://github.com/prestonharberts/bib/issues) is to run this:
 
