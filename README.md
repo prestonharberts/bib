@@ -24,6 +24,7 @@ If you would like to use another translation, see Other Translations near the bo
 - New paragraphs are shown with an arrow
 - Ability to view multiple verses or a verse section
 - All common book abbreviations are supported
+- Interactive CLI mode lets you just type book, chapter, and verse without having to type bib
 - Certain translation show words in italic, and I put them in brackets here
 - Hyphenated text to give the appearance of justified text alignment
 - Works on a variety of terminal sizes
@@ -68,7 +69,7 @@ bib gen1 1 2
 bib -c john3 16
 ```
 
-If you want to enter into a prompt similar to Python, just run `bib` by itself, and you can enter any Bible reference without having to type bib over again.
+If you want to enter into a interactive prompt similar to Python, just run `bib` by itself, and you can enter any Bible reference without having to type bib over again. History is also supported and is stored in `~/.bib_history`.
 
 ### Example
 
