@@ -72,15 +72,15 @@ If you want to enter into a prompt similar to Python, just run `bib` by itself, 
 
 ### Example
 
-Here is an example of the program running with the included NET translation.
+Here is an example of the program running with the included NET translation in script mode and interactive mode.
 
-<p align=center><img src="https://github.com/user-attachments/assets/f2b1c09d-7df5-4035-ba93-d902ddf9cb21" width="512"></p>
+<p align=center><img src="https://github.com/user-attachments/assets/d4323219-5edd-454a-9e71-02f65fa8fb0c" width="800"></p>
 
 ### Copying text
 
 Included in this repo is a program `bibcopy` that copies entire chapters at a time, reformats them, and lets me paste them into [Monkeytype](https://monkeytype.com/). It's formatted to be very minimal and looks like this in the NET translation:
 
-<p align=center><img src="https://github.com/user-attachments/assets/573e279f-234e-463c-b559-f6b199ca468b" width="512"></p>
+<p align=center><img src="https://github.com/user-attachments/assets/573e279f-234e-463c-b559-f6b199ca468b" width="450"></p>
 
 Support to automatically copy what you see with Bib isn't fully supported, but it would be done like this if you can remove the color codes that get introduced with my code. Just make sure to install `xclip`.
 
@@ -90,13 +90,13 @@ bib john3 16|xclip -sel clipboard
 
 I recommend just running bib multiple times in a row similar to this, and then just copying the output from the terminal:
 
-<p align=center><img src="https://github.com/user-attachments/assets/aec021e4-a29e-4674-afb0-52f3fb0f3bc5" width="512"></p>
+<p align=center><img src="https://github.com/user-attachments/assets/aec021e4-a29e-4674-afb0-52f3fb0f3bc5" width="450"></p>
 
 ### Scaling demonstration
 
 One of my favorite features of this program and one that I spent a bit of time on is the "pseudo" text justification along with hyphenating words when a word goes off the screen, so it scales very well on various terminal widths. It catches a lot of edge cases that I painstakingly sought out and covered with regex, such as when character 80 of an 80-width terminal is `)` but is followed by a comma, it will hyphenate the word that is before the `)`. Below are some picture of what this bib looks like on different terminal sizes. 
 
-<p align=center><img src="https://github.com/user-attachments/assets/52da7b37-f75b-4403-8c74-4ef9bb9ebf2b" width="768"></p>
+<p align=center><img src="https://github.com/user-attachments/assets/52da7b37-f75b-4403-8c74-4ef9bb9ebf2b" width="800"></p>
 
 ### Random Bible verses
 
@@ -108,7 +108,7 @@ Use the option `-c` to hide context verses like bib. There is also the option `-
 
 > Someday in the future, bibr will be a feature of bib and be run with `bib -r`.
 
-<p align=center><img src="https://github.com/user-attachments/assets/c2765797-9e9e-43ed-8412-f58865dde872" width="512"></p>
+<p align=center><img src="https://github.com/user-attachments/assets/c2765797-9e9e-43ed-8412-f58865dde872" width="450"></p>
 
 A cool way to run this script and a fun way to find any [Issues](https://github.com/prestonharberts/bib/issues) is to run this:
 
