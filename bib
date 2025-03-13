@@ -44,7 +44,7 @@ start_bib_console() {
   
   while true; do
     # prompt the user for input
-      read -e -p ">>> " input
+      read -e -p "$(echo -e '\033[1;34m>>> \033[0m')" input
 
     # exit condition
     if [[ "$input" == "exit" || "$input" == "quit" ]]; then
