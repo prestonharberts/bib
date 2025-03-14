@@ -6,10 +6,10 @@ sed_args=(
   -e '/aliases/d'
   -e '/^#####.*/d'
   -e '/^---/d'
-  
+
   # remove div tags
   -e 's/<div.*>(.*)<\/div>/\1/g'
-  
+
   # change verses to H6
   -e 's/^<span class=verse-first>([0-9]*)<\/span>*/###### ¶ \1\n/g'
   -e 's/^<span class=verse-body>([0-9]*)<\/span>*/###### \1\n/g'
@@ -26,26 +26,25 @@ sed_args=(
 
   # remove uncaught errors from BG2OB
   -e 's/^<span .*$//g'
-  
+
   # change HTML italics to markdown italics
   -e 's/<i>/[/g'
   -e 's/<\/i>/]/g'
 
   # add space after poetry
   -e 's/>/> /g'
-  
 
   # bold -> braces
   -e 's/\*\*([A-Za-z0-9])/{\1/g'
   -e 's/([A-Za-z0-9])\*\*/\1}/g'
   -e 's/\}([ !?.,”’”’;:]*)\{/\1/g'
-  
+
   # change \[\[ and \]\] to [ and ]
   -e 's/\\\[\\\[/[/g'
   -e 's/\\\]\\\]/]/g'
 
   -e 's/([^#])#/\n#/g'
-  
+
   # replace small cap words
   -e 's/Lᴏʀᴅ/LORD/g'
   -e 's/Yᴀʜ/YAH/g'
@@ -93,7 +92,7 @@ rename 's/^dan([1-9])/daniel\1/' *.md
 rename 's/^hos([1-9])/hosea\1/' *.md
 #rename 's/^joel([1-9])/joel\1/' *.md
 #rename 's/^amos([1-9])/amos\1/' *.md
-rename 's/^obad([1-9])/obadiah\1/' *.md
+rename 's/^obad([1-9])/obadiah/' *.md
 #rename 's/^jonah([1-9])/jonah\1/' *.md
 rename 's/^mic([1-9])/micah\1/' *.md
 rename 's/^nah([1-9])/nahum\1/' *.md
@@ -121,14 +120,14 @@ rename 's/^2thess([1-9])/2thessalonians\1/' *.md
 rename 's/^1tim([1-9])/1timothy\1/' *.md
 rename 's/^2tim([1-9])/2timothy\1/' *.md
 #rename 's/^titus([1-9])/titus\1/' *.md
-rename 's/^philem([1-9])/philemon\1/' *.md
+rename 's/^philem([1-9])/philemon/' *.md
 rename 's/^heb([1-9])/hebrews\1/' *.md
 #rename 's/^james([1-9])/james\1/' *.md
 rename 's/^1pet([1-9])/1peter\1/' *.md
 rename 's/^2pet([1-9])/2peter\1/' *.md
 #rename 's/^1john([1-9])/1john\1/' *.md
-#rename 's/^2john([1-9])/2john\1/' *.md
-#rename 's/^3john([1-9])/3john\1/' *.md
-#rename 's/^jude([1-9])/jude\1/' *.md
+#rename 's/^2john([1-9])/2john/' *.md
+#rename 's/^3john([1-9])/3john/' *.md
+#rename 's/^jude([1-9])/jude/' *.md
 rename 's/^rev([1-9])/revelation\1/' *.md
 cd ..
