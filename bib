@@ -219,7 +219,7 @@ get_scripture() {
   # for helping me find files relative to bib
   dir_of_script=$(dirname "$(readlink -f $0)")
   bible_dir="${dir_of_script}/${bible_name}"
-  chapter_file="${bible_dir}/${book}${2}.md"
+  chapter_file="${bible_dir}/${book}${chapter}.md"
   # enter if given book name is an abbreviation
   if [ ! -f "${chapter_file}" ]; then
     set_books_array
