@@ -12,22 +12,23 @@ main() {
     # set variables and print chapter
     book=$(echo "$1" | sed 's/[0-9]*$//')
     chapter=$(echo "$1" | sed 's/^[0-9]*[a-zA-Z]*//')
-    set -- "$book" "$chapter" "$2" "$3"
-    start_processing "$@"
+    verse_start=$2
+    verse_end=$3
+    start_processing
   fi
   exit 0
 }
 
 start_processing() {
-  get_scripture "$@"
+  get_scripture
   if [[ -n "${scripture}" ]]; then
     get_terminal_width
     get_hline
-    get_title "$@"
+    get_title
     cleanup_markdown
     justify_scripture
     cleanup_scripture
-    output_scripture "$@"
+    output_scripture
   fi
 }
 
@@ -53,16 +54,22 @@ start_bib_console() {
 
     if [[ "$input" =~ ^([0-9]*[a-z]+)([0-9]*)?([ ]?[0-9]+)?([ ]?[0-9]+)?$ ]]; then
       # extract book, chapter, starting verse, ending verse
-      set -- "${BASH_REMATCH[1]}" "${BASH_REMATCH[2]// /}" "${BASH_REMATCH[3]// /}" "${BASH_REMATCH[4]// /}"
+      book="${BASH_REMATCH[1]}"
+      chapter="${BASH_REMATCH[2]// /}"
+      verse_start="${BASH_REMATCH[3]// /}"
+      verse_end="${BASH_REMATCH[4]// /}"
 
       # add command to history
-      echo $1$2 $3 $4 >>${HISTFILE}
+      echo $book$chapter $verse_start $verse_end >>${HISTFILE}
 
       # begin fetching scripture and then output
-      start_processing "$@"
+      start_processing
     fi
 
-    set -- "" "" "" ""
+    book=""
+    chapter=""
+    verse_start=""
+    verse_end=""
     hline=""
     title=""
     separator=""
@@ -209,10 +216,10 @@ get_scripture() {
     -e 's/^2nd/2/'
     -e 's/^3rd/3/'
   )
-  scripture=$(echo "$book" | sed -E "${sed_args[@]}")
+  book=$(echo "$book" | sed -E "${sed_args[@]}")
 
   if [[ $book == "obadiah" ]] || [[ $book == "philemon" ]] || [[ $book == "2john" ]] || [[ $book == "3john" ]] || [[ $book == "jude" ]]; then
-    set -- "$book" "" "$verse_start" "$verse_end"
+    chapter=""
   fi
 
   # credit to u/bjarneh (https://www.reddit.com/r/commandline/s/ySIsbxOYex)
@@ -226,7 +233,7 @@ get_scripture() {
     book=$(echo "$books_array" | jq -r --arg book "$book" 'to_entries[] | select(.value[] == $book) | .key')
     # chop off any number put after any of the single chapter books of the Bible
     if [[ $book == "obadiah" ]] || [[ $book == "philemon" ]] || [[ $book == "2john" ]] || [[ $book == "3john" ]] || [[ $book == "jude" ]]; then
-      set -- "$book" "" "$verse_start" "$verse_end"
+      chapter=""
     fi
     chapter_file="${bible_dir}/${book}${chapter}.md"
     # enter if book name does not exist
@@ -254,10 +261,10 @@ get_title() {
     separator=" "
   fi
 
-  if [[ $4 != '' ]]; then
-    title="$(echo "$scripture" | grep '^# .*' | sed 's/# \(.*\) *(*[A-Z]*)*$/\1/')$separator$3-$4"
-  elif [[ $3 != '' ]]; then
-    title="$(echo "$scripture" | grep '^# .*' | sed 's/# \(.*\) *(*[A-Z]*)*$/\1/')$separator$3"
+  if [[ $verse_end != '' ]]; then
+    title="$(echo "$scripture" | grep '^# .*' | sed 's/# \(.*\) *(*[A-Z]*)*$/\1/')$separator$verse_start-$verse_end"
+  elif [[ $verse_start != '' ]]; then
+    title="$(echo "$scripture" | grep '^# .*' | sed 's/# \(.*\) *(*[A-Z]*)*$/\1/')$separator$verse_start"
   else
     title="$(echo "$scripture" | grep '^# .*' | sed 's/# \(.*\) *(*[A-Z]*)*$/\1/')"
   fi
@@ -680,10 +687,10 @@ cleanup_verse() {
 
 output_scripture() {
   # output
-  if [[ $4 != '' ]]; then
-    output_passage "$@"
-  elif [[ $3 != '' ]]; then
-    output_verse "$@"
+  if [[ $verse_end != '' ]]; then
+    output_passage
+  elif [[ $verse_start != '' ]]; then
+    output_verse
   else
     output_chapter
   fi
@@ -714,7 +721,7 @@ output_passage() {
     padding=$(((width + ${#title}) / 2))
     printf "%*s\n" $padding "$title"
     echo "$hline"
-    echo -e "${scripture}" | awk "/^ *$(($3)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($4 + 1)) /{flag=0} flag {print \"\033[31m\" \$0}"
+    echo -e "${scripture}" | awk "/^ *$(($verse_start)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($verse_end + 1)) /{flag=0} flag {print \"\033[31m\" \$0}"
   )"
   echo "$output" | less -RFX
   echo -en "\033[0m"
@@ -727,14 +734,14 @@ output_verse() {
   printf "%*s\n" $padding "$title"
   echo "$hline"
   if [[ $ARG_CONTEXT == 'true' ]]; then
-    echo -e "${scripture}" | awk "/^ *$(($3 - 2)) /{print; flag=1; next} /^ *$(($3 - 1)) /{flag=0} flag"
-    echo -e "${scripture}" | awk "/^ *$(($3 - 1)) /{print; flag=1; next} /^ *$(($3 - 0)) /{flag=0} flag"
-    echo -e "${scripture}" | awk "/^ *$3 /{print \"\033[31m\" \$0; flag=1; next} /^ *($(($3 + 1)) |¹)/{flag=0} flag"
+    echo -e "${scripture}" | awk "/^ *$(($verse_start - 2)) /{print; flag=1; next} /^ *$(($verse_start - 1)) /{flag=0} flag"
+    echo -e "${scripture}" | awk "/^ *$(($verse_start - 1)) /{print; flag=1; next} /^ *$(($verse_start - 0)) /{flag=0} flag"
+    echo -e "${scripture}" | awk "/^ *$verse_start /{print \"\033[31m\" \$0; flag=1; next} /^ *($(($verse_start + 1)) |¹)/{flag=0} flag"
     echo -en "\033[0m"
-    echo -e "${scripture}" | awk "/^ *$(($3 + 1)) /{print; flag=1; next} /^ *($(($3 + 2)) |¹)/{flag=0} flag"
-    echo -e "${scripture}" | awk "/^ *$(($3 + 2)) /{print; flag=1; next} /^ *($(($3 + 3)) |¹)/{flag=0} flag"
+    echo -e "${scripture}" | awk "/^ *$(($verse_start + 1)) /{print; flag=1; next} /^ *($(($verse_start + 2)) |¹)/{flag=0} flag"
+    echo -e "${scripture}" | awk "/^ *$(($verse_start + 2)) /{print; flag=1; next} /^ *($(($verse_start + 3)) |¹)/{flag=0} flag"
   elif [[ $ARG_CONTEXT == 'false' ]]; then
-    echo -e "${scripture}" | awk "/^ *$3 /{print \"\033[31m\" \$0; flag=1; next} /^ *($(($3 + 1)) |¹)/{flag=0} flag"
+    echo -e "${scripture}" | awk "/^ *$verse_start /{print \"\033[31m\" \$0; flag=1; next} /^ *($(($verse_start + 1)) |¹)/{flag=0} flag"
     echo -en "\033[0m"
   fi
 }
