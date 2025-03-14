@@ -1,31 +1,177 @@
 #!/bin/bash
 
+# change if your bible folder has a different name
+bible_name="bible"
+
+main() {
+  # set variables and print chapter
+  book=$(echo "$1" | sed 's/[0-9]*$//')
+  chapter=$(echo "$1" | sed 's/^[0-9]*[a-zA-Z]*//')
+  get_scripture "$@"
+  cleanup_scripture
+  echo "$scripture" | xclip -selection clipboard
+  exit 0
+}
+
 # Check if the filename argument is provided
 if [ -z "$1" ]; then
-    echo "Usage: $0 <filename>"
-    exit 1
+  echo "Usage: $0 <filename>"
+  exit 1
 fi
 
-# Process the file
-cat ~/Bin/Bible/${1}.md | sed -E 's/^#{2,5} .*$//g' | \
-sed -E 's/\[.*\]//g' | \
-sed -E 's/[ ]*(↓|¶|[ ]{2,})//g' | \
-tr -s ' ' | \
-sed 's/^[ ]*//g' | \
-sed 's/[>]*//g' | \
-sed 's/\*//g' | \
-sed -E '/^$/N;/\n$/D' | \
-sed 's/^[ ]*//g' | \
-sed 's/[ ]*$//g' | \
-sed 's/“/\"/g' | \
-sed 's/”/\"/g' | \
-sed "s/‘/\'/g" | \
-sed "s/’/\'/g" | \
-sed 's/–/ - /g' | \
-sed 's/—/ - /g' | \
-sed 's/^# //' | \
-sed -E ':a;$!{N;s/###### ([0-9]*)\n/\1 /;ba;}' | \
-sed -z 's/\n\+/\n/g' | \
-sed '1{/^$/d}' | \
-xclip -selection clipboard
+set_books_array() {
+  books_array='{
+    "genesis": ["gen", "gn", "ge"],
+    "exodus": ["ex", "exod", "exo"],
+    "leviticus": ["lev", "le", "lv"],
+    "numbers": ["num", "nu", "nm", "nb"],
+    "deuteronomy": ["deut", "de", "dt"],
+    "joshua": ["josh", "jos", "jsh"],
+    "judges": ["judg", "jdg", "jg", "jdgs"],
+    "ruth": ["rth", "ru"],
+    "1samuel": ["1sam", "1sm", "1sa", "1s"],
+    "2samuel": ["2sam", "2sm", "2sa", "2s"],
+    "1kings": ["1kgs", "1ki", "1kin", "1k"],
+    "2kings": ["2kgs", "2ki", "2kin", "2k"],
+    "1chronicles": ["1chron", "1chr", "1ch"],
+    "2chronicles": ["2chron", "2chr", "2ch"],
+    "ezra": ["ezr", "ez"],
+    "nehemiah": ["neh", "ne"],
+    "esther": ["est", "esth", "es"],
+    "job": ["jb"],
+    "psalm": ["ps", "pslm", "psa", "psm", "pss", "psalms"],
+    "proverbs": ["prov", "pro", "prv", "pr", "proverb"],
+    "ecclesiastes": ["eccles", "eccle", "ecc", "ec"],
+    "song": ["songofsolomon", "songofsongs", "sos", "so"],
+    "isaiah": ["isa", "is"],
+    "jeremiah": ["jer", "je", "jr"],
+    "lamentations": ["lam", "la"],
+    "ezekiel": ["ezek", "eze", "ezk"],
+    "daniel": ["dan", "da", "dn"],
+    "hosea": ["hos", "ho"],
+    "joel": ["jl"],
+    "amos": ["am"],
+    "obadiah": ["obad", "ob"],
+    "jonah": ["jnh", "jon"],
+    "micah": ["mic", "mc"],
+    "nahum": ["nah", "na"],
+    "habakkuk": ["hab", "hb"],
+    "zephaniah": ["zeph", "zep", "zp"],
+    "haggai": ["hag", "hg"],
+    "zechariah": ["zech", "zec", "zc"],
+    "malachi": ["mal", "ml"],
+    "matthew": ["matt", "mt"],
+    "mark": ["mrk", "mar", "mk", "mr"],
+    "luke": ["luk", "lk"],
+    "john": ["joh", "jhn", "jn"],
+    "acts": ["act", "ac"],
+    "romans": ["rom", "ro", "rm"],
+    "1corinthians": ["1cor", "1co"],
+    "2corinthians": ["2cor", "2co"],
+    "galatians": ["gal", "ga"],
+    "ephesians": ["eph", "ephes"],
+    "philippians": ["phil", "php", "pp"],
+    "colossians": ["col", "co"],
+    "1thessalonians": ["1thess", "1thes", "1th"],
+    "2thessalonians": ["2thess", "2thes", "2th"],
+    "1timothy": ["1tim", "1ti"],
+    "2timothy": ["2tim", "2ti"],
+    "titus": ["tit", "ti"],
+    "philemon": ["philem", "phm", "pm"],
+    "hebrews": ["heb"],
+    "james": ["jas", "jm"],
+    "1peter": ["1pet", "1pe", "1pt", "1p"],
+    "2peter": ["2pet", "2pe", "2pt", "2p"],
+    "1john": ["1joh", "1jhn", "1jn", "1j", "1joh", "1jo"],
+    "2john": ["2joh", "2jhn", "2jn", "2j", "2joh", "2jo"],
+    "3john": ["3joh", "3jhn", "3jn", "3j", "3jhn", "3jo"],
+    "jude": ["jud", "jd"],
+    "revelation": ["rev", "re"]
+  }'
+}
 
+get_scripture() {
+  # trim book title and also substitute various numbers
+  sed_args=(
+    # substitute i, ii, and iii for 1, 2 and 3 except for isaiah
+    -e 's/^iii/3/'
+    -e 's/^ii/2/'
+    -e 's/^i([^s])/1\1/'
+
+    # substitute first, second, and third for 1, 2, and 3
+    -e 's/^first/1/'
+    -e 's/^second/2/'
+    -e 's/^third/3/'
+
+    # substitute 1st, 2nd, and 3rd for 1, 2, and 3
+    -e 's/^1st/1/'
+    -e 's/^2nd/2/'
+    -e 's/^3rd/3/'
+  )
+  book=$(echo "$book" | sed -E "${sed_args[@]}")
+
+  if [[ $book == "obadiah" ]] || [[ $book == "philemon" ]] || [[ $book == "2john" ]] || [[ $book == "3john" ]] || [[ $book == "jude" ]]; then
+    chapter=""
+  fi
+
+  # credit to u/bjarneh (https://www.reddit.com/r/commandline/s/ySIsbxOYex)
+  # for helping me find files relative to bib
+  dir_of_script=$(dirname "$(readlink -f $0)")
+  bible_dir="${dir_of_script}/${bible_name}"
+  chapter_file="${bible_dir}/${book}${chapter}.md"
+  # enter if given book name is an abbreviation
+  if [ ! -f "${chapter_file}" ]; then
+    set_books_array
+    book=$(echo "$books_array" | jq -r --arg book "$book" 'to_entries[] | select(.value[] == $book) | .key')
+    # chop off any number put after any of the single chapter books of the Bible
+    if [[ $book == "obadiah" ]] || [[ $book == "philemon" ]] || [[ $book == "2john" ]] || [[ $book == "3john" ]] || [[ $book == "jude" ]]; then
+      chapter=""
+    fi
+    chapter_file="${bible_dir}/${book}${chapter}.md"
+    # enter if book name does not exist
+    if [ ! -f "${chapter_file}" ]; then
+      echo "bib: file not found"
+      return 1
+    fi
+  fi
+  scripture=$(cat "${chapter_file}")
+}
+
+cleanup_scripture() {
+  # Process the file
+  sed_args=(
+    -e 's/^#{2,5} .*$//g'
+    -e 's/\[.*\]//g'
+    -e 's/[ ]*(↓|¶|[ ]{2,})//g'
+  )
+  scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
+
+  scripture=$(echo "$scripture" | tr -s ' ')
+
+  sed_args=(
+    -e 's/^[ ]*//g'
+    -e 's/[>]*//g'
+    -e 's/\*//g'
+  )
+  scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
+
+  scripture=$(echo "$scripture" | sed -E '/^$/N;/\n$/D')
+
+  sed_args=(
+    -e 's/^[ ]*//g'
+    -e 's/[ ]*$//g'
+    -e 's/“/\"/g'
+    -e 's/”/\"/g'
+    -e "s/‘/\'/g"
+    -e "s/’/\'/g"
+    -e 's/–/ - /g'
+    -e 's/—/ - /g'
+    -e 's/^# //'
+  )
+  scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
+  scripture=$(echo "$scripture" | sed -E ':a;$!{N;s/###### ([0-9]*)\n/\1 /;ba;}')
+  scripture=$(echo "$scripture" | sed -z 's/\n\+/\n/g')
+  scripture=$(echo "$scripture" | sed '1{/^$/d}')
+}
+
+main "$@"
