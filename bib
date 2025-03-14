@@ -193,7 +193,6 @@ get_terminal_width() {
 
 get_scripture() {
   # trim book title and also substitute various numbers
-  book=$(echo "$1")
   sed_args=(
     # substitute i, ii, and iii for 1, 2 and 3 except for isaiah
     -e 's/^iii/3/'
