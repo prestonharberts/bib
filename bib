@@ -41,10 +41,10 @@ start_bib_console() {
   shopt -s histappend
 
   history -n
-  
+
   while true; do
     # prompt the user for input
-      read -e -p "$(echo -e '\033[1;34m>>> \033[0m')" input
+    read -e -p "$(echo -e '\033[1;34m>>> \033[0m')" input
 
     # exit condition
     if [[ "$input" == "exit" || "$input" == "quit" ]]; then
@@ -56,7 +56,7 @@ start_bib_console() {
       set -- "${BASH_REMATCH[1]}" "${BASH_REMATCH[2]// /}" "${BASH_REMATCH[3]// /}" "${BASH_REMATCH[4]// /}"
 
       # add command to history
-      echo $1$2 $3 $4 >> ${HISTFILE}
+      echo $1$2 $3 $4 >>${HISTFILE}
 
       # begin fetching scripture and then output
       start_processing "$@"
@@ -172,7 +172,7 @@ show_abbreviations() {
 
     notice1="|      1, 2, or 3 can also be replaced with any of      |"
     notice2="|  i, ii, iii or first, second, third or 1st, 2nd, 3rd  |"
-    
+
     echo
     padding=$(((width + ${#notice1}) / 2))
     printf "%*s\n" $padding "$notice1"
@@ -193,21 +193,24 @@ get_terminal_width() {
 
 get_scripture() {
   # trim book title and also substitute various numbers
-  book=$(echo "$1"|
+  book=$(echo "$1")
+  sed_args=(
     # substitute i, ii, and iii for 1, 2 and 3 except for isaiah
-    sed 's/^iii/3/'|
-    sed 's/^ii/2/'|
-    sed 's/^i\([^s]\)/1\1/'|
+    -e 's/^iii/3/'
+    -e 's/^ii/2/'
+    -e 's/^i([^s])/1\1/'
 
     # substitute first, second, and third for 1, 2, and 3
-    sed 's/^first/1/'|
-    sed 's/^second/2/'|
-    sed 's/^third/3/'|
+    -e 's/^first/1/'
+    -e 's/^second/2/'
+    -e 's/^third/3/'
 
     # substitute 1st, 2nd, and 3rd for 1, 2, and 3
-    sed 's/^1st/1/'|
-    sed 's/^2nd/2/'|
-    sed 's/^3rd/3/')
+    -e 's/^1st/1/'
+    -e 's/^2nd/2/'
+    -e 's/^3rd/3/'
+  )
+  scripture=$(echo "$book" | sed -E "${sed_args[@]}")
 
   if [[ $book == "obadiah" ]] || [[ $book == "philemon" ]] || [[ $book == "2john" ]] || [[ $book == "3john" ]] || [[ $book == "jude" ]]; then
     set -- "$book" "" "$verse_start" "$verse_end"
@@ -237,7 +240,7 @@ get_scripture() {
 }
 
 get_hline() {
-    hline=$(
+  hline=$(
     printf '=%.0s' $(seq 1 "$width")
     echo
   )
@@ -654,7 +657,7 @@ cleanup_scripture() {
 }
 
 cleanup_chapter() {
-    sed_args=(
+  sed_args=(
     -e '1s/^      ## (.*)/      [\1]/g'
     -e 's/^      ## (.*)/\n      [\1]/g'
     # add blank line before footnotes
