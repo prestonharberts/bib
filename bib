@@ -47,7 +47,7 @@ start_bib_console() {
     read -e -p "$(echo -e '\033[1;34m>>> \033[0m')" input
 
     # exit condition
-    if [[ "$input" == "exit" || "$input" == "quit" ]]; then
+    if [[ "$input" == "exit" ]] || [[ "$input" == "quit" ]]; then
       break
     fi
 
@@ -228,7 +228,7 @@ get_scripture() {
     if [[ $book == "obadiah" ]] || [[ $book == "philemon" ]] || [[ $book == "2john" ]] || [[ $book == "3john" ]] || [[ $book == "jude" ]]; then
       set -- "$book" "" "$verse_start" "$verse_end"
     fi
-    chapter_file="${bible_dir}/${book}${2}.md"
+    chapter_file="${bible_dir}/${book}${chapter}.md"
     # enter if book name does not exist
     if [ ! -f "${chapter_file}" ]; then
       echo "bib: file not found"
