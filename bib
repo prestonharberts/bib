@@ -20,10 +20,21 @@ get_args() {
   # set arguments to defaults
   arg_context="true"
 
+  # lowercase all args
+  args=()
+  for arg in "$@"; do
+    args+=("${arg,,}")
+  done
+  set -- "${args[@]}"
+
   while [[ $# -gt 0 ]]; do
-    if [[ "$1" =~ ^[a-z0-9]+$ ]]; then
+    if [[ "$1" =~ ^[0-9]*[a-z]+[0-9]*$ ]]; then
       book=$(echo "$1" | sed 's/[0-9]*$//')
-      chapter=$(echo "$1" | sed 's/^[0-9]*[a-zA-Z]*//')
+      chapter=$(echo "$1" | sed 's/^[0-9]*[a-z]*//')
+      if [[ -z $chapter ]]; then
+        shift 1
+        chapter=$1
+      fi
       shift 1
       if [[ "$1" =~ ^[0-9]+$ ]]; then
         verse_start=$1
@@ -47,7 +58,8 @@ get_args() {
       show_help
       break
     else
-      shift 1
+      echo "<!> bib: invalid input"
+      return 1
     fi
   done
 }
@@ -95,7 +107,10 @@ start_bib_console() {
       start_processing "$@"
     fi
 
+    set --
+
     book=""
+    book_from_array=""
     chapter=""
     verse_start=""
     verse_end=""
@@ -153,7 +168,7 @@ set_books_array() {
     "matthew": ["matt", "mt"],
     "mark": ["mrk", "mar", "mk", "mr"],
     "luke": ["luk", "lk"],
-    "john": ["joh", "jhn", "jn"],
+    "john": ["joh", "jhn", "jn", "j"],
     "acts": ["act", "ac"],
     "romans": ["rom", "ro", "rm"],
     "1corinthians": ["1cor", "1co"],
@@ -246,6 +261,11 @@ get_scripture() {
   book=$(echo "$book" | sed -E "${sed_args[@]}")
 
   if [[ $book == "obadiah" ]] || [[ $book == "philemon" ]] || [[ $book == "2john" ]] || [[ $book == "3john" ]] || [[ $book == "jude" ]]; then
+    if [[ ! -z "$chapter" ]]; then
+      temp=$verse_start
+      verse_start=$chapter
+      verse_end=$temp
+    fi
     chapter=""
   fi
 
@@ -257,20 +277,21 @@ get_scripture() {
   # enter if given book name is an abbreviation
   if [ ! -f "${chapter_file}" ]; then
     set_books_array
-    book_array=$(echo "$books_array" | jq -r --arg book "$book" 'to_entries[] | select(.value[] == $book) | .key')
+    book_from_array=$(echo "$books_array" | jq -r --arg book "$book" 'to_entries[] | select(.value[] == $book) | .key')
     # chop off any number put after any of the single chapter books of the Bible
-    if [[ $book_array == "obadiah" ]] || [[ $book_array == "philemon" ]] || [[ $book_array == "2john" ]] || [[ $book_array == "3john" ]] || [[ $book_array == "jude" ]]; then
+    if [[ $book_from_array == "obadiah" ]] || [[ $book_from_array == "philemon" ]] || [[ $book_from_array == "2john" ]] || [[ $book_from_array == "3john" ]] || [[ $book_from_array == "jude" ]]; then
+      if [[ ! -z "$chapter" ]]; then
+        temp=$verse_start
+        verse_start=$chapter
+        verse_end=$temp
+      fi
       chapter=""
     fi
-    chapter_file="${bible_dir}/${book_array}${chapter}.md"
-    # enter if book name does not exist
-    if [ -z "${book_array}" ]; then
-      echo "bib: $book: book not found"
-      return 1
-    elif [ ! -f "${chapter_file}" ]; then
-      echo "bib: $book$chapter: chapter not found"
+    chapter_file="${bible_dir}/${book_from_array}${chapter}.md"
+    if ! validate_input; then
       return 1
     fi
+    book=$book_from_array
   fi
   scripture=$(cat "${chapter_file}")
 }
@@ -283,9 +304,8 @@ get_hline() {
 }
 
 get_title() {
-
   # do not use a : for any of the single chapter books of the Bible
-  if [[ ! $book_array == "obadiah" ]] && [[ ! $book_array == "philemon" ]] && [[ ! $book_array == "2john" ]] && [[ ! $book_array == "3john" ]] && [[ ! $book_array == "jude" ]]; then
+  if [[ ! $book == "obadiah" ]] && [[ ! $book == "philemon" ]] && [[ ! $book == "2john" ]] && [[ ! $book == "3john" ]] && [[ ! $book == "jude" ]]; then
     separator=":"
   else
     separator=" "
@@ -297,6 +317,20 @@ get_title() {
     title="$(echo "$scripture" | grep '^# .*' | sed 's/# \(.*\) *(*[A-Z]*)*$/\1/')$separator$verse_start"
   else
     title="$(echo "$scripture" | grep '^# .*' | sed 's/# \(.*\) *(*[A-Z]*)*$/\1/')"
+  fi
+}
+
+validate_input() {
+  if [ -z "${book_from_array}" ] && [ -z "${book}" ]; then
+    echo -e "<!> bib: book not found"
+    return 1
+  elif [ ! -f "${chapter_file}" ]; then
+    if [ -z "${chapter}" ]; then
+      echo -e "<!> bib: please enter a chapter number"
+      return 1
+    fi
+    echo -e "<!> bib: book/chapter not found"
+    return 1
   fi
 }
 
