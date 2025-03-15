@@ -2,24 +2,47 @@
 # shellcheck disable=1111,1112,2030,2031,2034,2086
 
 # change if you renamed your bible folder
-bible_name="bible"
+BIBLE_NAME="bible"
+ARG_CONTEXT="true"
 
 main() {
   if [ $# -eq 0 ]; then
-    # start console mode
     start_bib_console
   else
-    # set variables and print chapter
-    book=$(echo "$1" | sed 's/[0-9]*$//')
-    chapter=$(echo "$1" | sed 's/^[0-9]*[a-zA-Z]*//')
-    verse_start=$2
-    verse_end=$3
-    start_processing
+    start_processing "$@"
   fi
   exit 0
 }
 
+get_args() {
+  while [[ $# -gt 0 ]]; do
+    if [ "$1" = "--no-context" -o "$1" = "-c" ]; then
+      ARG_CONTEXT="false"
+      shift 1
+    elif [ "$1" = "--help" -o "$1" = "-h" ]; then
+      show_help
+      exit 0
+    elif [ "$1" = "--abbreviations" -o "$1" = "-a" ]; then
+      show_abbreviations
+      exit 0
+    else
+      book=$(echo "$1" | sed 's/[0-9]*$//')
+      chapter=$(echo "$1" | sed 's/^[0-9]*[a-zA-Z]*//')
+      shift 1
+      if [[ "$1" =~ ^[0-9]+$ ]]; then
+        verse_start=$1
+        shift 1
+      fi
+      if [[ "$1" =~ ^[0-9]+$ ]]; then
+        verse_end=$1
+        shift 1
+      fi
+    fi
+  done
+}
+
 start_processing() {
+  get_args "$@"
   get_scripture
   if [[ -n "${scripture}" ]]; then
     get_terminal_width
@@ -63,7 +86,7 @@ start_bib_console() {
       echo $book$chapter $verse_start $verse_end >>${HISTFILE}
 
       # begin fetching scripture and then output
-      start_processing
+      start_processing "$@"
     fi
 
     book=""
@@ -225,7 +248,7 @@ get_scripture() {
   # credit to u/bjarneh (https://www.reddit.com/r/commandline/s/ySIsbxOYex)
   # for helping me find files relative to bib
   dir_of_script=$(dirname "$(readlink -f $0)")
-  bible_dir="${dir_of_script}/${bible_name}"
+  bible_dir="${dir_of_script}/${BIBLE_NAME}"
   chapter_file="${bible_dir}/${book}${chapter}.md"
   # enter if given book name is an abbreviation
   if [ ! -f "${chapter_file}" ]; then
@@ -745,16 +768,5 @@ output_verse() {
     echo -en "\033[0m"
   fi
 }
-
-# Process command line args
-ARG_CONTEXT="true"
-while getopts ':cah?' c; do
-  case $c in
-  c) ARG_CONTEXT="false" ;;
-  a) show_abbreviations ;;
-  h | ?) show_help ;;
-  esac
-done
-shift $((OPTIND - 1))
 
 main "$@"
