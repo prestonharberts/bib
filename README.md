@@ -66,7 +66,17 @@ bib gen1 1
 bib gen1 1 2
 
 # this prints John 3:16 (without any context verses)
-bib -c john3 16
+bib john3 16 -n
+```
+
+The following formats also work thanks to extensive input formatting:
+
+```bash
+bib 1 Corinthians 13:4
+bib jn3:16
+bib Deut6 6-7
+bib eph 3:16-17
+bib Philippians4:6-7
 ```
 
 If you want to enter into a interactive prompt similar to Python, just run `bib` by itself, and you can enter any Bible reference without having to type bib over again. History is also supported and is stored in `~/.bib_history`.
@@ -105,7 +115,7 @@ The included script bibr by [w1ldrabb1t](https://github.com/w1ldrabb1t) will ran
 
 To use, put bibr in the same directory as bib and the Bible folder, ideally in your PATH (see [Setup](#setup)).
 
-Use the option `-c` to hide context verses like bib. There is also the option `-v` to enable verbose mode which will show the bib command it executes.
+Use the option `-n` to hide context verses in bib. There is also the option `-v` to enable verbose mode which will show the bib command it executes.
 
 > Someday in the future, bibr will be a feature of bib and be run with `bib -r`.
 
