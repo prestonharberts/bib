@@ -3,29 +3,25 @@
 
 # change if you renamed your bible folder
 BIBLE_NAME="bible"
-ARG_CONTEXT="true"
 
 main() {
   if [ $# -eq 0 ]; then
     start_bib_console
   else
-    start_processing "$@"
+    get_args "$@"
+    if [[ -n "$book" ]]; then
+      start_processing "$@"
+    fi
   fi
   exit 0
 }
 
 get_args() {
+  # set arguments to defaults
+  arg_context="true"
+
   while [[ $# -gt 0 ]]; do
-    if [ "$1" = "--no-context" -o "$1" = "-c" ]; then
-      ARG_CONTEXT="false"
-      shift 1
-    elif [ "$1" = "--help" -o "$1" = "-h" ]; then
-      show_help
-      exit 0
-    elif [ "$1" = "--abbreviations" -o "$1" = "-a" ]; then
-      show_abbreviations
-      exit 0
-    else
+    if [[ "$1" =~ ^[a-z0-9]+$ ]]; then
       book=$(echo "$1" | sed 's/[0-9]*$//')
       chapter=$(echo "$1" | sed 's/^[0-9]*[a-zA-Z]*//')
       shift 1
@@ -37,12 +33,26 @@ get_args() {
         verse_end=$1
         shift 1
       fi
+    elif [ "$1" = "--no-context" -o "$1" = "-n" ]; then
+      arg_context="false"
+      shift 1
+    elif [ "$1" = "--copy" -o "$1" = "-c" ]; then
+      shift 1
+    elif [ "$1" = "--random" -o "$1" = "-r" ]; then
+      shift 1
+    elif [ "$1" = "--abbreviations" -o "$1" = "-a" ]; then
+      show_abbreviations
+      break
+    elif [ "$1" = "--help" -o "$1" = "-h" ]; then
+      show_help
+      break
+    else
+      shift 1
     fi
   done
 }
 
 start_processing() {
-  get_args "$@"
   get_scripture
   if [[ -n "${scripture}" ]]; then
     get_terminal_width
@@ -69,23 +79,19 @@ start_bib_console() {
   while true; do
     # prompt the user for input
     read -e -p "$(echo -e '\033[1;34m>>> \033[0m')" input
+    set -- $input
 
     # exit condition
     if [[ "$input" == "exit" ]] || [[ "$input" == "quit" ]]; then
       break
     fi
 
-    if [[ "$input" =~ ^([0-9]*[a-z]+)([0-9]*)?([ ]?[0-9]+)?([ ]?[0-9]+)?$ ]]; then
-      # extract book, chapter, starting verse, ending verse
-      book="${BASH_REMATCH[1]}"
-      chapter="${BASH_REMATCH[2]// /}"
-      verse_start="${BASH_REMATCH[3]// /}"
-      verse_end="${BASH_REMATCH[4]// /}"
+    # add command to history
+    echo $input >>${HISTFILE}
 
-      # add command to history
-      echo $book$chapter $verse_start $verse_end >>${HISTFILE}
-
-      # begin fetching scripture and then output
+    # begin fetching scripture and then output
+    get_args "$@"
+    if [[ -n "$book" ]]; then
       start_processing "$@"
     fi
 
@@ -179,7 +185,6 @@ show_help() {
   echo "   -c    Disable context verses"
   echo "   -h    Display help"
   echo "   -a    Display list of abbreviations"
-  exit 1
 }
 
 show_abbreviations() {
@@ -214,7 +219,6 @@ show_abbreviations() {
   )"
 
   echo "$output" | less -RFX
-  exit 1
 }
 
 get_terminal_width() {
@@ -253,15 +257,18 @@ get_scripture() {
   # enter if given book name is an abbreviation
   if [ ! -f "${chapter_file}" ]; then
     set_books_array
-    book=$(echo "$books_array" | jq -r --arg book "$book" 'to_entries[] | select(.value[] == $book) | .key')
+    book_array=$(echo "$books_array" | jq -r --arg book "$book" 'to_entries[] | select(.value[] == $book) | .key')
     # chop off any number put after any of the single chapter books of the Bible
-    if [[ $book == "obadiah" ]] || [[ $book == "philemon" ]] || [[ $book == "2john" ]] || [[ $book == "3john" ]] || [[ $book == "jude" ]]; then
+    if [[ $book_array == "obadiah" ]] || [[ $book_array == "philemon" ]] || [[ $book_array == "2john" ]] || [[ $book_array == "3john" ]] || [[ $book_array == "jude" ]]; then
       chapter=""
     fi
-    chapter_file="${bible_dir}/${book}${chapter}.md"
+    chapter_file="${bible_dir}/${book_array}${chapter}.md"
     # enter if book name does not exist
-    if [ ! -f "${chapter_file}" ]; then
-      echo "bib: file not found"
+    if [ -z "${book_array}" ]; then
+      echo "bib: $book: book not found"
+      return 1
+    elif [ ! -f "${chapter_file}" ]; then
+      echo "bib: $book$chapter: chapter not found"
       return 1
     fi
   fi
@@ -278,7 +285,7 @@ get_hline() {
 get_title() {
 
   # do not use a : for any of the single chapter books of the Bible
-  if [[ ! $book == "obadiah" ]] && [[ ! $book == "philemon" ]] && [[ ! $book == "2john" ]] && [[ ! $book == "3john" ]] && [[ ! $book == "jude" ]]; then
+  if [[ ! $book_array == "obadiah" ]] && [[ ! $book_array == "philemon" ]] && [[ ! $book_array == "2john" ]] && [[ ! $book_array == "3john" ]] && [[ ! $book_array == "jude" ]]; then
     separator=":"
   else
     separator=" "
@@ -756,14 +763,14 @@ output_verse() {
   padding=$(((width + ${#title}) / 2))
   printf "%*s\n" $padding "$title"
   echo "$hline"
-  if [[ $ARG_CONTEXT == 'true' ]]; then
+  if [[ $arg_context == 'true' ]]; then
     echo -e "${scripture}" | awk "/^ *$(($verse_start - 2)) /{print; flag=1; next} /^ *$(($verse_start - 1)) /{flag=0} flag"
     echo -e "${scripture}" | awk "/^ *$(($verse_start - 1)) /{print; flag=1; next} /^ *$(($verse_start - 0)) /{flag=0} flag"
     echo -e "${scripture}" | awk "/^ *$verse_start /{print \"\033[31m\" \$0; flag=1; next} /^ *($(($verse_start + 1)) |¹)/{flag=0} flag"
     echo -en "\033[0m"
     echo -e "${scripture}" | awk "/^ *$(($verse_start + 1)) /{print; flag=1; next} /^ *($(($verse_start + 2)) |¹)/{flag=0} flag"
     echo -e "${scripture}" | awk "/^ *$(($verse_start + 2)) /{print; flag=1; next} /^ *($(($verse_start + 3)) |¹)/{flag=0} flag"
-  elif [[ $ARG_CONTEXT == 'false' ]]; then
+  elif [[ $arg_context == 'false' ]]; then
     echo -e "${scripture}" | awk "/^ *$verse_start /{print \"\033[31m\" \$0; flag=1; next} /^ *($(($verse_start + 1)) |¹)/{flag=0} flag"
     echo -en "\033[0m"
   fi
