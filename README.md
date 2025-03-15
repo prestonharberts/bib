@@ -72,11 +72,11 @@ bib john3 16 -n
 The following formats also work thanks to extensive input formatting:
 
 ```bash
-bib 1 Corinthians 13:4
-bib jn3:16
-bib Deut6 6-7
-bib eph 3:16-17
-bib Philippians4:6-7
+bib 1 Corinthians 13:4-7
+bib 1 cor 13 4 7
+bib 1cor13:4
+bib 1Cor13 4-7
+bib 1 cor13:4-7
 ```
 
 If you want to enter into a interactive prompt similar to Python, just run `bib` by itself, and you can enter any Bible reference without having to type bib over again. History is also supported and is stored in `~/.bib_history`.
