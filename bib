@@ -105,7 +105,8 @@ start_processing() {
 
 start_bib_console() {
   echo "bib (interactive CLI prompt)"
-  echo "Type 'exit' to quit. Enter Bible reference (e.g., john3 16)"
+  echo "Type 'quit' or 'q' to exit."
+  echo "Enter Bible reference (e.g., john3 16)"
 
   # history
   export HISTFILE=~/.bib_history
@@ -120,7 +121,7 @@ start_bib_console() {
     set -- $input
 
     # exit condition
-    if [[ "$input" == "exit" ]] || [[ "$input" == "quit" ]]; then
+    if [[ "$input" == "q" ]] || [[ "$input" == "quit" ]] || [[ "$input" == "exit" ]]; then
       break
     fi
 
