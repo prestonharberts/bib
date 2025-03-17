@@ -99,7 +99,7 @@ start_processing() {
     clean_markdown
     justify_scripture
     clean_scripture
-    output_scripture
+    print_scripture
   fi
 }
 
@@ -128,7 +128,7 @@ start_bib_console() {
     # add command to history
     echo $input >>${HISTFILE}
 
-    # begin fetching scripture and then output
+    # begin fetching scripture and then print
     get_args "$@"
     if [[ -n "$book" ]]; then
       start_processing "$@"
@@ -776,18 +776,17 @@ clean_verse() {
   clean_passage
 }
 
-output_scripture() {
-  # output
+print_scripture() {
   if [[ $verse_end != '' ]]; then
-    output_passage
+    print_passage
   elif [[ $verse_start != '' ]]; then
-    output_verse
+    print_verse
   else
-    output_chapter
+    print_chapter
   fi
 }
 
-output_chapter() {
+print_chapter() {
   clean_chapter
   output="$(
     echo "$hline"
@@ -799,7 +798,7 @@ output_chapter() {
   echo "$output" | less -RFX
 }
 
-output_passage() {
+print_passage() {
   clean_passage
   output="$(
     sed_args=(
@@ -818,7 +817,7 @@ output_passage() {
   echo -en "\033[0m"
 }
 
-output_verse() {
+print_verse() {
   clean_verse
   echo "$hline"
   padding=$(((width + ${#title}) / 2))
