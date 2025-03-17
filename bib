@@ -96,9 +96,9 @@ start_processing() {
     get_terminal_width
     get_hline
     get_title
-    cleanup_markdown
+    clean_markdown
     justify_scripture
-    cleanup_scripture
+    clean_scripture
     output_scripture
   fi
 }
@@ -361,7 +361,7 @@ validate_input() {
   fi
 }
 
-cleanup_markdown() {
+clean_markdown() {
   sed_args=(
     # remove headings
     -e 's/^(# |#### |##### ).*//'
@@ -713,7 +713,7 @@ justify_abbreviations() {
   abbreviations=$(echo "$abbreviations" | sed -E "${sed_args[@]}")
 }
 
-cleanup_scripture() {
+clean_scripture() {
   sed_args=(
     # fix spacing
     -e 's/^ {2,4}([^ ])/      \1/g'
@@ -753,7 +753,7 @@ cleanup_scripture() {
   scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
 }
 
-cleanup_chapter() {
+clean_chapter() {
   sed_args=(
     -e '1s/^      ## (.*)/      [\1]/g'
     -e 's/^      ## (.*)/\n      [\1]/g'
@@ -763,7 +763,7 @@ cleanup_chapter() {
   scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
 }
 
-cleanup_passage() {
+clean_passage() {
   sed_args=(
     # format editorial headings
     -e 's/^ *## (.*)//'
@@ -772,8 +772,8 @@ cleanup_passage() {
   scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
 }
 
-cleanup_verse() {
-  cleanup_passage
+clean_verse() {
+  clean_passage
 }
 
 output_scripture() {
@@ -788,7 +788,7 @@ output_scripture() {
 }
 
 output_chapter() {
-  cleanup_chapter
+  clean_chapter
   output="$(
     echo "$hline"
     padding=$(((width + ${#title}) / 2))
@@ -800,7 +800,7 @@ output_chapter() {
 }
 
 output_passage() {
-  cleanup_passage
+  clean_passage
   output="$(
     sed_args=(
       # format editorial headings
@@ -819,7 +819,7 @@ output_passage() {
 }
 
 output_verse() {
-  cleanup_verse
+  clean_verse
   echo "$hline"
   padding=$(((width + ${#title}) / 2))
   printf "%*s\n" $padding "$title"
