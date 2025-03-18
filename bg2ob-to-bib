@@ -125,9 +125,9 @@ rename 's/^heb([1-9])/hebrews\1/' *.md
 #rename 's/^james([1-9])/james\1/' *.md
 rename 's/^1pet([1-9])/1peter\1/' *.md
 rename 's/^2pet([1-9])/2peter\1/' *.md
-#rename 's/^1john([1-9])/1john\1/' *.md
-#rename 's/^2john([1-9])/2john/' *.md
-#rename 's/^3john([1-9])/3john/' *.md
-#rename 's/^jude([1-9])/jude/' *.md
+rename 's/^1john([1-9])/1john\1/' *.md
+rename 's/^2john([1-9])/2john/' *.md
+rename 's/^3john([1-9])/3john/' *.md
+rename 's/^jude([1-9])/jude/' *.md
 rename 's/^rev([1-9])/revelation\1/' *.md
 cd ..
