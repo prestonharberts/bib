@@ -52,18 +52,22 @@ start_bib_console() {
 }
 
 get_args() {
+  # initialize flag variables
+  reset_flags
+
   # lowercase all args
   args=()
   for arg in "$@"; do
-    args+=("${arg,,}")
+    if [[ "$arg" =~ ^-[A-Za-z-]+$ ]]; then
+      args+=("${arg}")
+    else
+      args+=("${arg,,}")
+    fi
   done
   set -- "${args[@]}"
 
   # set flags and Bible chapter/section/verse
   while [[ $# -gt 0 ]]; do
-    # set flags to defaults
-    reset_flags
-
     # find flags if placed before bible verse
     if [[ $flags_found -eq 0 ]]; then
       if ! get_flags "$@"; then
@@ -167,13 +171,23 @@ get_args() {
     fi
 
     reset_text
+
+    # set flags to defaults
+    if [[ $arg_no_context_all == "false" ]]; then
+      reset_flags
+    fi
   done
 }
 
 get_flags() {
-  if [[ "$1" =~ ^-[a-z-]+$ ]]; then
+  if [[ "$1" =~ ^-[A-Za-z-]+$ ]]; then
     if [ "$1" = "--no-context" -o "$1" = "-n" ]; then
-      arg_context="false"
+      arg_no_context="true"
+      shift 1
+      flags_found=1
+    elif [ "$1" = "--no-context-all" -o "$1" = "-N" ]; then
+      arg_no_context="true"
+      arg_no_context_all="true"
       shift 1
       flags_found=1
     elif [ "$1" = "--copy" -o "$1" = "-c" ]; then
@@ -821,14 +835,14 @@ print_verse() {
   padding=$(((width + ${#title}) / 2))
   printf "%*s\n" $padding "$title"
   echo "$hline"
-  if [[ $arg_context == 'true' ]]; then
+  if [[ $arg_no_context == 'false' ]]; then
     echo -e "${scripture}" | awk "/^ *$(($verse_start - 2)) /{print; flag=1; next} /^ *$(($verse_start - 1)) /{flag=0} flag"
     echo -e "${scripture}" | awk "/^ *$(($verse_start - 1)) /{print; flag=1; next} /^ *$(($verse_start - 0)) /{flag=0} flag"
     echo -e "${scripture}" | awk "/^ *$verse_start /{print \"\033[31m\" \$0; flag=1; next} /^ *($(($verse_start + 1)) |¹)/{flag=0} flag"
     echo -en "\033[0m"
     echo -e "${scripture}" | awk "/^ *$(($verse_start + 1)) /{print; flag=1; next} /^ *($(($verse_start + 2)) |¹)/{flag=0} flag"
     echo -e "${scripture}" | awk "/^ *$(($verse_start + 2)) /{print; flag=1; next} /^ *($(($verse_start + 3)) |¹)/{flag=0} flag"
-  elif [[ $arg_context == 'false' ]]; then
+  elif [[ $arg_no_context == 'true' ]]; then
     echo -e "${scripture}" | awk "/^ *$verse_start /{print \"\033[31m\" \$0; flag=1; next} /^ *($(($verse_start + 1)) |¹)/{flag=0} flag"
     echo -en "\033[0m"
   fi
@@ -918,7 +932,8 @@ reset_all_variables() {
 }
 
 reset_flags() {
-  arg_context="true"
+  arg_no_context="false"
+  arg_no_context_all="false"
   flags_found=0
 }
 
