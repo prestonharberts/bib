@@ -145,7 +145,7 @@ get_args() {
       shift 1
     fi
 
-    validate_args_numbers "$@"
+    validate_args_verses "$@"
 
     # find flags if placed after bible verse
     if [[ $flags_found -eq 0 ]]; then
@@ -882,7 +882,7 @@ show_abbreviations() {
   echo "$output" | less -RFX
 }
 
-validate_args_numbers() {
+validate_args_verses() {
   if [[ -n "$verse_end" ]]; then
     if [[ "$verse_start" -eq "$verse_end" ]]; then
       echo -e "<!> bib: verse numbers cannot be the same"
