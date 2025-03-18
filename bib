@@ -196,10 +196,10 @@ set_books_array() {
     "nehemiah": ["neh", "ne"],
     "esther": ["est", "esth", "es"],
     "job": ["jb"],
-    "psalm": ["ps", "pslm", "psa", "psm", "pss", "psalms"],
-    "proverbs": ["prov", "pro", "prv", "pr", "proverb"],
+    "psalm": ["ps", "pslm", "psa", "psm", "pss"],
+    "proverbs": ["prov", "pro", "prv", "pr"],
     "ecclesiastes": ["eccles", "eccle", "ecc", "ec"],
-    "song": ["songofsolomon", "songofsongs", "sos", "so"],
+    "song": ["sos", "so"],
     "isaiah": ["isa", "is"],
     "jeremiah": ["jer", "je", "jr"],
     "lamentations": ["lam", "la"],
@@ -218,11 +218,11 @@ set_books_array() {
     "zechariah": ["zech", "zec", "zc"],
     "malachi": ["mal", "ml"],
     "matthew": ["matt", "mt"],
-    "mark": ["mrk", "mar", "mk", "mr"],
+    "mark": ["mrk", "mk", "mar", "mr"],
     "luke": ["luk", "lk"],
-    "john": ["joh", "jhn", "jn", "j"],
-    "acts": ["act", "ac"],
-    "romans": ["rom", "ro", "rm"],
+    "john": ["jhn", "jn", "joh"],
+    "acts": ["ac", "act"],
+    "romans": ["rom", "rm", "ro"],
     "1corinthians": ["1cor", "1co"],
     "2corinthians": ["2cor", "2co"],
     "galatians": ["gal", "ga"],
@@ -237,11 +237,11 @@ set_books_array() {
     "philemon": ["philem", "phm", "pm"],
     "hebrews": ["heb"],
     "james": ["jas", "jm"],
-    "1peter": ["1pet", "1pe", "1pt", "1p"],
-    "2peter": ["2pet", "2pe", "2pt", "2p"],
-    "1john": ["1joh", "1jhn", "1jn", "1j", "1joh", "1jo"],
-    "2john": ["2joh", "2jhn", "2jn", "2j", "2joh", "2jo"],
-    "3john": ["3joh", "3jhn", "3jn", "3j", "3jhn", "3jo"],
+    "1peter": ["1pet", "1pe", "1pt"],
+    "2peter": ["2pet", "2pe", "2pt"],
+    "1john": ["1jhn", "1jn", "1joh"],
+    "2john": ["2jhn", "2jn", "2joh"],
+    "3john": ["3jhn", "3jn", "3joh"],
     "jude": ["jud", "jd"],
     "revelation": ["rev", "re"]
   }'
@@ -267,16 +267,16 @@ show_abbreviations() {
 
   output="$(
     echo "$hline"
-    title="Abbreviations"
+    title="Book Abbreviations"
     padding=$(((width + ${#title}) / 2))
     printf "%*s\n" $padding "$title"
     echo "$hline"
 
-    notice1="1/2/3 can also be "
-    notice2="  replaced with:  "
-    notice3="     i/ii/iii     "
-    notice4="first/second/third"
-    notice5="   1st/2nd/3rd    "
+    notice1="|  1 2 or 3 can also be  |"
+    notice2="|  replaced with any of  |"
+    notice3="|   first second third   |"
+    notice4="|      1st 2nd 3rd       |"
+    notice5="|        i ii iii        |"
 
     echo
     padding=$(((width + ${#notice1}) / 2))
@@ -719,22 +719,22 @@ justify_scripture_normal() {
 
 justify_abbreviations() {
   sed_args=(
-    -e 's/([^ ])    ([^ ])/\1  \2/g'
-    -e 's/([^ ])     ([^ ])/\1   \2/g'
-    -e 's/([^ ])      ([^ ])/\1    \2/g'
-    -e 's/([^ ])       ([^ ])/\1     \2/g'
-    -e 's/([^ ])        ([^ ])/\1      \2/g'
-    -e 's/([^ ])         ([^ ])/\1       \2/g'
-    -e 's/([^ ])          ([^ ])/\1        \2/g'
-    -e 's/([^ ])           ([^ ])/\1         \2/g'
-    -e 's/([^ ])            ([^ ])/\1          \2/g'
-    -e 's/([^ ])             ([^ ])/\1           \2/g'
-    -e 's/([^ ])              ([^ ])/\1            \2/g'
-    -e 's/([^ ])               ([^ ])/\1             \2/g'
-    -e 's/([^ ])                ([^ ])/\1              \2/g'
-    -e 's/([^ ])                 ([^ ])/\1               \2/g'
-    -e 's/([^ ])                  ([^ ])/\1                \2/g'
-    -e 's/^/  /g'
+    -e 's/([^ ])    ([^ ])/\1 \2/g'
+    -e 's/([^ ])     ([^ ])/\1  \2/g'
+    -e 's/([^ ])      ([^ ])/\1   \2/g'
+    -e 's/([^ ])       ([^ ])/\1    \2/g'
+    -e 's/([^ ])        ([^ ])/\1     \2/g'
+    -e 's/([^ ])         ([^ ])/\1      \2/g'
+    -e 's/([^ ])          ([^ ])/\1       \2/g'
+    -e 's/([^ ])           ([^ ])/\1        \2/g'
+    -e 's/([^ ])            ([^ ])/\1         \2/g'
+    -e 's/([^ ])             ([^ ])/\1          \2/g'
+    -e 's/([^ ])              ([^ ])/\1           \2/g'
+    -e 's/([^ ])               ([^ ])/\1            \2/g'
+    -e 's/([^ ])                ([^ ])/\1             \2/g'
+    -e 's/([^ ])                 ([^ ])/\1              \2/g'
+    -e 's/([^ ])                  ([^ ])/\1               \2/g'
+    -e 's/^/ /g'
 
     # move char to newline if width-1 is a space or symbol
     -e "s/^(.{$((width - 1))})([A-Za-z0-9]*,)/\1\n                   \2/"
