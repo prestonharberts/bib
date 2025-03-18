@@ -272,14 +272,23 @@ show_abbreviations() {
     printf "%*s\n" $padding "$title"
     echo "$hline"
 
-    notice1="|      1, 2, or 3 can also be replaced with any of      |"
-    notice2="|  i, ii, iii or first, second, third or 1st, 2nd, 3rd  |"
+    notice1="1/2/3 can also be "
+    notice2="  replaced with:  "
+    notice3="     i/ii/iii     "
+    notice4="first/second/third"
+    notice5="   1st/2nd/3rd    "
 
     echo
     padding=$(((width + ${#notice1}) / 2))
     printf "%*s\n" $padding "$notice1"
     padding=$(((width + ${#notice2}) / 2))
     printf "%*s\n" $padding "$notice2"
+    padding=$(((width + ${#notice3}) / 2))
+    printf "%*s\n" $padding "$notice3"
+    padding=$(((width + ${#notice4}) / 2))
+    printf "%*s\n" $padding "$notice4"
+    padding=$(((width + ${#notice5}) / 2))
+    printf "%*s\n" $padding "$notice5"
     echo
 
     echo -e "${abbreviations}"
