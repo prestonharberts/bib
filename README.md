@@ -73,16 +73,31 @@ bib john3 16 -n
 Any of the following formats also work thanks to extensive input formatting, and capital letters make no difference either:
 
 ```bash
+# my preferred way to type into bib
+bib 1cor13 4 7
+
+# other supported formats
 bib 1 Corinthians 13:4-7
 bib 1 cor13:4-7
 bib 1 cor13:4 7
 bib 1 cor 13:4-7
 bib 1 cor 13 4 7
-# my preferred way to type into bib
-bib 1cor13 4 7
 ```
 
 If you want to enter into a interactive prompt similar to Python, just run `bib` by itself, and you can enter any Bible reference without having to type bib over again. History is also supported and is stored in `~/.bib_history`.
+
+The example from earlier would appear like this in the interactive mode:
+
+```bash
+# enter into bib interactive mode
+bib
+
+# type Bible references
+>>> gen1
+>>> gen1 1
+>>> gen1 1 2
+>>> john3 16 -n
+```
 
 ### Example
 
