@@ -10,10 +10,43 @@ main() {
   else
     get_args "$@"
     if [[ -n "$book" ]]; then
-      start_processing
+      get_scripture
     fi
   fi
   exit 0
+}
+
+start_bib_console() {
+  echo "bib (interactive CLI mode)"
+  echo "Type 'quit' or 'q' to exit."
+  echo "Enter Bible reference (e.g., john3 16)"
+
+  # history
+  export HISTFILE=~/.bib_history
+  export HISTSIZE=1000
+  shopt -s histappend
+
+  history -n
+
+  while true; do
+    # prompt the user for input
+    read -e -p "$(echo -e '\033[1;34m>>> \033[0m')" -- input
+    set -- $input
+
+    # exit condition
+    if [[ "$input" == "q" ]] || [[ "$input" == "quit" ]] || [[ "$input" == "exit" ]]; then
+      break
+    fi
+
+    # add command to history
+    echo "$input" >>"${HISTFILE}"
+
+    # begin fetching scripture and then print
+    get_args "$@"
+
+    # history
+    history -n
+  done
 }
 
 get_args() {
@@ -126,7 +159,7 @@ get_args() {
     fi
 
     if [[ -n "$book" ]]; then
-      start_processing
+      get_scripture
     else
       shift 1
     fi
@@ -157,53 +190,73 @@ get_flags() {
   fi
 }
 
-start_processing() {
-  get_scripture
+get_scripture() {
+  # trim book title and also substitute various numbers
+  sed_args=(
+    # substitute i, ii, and iii for 1, 2 and 3 except for isaiah
+    -e 's/^iii/3/'
+    -e 's/^ii/2/'
+    -e 's/^i([^s])/1\1/'
+
+    # substitute first, second, and third for 1, 2, and 3
+    -e 's/^first/1/'
+    -e 's/^second/2/'
+    -e 's/^third/3/'
+
+    # substitute 1st, 2nd, and 3rd for 1, 2, and 3
+    -e 's/^1st/1/'
+    -e 's/^2nd/2/'
+    -e 's/^3rd/3/'
+  )
+  book=$(echo "$book" | sed -E "${sed_args[@]}")
+
+  if [[ $book == "obadiah" ]] || [[ $book == "philemon" ]] || [[ $book == "2john" ]] || [[ $book == "3john" ]] || [[ $book == "jude" ]]; then
+    if [[ ! -z "$chapter" ]]; then
+      temp=$verse_start
+      verse_start=$chapter
+      verse_end=$temp
+    fi
+    chapter=""
+  fi
+
+  # credit to u/bjarneh (https://www.reddit.com/r/commandline/s/ySIsbxOYex)
+  # for helping me find files relative to bib
+  dir_of_script=$(dirname "$(readlink -f $0)")
+  bible_dir="${dir_of_script}/${BIBLE_NAME}"
+  chapter_file="${bible_dir}/${book}${chapter}.md"
+  # enter if given book name is an abbreviation
+  if [ ! -f "${chapter_file}" ]; then
+    get_books_array
+    book_from_array=$(echo "$books_array" | jq -r --arg book "$book" 'to_entries[] | select(.value[] == $book) | .key')
+    # chop off any number put after any of the single chapter books of the Bible
+    if [[ $book_from_array == "obadiah" ]] || [[ $book_from_array == "philemon" ]] || [[ $book_from_array == "2john" ]] || [[ $book_from_array == "3john" ]] || [[ $book_from_array == "jude" ]]; then
+      if [[ ! -z "$chapter" ]]; then
+        temp=$verse_start
+        verse_start=$chapter
+        verse_end=$temp
+      fi
+      chapter=""
+    fi
+    chapter_file="${bible_dir}/${book_from_array}${chapter}.md"
+    if ! validate_args_book; then
+      return 1
+    fi
+    book=$book_from_array
+  fi
+  scripture=$(cat "${chapter_file}")
+
   if [[ -n "${scripture}" ]]; then
     get_terminal_width
     get_hline
     get_title
-    clean_markdown
-    justify_scripture
-    clean_scripture
+    cleanup_markdown
+    hyphenate_scripture
+    cleanup_scripture
     print_scripture
   fi
 }
 
-start_bib_console() {
-  echo "bib (interactive CLI mode)"
-  echo "Type 'quit' or 'q' to exit."
-  echo "Enter Bible reference (e.g., john3 16)"
-
-  # history
-  export HISTFILE=~/.bib_history
-  export HISTSIZE=1000
-  shopt -s histappend
-
-  history -n
-
-  while true; do
-    # prompt the user for input
-    read -e -p "$(echo -e '\033[1;34m>>> \033[0m')" -- input
-    set -- $input
-
-    # exit condition
-    if [[ "$input" == "q" ]] || [[ "$input" == "quit" ]] || [[ "$input" == "exit" ]]; then
-      break
-    fi
-
-    # add command to history
-    echo "$input" >>"${HISTFILE}"
-
-    # begin fetching scripture and then print
-    get_args "$@"
-
-    # history
-    history -n
-  done
-}
-
-set_books_array() {
+get_books_array() {
   books_array='{
     "genesis": ["gen", "gn", "ge"],
     "exodus": ["ex", "exod", "exo"],
@@ -274,114 +327,8 @@ set_books_array() {
   }'
 }
 
-show_help() {
-  echo "Usage: $0 [-ch]"
-  echo "  -n  --no-context     Disable context verses"
-  echo "  -h  --help           Display help"
-  echo "  -a  --abbreviations  Display list of abbreviations"
-}
-
-show_abbreviations() {
-  set_books_array
-  get_terminal_width
-  get_hline
-
-  abbreviations="$(
-    echo "$books_array" | jq -r 'to_entries | .[] | "\(.key) | \(.value | join(", "))"' | column -t -s '|'
-  )"
-
-  justify_abbreviations
-
-  output="$(
-    echo "$hline"
-    title="Book Abbreviations"
-    padding=$(((width + ${#title}) / 2))
-    printf "%*s\n" $padding "$title"
-    echo "$hline"
-
-    notice1="|  1 2 or 3 can also be  |"
-    notice2="|  replaced with any of  |"
-    notice3="|   first second third   |"
-    notice4="|      1st 2nd 3rd       |"
-    notice5="|        i ii iii        |"
-
-    echo
-    padding=$(((width + ${#notice1}) / 2))
-    printf "%*s\n" $padding "$notice1"
-    padding=$(((width + ${#notice2}) / 2))
-    printf "%*s\n" $padding "$notice2"
-    padding=$(((width + ${#notice3}) / 2))
-    printf "%*s\n" $padding "$notice3"
-    padding=$(((width + ${#notice4}) / 2))
-    printf "%*s\n" $padding "$notice4"
-    padding=$(((width + ${#notice5}) / 2))
-    printf "%*s\n" $padding "$notice5"
-    echo
-
-    echo -e "${abbreviations}"
-  )"
-
-  echo "$output" | less -RFX
-}
-
 get_terminal_width() {
   width=$(tput cols)
-}
-
-get_scripture() {
-  # trim book title and also substitute various numbers
-  sed_args=(
-    # substitute i, ii, and iii for 1, 2 and 3 except for isaiah
-    -e 's/^iii/3/'
-    -e 's/^ii/2/'
-    -e 's/^i([^s])/1\1/'
-
-    # substitute first, second, and third for 1, 2, and 3
-    -e 's/^first/1/'
-    -e 's/^second/2/'
-    -e 's/^third/3/'
-
-    # substitute 1st, 2nd, and 3rd for 1, 2, and 3
-    -e 's/^1st/1/'
-    -e 's/^2nd/2/'
-    -e 's/^3rd/3/'
-  )
-  book=$(echo "$book" | sed -E "${sed_args[@]}")
-
-  if [[ $book == "obadiah" ]] || [[ $book == "philemon" ]] || [[ $book == "2john" ]] || [[ $book == "3john" ]] || [[ $book == "jude" ]]; then
-    if [[ ! -z "$chapter" ]]; then
-      temp=$verse_start
-      verse_start=$chapter
-      verse_end=$temp
-    fi
-    chapter=""
-  fi
-
-  # credit to u/bjarneh (https://www.reddit.com/r/commandline/s/ySIsbxOYex)
-  # for helping me find files relative to bib
-  dir_of_script=$(dirname "$(readlink -f $0)")
-  bible_dir="${dir_of_script}/${BIBLE_NAME}"
-  chapter_file="${bible_dir}/${book}${chapter}.md"
-  # enter if given book name is an abbreviation
-  if [ ! -f "${chapter_file}" ]; then
-    set_books_array
-    book_from_array=$(echo "$books_array" | jq -r --arg book "$book" 'to_entries[] | select(.value[] == $book) | .key')
-    # chop off any number put after any of the single chapter books of the Bible
-    if [[ $book_from_array == "obadiah" ]] || [[ $book_from_array == "philemon" ]] || [[ $book_from_array == "2john" ]] || [[ $book_from_array == "3john" ]] || [[ $book_from_array == "jude" ]]; then
-      if [[ ! -z "$chapter" ]]; then
-        temp=$verse_start
-        verse_start=$chapter
-        verse_end=$temp
-      fi
-      chapter=""
-    fi
-    chapter_file="${bible_dir}/${book_from_array}${chapter}.md"
-    if ! validate_args_book; then
-      return 1
-    fi
-    book=$book_from_array
-  fi
-  scripture=$(cat "${chapter_file}")
 }
 
 get_hline() {
@@ -408,85 +355,8 @@ get_title() {
   fi
 }
 
-validate_args_numbers() {
-  if [[ -n "$verse_end" ]]; then
-    if [[ "$verse_start" -eq "$verse_end" ]]; then
-      echo -e "<!> bib: verse numbers cannot be the same"
-      reset_all_variables "$@"
-    elif [[ "$verse_start" -gt "$verse_end" ]]; then
-      echo -e "<!> bib: starting verse cannot be greater than ending verse"
-      reset_all_variables "$@"
-    fi
-  fi
-}
-
-validate_args_book() {
-  if [ -z "${book_from_array}" ] && [ -z "${book}" ]; then
-    echo -e "<!> bib: book not found"
-    return 1
-  elif [ ! -f "${chapter_file}" ]; then
-    if [ -z "${chapter}" ]; then
-      echo -e "<!> bib: please enter a chapter number"
-      return 1
-    fi
-    echo -e "<!> bib: book/chapter not found"
-    return 1
-  fi
-}
-
-clean_markdown() {
-  sed_args=(
-    # remove headings
-    -e 's/^(# |#### |##### ).*//'
-
-    # fix instances of `] [`
-    -e 's/\] \[/ /'
-
-    # format verses
-    -e 's/###### (¶* *[0-9][0-9][0-9])/\1   tempnewline/g'
-    -e 's/###### (¶* *[0-9][0-9])/\1    tempnewline/g'
-    -e 's/###### (¶* *[0-9])/\1     tempnewline/g'
-  )
-  scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
-
-  scripture=$(echo "$scripture" | sed -E ':a;$!{N;s/tempnewline\n//;ba;}')
-  scripture=$(echo "$scripture" | sed -E ':a;$!{N;s/\n¶ / ~\n/;ba;}')
-
-  sed_args=(
-    # fix/remove markdown syntax
-    -e 's/\\\*/tempasterisk/g'
-    -e 's/==//g'
-    -e 's/—/––/g'
-
-    # italic -> brackets
-    -e 's/\*([A-Za-z0-9])/[\1/g'
-    -e 's/([A-Za-z0-9!?.,”’;:])\*/\1]/g'
-
-    # \[ -> [ and \] -> ]
-    -e 's/\\\[/[/g'
-    -e 's/\\\]/]/g'
-    -e 's/\\//g'
-
-    # remove footnotes
-    # convert footnotes
-    -e 's/\[\^1\]:*/¹/g'
-    -e 's/\[\^2\]:*/²/g'
-    -e 's/\[\^3\]:*/³/g'
-    -e 's/\[\^4\]:*/⁴/g'
-    -e 's/\[\^5\]:*/⁵/g'
-    -e 's/\[\^6\]:*/⁶/g'
-
-    -e 's/^> /      > /g'
-    -e 's/tempasterisk/*/g'
-
-    # add space before lines that are not on the same line as the verse num
-    -e 's/(^[^0-9 ])/      \1/g'
-  )
-  scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
-}
-
-justify_scripture() {
-  # justify scripture
+hyphenate_scripture() {
+  # hyphenate scripture
   if [ $width -le 20 ]; then
     passes=26
   elif [ $width -le 30 ]; then
@@ -504,14 +374,14 @@ justify_scripture() {
   fi
 
   for i in $(seq 1 $passes); do
-    justify_scripture_poetry
+    hyphenate_scripture_poetry
   done
   for i in $(seq 1 $passes); do
-    justify_scripture_normal
+    hyphenate_scripture_normal
   done
 }
 
-justify_scripture_poetry() {
+hyphenate_scripture_poetry() {
   sed_args=(
     # add newline when width is a space
     -e "s/^(.{6}>.{$((width - 9))}) /\1\n      > /"
@@ -634,7 +504,7 @@ justify_scripture_poetry() {
   scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
 }
 
-justify_scripture_normal() {
+hyphenate_scripture_normal() {
   sed_args=(
     # add newline when width is a space
     -e "s/^(.{$((width - 1))}) /\1\n      /"
@@ -756,7 +626,7 @@ justify_scripture_normal() {
   scripture=$(echo "$scripture" | sed -E "s/^(.{$((width))}) /\1\n      /")
 }
 
-justify_abbreviations() {
+hyphenate_abbreviations() {
   sed_args=(
     -e 's/([^ ])    ([^ ])/\1 \2/g'
     -e 's/([^ ])     ([^ ])/\1  \2/g'
@@ -775,18 +645,71 @@ justify_abbreviations() {
     -e 's/([^ ])                  ([^ ])/\1               \2/g'
     -e 's/^/ /g'
 
-    # move char to newline if width-1 is a space or symbol
-    -e "s/^(.{$((width - 1))})([A-Za-z0-9]*,)/\1\n                   \2/"
-    -e "s/^(.{$((width))})([A-Za-z0-9]*,)/\1\n                   \2/"
+    # actual hyphenation is a wip
 
-    -e "s/^(.{$((width - 1))})([A-Za-z0-9]*)$/\1\n                   \2/"
-    -e "s/^(.{$((width))})([A-Za-z0-9]*)$/\1\n                   \2/"
+    # move char to newline if width-1 is a space or symbol
+    # -e "s/^(.{$((width - 1))})([A-Za-z0-9]*,)/\1\n                   \2/"
+    # -e "s/^(.{$((width))})([A-Za-z0-9]*,)/\1\n                   \2/"
+
+    # -e "s/^(.{$((width - 1))})([A-Za-z0-9]*)$/\1\n                   \2/"
+    # -e "s/^(.{$((width))})([A-Za-z0-9]*)$/\1\n                   \2/"
   )
 
   abbreviations=$(echo "$abbreviations" | sed -E "${sed_args[@]}")
 }
 
-clean_scripture() {
+cleanup_markdown() {
+  sed_args=(
+    # remove headings
+    -e 's/^(# |#### |##### ).*//'
+
+    # fix instances of `] [`
+    -e 's/\] \[/ /'
+
+    # format verses
+    -e 's/###### (¶* *[0-9][0-9][0-9])/\1   tempnewline/g'
+    -e 's/###### (¶* *[0-9][0-9])/\1    tempnewline/g'
+    -e 's/###### (¶* *[0-9])/\1     tempnewline/g'
+  )
+  scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
+
+  scripture=$(echo "$scripture" | sed -E ':a;$!{N;s/tempnewline\n//;ba;}')
+  scripture=$(echo "$scripture" | sed -E ':a;$!{N;s/\n¶ / ~\n/;ba;}')
+
+  sed_args=(
+    # fix/remove markdown syntax
+    -e 's/\\\*/tempasterisk/g'
+    -e 's/==//g'
+    -e 's/—/––/g'
+
+    # italic -> brackets
+    -e 's/\*([A-Za-z0-9])/[\1/g'
+    -e 's/([A-Za-z0-9!?.,”’;:])\*/\1]/g'
+
+    # \[ -> [ and \] -> ]
+    -e 's/\\\[/[/g'
+    -e 's/\\\]/]/g'
+    -e 's/\\//g'
+
+    # remove footnotes
+    # convert footnotes
+    -e 's/\[\^1\]:*/¹/g'
+    -e 's/\[\^2\]:*/²/g'
+    -e 's/\[\^3\]:*/³/g'
+    -e 's/\[\^4\]:*/⁴/g'
+    -e 's/\[\^5\]:*/⁵/g'
+    -e 's/\[\^6\]:*/⁶/g'
+
+    -e 's/^> /      > /g'
+    -e 's/tempasterisk/*/g'
+
+    # add space before lines that are not on the same line as the verse num
+    -e 's/(^[^0-9 ])/      \1/g'
+  )
+  scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
+}
+
+cleanup_scripture() {
   sed_args=(
     # fix spacing
     -e 's/^ {2,4}([^ ])/      \1/g'
@@ -826,7 +749,7 @@ clean_scripture() {
   scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
 }
 
-clean_chapter() {
+cleanup_chapter() {
   sed_args=(
     -e '1s/^      ## (.*)/      [\1]/g'
     -e 's/^      ## (.*)/\n      [\1]/g'
@@ -836,7 +759,7 @@ clean_chapter() {
   scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
 }
 
-clean_passage() {
+cleanup_passage() {
   sed_args=(
     # format editorial headings
     -e 's/^ *## (.*)//'
@@ -845,8 +768,8 @@ clean_passage() {
   scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
 }
 
-clean_verse() {
-  clean_passage
+cleanup_verse() {
+  cleanup_passage
 }
 
 print_scripture() {
@@ -860,7 +783,7 @@ print_scripture() {
 }
 
 print_chapter() {
-  clean_chapter
+  cleanup_chapter
   output="$(
     echo "$hline"
     padding=$(((width + ${#title}) / 2))
@@ -872,7 +795,7 @@ print_chapter() {
 }
 
 print_passage() {
-  clean_passage
+  cleanup_passage
   output="$(
     sed_args=(
       # format editorial headings
@@ -891,7 +814,7 @@ print_passage() {
 }
 
 print_verse() {
-  clean_verse
+  cleanup_verse
   echo "$hline"
   padding=$(((width + ${#title}) / 2))
   printf "%*s\n" $padding "$title"
@@ -906,6 +829,82 @@ print_verse() {
   elif [[ $arg_context == 'false' ]]; then
     echo -e "${scripture}" | awk "/^ *$verse_start /{print \"\033[31m\" \$0; flag=1; next} /^ *($(($verse_start + 1)) |¹)/{flag=0} flag"
     echo -en "\033[0m"
+  fi
+}
+
+show_help() {
+  echo "Usage: $0 [-ch]"
+  echo "  -n  --no-context     Disable context verses"
+  echo "  -h  --help           Display help"
+  echo "  -a  --abbreviations  Display list of abbreviations"
+}
+
+show_abbreviations() {
+  get_books_array
+  get_terminal_width
+  get_hline
+
+  abbreviations="$(
+    echo "$books_array" | jq -r 'to_entries | .[] | "\(.key) | \(.value | join(", "))"' | column -t -s '|'
+  )"
+
+  hyphenate_abbreviations
+
+  output="$(
+    echo "$hline"
+    title="Book Abbreviations"
+    padding=$(((width + ${#title}) / 2))
+    printf "%*s\n" $padding "$title"
+    echo "$hline"
+
+    notice1="|  1 2 or 3 can also be  |"
+    notice2="|  replaced with any of  |"
+    notice3="|   first second third   |"
+    notice4="|      1st 2nd 3rd       |"
+    notice5="|        i ii iii        |"
+
+    echo
+    padding=$(((width + ${#notice1}) / 2))
+    printf "%*s\n" $padding "$notice1"
+    padding=$(((width + ${#notice2}) / 2))
+    printf "%*s\n" $padding "$notice2"
+    padding=$(((width + ${#notice3}) / 2))
+    printf "%*s\n" $padding "$notice3"
+    padding=$(((width + ${#notice4}) / 2))
+    printf "%*s\n" $padding "$notice4"
+    padding=$(((width + ${#notice5}) / 2))
+    printf "%*s\n" $padding "$notice5"
+    echo
+
+    echo -e "${abbreviations}"
+  )"
+
+  echo "$output" | less -RFX
+}
+
+validate_args_numbers() {
+  if [[ -n "$verse_end" ]]; then
+    if [[ "$verse_start" -eq "$verse_end" ]]; then
+      echo -e "<!> bib: verse numbers cannot be the same"
+      reset_all_variables "$@"
+    elif [[ "$verse_start" -gt "$verse_end" ]]; then
+      echo -e "<!> bib: starting verse cannot be greater than ending verse"
+      reset_all_variables "$@"
+    fi
+  fi
+}
+
+validate_args_book() {
+  if [ -z "${book_from_array}" ] && [ -z "${book}" ]; then
+    echo -e "<!> bib: book not found"
+    return 1
+  elif [ ! -f "${chapter_file}" ]; then
+    if [ -z "${chapter}" ]; then
+      echo -e "<!> bib: please enter a chapter number"
+      return 1
+    fi
+    echo -e "<!> bib: book/chapter not found"
+    return 1
   fi
 }
 
