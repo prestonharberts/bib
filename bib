@@ -71,7 +71,13 @@ get_args() {
   args=()
   for arg in "$@"; do
     if [[ "$arg" =~ ^-[A-Za-z-]+$ ]]; then
-      args+=("${arg}")
+      if [[ "${arg}" == "-N" ]] || [[ "${arg}" == "--no-context-all" ]]; then
+        arg_no_context="true"
+        arg_no_context_all="true"
+        flags_found=1
+      else
+        args+=("${arg}")
+      fi
     else
       args+=("${arg,,}")
     fi
@@ -195,11 +201,6 @@ get_flags() {
   if [[ "$1" =~ ^-[A-Za-z-]+$ ]]; then
     if [ "$1" = "--no-context" -o "$1" = "-n" ]; then
       arg_no_context="true"
-      shift 1
-      flags_found=1
-    elif [ "$1" = "--no-context-all" -o "$1" = "-N" ]; then
-      arg_no_context="true"
-      arg_no_context_all="true"
       shift 1
       flags_found=1
     elif [ "$1" = "--copy" -o "$1" = "-c" ]; then
