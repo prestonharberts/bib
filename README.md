@@ -178,6 +178,22 @@ chmod u+x ./bg2ob-to-bib
 
 Now you can move the Bible folder to `~/Bin`, and bib is ready to be used.
 
+## Termux
+
+This script also works in Termux for Android. I will update this part of the README soon with a guide to setup the program. I use Termux:Widgets to have an app shortcut on my homescreen that opens bib in interactive mode for convenience.
+
+Install the following dependencies:
+
+```bash
+pkg install git bash ncurses ncurses-utils jq coreutils
+```
+
+Run the following to clone the project:
+
+```bash
+git clone https://github.com/prestonharberts/bib
+```
+
 ## Todo
 
 - [ ] Help menu [(1)](https://www.reddit.com/r/bash/comments/1j7qfl3/comment/mh3k4wv/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
@@ -190,3 +206,4 @@ Now you can move the Bible folder to `~/Bin`, and bib is ready to be used.
 - [ ] Switch from markdown to XML [(1)](https://www.reddit.com/r/bash/comments/1j7qfl3/comment/mh44sjb/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 - [x] Type `bib` to enter a console so you don't have to type bib for every verse you want
 - [x] Allow console mode to take options
+- [ ] Finish writing Termux setup guide
