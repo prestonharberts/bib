@@ -4,6 +4,10 @@
 # change if you renamed your bible folder
 BIBLE_NAME="bible"
 
+# change if you want a different new paragraph marker
+PARAGRAPH_MARKER="↓"
+#PARAGRAPH_MARKER="¶"
+
 main() {
   # if no arguments, open console mode
   if [ $# -eq 0 ]; then
@@ -771,6 +775,11 @@ cleanup_scripture() {
     -e "s/↓>/↓ >/"
   )
   scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
+
+  # what i need to do is change the above code to use the paragraph marker
+  # if [[ "$PARAGRAPH_MARKER" -ne "↓" ]]; then
+  scripture=$(echo "$scripture" | sed -E ":a;$!{N;s/↓/$PARAGRAPH_MARKER/;ba;}" | envsubst)
+  # fi
 }
 
 cleanup_chapter() {
