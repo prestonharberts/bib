@@ -778,7 +778,7 @@ cleanup_scripture() {
 
   # what i need to do is change the above code to use the paragraph marker
   # if [[ "$PARAGRAPH_MARKER" -ne "↓" ]]; then
-  scripture=$(echo "$scripture" | sed -E ":a;$!{N;s/↓/$PARAGRAPH_MARKER/;ba;}" | envsubst)
+  scripture=$(echo "$scripture" | sed -E ":a;$!{N;s/↓/$PARAGRAPH_MARKER/;ba;}")
   # fi
 }
 
