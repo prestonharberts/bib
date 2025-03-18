@@ -10,16 +10,13 @@ main() {
   else
     get_args "$@"
     if [[ -n "$book" ]]; then
-      start_processing "$@"
+      start_processing
     fi
   fi
   exit 0
 }
 
 get_args() {
-  # set arguments to defaults
-  arg_context="true"
-
   # lowercase all args
   args=()
   for arg in "$@"; do
@@ -29,6 +26,20 @@ get_args() {
 
   # set flags and Bible chapter/section/verse
   while [[ $# -gt 0 ]]; do
+    # set flags to defaults
+    reset_flags
+
+    # find flags if placed before bible verse
+    if [[ $flags_found -eq 0 ]]; then
+      if ! get_flags "$@"; then
+        reset_all_variables "$@"
+        break
+      fi
+      if [[ $flags_found -eq 1 ]]; then
+        shift 1
+      fi
+    fi
+
     # if first book arg is 1/2/3 or 1st/2nd/3rd or first/second/third
     # e.g., first ($1) john ($2)
     if [[ "$1" =~ ^[1-3]$ ]] || [[ "$1" =~ ^1st|2nd|3rd$ ]] || [[ "$1" =~ ^first|second|third$ ]] || [[ "$1" =~ ^i+$ ]]; then
@@ -37,6 +48,7 @@ get_args() {
       set -- "" "$1$2" "${@:3}"
       shift 1
     fi
+
     # if, for example, 1john1 obad gen30 or 1cor10
     if [[ "$1" =~ ^[1-3]*[a-z]+[0-9]*$ ]]; then
       book=$(echo "$1" | sed 's/[0-9]*$//')
@@ -80,6 +92,7 @@ get_args() {
         verse_end=$1
         shift 1
       fi
+
     elif [[ "$1" =~ ^[0-9]*[a-z]+[0-9]+:[0-9]+$ ]]; then
       book=$(echo "$1" | sed 's/[0-9]*:[0-9]*$//')
       chapter=$(echo "$1" | sed 's/^[0-9]*[a-z]*\([0-9]*\):[0-9]*$/\1/')
@@ -90,29 +103,58 @@ get_args() {
         verse_end=$1
         shift 1
       fi
+
     elif [[ "$1" =~ ^[0-9]*[a-z]+[0-9]+:[0-9]+-[0-9]+$ ]]; then
       book=$(echo "$1" | sed 's/[0-9]*:[0-9]*-[0-9]*$//')
       chapter=$(echo "$1" | sed 's/^[0-9]*[a-z]*\([0-9]*\):[0-9]*-[0-9]*$/\1/')
       verse_start=$(echo "$1" | sed 's/^[0-9]*[a-z]*[0-9]*:\([0-9]*\)-[0-9]*$/\1/')
       verse_end=$(echo "$1" | sed 's/^[0-9]*[a-z]*[0-9]*:[0-9]*-//')
       shift 1
-    elif [ "$1" = "--no-context" -o "$1" = "-n" ]; then
-      arg_context="false"
-      shift 1
-    elif [ "$1" = "--copy" -o "$1" = "-c" ]; then
-      shift 1
-    elif [ "$1" = "--random" -o "$1" = "-r" ]; then
-      shift 1
-    elif [ "$1" = "--abbreviations" -o "$1" = "-a" ]; then
-      show_abbreviations
-      break
-    elif [ "$1" = "--help" -o "$1" = "-h" ]; then
-      show_help
-      break
+    fi
+
+    validate_args_numbers "$@"
+
+    # find flags if placed after bible verse
+    if [[ $flags_found -eq 0 ]]; then
+      if ! get_flags "$@"; then
+        reset_all_variables "$@"
+        break
+      fi
+      if [[ $flags_found -eq 1 ]]; then
+        shift 1
+      fi
+    fi
+
+    if [[ -n "$book" ]]; then
+      start_processing
     else
       shift 1
     fi
+
+    reset_text
   done
+}
+
+get_flags() {
+  if [[ "$1" =~ ^-[a-z-]+$ ]]; then
+    if [ "$1" = "--no-context" -o "$1" = "-n" ]; then
+      arg_context="false"
+      shift 1
+      flags_found=1
+    elif [ "$1" = "--copy" -o "$1" = "-c" ]; then
+      shift 1
+      flags_found=1
+    elif [ "$1" = "--random" -o "$1" = "-r" ]; then
+      shift 1
+      flags_found=1
+    elif [ "$1" = "--abbreviations" -o "$1" = "-a" ]; then
+      show_abbreviations
+      return 1
+    elif [ "$1" = "--help" -o "$1" = "-h" ]; then
+      show_help
+      return 1
+    fi
+  fi
 }
 
 start_processing() {
@@ -129,7 +171,7 @@ start_processing() {
 }
 
 start_bib_console() {
-  echo "bib (interactive CLI prompt)"
+  echo "bib (interactive CLI mode)"
   echo "Type 'quit' or 'q' to exit."
   echo "Enter Bible reference (e.g., john3 16)"
 
@@ -142,7 +184,7 @@ start_bib_console() {
 
   while true; do
     # prompt the user for input
-    read -e -p "$(echo -e '\033[1;34m>>> \033[0m')" input
+    read -e -p "$(echo -e '\033[1;34m>>> \033[0m')" -- input
     set -- $input
 
     # exit condition
@@ -151,25 +193,10 @@ start_bib_console() {
     fi
 
     # add command to history
-    echo $input >>${HISTFILE}
+    echo "$input" >>"${HISTFILE}"
 
     # begin fetching scripture and then print
     get_args "$@"
-    if [[ -n "$book" ]]; then
-      start_processing "$@"
-    fi
-
-    set --
-
-    book=""
-    book_from_array=""
-    chapter=""
-    verse_start=""
-    verse_end=""
-    hline=""
-    title=""
-    separator=""
-    scripture=""
 
     # history
     history -n
@@ -349,7 +376,7 @@ get_scripture() {
       chapter=""
     fi
     chapter_file="${bible_dir}/${book_from_array}${chapter}.md"
-    if ! validate_input; then
+    if ! validate_args_book; then
       return 1
     fi
     book=$book_from_array
@@ -381,7 +408,19 @@ get_title() {
   fi
 }
 
-validate_input() {
+validate_args_numbers() {
+  if [[ -n "$verse_end" ]]; then
+    if [[ "$verse_start" -eq "$verse_end" ]]; then
+      echo -e "<!> bib: verse numbers cannot be the same"
+      reset_all_variables "$@"
+    elif [[ "$verse_start" -gt "$verse_end" ]]; then
+      echo -e "<!> bib: starting verse cannot be greater than ending verse"
+      reset_all_variables "$@"
+    fi
+  fi
+}
+
+validate_args_book() {
   if [ -z "${book_from_array}" ] && [ -z "${book}" ]; then
     echo -e "<!> bib: book not found"
     return 1
@@ -868,6 +907,30 @@ print_verse() {
     echo -e "${scripture}" | awk "/^ *$verse_start /{print \"\033[31m\" \$0; flag=1; next} /^ *($(($verse_start + 1)) |¹)/{flag=0} flag"
     echo -en "\033[0m"
   fi
+}
+
+# used to break out of loop when traversing arguments
+reset_all_variables() {
+  set --
+  reset_flags
+  reset_text
+}
+
+reset_flags() {
+  arg_context="true"
+  flags_found=0
+}
+
+reset_text() {
+  book=""
+  book_from_array=""
+  chapter=""
+  verse_start=""
+  verse_end=""
+  hline=""
+  title=""
+  separator=""
+  scripture=""
 }
 
 main "$@"
