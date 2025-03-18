@@ -107,7 +107,7 @@ Here is an example of the program running with the included NET translation in s
 
 ## Other features
 
-Multiple verses can be strung together in a single line, and all of it will print, one by one. Add the no context flag after every verse you want to remove context verses for.
+Multiple verses can be strung together in a single line, and all of it will print, one by one. Add the no context flag `-n` after every verse you want to remove context verses for, or use `-N` to hide all context for all verses for the current command.
 
 This feature works in both the interactive and non-interactive modes, and the only limitation is that all books with numbers (1 Cor.) cannot have a space between the number and the book title.
 
@@ -117,6 +117,14 @@ This feature works in both the interactive and non-interactive modes, and the on
 >>> phil 4:13 1john 4 18-19 heb12 7
 # this will run bib by itself without entering into the prompt
 bib phil 4:13 1john 4 18-19 heb12 7
+
+# hide context verses for only phil4 13
+>>> phil4 13 1john4 18 19 heb12 7
+>>> phil4 13 -n 1john4 18 19 heb12 7
+
+# hide all context verses for all selected verses
+>>> phil4 13 1john4 18 19 heb12 7 -N
+>>> -N phil4 13 1john4 18 19 heb12 7
 ```
 
 ### Copying text
@@ -147,7 +155,7 @@ The included script bibr by [w1ldrabb1t](https://github.com/w1ldrabb1t) will ran
 
 To use, put bibr in the same directory as bib and the Bible folder, ideally in your PATH (see [Setup](#setup)).
 
-Use the option `-n` to hide context verses in bib. There is also the option `-v` to enable verbose mode which will show the bib command it executes.
+Use the option `-n` to hide context verses in bib and `-N` to hide all context for all verses if you select multiple in one line. There is also the option `-v` to enable verbose mode which will show the bib command it executes.
 
 > Someday in the future, bibr will be a feature of bib and be run with `bib -r`.
 
