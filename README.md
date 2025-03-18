@@ -10,6 +10,7 @@ If you would like to use another translation, see Other Translations near the bo
 - [Setup](#setup)
 - [Usage](#usage)
   - [Example](#example)
+- [Other features](#other-features)
   - [Copying text](#copying-text)
   - [Scaling demonstration](#scaling-demonstration)
   - [Random Bible verses](#random-bible-verses)
