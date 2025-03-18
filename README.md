@@ -69,14 +69,16 @@ bib gen1 1 2
 bib john3 16 -n
 ```
 
-The following formats also work thanks to extensive input formatting:
+Any of the following formats also work thanks to extensive input formatting, and capital letters make no difference either:
 
 ```bash
 bib 1 Corinthians 13:4-7
-bib 1 cor 13 4 7
-bib 1cor13:4
-bib 1Cor13 4-7
 bib 1 cor13:4-7
+bib 1 cor13:4 7
+bib 1 cor 13:4-7
+bib 1 cor 13 4 7
+# my preferred way to type into bib
+bib 1cor13 4 7
 ```
 
 If you want to enter into a interactive prompt similar to Python, just run `bib` by itself, and you can enter any Bible reference without having to type bib over again. History is also supported and is stored in `~/.bib_history`.
@@ -86,6 +88,20 @@ If you want to enter into a interactive prompt similar to Python, just run `bib`
 Here is an example of the program running with the included NET translation in script mode and interactive mode.
 
 <p align=center><img src="https://github.com/user-attachments/assets/d4323219-5edd-454a-9e71-02f65fa8fb0c" width="800"></p>
+
+## Other features
+
+Multiple verses can be strung together in a single line, and all of it will print, one by one. Add the no context flag after every verse you want to remove context verses for.
+
+This feature works in both the interactive and non-interactive modes, and the only limitation is that all books with numbers (1 Cor.) cannot have a space between the number and the book title.
+
+```bash
+>>> phil4 13 1john4 18 19 heb12 7
+# different formats are also supported
+>>> phil 4:13 1john 4 18-19 heb12 7
+# this will run bib by itself without entering into the prompt
+bib phil 4:13 1john 4 18-19 heb12 7
+```
 
 ### Copying text
 

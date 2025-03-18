@@ -5,8 +5,10 @@
 BIBLE_NAME="bible"
 
 main() {
+  # if no arguments, open console mode
   if [ $# -eq 0 ]; then
     start_bib_console
+  # else process arguments and print to screen
   else
     get_args "$@"
     if [[ -n "$book" ]]; then
