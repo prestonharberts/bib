@@ -61,16 +61,16 @@ Here are some example usecases. By default, the previous and next 2 verses are a
 # this prints the entire Genesis 1 chapter
 bib gen1
 
-# this prints just Genesis 1:1 (and context verses Genesis 1:2-3)
+# this prints Genesis 1:1 (and context verses Genesis 1:2-3)
 bib gen1 1
 
 # this prints Genesis 1:1 (no context verses)
 bib gen1 1 -n
 
-# this prints the verses Genesis 1:3-4 (and context verses Genesis 1-2 and 5-6)
+# this prints Genesis 1:3-4 (and context verses Genesis 1-2 and 5-6)
 bib gen1 3 4
 
-# this prints the verses Genesis 1:3-4 (no context verses)
+# this prints Genesis 1:3-4 (no context verses)
 bib gen1 3 4 -n
 ```
 
