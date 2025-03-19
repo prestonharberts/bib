@@ -5,6 +5,11 @@ if [ "$#" -lt 1 ]; then
     exit 1
 fi
 
+# Set the folder path
+BIBLE_NAME="bible"
+DIR_OF_SCRIPT=$(dirname "$(readlink -f $0)")
+FOLDER_PATH="${DIR_OF_SCRIPT}/${BIBLE_NAME}"
+
 # Arguments prep
 NO_FORMAT=""
 VERBOSE=false
@@ -21,7 +26,7 @@ done
 SEARCH_STRING="${ARGS[0]}"
 
 # Store grep results properly in an array
-mapfile -t RESULTS < <(grep -n -r "$SEARCH_STRING" ./bible/)
+mapfile -t RESULTS < <(grep -n -r "$SEARCH_STRING" "$FOLDER_PATH")
 
 # Check if there are no results
 if [ "${#RESULTS[@]}" -eq 0 ]; then
