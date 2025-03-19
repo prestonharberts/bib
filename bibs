@@ -1,0 +1,69 @@
+#!/bin/bash
+
+if [ "$#" -lt 1 ]; then
+    echo "Usage: $0 [-n] [-v] <search-string>"
+    exit 1
+fi
+
+# Arguments prep
+NO_FORMAT=""
+VERBOSE=false
+ARGS=()
+
+for arg in "$@"; do
+    case "$arg" in
+        -n) NO_FORMAT="-n" ;;
+        -v) VERBOSE=true ;;
+        *) ARGS+=("$arg") ;;
+    esac
+done
+
+SEARCH_STRING="${ARGS[0]}"
+
+# Store grep results properly in an array
+mapfile -t RESULTS < <(grep -n -r "$SEARCH_STRING" ./bible/)
+
+# Check if there are no results
+if [ "${#RESULTS[@]}" -eq 0 ]; then
+    echo "No results found."
+    exit 0
+fi
+
+INDEX=0
+TOTAL_RESULTS=${#RESULTS[@]}
+
+# Time to iterate over each result we got
+while [ "$INDEX" -lt "$TOTAL_RESULTS" ]; do
+    result="${RESULTS[$INDEX]}"
+
+    # Process file name, book name and chapter
+    FILE=$(echo "$result" | cut -d: -f1)
+    LINE_NUM=$(echo "$result" | cut -d: -f2)
+    BOOK_CHAPTER=$(basename "$FILE" .md)
+
+    # Search backwards for "#### <number>"
+    VERSE_NUM=$(awk -v line="$LINE_NUM" 'NR <= line { if ($0 ~ /#### [0-9]+/) v=$2 } END { print v }' "$FILE")
+
+    if [ -z "$VERSE_NUM" ]; then
+        echo "Verse number not found in $FILE at line $LINE_NUM"
+        INDEX=$((INDEX + 1))
+        continue
+    fi
+
+    # Exposing the bib call here in case the user wants to use it.
+    if [ "$VERBOSE" = true ]; then
+        echo "./bib $NO_FORMAT $BOOK_CHAPTER $VERSE_NUM"
+    fi
+    ./bib $NO_FORMAT "$BOOK_CHAPTER" "$VERSE_NUM"
+
+    # User interaction
+    while true; do
+        read -r -n1 -p "Press any key to go to next result, or Q to quit: " input
+        echo ""  # Move to a new line after reading input
+        case "$input" in
+                [Qq]) exit 0 ;;
+                *) INDEX=$((INDEX + 1)); break ;;
+        esac
+    done
+
+done
