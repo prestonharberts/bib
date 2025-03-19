@@ -793,7 +793,7 @@ cleanup_chapter() {
   scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
 }
 
-cleanup_passage() {
+cleanup_section() {
   sed_args=(
     # format editorial headings
     -e 's/^ *## (.*)//'
@@ -803,12 +803,12 @@ cleanup_passage() {
 }
 
 cleanup_verse() {
-  cleanup_passage
+  cleanup_section
 }
 
 print_scripture() {
   if [[ $verse_end != '' ]]; then
-    print_passage
+    print_section
   elif [[ $verse_start != '' ]]; then
     print_verse
   else
@@ -828,8 +828,8 @@ print_chapter() {
   echo "$output" | less -RFX
 }
 
-print_passage() {
-  cleanup_passage
+print_section() {
+  cleanup_section
   output="$(
     sed_args=(
       # format editorial headings
