@@ -170,7 +170,18 @@ for i in {1..1000}; do bibr; done
 
 ## Other Translations
 
-If you would like to use another translation, please use my [BibleGateway-to-Obsidian script](https://github.com/prestonharberts/biblegateway-to-obsidian) to generate a new Bible (also be aware that not all translations will work with either bib or BibleGateway-to-Obsidian). Once it has, move only the Scripture folder to this repository, and rename it to `bible` (lowercase). Run the following from this folder to make the files compatible with this program:
+If you would like to use another translation, please use my [BibleGateway-to-Obsidian script](https://github.com/prestonharberts/biblegateway-to-obsidian) to generate a new Bible (also be aware that not all translations will work with either bib or BibleGateway-to-Obsidian). Once it has, move only the Scripture folder to this repository, and rename it to `bible` (lowercase).
+
+Make sure you have `perl` and `cpan` are installed on your computer using your respective package manager, then run the following:
+
+```bash
+# if first time opening just press enter to all prompts cpan will ask for
+cpan
+install Module::Build
+install File::Rename
+```
+
+Now, run the following from this project's folder to make the files compatible with bib:
 
 ```
 chmod u+x ./bg2ob-to-bib
