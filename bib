@@ -742,7 +742,7 @@ cleanup_markdown() {
     -e 's/tempasterisk/*/g'
 
     # add space before lines that are not on the same line as the verse num
-    -e 's/(^[^0-9 ])/      \1/g'
+    -e 's/(^[^0-9# ])/      \1/g'
   )
   scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
 }
@@ -794,6 +794,7 @@ cleanup_scripture() {
 
 cleanup_chapter() {
   sed_args=(
+    -e 's/(^[^0-9 ])/      \1/g'
     -e '1s/^      ## (.*)/      [\1]/g'
     -e 's/^      ## (.*)/\n      [\1]/g'
     # add blank line before footnotes
