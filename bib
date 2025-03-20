@@ -385,10 +385,12 @@ get_title() {
 }
 
 hyphenate_scripture() {
-  # I should find the longest line in the file and calculate how many
-  # passes to do from that
+  # TODO I should find the longest line in the file and calculate how many
+  #      passes to do from that. passes could also change depending on the
+  #      translation
 
-  # passes could also change depending on the translation
+  # TODO I haven't tested numbers with fractions (NET) or decimals so they may
+  #      not wrap correctly
 
   # hyphenate scripture
   if [ $width -le 20 ]; then
@@ -784,8 +786,8 @@ cleanup_scripture() {
   )
   scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
 
-  # what i need to do is change the above code to use the paragraph marker
-  # if [[ "$PARAGRAPH_MARKER" -ne "↓" ]]; then
+  # TODO what i need to do is change the above code to use the paragraph marker
+  #      if [[ "$PARAGRAPH_MARKER" -ne "↓" ]]; then
   scripture=$(echo "$scripture" | sed -E ":a;$!{N;s/↓/$PARAGRAPH_MARKER/;ba;}")
   # fi
 }
@@ -814,9 +816,9 @@ cleanup_verse() {
 }
 
 print_scripture() {
-  # I should cut $scripture to only be the verse or section the user asks for
-  # then hyphenate that part only. this would speed up the program a lot
-  # this would only affect print_section and print_verse
+  # TODO I should cut $scripture to only be the verse or section the user asks
+  #      for then hyphenate that part only. this would speed up the program a
+  #      lot this would only affect print_section and print_verse
 
   if [[ $verse_end != '' ]]; then
     print_section
