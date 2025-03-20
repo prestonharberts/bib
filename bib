@@ -857,8 +857,8 @@ print_section() {
       echo -e "${scripture}" | awk "/^ *$(($verse_start - 1)) /{print; flag=1; next} /^ *$(($verse_start - 0)) /{flag=0} flag"
       echo -e "${scripture}" | awk "/^ *$(($verse_start)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($verse_end + 1)) /{flag=0} flag {print \"\033[31m\" \$0}"
       echo -en "\033[0m"
-      echo -e "${scripture}" | awk "/^ *$(($verse_start + 1)) /{print; flag=1; next} /^ *($(($verse_start + 2)) |¹)/{flag=0} flag"
-      echo -e "${scripture}" | awk "/^ *$(($verse_start + 2)) /{print; flag=1; next} /^ *($(($verse_start + 3)) |¹)/{flag=0} flag"
+      echo -e "${scripture}" | awk "/^ *$(($verse_end + 1)) /{print; flag=1; next} /^ *($(($verse_end + 2)) |¹)/{flag=0} flag"
+      echo -e "${scripture}" | awk "/^ *$(($verse_end + 2)) /{print; flag=1; next} /^ *($(($verse_end + 3)) |¹)/{flag=0} flag"
     elif [[ $arg_no_context == 'true' ]]; then
       echo -e "${scripture}" | awk "/^ *$(($verse_start)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($verse_end + 1)) /{flag=0} flag {print \"\033[31m\" \$0}"
       echo -en "\033[0m"
