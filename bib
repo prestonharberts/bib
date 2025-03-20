@@ -385,6 +385,11 @@ get_title() {
 }
 
 hyphenate_scripture() {
+  # I should find the longest line in the file and calculate how many
+  # passes to do from that
+
+  # passes could also change depending on the translation
+
   # hyphenate scripture
   if [ $width -le 20 ]; then
     passes=26
@@ -403,7 +408,9 @@ hyphenate_scripture() {
   fi
 
   for i in $(seq 1 $passes); do
-    hyphenate_scripture_poetry
+    if [[ "$scripture" == *">"* ]]; then
+      hyphenate_scripture_poetry
+    fi
   done
   for i in $(seq 1 $passes); do
     hyphenate_scripture_normal
@@ -807,6 +814,10 @@ cleanup_verse() {
 }
 
 print_scripture() {
+  # I should cut $scripture to only be the verse or section the user asks for
+  # then hyphenate that part only. this would speed up the program a lot
+  # this would only affect print_section and print_verse
+
   if [[ $verse_end != '' ]]; then
     print_section
   elif [[ $verse_start != '' ]]; then
