@@ -394,11 +394,12 @@ hyphenate_scripture() {
 
   # hyphenate scripture
   if [ $width -le 20 ]; then
-    passes=26
+    # this one needs to be testef more
+    passes=50
   elif [ $width -le 30 ]; then
-    passes=15
+    passes=29
   elif [ $width -le 40 ]; then
-    passes=8
+    passes=15
   elif [ $width -le 50 ] || [ $width -le 60 ]; then
     passes=7
   elif [ $width -le 70 ]; then
