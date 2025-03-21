@@ -31,7 +31,10 @@ If you would like to use another translation, see Other Translations near the bo
 - Hyphenated text to give the appearance of justified text alignment
 - Works on a variety of terminal sizes
 
-Also included is the program `bibr` (credit to [w1ldrabb1t](https://github.com/w1ldrabb1t)), that lets you randomly print a Bible verse to your terminal. See [Random Bible verses](#random-bible-verses) for more information.
+Also included with `bib` are 2 programs `bibs` and `bibr` by [w1ldrabb1t (GitHub)](https://github.com/w1ldrabb1t)
+
+- bibs lets you search for words and phrases in the Bible and prints found results with bib. See [Searching with bibs](#searching-with-bibs)
+- bibr randomly print a Bible verse to your terminal using bib. See [Random verses with bibr](#random-verses-with-bibr) for more information.
 
 ## Setup
 
@@ -163,7 +166,11 @@ One of my favorite features of this program and one that I spent a bit of time o
 
 <p align=center><img src="https://github.com/user-attachments/assets/52da7b37-f75b-4403-8c74-4ef9bb9ebf2b" width="800"></p>
 
-### Random Bible verses
+### Searching with bibs
+
+The included script bibs by [w1ldrabb1t](https://github.com/w1ldrabb1t) lets you search for a word or phrase in the Bible, and it will print the results one at a time to your terminal using bib. Multiple word phrases should be placed in quotation marks.
+
+### Random verses with bibr
 
 The included script bibr by [w1ldrabb1t](https://github.com/w1ldrabb1t) will randomly print a Bible verse to your terminal using bib. It does so by finding the last verse in a file, generating a number between 1 and x, and then calling bib.
 
