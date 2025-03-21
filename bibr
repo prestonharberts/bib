@@ -9,13 +9,13 @@ DIR_OF_SCRIPT=$(dirname "$(readlink -f $0)")
 FOLDER_PATH="${DIR_OF_SCRIPT}/${BIBLE_NAME}"
 
 # Default values
-PASS_C_FLAG=""
+PASS_N_FLAG=""
 VERBOSE=false
 
 # Parse command-line options
-while getopts "cv" opt; do
+while getopts "nv" opt; do
   case $opt in
-  c) PASS_C_FLAG="-c" ;; # If -c is passed, store it
+  n) PASS_N_FLAG="-n" ;; # If -n is passed, store it
   v) VERBOSE=true ;;
   esac
 done
@@ -57,4 +57,4 @@ if $VERBOSE; then
 fi
 
 # call main program bib
-${DIR_OF_SCRIPT}/bib $PASS_C_FLAG "$FILE_NAME" "$RANDOM_NUMBER"
+${DIR_OF_SCRIPT}/bib $PASS_N_FLAG "$FILE_NAME" "$RANDOM_NUMBER"
