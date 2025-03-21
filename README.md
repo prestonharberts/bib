@@ -13,7 +13,8 @@ If you would like to use another translation, see Other Translations near the bo
 - [Other features](#other-features)
   - [Copying text](#copying-text)
   - [Scaling demonstration](#scaling-demonstration)
-  - [Random Bible verses](#random-bible-verses)
+  - [Searching with bibs](#searching-with-bibs)
+  - [Random verses with bibr](#random-verses-with-bibr)
 - [Other translations](#other-translations)
 - [Termux](#termux)
 - [Todo](#todo)
@@ -33,8 +34,8 @@ If you would like to use another translation, see Other Translations near the bo
 
 Also included with `bib` are 2 programs `bibs` and `bibr` by [w1ldrabb1t (GitHub)](https://github.com/w1ldrabb1t)
 
-- bibs lets you search for words and phrases in the Bible and prints found results with bib. See [Searching with bibs](#searching-with-bibs)
-- bibr randomly print a Bible verse to your terminal using bib. See [Random verses with bibr](#random-verses-with-bibr) for more information.
+- bibs lets you search for words and phrases in the Bible and prints found results with bib. See [Searching with bibs](#searching-with-bibs).
+- bibr randomly print a Bible verse to your terminal using bib. See [Random verses with bibr](#random-verses-with-bibr).
 
 ## Setup
 
@@ -169,6 +170,8 @@ One of my favorite features of this program and one that I spent a bit of time o
 ### Searching with bibs
 
 The included script bibs by [w1ldrabb1t](https://github.com/w1ldrabb1t) lets you search for a word or phrase in the Bible, and it will print the results one at a time to your terminal using bib. Multiple word phrases should be placed in quotation marks.
+
+<p align=center><img src="https://github.com/user-attachments/assets/cf03e2f0-eb82-4daa-8f4c-2ac5e6bd09a0" width="450"></p>
 
 ### Random verses with bibr
 
