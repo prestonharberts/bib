@@ -70,7 +70,7 @@ get_args() {
   # lowercase all args
   args=()
   for arg in "$@"; do
-    if [[ "$arg" =~ ^-[A-Za-z-]+$ ]]; then
+    if [[ "$arg" =~ ^--*[A-Za-z-]+$ ]]; then
       if [[ "${arg}" == "-N" ]] || [[ "${arg}" == "--no-context-all" ]]; then
         arg_no_context="true"
         arg_no_context_all="true"
@@ -78,6 +78,20 @@ get_args() {
       else
         args+=("${arg}")
       fi
+    elif [[ "$arg" =~ , ]]; then
+      if [[ "$arg" =~ ^([1-3]*[A-Za-z]+) ]]; then
+        curr_book="${BASH_REMATCH[1]}"
+        arg=$(echo "$arg" | sed 's/,//')
+        args+=("${arg,,}")
+        args+=("${curr_book,,}")
+      else
+        arg=$(echo "$arg" | sed 's/,//')
+        args+=("${arg,,}")
+        args+=("${curr_book,,}")
+      fi
+    elif [[ "$arg" =~ ^([1-3]*[A-Za-z]+) ]]; then
+      curr_book="${BASH_REMATCH[1]}"
+      args+=("${arg,,}")
     else
       args+=("${arg,,}")
     fi
