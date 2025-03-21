@@ -57,9 +57,9 @@ while [ "$INDEX" -lt "$TOTAL_RESULTS" ]; do
 
     # Exposing the bib call here in case the user wants to use it.
     if [ "$VERBOSE" = true ]; then
-        echo "./bib $NO_FORMAT $BOOK_CHAPTER $VERSE_NUM"
+        echo "$DIR_OF_SCRIPT/bib $NO_FORMAT $BOOK_CHAPTER $VERSE_NUM"
     fi
-    ./bib $NO_FORMAT "$BOOK_CHAPTER" "$VERSE_NUM"
+    "$DIR_OF_SCRIPT"/bib $NO_FORMAT "$BOOK_CHAPTER" "$VERSE_NUM"
 
     # User interaction
     while true; do
