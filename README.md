@@ -92,6 +92,12 @@ bub 1 cor 13 4-7
 bib 1 cor 13 4 7
 ```
 
+Verses from the same book can also be listed together with commas without having to retype the book name over again (commas and hyphens are can still be replaced with spaces):
+
+```bash
+bib matt 2:1, 28:18-20, 1:1-17, 8:5-10, 21:43
+```
+
 If you want to enter into a interactive prompt similar to Python, just run `bib` by itself, and you can enter any Bible reference without having to type bib over again. History is also supported and is stored in `~/.bib_history`.
 
 The example from earlier would appear like this in the interactive mode:
