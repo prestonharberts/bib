@@ -32,7 +32,7 @@ If you would like to use another translation, see Other Translations near the bo
 - Hyphenated text to give the appearance of justified text alignment
 - Works on a variety of terminal sizes
 
-Also included with `bib` are 2 programs `bibs` and `bibr` by [w1ldrabb1t (GitHub)](https://github.com/w1ldrabb1t)
+Also included with bib are 2 programs `bibs` and `bibr` by [w1ldrabb1t (GitHub)](https://github.com/w1ldrabb1t)
 
 - bibs lets you search for words and phrases in the Bible and prints found results with bib. See [Searching with bibs](#searching-with-bibs).
 - bibr randomly print a Bible verse to your terminal using bib. See [Random verses with bibr](#random-verses-with-bibr).
