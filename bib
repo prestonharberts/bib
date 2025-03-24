@@ -65,7 +65,12 @@ start_bib_console() {
       shopt -s histappend
       history -r
       read -e -r -p $'\''\001\033[1;34m\002>>> \001\033[0m\002'\'' input 
-      echo $input')
+      echo $input
+    ')
+
+    # remove all newlines from input
+    # this fixes an issue in Termux
+    input="${input//$'\n'/}"
 
     set -- $input
 
