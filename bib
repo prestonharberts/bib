@@ -97,7 +97,10 @@ get_args() {
   # lowercase all args
   args=()
   for arg in "$@"; do
-    if [[ "$arg" =~ ^--*[A-Za-z-]+$ ]]; then
+    # clear terminal screen
+    if [[ "$arg" =~ ^clear|cls|l$ ]]; then
+      clear
+    elif [[ "$arg" =~ ^--*[A-Za-z-]+$ ]]; then
       if [[ "${arg}" == "-N" ]] || [[ "${arg}" == "--no-context-all" ]]; then
         arg_context="true"
         arg_context_all="true"
@@ -950,6 +953,8 @@ show_help() {
   echo "  -a  --abbreviations  Display list of abbreviations"
   echo "  -c  --context        Show context verses"
   echo "  -n  --no-context     Hide context verses"
+  echo "Usage (interactive mode only):"
+  echo "  clear/cls/l          Clear terminal screen"
 }
 
 show_abbreviations() {
