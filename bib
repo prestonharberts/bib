@@ -1,11 +1,34 @@
 #!/bin/bash
 # shellcheck disable=1111,1112,2030,2031,2034,2086
 
+# USER CONFIG
+BIBLE_FOLDER_NAME="bible"   # "<folder-name>" not path # default "bible"
+                            # change if you renamed your bible folder
 
-BIBLE_FOLDER_NAME="bible" # change if you renamed your bible folder
-PARAGRAPH_MARKER="↓" # change if you want a different new paragraph marker
-#PARAGRAPH_MARKER="¶" # make paragraph marker a pilcrow sign
-CONTEXT_DEFAULT="true"
+PARAGRAPH_MARKER="↓"        # "<character>" # default "↓"
+                            # change if you want a different new paragraph
+                            # marker
+
+                            # TODO: I want the option to leave it empty
+                            # and have the Bible use the extra 2 spaces
+                            # this will offer
+
+#PARAGRAPH_MARKER="¶"       # make paragraph marker a pilcrow sign
+
+CONTEXT_DEFAULT="true"      # "<true/false>" # default "true"
+                            # enable or disable whether context is shown
+                            # by default
+
+LESS_DEFAULT="true"         # "<true/false>" # default "true"
+                            # allow disabled less so you don't have the use
+                            # keys to quit less
+
+# set pager to less if enabled by default, else cat the output
+if [[ "$LESS_DEFAULT" = "true" ]]; then
+  PAGER="less -RFX"
+elif [[ "$LESS_DEFAULT" = "false" ]]; then
+  PAGER="cat"
+fi
 
 main() {
   # if no arguments, open console mode
@@ -861,7 +884,7 @@ print_chapter() {
     echo "$hline"
     echo -e "$scripture"
   )"
-  echo "$output" | less -RFX
+  echo "$output" | $PAGER
 }
 
 print_section() {
@@ -881,13 +904,17 @@ print_section() {
       echo -e "${scripture}" | awk "/^ *$(($verse_start - 2)) /{print; flag=1; next} /^ *$(($verse_start - 1)) /{flag=0} flag"
       echo -e "${scripture}" | awk "/^ *$(($verse_start - 1)) /{print; flag=1; next} /^ *$(($verse_start - 0)) /{flag=0} flag"
       echo -e "${scripture}" | awk "/^ *$(($verse_start)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($verse_end + 1)) /{flag=0} flag {print \"\033[31m\" \$0}"
+      echo -en "\033[0m"
       echo -e "${scripture}" | awk "/^ *$(($verse_end + 1)) /{print; flag=1; next} /^ *($(($verse_end + 2)) |¹)/{flag=0} flag"
       echo -e "${scripture}" | awk "/^ *$(($verse_end + 2)) /{print; flag=1; next} /^ *($(($verse_end + 3)) |¹)/{flag=0} flag"
     elif [[ $arg_context == 'false' ]]; then
       echo -e "${scripture}" | awk "/^ *$(($verse_start)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($verse_end + 1)) /{flag=0} flag {print \"\033[31m\" \$0}"
     fi
   )"
-  echo "$output" | less -RFX
+  echo "$output" | $PAGER
+  if [[ "$PAGER" == "cat" ]]; then
+    echo -en "\033[0m"
+  fi
 }
 
 print_verse() {
@@ -901,13 +928,17 @@ print_verse() {
       echo -e "${scripture}" | awk "/^ *$(($verse_start - 2)) /{print; flag=1; next} /^ *$(($verse_start - 1)) /{flag=0} flag"
       echo -e "${scripture}" | awk "/^ *$(($verse_start - 1)) /{print; flag=1; next} /^ *$(($verse_start - 0)) /{flag=0} flag"
         echo -e "${scripture}" | awk "/^ *$(($verse_start)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($verse_start + 1)) /{flag=0} flag {print \"\033[31m\" \$0}"
+      echo -en "\033[0m"
       echo -e "${scripture}" | awk "/^ *$(($verse_start + 1)) /{print; flag=1; next} /^ *($(($verse_start + 2)) |¹)/{flag=0} flag"
       echo -e "${scripture}" | awk "/^ *$(($verse_start + 2)) /{print; flag=1; next} /^ *($(($verse_start + 3)) |¹)/{flag=0} flag"
     elif [[ $arg_context == 'false' ]]; then
         echo -e "${scripture}" | awk "/^ *$(($verse_start)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($verse_start + 1)) /{flag=0} flag {print \"\033[31m\" \$0}"
     fi
   )"
-  echo "$output" | less -RFX
+  echo "$output" | $PAGER
+  if [[ "$PAGER" == "cat" ]]; then
+    echo -en "\033[0m"
+  fi
 }
 
 show_help() {
@@ -958,7 +989,7 @@ show_abbreviations() {
     echo -e "${abbreviations}"
   )"
 
-  echo "$output" | less -RFX
+  echo "$output" | $PAGER
 }
 
 validate_args_verses() {
