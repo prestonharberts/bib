@@ -916,6 +916,9 @@ print_section() {
     fi
   )"
   echo "$output" | $PAGER
+  if [[ "$PAGER" == "cat" ]]; then
+    echo -en "\033[0m"
+  fi
 }
 
 print_verse() {
@@ -936,6 +939,9 @@ print_verse() {
     fi
   )"
   echo "$output" | $PAGER
+  if [[ "$PAGER" == "cat" ]]; then
+    echo -en "\033[0m"
+  fi
 }
 
 show_help() {
