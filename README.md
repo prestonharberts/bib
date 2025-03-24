@@ -11,6 +11,8 @@ If you would like to use another translation, see Other Translations near the bo
 - [Usage](#usage)
   - [Example](#example)
 - [Other features](#other-features)
+  - [User configuration](#user-configuration)
+  - [Printing multiple verses](#printing-multiple-verses)
   - [Copying text](#copying-text)
   - [Scaling demonstration](#scaling-demonstration)
   - [Searching with bibs](#searching-with-bibs)
@@ -125,7 +127,19 @@ Here is an example of the program running with the included NET translation in s
 
 ## Other features
 
-Multiple verses can be strung together in a single line, and all of it will print, one by one. Add the no context flag `-n` after every verse you want to remove context verses for, or use `-N` to hide all context for all verses for the current command.
+### User configuration
+
+Open bib in a text editor, and at the top are several options you can change, including the following:
+
+- What character to use to show a new paragraph is starting
+- Whether to show context verses by default
+  - Enabling context by default lets you type `-n` to hide context verses
+  - Disabling context by default lets you type `-c` to show context verses
+- Whether to use `less` or `cat` to print bib output
+
+### Printing multiple verses
+
+Multiple verses can be strung together in a single line, and all of it will print, one by one. Add the context flags `-n`/`-c` after every verse you want to remove or show context verses for, or use `-N`/`-C` to hide or show all context for all verses for the current command.
 
 This feature works in both the interactive and non-interactive modes, and the only limitation is that all books with numbers (1 Cor.) cannot have a space between the number and the book title.
 
@@ -145,7 +159,7 @@ bib phil 4:13 1john 4 18-19 heb12 7
 >>> -N phil4 13 1john4 18 19 heb12 7
 ```
 
-### Copying text
+### Copying chapters
 
 Included in this repo is a program `bibcopy` that copies entire chapters at a time, reformats them, and lets me paste them into [Monkeytype](https://monkeytype.com/). It's formatted to be very minimal and looks like this in the NET translation:
 
@@ -179,7 +193,7 @@ The included script bibr by [w1ldrabb1t](https://github.com/w1ldrabb1t) will ran
 
 To use, put bibr in the same directory as bib and the Bible folder, ideally in your PATH (see [Setup](#setup)).
 
-Use the option `-n` to hide context verses in bib and `-N` to hide all context for all verses if you select multiple in one line. There is also the option `-v` to enable verbose mode which will show the bib command it executes.
+Use the options `-n` to hide context verses in bib and `-N` to hide all context for all verses if you select multiple in one line. There is also the option `-v` to enable verbose mode which will show the bib command it executes.
 
 > Someday in the future, bibr will be a feature of bib and be run with `bib -r`.
 
