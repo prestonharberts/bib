@@ -92,7 +92,7 @@ bib 1cor13:4 7
 bib 1cor13 4-7
 bib 1 cor 13:4-7
 bib 1 cor 13:4 7
-bub 1 cor 13 4-7
+bib 1 cor 13 4-7
 bib 1 cor 13 4 7
 ```
 
