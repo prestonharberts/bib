@@ -19,7 +19,7 @@ CONTEXT_DEFAULT="true"      # "<true/false>" # default "true"
                             # enable or disable whether context is shown
                             # by default
 
-LESS_DEFAULT="true"         # "<true/false>" # default "true"
+LESS_DEFAULT="false"         # "<true/false>" # default "true"
                             # allow disabled less so you don't have the use
                             # keys to quit less
 
@@ -908,8 +908,7 @@ print_section() {
     if [[ $arg_context == 'true' ]]; then
       echo -e "${scripture}" | awk "/^ *$(($verse_start - 2)) /{print; flag=1; next} /^ *$(($verse_start - 1)) /{flag=0} flag"
       echo -e "${scripture}" | awk "/^ *$(($verse_start - 1)) /{print; flag=1; next} /^ *$(($verse_start - 0)) /{flag=0} flag"
-      echo -e "${scripture}" | awk "/^ *$(($verse_start)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($verse_end + 1)) /{flag=0} flag {print \"\033[31m\" \$0}"
-      echo -en "\033[0m"
+      echo -e "$(echo -e "${scripture}" | awk "/^ *$(($verse_start)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($verse_end + 1)) /{flag=0} flag {print \"\033[31m\" \$0}")\033[0m"
       echo -e "${scripture}" | awk "/^ *$(($verse_end + 1)) /{print; flag=1; next} /^ *($(($verse_end + 2)) |¹)/{flag=0} flag"
       echo -e "${scripture}" | awk "/^ *$(($verse_end + 2)) /{print; flag=1; next} /^ *($(($verse_end + 3)) |¹)/{flag=0} flag"
     elif [[ $arg_context == 'false' ]]; then
@@ -917,9 +916,6 @@ print_section() {
     fi
   )"
   echo "$output" | $PAGER
-  if [[ "$PAGER" == "cat" ]]; then
-    echo -en "\033[0m"
-  fi
 }
 
 print_verse() {
@@ -932,8 +928,7 @@ print_verse() {
     if [[ $arg_context == 'true' ]]; then
       echo -e "${scripture}" | awk "/^ *$(($verse_start - 2)) /{print; flag=1; next} /^ *$(($verse_start - 1)) /{flag=0} flag"
       echo -e "${scripture}" | awk "/^ *$(($verse_start - 1)) /{print; flag=1; next} /^ *$(($verse_start - 0)) /{flag=0} flag"
-        echo -e "${scripture}" | awk "/^ *$(($verse_start)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($verse_start + 1)) /{flag=0} flag {print \"\033[31m\" \$0}"
-      echo -en "\033[0m"
+      echo -e "$(echo -e "${scripture}" | awk "/^ *$(($verse_start)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($verse_start + 1)) /{flag=0} flag {print \"\033[31m\" \$0}")\033[0m"
       echo -e "${scripture}" | awk "/^ *$(($verse_start + 1)) /{print; flag=1; next} /^ *($(($verse_start + 2)) |¹)/{flag=0} flag"
       echo -e "${scripture}" | awk "/^ *$(($verse_start + 2)) /{print; flag=1; next} /^ *($(($verse_start + 3)) |¹)/{flag=0} flag"
     elif [[ $arg_context == 'false' ]]; then
@@ -941,9 +936,6 @@ print_verse() {
     fi
   )"
   echo "$output" | $PAGER
-  if [[ "$PAGER" == "cat" ]]; then
-    echo -en "\033[0m"
-  fi
 }
 
 show_help() {
