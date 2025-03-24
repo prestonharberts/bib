@@ -1,12 +1,11 @@
 #!/bin/bash
 # shellcheck disable=1111,1112,2030,2031,2034,2086
 
-# change if you renamed your bible folder
-BIBLE_NAME="bible"
 
-# change if you want a different new paragraph marker
-PARAGRAPH_MARKER="↓"
-#PARAGRAPH_MARKER="¶"
+BIBLE_FOLDER_NAME="bible" # change if you renamed your bible folder
+PARAGRAPH_MARKER="↓" # change if you want a different new paragraph marker
+#PARAGRAPH_MARKER="¶" # make paragraph marker a pilcrow sign
+CONTEXT_DEFAULT="true"
 
 main() {
   # if no arguments, open console mode
@@ -72,8 +71,12 @@ get_args() {
   for arg in "$@"; do
     if [[ "$arg" =~ ^--*[A-Za-z-]+$ ]]; then
       if [[ "${arg}" == "-N" ]] || [[ "${arg}" == "--no-context-all" ]]; then
-        arg_no_context="true"
-        arg_no_context_all="true"
+        arg_context="true"
+        arg_context_all="true"
+        flags_found=1
+      elif [[ "${arg}" == "-C" ]] || [[ "${arg}" == "--context-all" ]]; then
+        arg_context="false"
+        arg_context_all="false"
         flags_found=1
       else
         args+=("${arg}")
@@ -205,7 +208,7 @@ get_args() {
     reset_text
 
     # set flags to defaults
-    if [[ $arg_no_context_all == "false" ]]; then
+    if [[ -n $arg_context_all ]]; then
       reset_flags
     fi
   done
@@ -214,10 +217,14 @@ get_args() {
 get_flags() {
   if [[ "$1" =~ ^-[A-Za-z-]+$ ]]; then
     if [ "$1" = "--no-context" -o "$1" = "-n" ]; then
-      arg_no_context="true"
+      arg_context="false"
       shift 1
       flags_found=1
-    elif [ "$1" = "--copy" -o "$1" = "-c" ]; then
+    elif [ "$1" = "--context" -o "$1" = "-c" ]; then
+      arg_context="true"
+      shift 1
+      flags_found=1
+    elif [ "$1" = "--copy" -o "$1" = "-p" ]; then
       shift 1
       flags_found=1
     elif [ "$1" = "--random" -o "$1" = "-r" ]; then
@@ -265,7 +272,7 @@ get_scripture() {
   # credit to u/bjarneh (https://www.reddit.com/r/commandline/s/ySIsbxOYex)
   # for helping me find files relative to bib
   dir_of_script=$(dirname "$(readlink -f $0)")
-  bible_dir="${dir_of_script}/${BIBLE_NAME}"
+  bible_dir="${dir_of_script}/${BIBLE_FOLDER_NAME}"
   chapter_file="${bible_dir}/${book}${chapter}.md"
   # enter if given book name is an abbreviation
   if [ ! -f "${chapter_file}" ]; then
@@ -870,13 +877,13 @@ print_section() {
     padding=$(((width + ${#title}) / 2))
     printf "%*s\n" $padding "$title"
     echo "$hline"
-    if [[ $arg_no_context == 'false' ]]; then
+    if [[ $arg_context == 'true' ]]; then
       echo -e "${scripture}" | awk "/^ *$(($verse_start - 2)) /{print; flag=1; next} /^ *$(($verse_start - 1)) /{flag=0} flag"
       echo -e "${scripture}" | awk "/^ *$(($verse_start - 1)) /{print; flag=1; next} /^ *$(($verse_start - 0)) /{flag=0} flag"
       echo -e "${scripture}" | awk "/^ *$(($verse_start)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($verse_end + 1)) /{flag=0} flag {print \"\033[31m\" \$0}"
       echo -e "${scripture}" | awk "/^ *$(($verse_end + 1)) /{print; flag=1; next} /^ *($(($verse_end + 2)) |¹)/{flag=0} flag"
       echo -e "${scripture}" | awk "/^ *$(($verse_end + 2)) /{print; flag=1; next} /^ *($(($verse_end + 3)) |¹)/{flag=0} flag"
-    elif [[ $arg_no_context == 'true' ]]; then
+    elif [[ $arg_context == 'false' ]]; then
       echo -e "${scripture}" | awk "/^ *$(($verse_start)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($verse_end + 1)) /{flag=0} flag {print \"\033[31m\" \$0}"
     fi
   )"
@@ -885,28 +892,30 @@ print_section() {
 
 print_verse() {
   cleanup_verse
-  echo "$hline"
-  padding=$(((width + ${#title}) / 2))
-  printf "%*s\n" $padding "$title"
-  echo "$hline"
-  if [[ $arg_no_context == 'false' ]]; then
-    echo -e "${scripture}" | awk "/^ *$(($verse_start - 2)) /{print; flag=1; next} /^ *$(($verse_start - 1)) /{flag=0} flag"
-    echo -e "${scripture}" | awk "/^ *$(($verse_start - 1)) /{print; flag=1; next} /^ *$(($verse_start - 0)) /{flag=0} flag"
-    echo -e "${scripture}" | awk "/^ *$verse_start /{print \"\033[31m\" \$0; flag=1; next} /^ *($(($verse_start + 1)) |¹)/{flag=0} flag"
-    echo -en "\033[0m"
-    echo -e "${scripture}" | awk "/^ *$(($verse_start + 1)) /{print; flag=1; next} /^ *($(($verse_start + 2)) |¹)/{flag=0} flag"
-    echo -e "${scripture}" | awk "/^ *$(($verse_start + 2)) /{print; flag=1; next} /^ *($(($verse_start + 3)) |¹)/{flag=0} flag"
-  elif [[ $arg_no_context == 'true' ]]; then
-    echo -e "${scripture}" | awk "/^ *$verse_start /{print \"\033[31m\" \$0; flag=1; next} /^ *($(($verse_start + 1)) |¹)/{flag=0} flag"
-    echo -en "\033[0m"
-  fi
+  output="$(
+    echo "$hline"
+    padding=$(((width + ${#title}) / 2))
+    printf "%*s\n" $padding "$title"
+    echo "$hline"
+    if [[ $arg_context == 'true' ]]; then
+      echo -e "${scripture}" | awk "/^ *$(($verse_start - 2)) /{print; flag=1; next} /^ *$(($verse_start - 1)) /{flag=0} flag"
+      echo -e "${scripture}" | awk "/^ *$(($verse_start - 1)) /{print; flag=1; next} /^ *$(($verse_start - 0)) /{flag=0} flag"
+        echo -e "${scripture}" | awk "/^ *$(($verse_start)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($verse_start + 1)) /{flag=0} flag {print \"\033[31m\" \$0}"
+      echo -e "${scripture}" | awk "/^ *$(($verse_start + 1)) /{print; flag=1; next} /^ *($(($verse_start + 2)) |¹)/{flag=0} flag"
+      echo -e "${scripture}" | awk "/^ *$(($verse_start + 2)) /{print; flag=1; next} /^ *($(($verse_start + 3)) |¹)/{flag=0} flag"
+    elif [[ $arg_context == 'false' ]]; then
+        echo -e "${scripture}" | awk "/^ *$(($verse_start)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($verse_start + 1)) /{flag=0} flag {print \"\033[31m\" \$0}"
+    fi
+  )"
+  echo "$output" | less -RFX
 }
 
 show_help() {
   echo "Usage: $0 [-ch]"
-  echo "  -n  --no-context     Disable context verses"
   echo "  -h  --help           Display help"
   echo "  -a  --abbreviations  Display list of abbreviations"
+  echo "  -c  --context        Show context verses"
+  echo "  -n  --no-context     Hide context verses"
 }
 
 show_abbreviations() {
@@ -986,8 +995,13 @@ reset_all_variables() {
 }
 
 reset_flags() {
-  arg_no_context="false"
-  arg_no_context_all="false"
+  if [[ "$CONTEXT_DEFAULT" == "true" ]]; then
+    arg_context="true"
+    arg_context_all="true"
+  elif [[ "$CONTEXT_DEFAULT" == "false" ]]; then
+    arg_context="false"
+    arg_context_all="false"
+  fi
   flags_found=0
 }
 
