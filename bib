@@ -102,12 +102,12 @@ get_args() {
       clear
     elif [[ "$arg" =~ ^--*[A-Za-z-]+$ ]]; then
       if [[ "${arg}" == "-N" ]] || [[ "${arg}" == "--no-context-all" ]]; then
-        arg_context="true"
-        arg_context_all="true"
-        flags_found=1
-      elif [[ "${arg}" == "-C" ]] || [[ "${arg}" == "--context-all" ]]; then
         arg_context="false"
         arg_context_all="false"
+        flags_found=1
+      elif [[ "${arg}" == "-C" ]] || [[ "${arg}" == "--context-all" ]]; then
+        arg_context="true"
+        arg_context_all="true"
         flags_found=1
       else
         args+=("${arg}")
@@ -227,11 +227,10 @@ get_args() {
 
     reset_text
 
-    # set flags to defaults
-    if [[ -n $arg_context_all ]]; then
-      reset_flags
-    fi
   done
+
+  # set flags to defaults
+  reset_flags
 }
 
 get_flags() {
