@@ -15,8 +15,8 @@ PARAGRAPH_MARKER="↓" # "<character>" # default "↓"
 
 #PARAGRAPH_MARKER="¶"       # make paragraph marker a pilcrow sign
 
-REMOVE_SQUARE_BRACKETS="false" # in some translations to denote added words
-REMOVE_ANGLE_BRACKETS="false"  # denotes poetry settings
+REMOVE_SQUARE_BRACKETS="true" # in some translations to denote added words
+REMOVE_ANGLE_BRACKETS="true"  # denotes poetry settings
 # REMOVE_PARAGRAPH_MARKER="true" # WIP to remove 2 columns that pm takes up
 
 CONTEXT_DEFAULT="true" # "<true/false>" # default "true"
@@ -438,40 +438,10 @@ get_title() {
 hyphenate_scripture() {
   # TODO I haven't tested numbers with fractions (NET) or decimals so they may
 
-  text_width=$((width - 5))
-  longest_line=$(echo "$scripture" | awk 'length > max_length { max_length = length; longest = $0 } END { print longest }') #      not wrap correctly
+  longest_line=$(echo "$scripture" | awk 'length > max_length { max_length = length; longest = $0 } END { print longest }')
   longest_line_length=$(echo -n "$longest_line" | wc -c)
-  passes=$(echo "scale=0; ($longest_line_length + $text_width - 1) / $text_width" | bc)
 
-  # use these to find longest line length in file and the calculated passes
-  # echo $width
-  # echo $longest_line_length
-  # echo $passes
-
-  if [[ $longest_line_length -lt $text_width ]]; then
-    passes=0
-  fi
-
-  #
-  # # hyphenate scripture
-  # if [ $width -le 20 ]; then
-  #   # this one needs to be testef more
-  #   passes=50
-  # elif [ $width -le 30 ]; then
-  #   passes=29
-  # elif [ $width -le 40 ]; then
-  #   passes=15
-  # elif [ $width -le 50 ] || [ $width -le 60 ]; then
-  #   passes=10
-  # elif [ $width -le 70 ]; then
-  #   passes=6
-  # elif [ $width -le 80 ]; then
-  #   passes=5
-  # else
-  #   passes=4
-  # fi
-
-  for i in $(seq 1 $passes); do
+  while [[ $longest_line_length -gt $width ]]; do
     if [[ "$REMOVE_ANGLE_BRACKETS" == "false" ]]; then
       # if [[ "REMOVE_PARAGRAPH_MARKER" == "false" ]]; then
       hyphenate_scripture_poetry
@@ -479,13 +449,15 @@ hyphenate_scripture() {
       # hyphenate_scripture_poetry_no_pm
       # fi
     fi
-  done
-  for i in $(seq 1 $passes); do
     # if [[ "REMOVE_PARAGRAPH_MARKER" == "false" ]]; then
     hyphenate_scripture_normal
     # elif [[ "REMOVE_PARAGRAPH_MARKER" == "true" ]]; then
     # hyphenate_scripture_normal_no_pm
     # fi
+    longest_line=$(echo "$scripture" | awk 'length > max_length { max_length = length; longest = $0 } END { print longest }') #      not wrap correctly
+    longest_line_length=$(echo -n "$longest_line" | wc -c)
+    ((longest_line_length--))
+    ((longest_line_length--))
   done
 }
 
