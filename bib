@@ -457,17 +457,17 @@ hyphenate_scripture() {
   for i in $(seq 1 $passes); do
     if [[ "$REMOVE_ANGLE_BRACKETS" != "false" ]] || [[ "$scripture" == *">"* ]]; then
       # if [[ "REMOVE_PARAGRAPH_MARKER" == "false" ]]; then
-        hyphenate_scripture_poetry
+      hyphenate_scripture_poetry
       # elif [[ "REMOVE_PARAGRAPH_MARKER" == "true" ]]; then
-        # hyphenate_scripture_poetry_no_pm
-      fi
+      # hyphenate_scripture_poetry_no_pm
+      # fi
     fi
   done
   for i in $(seq 1 $passes); do
     # if [[ "REMOVE_PARAGRAPH_MARKER" == "false" ]]; then
-      hyphenate_scripture_normal
+    hyphenate_scripture_normal
     # elif [[ "REMOVE_PARAGRAPH_MARKER" == "true" ]]; then
-      # hyphenate_scripture_normal_no_pm
+    # hyphenate_scripture_normal_no_pm
     # fi
   done
 }
