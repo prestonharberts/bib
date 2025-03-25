@@ -67,9 +67,10 @@ get_args() {
   # initialize flag variables
   reset_flags
 
-  # lowercase all args
+  # pre-filter $@ args and remove unnecessary chars
   args=()
   for arg in "$@"; do
+    # if arg is a flag
     if [[ "$arg" =~ ^--*[A-Za-z-]+$ ]]; then
       if [[ "${arg}" == "-N" ]] || [[ "${arg}" == "--no-context-all" ]]; then
         arg_no_context="true"
@@ -78,20 +79,43 @@ get_args() {
       else
         args+=("${arg}")
       fi
-    elif [[ "$arg" =~ , ]]; then
-      if [[ "$arg" =~ ^([1-3]*[A-Za-z]+) ]]; then
-        curr_book="${BASH_REMATCH[1]}"
-        arg=$(echo "$arg" | sed 's/,//')
-        args+=("${arg,,}")
-        args+=("${curr_book,,}")
-      else
-        arg=$(echo "$arg" | sed 's/,//')
-        args+=("${arg,,}")
-        args+=("${curr_book,,}")
-      fi
-    elif [[ "$arg" =~ ^([1-3]*[A-Za-z]+) ]]; then
-      curr_book="${BASH_REMATCH[1]}"
+
+    elif [[ "$arg" =~ ^[0-9]*[A-Za-z]+$ ]]; then
+      curr_book=$arg
       args+=("${arg,,}")
+
+    # if arg has a book name appended with a chapter number
+    # or if arg has [:,-], split args with spaces
+    elif [[ "$arg" =~ [A-Za-z][0-9] || "$arg" =~ ^.+[:,-] ]]; then
+      arg=$(echo "$arg" | sed 's/^\(.\+\)[:-]/\1 /g')
+      arg=$(echo "$arg" | sed 's/,/, /g')
+      arg=$(echo "$arg" | sed 's/\([A-Za-z]\)\([0-9]\)/\1 \2/g')
+      IFS=' ' read -r -a temp_args <<<"$arg"
+      for temp_arg in "${temp_args[@]}"; do
+        # if temp_arg has a comma to indicate verses in same book
+        if [[ "$temp_arg" =~ , ]]; then
+          # if phrase with comma includes book title
+          # and replace book title
+          if [[ "$temp_arg" =~ ^([1-3]*[A-Za-z]+) ]]; then
+            curr_book="${BASH_REMATCH[1]}"
+            temp_arg=$(echo "$temp_arg" | sed 's/,//')
+            args+=("${temp_arg,,}")
+            args+=("${curr_book,,}")
+
+          # else just replace comma with book title
+          else
+            temp_arg=$(echo "$temp_arg" | sed 's/,//')
+            args+=("${temp_arg,,}")
+            args+=("${curr_book,,}")
+          fi
+        # elif temp_arg has the title in it, store book title in curr_book
+        elif [[ "$temp_arg" =~ ^([1-3]*[A-Za-z]+) ]]; then
+          curr_book="${BASH_REMATCH[1]}"
+          args+=("${temp_arg,,}")
+        else
+          args+=("${temp_arg,,}")
+        fi
+      done
     else
       args+=("${arg,,}")
     fi
@@ -120,67 +144,25 @@ get_args() {
       shift 1
     fi
 
-    # if, for example, 1john1 obad gen30 or 1cor10
-    if [[ "$1" =~ ^[1-3]*[a-z]+[0-9]*$ ]]; then
-      book=$(echo "$1" | sed 's/[0-9]*$//')
-      chapter=$(echo "$1" | sed 's/^[0-9]*[a-z]*//')
+    if [[ "$1" =~ ^[1-3]*[a-z]+$ ]]; then
+      book=$1
       shift 1
-      # if no chapter then next arg should be chapter
-      # verse_start will become chapter later if book is a single chapter book
-      if [[ -z $chapter ]]; then
-        # if, for example, 1, 44, etc.
+      if [[ "$1" =~ ^- ]]; then
+        get_flags "$@"
+        shift 1
+      fi
+      if [[ "$1" =~ ^[0-9]+$ ]]; then
+        chapter=$1
+        shift 1
         if [[ "$1" =~ ^[0-9]+$ ]]; then
-          chapter=$1
-        # if, for example, 1:1, 44:15, etc.
-        elif [[ "$1" =~ ^[0-9]+:[0-9]+$ ]]; then
-          chapter=$(echo "$1" | sed 's/:[0-9]*$//')
-          verse_start=$(echo "$1" | sed 's/^[0-9]*://')
-          # if verse_end is disattached from 1:1, so 1:1 2
-          if [[ "$2" =~ ^[0-9]+$ ]]; then
-            verse_end=$2
+          verse_start=$1
+          shift 1
+          if [[ "$1" =~ ^[0-9]+$ ]]; then
+            verse_end=$1
             shift 1
           fi
-        # if, for example, 1:1-3, 44:15-18, etc.
-        elif [[ "$1" =~ ^[0-9]+:[0-9]+-[0-9]+$ ]]; then
-          chapter=$(echo "$1" | sed 's/:[0-9]*-[0-9]*$//')
-          verse_start=$(echo "$1" | sed 's/^[0-9]*:\([0-9]*\)-[0-9]*$/\1/')
-          verse_end=$(echo "$1" | sed 's/^[0-9]*:[0-9]*-//')
         fi
-        shift 1
       fi
-      # chapter should be read now, so now receive the verse_start arg
-      if [[ "$1" =~ ^[0-9]+$ ]]; then
-        verse_start=$1
-        shift 1
-      # if, for example, 1-3
-      elif [[ "$1" =~ ^[0-9]+-[0-9]+$ ]]; then
-        verse_start=$(echo "$1" | sed 's/-[0-9]*$//')
-        verse_end=$(echo "$1" | sed 's/^[0-9]*-//')
-        shift 1
-      fi
-      # verse_start should be read now, so now receive the verse_end arg
-      if [[ "$1" =~ ^[0-9]+$ ]]; then
-        verse_end=$1
-        shift 1
-      fi
-
-    elif [[ "$1" =~ ^[0-9]*[a-z]+[0-9]+:[0-9]+$ ]]; then
-      book=$(echo "$1" | sed 's/[0-9]*:[0-9]*$//')
-      chapter=$(echo "$1" | sed 's/^[0-9]*[a-z]*\([0-9]*\):[0-9]*$/\1/')
-      verse_start=$(echo "$1" | sed 's/^[0-9]*[a-z]*[0-9]*://')
-      shift 1
-      # if verse_end is disattached from 1:1, so 1:1 2
-      if [[ "$1" =~ ^[0-9]+$ ]]; then
-        verse_end=$1
-        shift 1
-      fi
-
-    elif [[ "$1" =~ ^[0-9]*[a-z]+[0-9]+:[0-9]+-[0-9]+$ ]]; then
-      book=$(echo "$1" | sed 's/[0-9]*:[0-9]*-[0-9]*$//')
-      chapter=$(echo "$1" | sed 's/^[0-9]*[a-z]*\([0-9]*\):[0-9]*-[0-9]*$/\1/')
-      verse_start=$(echo "$1" | sed 's/^[0-9]*[a-z]*[0-9]*:\([0-9]*\)-[0-9]*$/\1/')
-      verse_end=$(echo "$1" | sed 's/^[0-9]*[a-z]*[0-9]*:[0-9]*-//')
-      shift 1
     fi
 
     validate_args_verses "$@"
