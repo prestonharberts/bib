@@ -98,7 +98,7 @@ bib 1 cor 13 4-7
 bib 1 cor 13 4 7
 ```
 
-Verses from the same book can also be listed together with commas without having to retype the book name over again (commas and hyphens are can still be replaced with spaces):
+Verses from the same book can also be listed together with commas without having to retype the book name over again (commas and hyphens can still be replaced with spaces here):
 
 ```bash
 bib matt 2:1, 28:18-20, 1:1-17, 8:5-10, 21:43
