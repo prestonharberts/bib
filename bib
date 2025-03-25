@@ -30,6 +30,10 @@ elif [[ "$LESS_DEFAULT" = "false" ]]; then
   PAGER="cat"
 fi
 
+# set global variables for script directory
+DIR_OF_SCRIPT=$(dirname "$(readlink -f $0)")
+BIBLE_DIR="${DIR_OF_SCRIPT}/${BIBLE_FOLDER_NAME}"
+
 main() {
   # if no arguments, open console mode
   if [ $# -eq 0 ]; then
@@ -100,6 +104,10 @@ get_args() {
     # clear terminal screen
     if [[ "$arg" =~ ^clear|cls|l$ ]]; then
       clear
+    elif [[ "$arg" =~ ^B|bookmarks$ ]]; then
+    if bookmark_menu; then
+      return 0
+    fi
     elif [[ "$arg" =~ ^--*[A-Za-z-]+$ ]]; then
       if [[ "${arg}" == "-N" ]] || [[ "${arg}" == "--no-context-all" ]]; then
         arg_context="true"
@@ -302,9 +310,7 @@ get_scripture() {
 
   # credit to u/bjarneh (https://www.reddit.com/r/commandline/s/ySIsbxOYex)
   # for helping me find files relative to bib
-  dir_of_script=$(dirname "$(readlink -f $0)")
-  bible_dir="${dir_of_script}/${BIBLE_FOLDER_NAME}"
-  chapter_file="${bible_dir}/${book}${chapter}.md"
+  chapter_file="${BIBLE_DIR}/${book}${chapter}.md"
   # enter if given book name is an abbreviation
   if [ ! -f "${chapter_file}" ]; then
     get_books_array
@@ -318,7 +324,7 @@ get_scripture() {
       fi
       chapter=""
     fi
-    chapter_file="${bible_dir}/${book_from_array}${chapter}.md"
+    chapter_file="${BIBLE_DIR}/${book_from_array}${chapter}.md"
     if ! validate_args_book; then
       return 1
     fi
@@ -998,6 +1004,44 @@ show_abbreviations() {
   )"
 
   echo "$output" | $PAGER
+}
+
+bookmark_menu() {
+  bookmarks_file="${BIBLE_DIR}/bookmarks.md"
+  mapfile -t bookmarks < "$bookmarks_file"
+
+  half=$(( (${#bookmarks[@]} + 1) / 2 ))
+
+  # Split the bookmarks array into two halves
+  first_half=("${bookmarks[@]:0:$half}")
+  second_half=("${bookmarks[@]:$half}")
+
+  # Print the two columns
+  for ((i=0; i<${#first_half[@]}; i++)); do
+    printf "%-22s %-22s\n" "$((i+1))) ${first_half[$i]}" "$((i+half+1))) ${second_half[$i]}"
+  done
+
+  input=$(bash -i -c '
+    read -e -r -p $'\''\001\033[1;34m\002<<< \001\033[0m\002'\'' input 
+    echo $input
+  ')
+
+  set -- $input
+
+  if [[ "$1" =~ ^[0-9]+$ ]]; then
+    # Extract the corresponding line from the file using 'sed'
+    bookmark=$(sed -n "${1}p" "$bookmarks_file")
+    if [ -n "$bookmark" ]; then
+      IFS=' ' read -r -a bookmarks <<< "$bookmark"
+      set -- "${bookmarks[@]}" "${@:2}"
+      get_args "$@"
+      return 0
+    else
+      echo "Invalid line number."
+    fi
+  else
+    return 1
+  fi
 }
 
 validate_args_verses() {
