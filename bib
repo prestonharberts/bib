@@ -2,26 +2,30 @@
 # shellcheck disable=1111,1112,2030,2031,2034,2086
 
 # USER CONFIG
-BIBLE_FOLDER_NAME="bible"   # "<folder-name>" not path # default "bible"
-                            # change if you renamed your bible folder
+BIBLE_FOLDER_NAME="bible" # "<folder-name>" not path # default "bible"
+# change if you renamed your bible folder
 
-PARAGRAPH_MARKER="↓"        # "<character>" # default "↓"
-                            # change if you want a different new paragraph
-                            # marker
+PARAGRAPH_MARKER="↓" # "<character>" # default "↓"
+# change if you want a different new paragraph
+# marker
 
-                            # TODO: I want the option to leave it empty
-                            # and have the Bible use the extra 2 spaces
-                            # this will offer
+# TODO: I want the option to leave it empty
+# and have the Bible use the extra 2 spaces
+# this will offer
 
 #PARAGRAPH_MARKER="¶"       # make paragraph marker a pilcrow sign
 
-CONTEXT_DEFAULT="true"      # "<true/false>" # default "true"
-                            # enable or disable whether context is shown
-                            # by default
+REMOVE_SQUARE_BRACKETS="false" # in some translations to denote added words
+REMOVE_ANGLE_BRACKETS="false"  # denotes poetry settings
+# REMOVE_PARAGRAPH_MARKER="true" # WIP to remove 2 columns that pm takes up
 
-LESS_DEFAULT="true"         # "<true/false>" # default "true"
-                            # allow disabled less so you don't have the use
-                            # keys to quit less
+CONTEXT_DEFAULT="true" # "<true/false>" # default "true"
+# enable or disable whether context is shown
+# by default
+
+LESS_DEFAULT="true" # "<true/false>" # default "true"
+# allow disabled less so you don't have the use
+# keys to quit less
 
 # set pager to less if enabled by default, else cat the output
 if [[ "$LESS_DEFAULT" = "true" ]]; then
@@ -98,7 +102,7 @@ get_args() {
   # initialize flag variables
   reset_flags
 
-  # lowercase all args
+  # pre-filter $@ args and remove unnecessary chars
   args=()
   for arg in "$@"; do
     # clear terminal screen
@@ -110,30 +114,54 @@ get_args() {
     fi
     elif [[ "$arg" =~ ^--*[A-Za-z-]+$ ]]; then
       if [[ "${arg}" == "-N" ]] || [[ "${arg}" == "--no-context-all" ]]; then
-        arg_context="true"
-        arg_context_all="true"
-        flags_found=1
-      elif [[ "${arg}" == "-C" ]] || [[ "${arg}" == "--context-all" ]]; then
         arg_context="false"
         arg_context_all="false"
+        flags_found=1
+      elif [[ "${arg}" == "-C" ]] || [[ "${arg}" == "--context-all" ]]; then
+        arg_context="true"
+        arg_context_all="true"
         flags_found=1
       else
         args+=("${arg}")
       fi
-    elif [[ "$arg" =~ , ]]; then
-      if [[ "$arg" =~ ^([1-3]*[A-Za-z]+) ]]; then
-        curr_book="${BASH_REMATCH[1]}"
-        arg=$(echo "$arg" | sed 's/,//')
-        args+=("${arg,,}")
-        args+=("${curr_book,,}")
-      else
-        arg=$(echo "$arg" | sed 's/,//')
-        args+=("${arg,,}")
-        args+=("${curr_book,,}")
-      fi
-    elif [[ "$arg" =~ ^([1-3]*[A-Za-z]+) ]]; then
-      curr_book="${BASH_REMATCH[1]}"
+
+    elif [[ "$arg" =~ ^[0-9]*[A-Za-z]+$ ]]; then
+      curr_book=$arg
       args+=("${arg,,}")
+
+    # if arg has a book name appended with a chapter number
+    # or if arg has [:,-], split args with spaces
+    elif [[ "$arg" =~ [A-Za-z][0-9]|[:,-] ]]; then
+      arg=$(echo "$arg" | sed 's/^\(.\+\)[:-]/\1 /g')
+      arg=$(echo "$arg" | sed 's/^\(.\+\)[:-]/\1 /g')
+      arg=$(echo "$arg" | sed 's/,/, /g')
+      arg=$(echo "$arg" | sed 's/\([A-Za-z]\)\([0-9]\)/\1 \2/g')
+      IFS=' ' read -r -a temp_args <<<"$arg"
+      for temp_arg in "${temp_args[@]}"; do
+        # if temp_arg has a comma to indicate verses in same book
+        if [[ "$temp_arg" =~ , ]]; then
+          # if phrase with comma includes book title
+          # and replace book title
+          if [[ "$temp_arg" =~ ^([1-3]*[A-Za-z]+) ]]; then
+            curr_book="${BASH_REMATCH[1]}"
+            temp_arg=$(echo "$temp_arg" | sed 's/,//')
+            args+=("${temp_arg,,}")
+            args+=("${curr_book,,}")
+
+          # else just replace comma with book title
+          else
+            temp_arg=$(echo "$temp_arg" | sed 's/,//')
+            args+=("${temp_arg,,}")
+            args+=("${curr_book,,}")
+          fi
+        # elif temp_arg has the title in it, store book title in curr_book
+        elif [[ "$temp_arg" =~ ^([1-3]*[A-Za-z]+) ]]; then
+          curr_book="${BASH_REMATCH[1]}"
+          args+=("${temp_arg,,}")
+        else
+          args+=("${temp_arg,,}")
+        fi
+      done
     else
       args+=("${arg,,}")
     fi
@@ -162,67 +190,32 @@ get_args() {
       shift 1
     fi
 
-    # if, for example, 1john1 obad gen30 or 1cor10
-    if [[ "$1" =~ ^[1-3]*[a-z]+[0-9]*$ ]]; then
-      book=$(echo "$1" | sed 's/[0-9]*$//')
-      chapter=$(echo "$1" | sed 's/^[0-9]*[a-z]*//')
+    if [[ "$1" =~ ^[1-3]*[a-z]+$ ]]; then
+      book=$1
       shift 1
-      # if no chapter then next arg should be chapter
-      # verse_start will become chapter later if book is a single chapter book
-      if [[ -z $chapter ]]; then
-        # if, for example, 1, 44, etc.
-        if [[ "$1" =~ ^[0-9]+$ ]]; then
-          chapter=$1
-        # if, for example, 1:1, 44:15, etc.
-        elif [[ "$1" =~ ^[0-9]+:[0-9]+$ ]]; then
-          chapter=$(echo "$1" | sed 's/:[0-9]*$//')
-          verse_start=$(echo "$1" | sed 's/^[0-9]*://')
-          # if verse_end is disattached from 1:1, so 1:1 2
-          if [[ "$2" =~ ^[0-9]+$ ]]; then
-            verse_end=$2
+      if [[ "$1" =~ ^- ]]; then
+        if [[ $flags_found -eq 0 ]]; then
+          if ! get_flags "$@"; then
+            reset_all_variables "$@"
+            break
+          fi
+          if [[ $flags_found -eq 1 ]]; then
             shift 1
           fi
-        # if, for example, 1:1-3, 44:15-18, etc.
-        elif [[ "$1" =~ ^[0-9]+:[0-9]+-[0-9]+$ ]]; then
-          chapter=$(echo "$1" | sed 's/:[0-9]*-[0-9]*$//')
-          verse_start=$(echo "$1" | sed 's/^[0-9]*:\([0-9]*\)-[0-9]*$/\1/')
-          verse_end=$(echo "$1" | sed 's/^[0-9]*:[0-9]*-//')
         fi
-        shift 1
       fi
-      # chapter should be read now, so now receive the verse_start arg
       if [[ "$1" =~ ^[0-9]+$ ]]; then
-        verse_start=$1
+        chapter=$1
         shift 1
-      # if, for example, 1-3
-      elif [[ "$1" =~ ^[0-9]+-[0-9]+$ ]]; then
-        verse_start=$(echo "$1" | sed 's/-[0-9]*$//')
-        verse_end=$(echo "$1" | sed 's/^[0-9]*-//')
-        shift 1
+        if [[ "$1" =~ ^[0-9]+$ ]]; then
+          verse_start=$1
+          shift 1
+          if [[ "$1" =~ ^[0-9]+$ ]]; then
+            verse_end=$1
+            shift 1
+          fi
+        fi
       fi
-      # verse_start should be read now, so now receive the verse_end arg
-      if [[ "$1" =~ ^[0-9]+$ ]]; then
-        verse_end=$1
-        shift 1
-      fi
-
-    elif [[ "$1" =~ ^[0-9]*[a-z]+[0-9]+:[0-9]+$ ]]; then
-      book=$(echo "$1" | sed 's/[0-9]*:[0-9]*$//')
-      chapter=$(echo "$1" | sed 's/^[0-9]*[a-z]*\([0-9]*\):[0-9]*$/\1/')
-      verse_start=$(echo "$1" | sed 's/^[0-9]*[a-z]*[0-9]*://')
-      shift 1
-      # if verse_end is disattached from 1:1, so 1:1 2
-      if [[ "$1" =~ ^[0-9]+$ ]]; then
-        verse_end=$1
-        shift 1
-      fi
-
-    elif [[ "$1" =~ ^[0-9]*[a-z]+[0-9]+:[0-9]+-[0-9]+$ ]]; then
-      book=$(echo "$1" | sed 's/[0-9]*:[0-9]*-[0-9]*$//')
-      chapter=$(echo "$1" | sed 's/^[0-9]*[a-z]*\([0-9]*\):[0-9]*-[0-9]*$/\1/')
-      verse_start=$(echo "$1" | sed 's/^[0-9]*[a-z]*[0-9]*:\([0-9]*\)-[0-9]*$/\1/')
-      verse_end=$(echo "$1" | sed 's/^[0-9]*[a-z]*[0-9]*:[0-9]*-//')
-      shift 1
     fi
 
     validate_args_verses "$@"
@@ -246,11 +239,10 @@ get_args() {
 
     reset_text
 
-    # set flags to defaults
-    if [[ -n $arg_context_all ]]; then
-      reset_flags
-    fi
   done
+
+  # set flags to defaults
+  reset_flags
 }
 
 get_flags() {
@@ -469,12 +461,20 @@ hyphenate_scripture() {
   fi
 
   for i in $(seq 1 $passes); do
-    if [[ "$scripture" == *">"* ]]; then
+    if [[ "$REMOVE_ANGLE_BRACKETS" != "false" ]] || [[ "$scripture" == *">"* ]]; then
+      # if [[ "REMOVE_PARAGRAPH_MARKER" == "false" ]]; then
       hyphenate_scripture_poetry
+      # elif [[ "REMOVE_PARAGRAPH_MARKER" == "true" ]]; then
+      # hyphenate_scripture_poetry_no_pm
+      # fi
     fi
   done
   for i in $(seq 1 $passes); do
+    # if [[ "REMOVE_PARAGRAPH_MARKER" == "false" ]]; then
     hyphenate_scripture_normal
+    # elif [[ "REMOVE_PARAGRAPH_MARKER" == "true" ]]; then
+    # hyphenate_scripture_normal_no_pm
+    # fi
   done
 }
 
@@ -756,6 +756,10 @@ hyphenate_abbreviations() {
 }
 
 cleanup_markdown() {
+  if [[ "$REMOVE_SQUARE_BRACKETS" == "true" ]]; then
+    scripture=$(echo "$scripture" | sed 's/[[]]//')
+  fi
+
   sed_args=(
     # remove headings
     -e 's/^(# |#### |##### ).*//'
@@ -804,6 +808,7 @@ cleanup_markdown() {
     -e 's/(^[^0-9# ])/      \1/g'
   )
   scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
+
 }
 
 cleanup_scripture() {
@@ -849,6 +854,10 @@ cleanup_scripture() {
   #      if [[ "$PARAGRAPH_MARKER" -ne "↓" ]]; then
   scripture=$(echo "$scripture" | sed -E ":a;$!{N;s/↓/$PARAGRAPH_MARKER/;ba;}")
   # fi
+
+  if [[ "$REMOVE_ANGLE_BRACKETS" == "true" ]]; then
+    scripture=$(echo "$scripture" | sed 's/> //')
+  fi
 }
 
 cleanup_chapter() {
@@ -944,7 +953,7 @@ print_verse() {
       echo -e "${scripture}" | awk "/^ *$(($verse_start + 1)) /{print; flag=1; next} /^ *($(($verse_start + 2)) |¹)/{flag=0} flag"
       echo -e "${scripture}" | awk "/^ *$(($verse_start + 2)) /{print; flag=1; next} /^ *($(($verse_start + 3)) |¹)/{flag=0} flag"
     elif [[ $arg_context == 'false' ]]; then
-        echo -e "${scripture}" | awk "/^ *$(($verse_start)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($verse_start + 1)) /{flag=0} flag {print \"\033[31m\" \$0}"
+      echo -e "${scripture}" | awk "/^ *$(($verse_start)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($verse_start + 1)) /{flag=0} flag {print \"\033[31m\" \$0}"
     fi
   )"
   echo "$output" | $PAGER
