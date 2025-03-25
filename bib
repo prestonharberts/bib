@@ -15,6 +15,10 @@ PARAGRAPH_MARKER="↓" # "<character>" # default "↓"
 
 #PARAGRAPH_MARKER="¶"       # make paragraph marker a pilcrow sign
 
+REMOVE_SQUARE_BRACKETS="false" # in some translations to denote added words
+REMOVE_ANGLE_BRACKETS="false"  # denotes poetry settings
+# REMOVE_PARAGRAPH_MARKER="true" # WIP to remove 2 columns that pm takes up
+
 CONTEXT_DEFAULT="true" # "<true/false>" # default "true"
 # enable or disable whether context is shown
 # by default
@@ -451,12 +455,20 @@ hyphenate_scripture() {
   fi
 
   for i in $(seq 1 $passes); do
-    if [[ "$scripture" == *">"* ]]; then
-      hyphenate_scripture_poetry
+    if [[ "$REMOVE_ANGLE_BRACKETS" != "false" ]] || [[ "$scripture" == *">"* ]]; then
+      # if [[ "REMOVE_PARAGRAPH_MARKER" == "false" ]]; then
+        hyphenate_scripture_poetry
+      # elif [[ "REMOVE_PARAGRAPH_MARKER" == "true" ]]; then
+        # hyphenate_scripture_poetry_no_pm
+      fi
     fi
   done
   for i in $(seq 1 $passes); do
-    hyphenate_scripture_normal
+    # if [[ "REMOVE_PARAGRAPH_MARKER" == "false" ]]; then
+      hyphenate_scripture_normal
+    # elif [[ "REMOVE_PARAGRAPH_MARKER" == "true" ]]; then
+      # hyphenate_scripture_normal_no_pm
+    # fi
   done
 }
 
@@ -738,6 +750,10 @@ hyphenate_abbreviations() {
 }
 
 cleanup_markdown() {
+  if [[ "$REMOVE_SQUARE_BRACKETS" == "true" ]]; then
+    scripture=$(echo "$scripture" | sed 's/[[]]//')
+  fi
+
   sed_args=(
     # remove headings
     -e 's/^(# |#### |##### ).*//'
@@ -786,6 +802,7 @@ cleanup_markdown() {
     -e 's/(^[^0-9# ])/      \1/g'
   )
   scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
+
 }
 
 cleanup_scripture() {
@@ -831,6 +848,10 @@ cleanup_scripture() {
   #      if [[ "$PARAGRAPH_MARKER" -ne "↓" ]]; then
   scripture=$(echo "$scripture" | sed -E ":a;$!{N;s/↓/$PARAGRAPH_MARKER/;ba;}")
   # fi
+
+  if [[ "$REMOVE_ANGLE_BRACKETS" == "true" ]]; then
+    scripture=$(echo "$scripture" | sed 's/> //')
+  fi
 }
 
 cleanup_chapter() {
