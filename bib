@@ -758,7 +758,7 @@ hyphenate_abbreviations() {
 
 cleanup_markdown() {
   if [[ "$REMOVE_SQUARE_BRACKETS" == "true" ]]; then
-    scripture=$(echo "$scripture" | sed 's/[[]]//g')
+    scripture=$(echo "$scripture" | sed 's/\[\|\]//g')
   fi
 
   sed_args=(
