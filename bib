@@ -436,30 +436,40 @@ get_title() {
 }
 
 hyphenate_scripture() {
-  # TODO I should find the longest line in the file and calculate how many
-  #      passes to do from that. passes could also change depending on the
-  #      translation
-
   # TODO I haven't tested numbers with fractions (NET) or decimals so they may
-  #      not wrap correctly
 
-  # hyphenate scripture
-  if [ $width -le 20 ]; then
-    # this one needs to be testef more
-    passes=50
-  elif [ $width -le 30 ]; then
-    passes=29
-  elif [ $width -le 40 ]; then
-    passes=15
-  elif [ $width -le 50 ] || [ $width -le 60 ]; then
-    passes=7
-  elif [ $width -le 70 ]; then
-    passes=6
-  elif [ $width -le 80 ]; then
-    passes=5
-  else
-    passes=4
+  text_width=$((width - 5))
+  longest_line=$(echo "$scripture" | awk 'length > max_length { max_length = length; longest = $0 } END { print longest }') #      not wrap correctly
+  longest_line_length=$(echo -n "$longest_line" | wc -c)
+  passes=$(echo "scale=0; ($longest_line_length + $text_width - 1) / $text_width" | bc)
+
+  # use these to find longest line length in file and the calculated passes
+  # echo $width
+  # echo $longest_line_length
+  # echo $passes
+
+  if [[ $longest_line_length -lt $text_width ]]; then
+    passes=0
   fi
+
+  #
+  # # hyphenate scripture
+  # if [ $width -le 20 ]; then
+  #   # this one needs to be testef more
+  #   passes=50
+  # elif [ $width -le 30 ]; then
+  #   passes=29
+  # elif [ $width -le 40 ]; then
+  #   passes=15
+  # elif [ $width -le 50 ] || [ $width -le 60 ]; then
+  #   passes=10
+  # elif [ $width -le 70 ]; then
+  #   passes=6
+  # elif [ $width -le 80 ]; then
+  #   passes=5
+  # else
+  #   passes=4
+  # fi
 
   for i in $(seq 1 $passes); do
     if [[ "$REMOVE_ANGLE_BRACKETS" == "false" ]]; then
