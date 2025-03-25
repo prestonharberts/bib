@@ -131,7 +131,8 @@ get_args() {
 
     # if arg has a book name appended with a chapter number
     # or if arg has [:,-], split args with spaces
-    elif [[ "$arg" =~ [A-Za-z][0-9]|[:,-] ]]; then
+    elif [[ "$arg" =~ [A-Za-z][0-9]|[.,:-] ]]; then
+      arg=$(echo "$arg" | sed 's/\./ /g')
       arg=$(echo "$arg" | sed 's/^\(.\+\)[:-]/\1 /g')
       arg=$(echo "$arg" | sed 's/^\(.\+\)[:-]/\1 /g')
       arg=$(echo "$arg" | sed 's/,/, /g')
