@@ -15,8 +15,8 @@ PARAGRAPH_MARKER="↓" # "<character>" # default "↓"
 
 #PARAGRAPH_MARKER="¶"       # make paragraph marker a pilcrow sign
 
-REMOVE_SQUARE_BRACKETS="true" # in some translations to denote added words
-REMOVE_ANGLE_BRACKETS="true"  # denotes poetry settings
+REMOVE_SQUARE_BRACKETS="false" # in some translations to denote added words
+REMOVE_ANGLE_BRACKETS="false"  # denotes poetry settings
 # REMOVE_PARAGRAPH_MARKER="true" # WIP to remove 2 columns that pm takes up
 
 CONTEXT_DEFAULT="true" # "<true/false>" # default "true"
@@ -455,9 +455,14 @@ hyphenate_scripture() {
     # hyphenate_scripture_normal_no_pm
     # fi
     longest_line=$(echo "$scripture" | awk 'length > max_length { max_length = length; longest = $0 } END { print longest }') #      not wrap correctly
-    longest_line_length=$(echo -n "$longest_line" | wc -c)
-    ((longest_line_length--))
-    ((longest_line_length--))
+    longest_line_length_temp=$(echo -n "$longest_line" | wc -c)
+    if [[ $longest_line_length -eq $longest_line_length_temp ]]; then
+      break
+    fi
+    longest_line_length=$longest_line_length_temp
+    ((longest_line_length-4))
+    echo $longest_line_length
+    echo $book$chapter
   done
 }
 
