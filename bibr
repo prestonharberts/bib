@@ -10,12 +10,14 @@ FOLDER_PATH="${DIR_OF_SCRIPT}/${BIBLE_NAME}"
 
 # Default values
 PASS_N_FLAG=""
+PASS_C_FLAG=""
 VERBOSE=false
 
 # Parse command-line options
-while getopts "nv" opt; do
+while getopts "ncv" opt; do
   case $opt in
   n) PASS_N_FLAG="-n" ;; # If -n is passed, store it
+  c) PASS_C_FLAG="-c" ;; # If -c is passed, store it
   v) VERBOSE=true ;;
   esac
 done
