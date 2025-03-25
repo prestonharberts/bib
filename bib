@@ -462,7 +462,7 @@ hyphenate_scripture() {
   fi
 
   for i in $(seq 1 $passes); do
-    if [[ "$REMOVE_ANGLE_BRACKETS" != "false" ]] || [[ "$scripture" == *">"* ]]; then
+    if [[ "$REMOVE_ANGLE_BRACKETS" == "false" ]]; then
       # if [[ "REMOVE_PARAGRAPH_MARKER" == "false" ]]; then
       hyphenate_scripture_poetry
       # elif [[ "REMOVE_PARAGRAPH_MARKER" == "true" ]]; then
