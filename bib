@@ -329,6 +329,38 @@ get_scripture() {
     get_terminal_width
     get_hline
     get_title
+  fi
+
+  # crop ONLY the specified section of the file
+  # this speeds up the program and avoids having to process the entire chapter
+  if [[ -n $verse_end ]]; then
+    scripture=$(
+      if [[ $arg_context == 'true' ]]; then
+        echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_start - 2))$/{print; flag=1; next} /^###### *¶* *$(($verse_start - 1))$/{flag=0} flag"
+        echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_start - 1))$/{print; flag=1; next} /^###### *¶* *$(($verse_start - 0))$/{flag=0} flag"
+        echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_start))$/{print; flag=1; next} /^###### *¶* *$(($verse_end + 1))$/{flag=0} flag"
+        echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_end + 1))$/{print; flag=1; next} /^###### *¶* *($(($verse_end + 2))$|¹)/{flag=0} flag"
+        echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_end + 2))$/{print; flag=1; next} /^###### *¶* *($(($verse_end + 3))$|¹)/{flag=0} flag"
+      elif [[ $arg_context == 'false' ]]; then
+        echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_start))$/{print; flag=1; next} /^###### *¶* *$(($verse_end + 1))$/{flag=0} flag"
+      fi
+    )
+  elif [[ -n $verse_start ]]; then
+    scripture=$(
+      if [[ $arg_context == 'true' ]]; then
+        echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_start - 2))$/{print; flag=1; next} /^###### *¶* *$(($verse_start - 1))$/{flag=0} flag"
+        echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_start - 1))$/{print; flag=1; next} /^###### *¶* *$(($verse_start - 0))$/{flag=0} flag"
+        echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_start))$/{print; flag=1; next} /^###### *¶* *$(($verse_start + 1))$/{flag=0} flag"
+        echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_start + 1))$/{print; flag=1; next} /^###### *¶* *($(($verse_start + 2))$|¹)/{flag=0} flag"
+        echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_start + 2))$/{print; flag=1; next} /^###### *¶* *($(($verse_start + 3))$|¹)/{flag=0} flag"
+      elif [[ $arg_context == 'false' ]]; then
+        echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_start))$/{print; flag=1; next} /^###### *¶* *$(($verse_start + 1))$/{flag=0} flag"
+      fi
+    )
+  fi
+
+  # finish processing scripture
+  if [[ -n "${scripture}" ]]; then
     cleanup_markdown
     hyphenate_scripture
     cleanup_scripture
@@ -763,8 +795,9 @@ cleanup_markdown() {
   )
   scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
 
-  scripture=$(echo "$scripture" | sed -E ':a;$!{N;s/tempnewline\n//;ba;}')
+  scripture=$(echo "$scripture" | sed -E ':a;$!{N;s/¶ / ~\n/;ba;}')
   scripture=$(echo "$scripture" | sed -E ':a;$!{N;s/\n¶ / ~\n/;ba;}')
+  scripture=$(echo "$scripture" | sed -E ':a;$!{N;s/tempnewline\n//;ba;}')
 
   sed_args=(
     # fix/remove markdown syntax
@@ -797,7 +830,6 @@ cleanup_markdown() {
     -e 's/(^[^0-9# ])/      \1/g'
   )
   scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
-
 }
 
 cleanup_scripture() {
