@@ -109,9 +109,9 @@ get_args() {
     if [[ "$arg" =~ ^clear|cls|l$ ]]; then
       clear
     elif [[ "$arg" =~ ^B|bookmarks$ ]]; then
-    if bookmark_menu; then
-      return 0
-    fi
+      if bookmark_menu; then
+        return 0
+      fi
     elif [[ "$arg" =~ ^--*[-A-Za-z]+$ ]]; then
       if [[ "${arg}" == "-N" ]] || [[ "${arg}" == "--no-context-all" ]]; then
         arg_context="false"
@@ -460,7 +460,6 @@ hyphenate_scripture() {
       break
     fi
     longest_line_length=$longest_line_length_temp
-    ((longest_line_length-4))
   done
 }
 
@@ -1004,17 +1003,17 @@ show_abbreviations() {
 
 bookmark_menu() {
   bookmarks_file="${BIBLE_DIR}/bookmarks.md"
-  mapfile -t bookmarks < "$bookmarks_file"
+  mapfile -t bookmarks <"$bookmarks_file"
 
-  half=$(( (${#bookmarks[@]} + 1) / 2 ))
+  half=$(((${#bookmarks[@]} + 1) / 2))
 
   # Split the bookmarks array into two halves
   first_half=("${bookmarks[@]:0:$half}")
   second_half=("${bookmarks[@]:$half}")
 
   # Print the two columns
-  for ((i=0; i<${#first_half[@]}; i++)); do
-    printf "%-22s %-22s\n" "$((i+1))) ${first_half[$i]}" "$((i+half+1))) ${second_half[$i]}"
+  for ((i = 0; i < ${#first_half[@]}; i++)); do
+    printf "%-22s %-22s\n" "$((i + 1))) ${first_half[$i]}" "$((i + half + 1))) ${second_half[$i]}"
   done
 
   input=$(bash -i -c '
@@ -1028,7 +1027,7 @@ bookmark_menu() {
     # Extract the corresponding line from the file using 'sed'
     bookmark=$(sed -n "${1}p" "$bookmarks_file")
     if [ -n "$bookmark" ]; then
-      IFS=' ' read -r -a bookmarks <<< "$bookmark"
+      IFS=' ' read -r -a bookmarks <<<"$bookmark"
       set -- "${bookmarks[@]}" "${@:2}"
       get_args "$@"
       return 0
