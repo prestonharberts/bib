@@ -173,7 +173,7 @@ bib john3 16|xclip -sel clipboard
 
 I recommend just running bib multiple times in a row similar to this, and then just copying the output from the terminal:
 
-<p align=center><img src="https://github.com/user-attachments/assets/aec021e4-a29e-4674-afb0-52f3fb0f3bc5" width="450"></p>
+<p align=center><img src="https://github.com/user-attachments/assets/180d111b-c2d2-4bcd-8813-116f6625074c" width="450"></p>
 
 ### Scaling demonstration
 
