@@ -161,7 +161,7 @@ bib phil 4:13 1john 4 18-19 heb12 7
 
 ### Copying chapters
 
-Included in this repo is a program `bibcopy` that copies entire chapters at a time, reformats them, and lets me paste them into [Monkeytype](https://monkeytype.com/). It's formatted to be very minimal and looks like this in the NET translation:
+Included in this repo is a program `bibc` that copies entire chapters at a time, reformats them, and lets me paste them into [Monkeytype](https://monkeytype.com/). It's formatted to be very minimal and looks like this in the NET translation:
 
 <p align=center><img src="https://github.com/user-attachments/assets/573e279f-234e-463c-b559-f6b199ca468b" width="450"></p>
 
