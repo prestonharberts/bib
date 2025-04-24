@@ -25,6 +25,7 @@
 For more info on other topics, visit these pages:
 
 - [Other translations](docs/other-translations.md)
+- [WSL2 (Windows)](docs/wsl2-windows.md)
 - [Termux (Android)](docs/termux-android.md)
 
 ## Features
