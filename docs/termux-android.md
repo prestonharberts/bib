@@ -1,4 +1,4 @@
-## Termux (Android)
+## bib – Termux (Android)
 
 This script also works in Termux for Android. Later on I explain how to set up the Termux:Widgets feature to have an app shortcut on my homescreen that opens bib in interactive mode for convenience.
 

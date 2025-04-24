@@ -1,4 +1,4 @@
-## Other Translations
+## bib – Other Translations
 
 To use a different translation, generate a new Bible with my [BibleGateway-to-Obsidian script](https://github.com/prestonharberts/biblegateway-to-obsidian) (Note: not all translations are compatible with bib or BibleGateway-to-Obsidian). Once generated, move only the `Scripture` folder into the `bin` folder in this repository and rename it to `bible` (lowercase).
 
