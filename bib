@@ -2,30 +2,27 @@
 # shellcheck disable=1111,1112,2030,2031,2034,2086
 
 # USER CONFIG
-BIBLE_FOLDER_NAME="bible" # "<folder-name>" not path # default "bible"
-# change if you renamed your bible folder
 
-PARAGRAPH_MARKER="↓" # "<character>" # default "↓"
-# change if you want a different new paragraph
-# marker
+# change if you rename your bible folder
+BIBLE_FOLDER_NAME="bible"
 
-# TODO: I want the option to leave it empty
-# and have the Bible use the extra 2 spaces
-# this will offer
+# change if you want a different new paragraph marker
+PARAGRAPH_MARKER="↓"
 
-#PARAGRAPH_MARKER="¶"       # make paragraph marker a pilcrow sign
+# uncomment to make paragraph marker a pilcrow sign
+#PARAGRAPH_MARKER="¶"
 
-REMOVE_SQUARE_BRACKETS="false" # in some translations to denote added words
-REMOVE_ANGLE_BRACKETS="false"  # denotes poetry settings
-# REMOVE_PARAGRAPH_MARKER="true" # WIP to remove 2 columns that pm takes up
+# removes the brackets that show added words in some translations
+REMOVE_SQUARE_BRACKETS="false"
 
-CONTEXT_DEFAULT="true" # "<true/false>" # default "true"
-# enable or disable whether context is shown
-# by default
+# removes the > that mark poetry indentation
+REMOVE_ANGLE_BRACKETS="false"
 
-LESS_DEFAULT="true" # "<true/false>" # default "true"
-# allow disabled less so you don't have the use
-# keys to quit less
+# enable or disable whether context is shown by default
+CONTEXT_DEFAULT="true"
+
+# allow disabled less so you don't have the use keys to quit less
+LESS_DEFAULT="true"
 
 # set pager to less if enabled by default, else cat the output
 if [[ "$LESS_DEFAULT" = "true" ]]; then
@@ -66,7 +63,6 @@ start_bib_console() {
 
   while true; do
     # prompt the user for input
-    # will have to make this program run in a subshell so text-wrapping won't have issues
     input=$(bash -i -c '
       export HISTFILE=~/.bib_history
       export HISTSIZE=1000
@@ -298,7 +294,7 @@ get_scripture() {
   fi
 
   # credit to u/bjarneh (https://www.reddit.com/r/commandline/s/ySIsbxOYex)
-  # for helping me find files relative to bib
+  # finds files relative to bib
   chapter_file="${BIBLE_DIR}/${book}${chapter}.md"
   # enter if given book name is an abbreviation
   if [ ! -f "${chapter_file}" ]; then
@@ -327,7 +323,7 @@ get_scripture() {
     get_title
   fi
 
-  # crop ONLY the specified section of the file
+  # crop only the specified section of the file
   # this speeds up the program and avoids having to process the entire chapter
   if [[ -n $verse_end ]]; then
     scripture=$(
@@ -335,8 +331,8 @@ get_scripture() {
         echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_start - 2))$/{print; flag=1; next} /^###### *¶* *$(($verse_start - 1))$/{flag=0} flag"
         echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_start - 1))$/{print; flag=1; next} /^###### *¶* *$(($verse_start - 0))$/{flag=0} flag"
         echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_start))$/{print; flag=1; next} /^###### *¶* *$(($verse_end + 1))$/{flag=0} flag"
-        echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_end + 1))$/{print; flag=1; next} /^###### *¶* *($(($verse_end + 2))$|¹)/{flag=0} flag"
-        echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_end + 2))$/{print; flag=1; next} /^###### *¶* *($(($verse_end + 3))$|¹)/{flag=0} flag"
+        echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_end + 1))$/{print; flag=1; next} /^###### *¶* *($(($verse_end + 2))$)/{flag=0} flag"
+        echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_end + 2))$/{print; flag=1; next} /^###### *¶* *($(($verse_end + 3))$)/{flag=0} flag"
       elif [[ $arg_context == 'false' ]]; then
         echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_start))$/{print; flag=1; next} /^###### *¶* *$(($verse_end + 1))$/{flag=0} flag"
       fi
@@ -347,8 +343,8 @@ get_scripture() {
         echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_start - 2))$/{print; flag=1; next} /^###### *¶* *$(($verse_start - 1))$/{flag=0} flag"
         echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_start - 1))$/{print; flag=1; next} /^###### *¶* *$(($verse_start - 0))$/{flag=0} flag"
         echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_start))$/{print; flag=1; next} /^###### *¶* *$(($verse_start + 1))$/{flag=0} flag"
-        echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_start + 1))$/{print; flag=1; next} /^###### *¶* *($(($verse_start + 2))$|¹)/{flag=0} flag"
-        echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_start + 2))$/{print; flag=1; next} /^###### *¶* *($(($verse_start + 3))$|¹)/{flag=0} flag"
+        echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_start + 1))$/{print; flag=1; next} /^###### *¶* *($(($verse_start + 2))$)/{flag=0} flag"
+        echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_start + 2))$/{print; flag=1; next} /^###### *¶* *($(($verse_start + 3))$)/{flag=0} flag"
       elif [[ $arg_context == 'false' ]]; then
         echo -e "${scripture}" | awk "/^###### *¶* *$(($verse_start))$/{print; flag=1; next} /^###### *¶* *$(($verse_start + 1))$/{flag=0} flag"
       fi
@@ -464,24 +460,14 @@ get_title() {
 }
 
 hyphenate_scripture() {
-  # TODO I haven't tested numbers with fractions (NET) or decimals so they may
-
   longest_line=$(echo "$scripture" | awk 'length > max_length { max_length = length; longest = $0 } END { print longest }')
   longest_line_length=$(echo -n "$longest_line" | wc -c)
 
   while [[ $longest_line_length -gt $width ]]; do
     if [[ "$REMOVE_ANGLE_BRACKETS" == "false" ]]; then
-      # if [[ "REMOVE_PARAGRAPH_MARKER" == "false" ]]; then
       hyphenate_scripture_poetry
-      # elif [[ "REMOVE_PARAGRAPH_MARKER" == "true" ]]; then
-      # hyphenate_scripture_poetry_no_pm
-      # fi
     fi
-    # if [[ "REMOVE_PARAGRAPH_MARKER" == "false" ]]; then
     hyphenate_scripture_normal
-    # elif [[ "REMOVE_PARAGRAPH_MARKER" == "true" ]]; then
-    # hyphenate_scripture_normal_no_pm
-    # fi
     longest_line=$(echo "$scripture" | awk 'length > max_length { max_length = length; longest = $0 } END { print longest }') #      not wrap correctly
     longest_line_length_temp=$(echo -n "$longest_line" | wc -c)
     if [[ $longest_line_length -eq $longest_line_length_temp ]]; then
@@ -754,15 +740,6 @@ hyphenate_abbreviations() {
     -e 's/([^ ])                 ([^ \n])/\1              \2/g'
     -e 's/([^ ])                  ([^ \n])/\1               \2/g'
     -e 's/^/ /g'
-
-    # actual hyphenation is a wip
-
-    # move char to newline if width-1 is a space or symbol
-    # -e "s/^(.{$((width - 1))})([A-Za-z0-9]*,)/\1\n                   \2/"
-    # -e "s/^(.{$((width))})([A-Za-z0-9]*,)/\1\n                   \2/"
-
-    # -e "s/^(.{$((width - 1))})([A-Za-z0-9]*)$/\1\n                   \2/"
-    # -e "s/^(.{$((width))})([A-Za-z0-9]*)$/\1\n                   \2/"
   )
 
   abbreviations=$(echo "$abbreviations" | sed -E "${sed_args[@]}")
@@ -810,15 +787,6 @@ cleanup_markdown() {
     -e 's/\\\]/]/g'
     -e 's/\\//g'
 
-    # remove footnotes
-    # convert footnotes
-    -e 's/\[\^1\]:*/¹/g'
-    -e 's/\[\^2\]:*/²/g'
-    -e 's/\[\^3\]:*/³/g'
-    -e 's/\[\^4\]:*/⁴/g'
-    -e 's/\[\^5\]:*/⁵/g'
-    -e 's/\[\^6\]:*/⁶/g'
-
     -e 's/^> /      > /g'
     -e 's/tempasterisk/*/g'
 
@@ -857,7 +825,6 @@ cleanup_scripture() {
     # reformat verse nums to be right-aligned
     -e 's/^([0-9]{2}) / \1/g'
     -e 's/^([0-9]{1})  /  \1/g'
-    -e 's/^([¹²³⁴⁵⁶]) (.*)/   \1[\2]/g'
 
     # fix verses in hundreds
     -e 's/^([0-9]{3}) *↓ */\1 ↓ /g'
@@ -868,8 +835,6 @@ cleanup_scripture() {
   )
   scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
 
-  # TODO what i need to do is change the above code to use the paragraph marker
-  #      if [[ "$PARAGRAPH_MARKER" -ne "↓" ]]; then
   scripture=$(echo "$scripture" | sed -E "s/↓/$PARAGRAPH_MARKER/")
   # fi
 }
@@ -879,8 +844,6 @@ cleanup_chapter() {
     -e 's/(^[^0-9 ])/      \1/g'
     -e '1s/^      ## (.*)/      [\1]/g'
     -e 's/^      ## (.*)/\n      [\1]/g'
-    # add blank line before footnotes
-    -e 's/^ *¹/\n&/'
   )
   scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
 }
@@ -899,10 +862,6 @@ cleanup_verse() {
 }
 
 print_scripture() {
-  # TODO I should cut $scripture to only be the verse or section the user asks
-  #      for then hyphenate that part only. this would speed up the program a
-  #      lot this would only affect print_section and print_verse
-
   if [[ $verse_end != '' ]]; then
     print_section
   elif [[ $verse_start != '' ]]; then
@@ -941,8 +900,8 @@ print_section() {
       echo -e "${scripture}" | awk "/^ *$(($verse_start - 2)) /{print; flag=1; next} /^ *$(($verse_start - 1)) /{flag=0} flag"
       echo -e "${scripture}" | awk "/^ *$(($verse_start - 1)) /{print; flag=1; next} /^ *$(($verse_start - 0)) /{flag=0} flag"
       echo -e "$(echo -e "${scripture}" | awk "/^ *$(($verse_start)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($verse_end + 1)) /{flag=0} flag {print \"\033[31m\" \$0}")\033[0m"
-      echo -e "${scripture}" | awk "/^ *$(($verse_end + 1)) /{print; flag=1; next} /^ *($(($verse_end + 2)) |¹)/{flag=0} flag"
-      echo -e "${scripture}" | awk "/^ *$(($verse_end + 2)) /{print; flag=1; next} /^ *($(($verse_end + 3)) |¹)/{flag=0} flag"
+      echo -e "${scripture}" | awk "/^ *$(($verse_end + 1)) /{print; flag=1; next} /^ *($(($verse_end + 2)) )/{flag=0} flag"
+      echo -e "${scripture}" | awk "/^ *$(($verse_end + 2)) /{print; flag=1; next} /^ *($(($verse_end + 3)) )/{flag=0} flag"
     elif [[ $arg_context == 'false' ]]; then
       echo -e "${scripture}" | awk "/^ *$(($verse_start)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($verse_end + 1)) /{flag=0} flag {print \"\033[31m\" \$0}"
     fi
@@ -964,8 +923,8 @@ print_verse() {
       echo -e "${scripture}" | awk "/^ *$(($verse_start - 2)) /{print; flag=1; next} /^ *$(($verse_start - 1)) /{flag=0} flag"
       echo -e "${scripture}" | awk "/^ *$(($verse_start - 1)) /{print; flag=1; next} /^ *$(($verse_start - 0)) /{flag=0} flag"
       echo -e "$(echo -e "${scripture}" | awk "/^ *$(($verse_start)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($verse_start + 1)) /{flag=0} flag {print \"\033[31m\" \$0}")\033[0m"
-      echo -e "${scripture}" | awk "/^ *$(($verse_start + 1)) /{print; flag=1; next} /^ *($(($verse_start + 2)) |¹)/{flag=0} flag"
-      echo -e "${scripture}" | awk "/^ *$(($verse_start + 2)) /{print; flag=1; next} /^ *($(($verse_start + 3)) |¹)/{flag=0} flag"
+      echo -e "${scripture}" | awk "/^ *$(($verse_start + 1)) /{print; flag=1; next} /^ *($(($verse_start + 2)) )/{flag=0} flag"
+      echo -e "${scripture}" | awk "/^ *$(($verse_start + 2)) /{print; flag=1; next} /^ *($(($verse_start + 3)) )/{flag=0} flag"
     elif [[ $arg_context == 'false' ]]; then
       echo -e "${scripture}" | awk "/^ *$(($verse_start)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($verse_start + 1)) /{flag=0} flag {print \"\033[31m\" \$0}"
     fi
