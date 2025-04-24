@@ -30,6 +30,7 @@ For more info on other topics, visit these pages:
 
 ## Features
 
+- Compatible with Linux, Windows (WSL2), and Android (Termux)
 - Verse-by-verse format  
 - Requested verses in red  
 - Editorial headings
