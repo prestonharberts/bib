@@ -102,7 +102,7 @@ get_args() {
   args=()
   for arg in "$@"; do
     # clear terminal screen
-    if [[ "$arg" =~ ^clear|cls|l$ ]]; then
+    if [[ "$arg" =~ ^(clear|cls|l)$ ]]; then
       clear
     elif [[ "$arg" =~ ^--*[-A-Za-z]+$ ]]; then
       if [[ "${arg}" == "-N" ]] || [[ "${arg}" == "--no-context-all" ]]; then
