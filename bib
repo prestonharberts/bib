@@ -63,7 +63,7 @@ start_bib_console() {
 
   while true; do
     # prompt the user for input
-    input=$(bash -i -c '
+    input=$(bash -norc -i -c '
       export HISTFILE=~/.bib_history
       export HISTSIZE=1000
       shopt -s histappend
