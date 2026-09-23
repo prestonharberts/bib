@@ -2,12 +2,14 @@
 
 This script also works in Termux for Android. Later on I explain how to set up the Termux:Widgets feature to have an app shortcut on my homescreen that opens bib in interactive mode for convenience.
 
-First, install Termux. I choose to install Termux, Termux:Styling, Termux:API, and Termux:Widget from [F-Droid](https://f-droid.org/).
+First, install Termux, Termux:Styling, Termux:API, and Termux:Widget from [F-Droid](https://f-droid.org/).
 
-Once Termux has been installed, enter into the app and wait until the app sets itself up. Then, install the following dependencies:
+Once Termux has been installed, enter into the app and wait until the app sets itself up. Also open Termux:API and follow the on-screen instructions.
+
+Then, install the following dependencies:
 
 ```bash
-pkg install git bash ncurses ncurses-utils jq coreutils
+pkg install git bash ncurses ncurses-utils jq coreutils termux-api
 ```
 
 Run the following to clone the project:
