@@ -21,7 +21,7 @@ REMOVE_ANGLE_BRACKETS="false"
 # enable or disable whether context is shown by default
 CONTEXT_DEFAULT="true"
 
-# allow disabled less so you don't have the use keys to quit less
+# enable or disable whether less is used by default
 LESS_DEFAULT="true"
 
 # set pager to less if enabled by default, else cat the output
@@ -249,6 +249,8 @@ get_flags() {
       shift 1
       flags_found=1
     elif [ "$1" = "--copy" -o "$1" = "-p" ]; then
+			arg_copy="true"
+			arg_context="false"
       shift 1
       flags_found=1
     elif [ "$1" = "--random" -o "$1" = "-r" ]; then
@@ -354,7 +356,9 @@ get_scripture() {
   # finish processing scripture
   if [[ -n "${scripture}" ]]; then
     cleanup_markdown
-    hyphenate_scripture
+		if [[ $arg_copy == "false" ]]; then
+    	hyphenate_scripture
+		fi
     cleanup_scripture
     print_scripture
   fi
@@ -836,7 +840,22 @@ cleanup_scripture() {
   scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
 
   scripture=$(echo "$scripture" | sed -E "s/↓/$PARAGRAPH_MARKER/")
-  # fi
+
+	# copy mode adjustments
+	if [[ $arg_copy == "true" ]]; then
+	  # remove leading space
+		scripture=$(echo "$scripture" | sed -E "s/^ +//")
+		# remove double spaces usually in the verse number area
+		scripture=$(echo "$scripture" | sed -E "s/  +/ /g")
+		# remove paragraph markers
+		scripture=$(echo "$scripture" | sed -E "s/$PARAGRAPH_MARKER //")
+		# remove poetry markers
+		scripture=$(echo "$scripture" | sed -E "s/^.*> //g")
+		# remove lines with editorial headings
+		scripture=$(echo "$scripture" | sed -E "/^ *## .*/d")
+		# remove brackets for italic words
+		scripture=$(echo "$scripture" | sed -E "s/\[|\]//g")
+  fi
 }
 
 cleanup_chapter() {
@@ -859,6 +878,11 @@ cleanup_section() {
 
 cleanup_verse() {
   cleanup_section
+	if [[ $arg_copy == "true" ]]; then
+	  	# remove verse number for copy mode if only copying one verse
+		scripture=$(echo "$scripture" | sed -E "s/^[0-9]+ //")
+	fi
+
 }
 
 print_scripture() {
@@ -874,13 +898,39 @@ print_scripture() {
 print_chapter() {
   cleanup_chapter
   output="$(
-    echo "$hline"
-    padding=$(((width + ${#title}) / 2))
-    printf "%*s\n" $padding "$title"
-    echo "$hline"
-    echo -e "$scripture"
+	  if [[ $arg_copy == "false" ]]; then
+    	echo "$hline"
+    	padding=$(((width + ${#title}) / 2))
+    	printf "%*s\n" $padding "$title"
+    	echo "$hline"
+    	echo -e "$scripture"
+		fi
+		if [[ $arg_copy == "true" ]]; then
+			scripture+=$'\n\n'$title
+			# remove non-breaking spaces for copy mode
+			scripture=$(echo "$scripture" | sed -E "s/^[[:space:]]+//")
+			if command -v xclip &>/dev/null; then
+				# command for linux
+				echo -e "$scripture" | xclip -selection clipboard &>/dev/null
+			elif command -v termux-clipboard-set &>/dev/null; then
+				# command for termux on android
+				echo -e "$scripture" | termux-clipboard-set
+			fi
+			if [[ $? -eq 0 ]]; then
+	    	echo -e "Chapter copied!\n"
+		    # scripture=$(echo "$scripture" | sed -E "s/^  +//")
+				echo -e "$scripture"
+  		else
+      	echo -e "<!> bib: xclip failed to copy (is xclip installed?)"
+  		fi
+		fi
+
   )"
-  echo "$output" | $PAGER
+  if [[ $arg_copy == "false" ]]; then
+	  echo "$output" | $PAGER
+	else
+  	echo "$output" | cat
+	fi
 }
 
 print_section() {
@@ -892,21 +942,45 @@ print_section() {
       -e '/^$/d'
     )
     scripture=$(echo "$scripture" | sed -E "${sed_args[@]}")
-    echo "$hline"
-    padding=$(((width + ${#title}) / 2))
-    printf "%*s\n" $padding "$title"
-    echo "$hline"
+	  if [[ $arg_copy == "false" ]]; then
+    	echo "$hline"
+    	padding=$(((width + ${#title}) / 2))
+    	printf "%*s\n" $padding "$title"
+    	echo "$hline"
+		fi
     if [[ $arg_context == 'true' ]]; then
       echo -e "${scripture}" | awk "/^ *$(($verse_start - 2)) /{print; flag=1; next} /^ *$(($verse_start - 1)) /{flag=0} flag"
       echo -e "${scripture}" | awk "/^ *$(($verse_start - 1)) /{print; flag=1; next} /^ *$(($verse_start - 0)) /{flag=0} flag"
       echo -e "$(echo -e "${scripture}" | awk "/^ *$(($verse_start)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($verse_end + 1)) /{flag=0} flag {print \"\033[31m\" \$0}")\033[0m"
       echo -e "${scripture}" | awk "/^ *$(($verse_end + 1)) /{print; flag=1; next} /^ *($(($verse_end + 2)) )/{flag=0} flag"
       echo -e "${scripture}" | awk "/^ *$(($verse_end + 2)) /{print; flag=1; next} /^ *($(($verse_end + 3)) )/{flag=0} flag"
-    elif [[ $arg_context == 'false' ]]; then
+    elif [[ $arg_context == 'false'  && $arg_copy == 'false' ]]; then
       echo -e "${scripture}" | awk "/^ *$(($verse_start)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($verse_end + 1)) /{flag=0} flag {print \"\033[31m\" \$0}"
     fi
+		if [[ $arg_copy == "true" ]]; then
+	  	scripture+=$'\n\n'$title
+			# remove non-breaking spaces for copy mode
+			scripture=$(echo "$scripture" | sed -E "s/^[[:space:]]+//")
+			if command -v xclip &>/dev/null; then
+				# command for linux
+				echo -e "$scripture" | xclip -selection clipboard &>/dev/null
+			elif command -v termux-clipboard-set &>/dev/null; then
+				# command for termux on android
+				echo -e "$scripture" | termux-clipboard-set
+			fi
+			if [[ $? -eq 0 ]]; then
+	    	echo -e "Verses copied!\n"
+				echo -e "$scripture"
+  		else
+      	echo -e "<!> bib: xclip failed to copy (is xclip installed?)"
+  		fi
+		fi
   )"
-  echo "$output" | $PAGER
+  if [[ $arg_copy == "false" ]]; then
+	  echo "$output" | $PAGER
+	else
+  	echo "$output" | cat
+	fi
   if [[ "$PAGER" == "cat" ]]; then
     echo -en "\033[0m"
   fi
@@ -915,21 +989,46 @@ print_section() {
 print_verse() {
   cleanup_verse
   output="$(
-    echo "$hline"
-    padding=$(((width + ${#title}) / 2))
-    printf "%*s\n" $padding "$title"
-    echo "$hline"
+	  if [[ $arg_copy == "false" ]]; then
+    	echo "$hline"
+    	padding=$(((width + ${#title}) / 2))
+    	printf "%*s\n" $padding "$title"
+    	echo "$hline"
+		fi
     if [[ $arg_context == 'true' ]]; then
       echo -e "${scripture}" | awk "/^ *$(($verse_start - 2)) /{print; flag=1; next} /^ *$(($verse_start - 1)) /{flag=0} flag"
       echo -e "${scripture}" | awk "/^ *$(($verse_start - 1)) /{print; flag=1; next} /^ *$(($verse_start - 0)) /{flag=0} flag"
       echo -e "$(echo -e "${scripture}" | awk "/^ *$(($verse_start)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($verse_start + 1)) /{flag=0} flag {print \"\033[31m\" \$0}")\033[0m"
       echo -e "${scripture}" | awk "/^ *$(($verse_start + 1)) /{print; flag=1; next} /^ *($(($verse_start + 2)) )/{flag=0} flag"
       echo -e "${scripture}" | awk "/^ *$(($verse_start + 2)) /{print; flag=1; next} /^ *($(($verse_start + 3)) )/{flag=0} flag"
-    elif [[ $arg_context == 'false' ]]; then
+    elif [[ $arg_context == 'false' && $arg_copy == 'false' ]]; then
       echo -e "${scripture}" | awk "/^ *$(($verse_start)) /{print \"\033[31m\" \$0; flag=1; next} /^ *$(($verse_start + 1)) /{flag=0} flag {print \"\033[31m\" \$0}"
     fi
+		if [[ $arg_copy == "true" ]]; then
+			scripture+=$'\n\n'$title
+			# remove non-breaking spaces for copy mode
+			scripture=$(echo "$scripture" | sed -E "s/^[[:space:]]+//")
+			if command -v xclip &>/dev/null; then
+				# command for linux
+				echo -e "$scripture" | xclip -selection clipboard &>/dev/null
+			elif command -v termux-clipboard-set &>/dev/null; then
+				# command for termux on android
+				echo -e "$scripture" | termux-clipboard-set
+			fi
+			if [[ $? -eq 0 ]]; then
+	    	echo -e "Verse copied!\n"
+				echo -e "$scripture"
+  		else
+      	echo -e "<!> bib: xclip failed to copy (is xclip installed?)"
+  		fi
+		fi
+
   )"
-  echo "$output" | $PAGER
+	if [[ $arg_copy == "false" ]]; then
+  	echo "$output" | $PAGER
+	else
+	  echo "$output" | cat
+	fi
   if [[ "$PAGER" == "cat" ]]; then
     echo -en "\033[0m"
   fi
@@ -1029,6 +1128,7 @@ reset_flags() {
     arg_context="false"
     arg_context_all="false"
   fi
+	arg_copy="false"
   flags_found=0
 }
 
