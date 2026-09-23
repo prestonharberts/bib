@@ -18,7 +18,7 @@
   - [Printing multiple verses](#printing-multiple-verses)
   - [Searching with bibs](#searching-with-bibs)
   - [Random verses with bibr](#random-verses-with-bibr)
-  - [Copying chapters with bibc](#copying-chapters-with-bibc)
+  - [Copying verses and chapters](#copying-verses-and-chapters)
   - [Scaling demonstration](#scaling-demonstration)
 - [Todo](#todo)
 
@@ -179,6 +179,21 @@ This feature works in both interactive and non-interactive modes. The only limit
 >>> phil 4:13 1john4:18-19 heb12:7 -N
 ```
 
+### Copying verses and chapters
+
+Verses and chapters can be copied with the `--copy` or `-p` option. Make sure you have either xclip (for Linux) or the Termux API package (for Android) installed. 
+
+The text is formatted to remove headings, hyphenation, italics, and unnecessary spaces when copied.
+
+```
+>>> phil4 13 -p
+Verse copied!
+
+I am able to do all things through the one who strengthens me.
+
+Philippians 4:13
+```
+
 ### Searching with bibs
 
 <p align=center><img src="https://github.com/user-attachments/assets/cf03e2f0-eb82-4daa-8f4c-2ac5e6bd09a0" width="450"></p>
@@ -202,21 +217,6 @@ A cool way to run this script and a fun way to find any [Issues](https://github.
 ```bash
 for i in {1..1000}; do bibr; done
 ```
-
-### Copying chapters with bibc
-
-<p align=center><img src="https://github.com/user-attachments/assets/180d111b-c2d2-4bcd-8813-116f6625074c" width="450"></p>
-
-This repo also includes `bibc`, a program that copies entire chapters, reformats them, and makes them easy to paste into [Monkeytype](https://monkeytype.com/). The copied text is kept very basic and looks as it does in the above screenshot
-
-Copying selected verses with bib isn't supported yet, but you can do it like this if you remove the color codes added by the script. Be sure to install `xclip`:
-
-
-```bash
-bib john3 16|xclip -sel clipboard
-```
-
-I recommend just running bib multiple times in a row similar to this, and then just copying the output from the terminal with your cursor.
 
 ### Scaling demonstration
 
